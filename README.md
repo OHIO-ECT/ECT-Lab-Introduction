@@ -29,4 +29,4 @@ These guides assume that the student has been issued a virtual machine which wil
 # Guides
 # [ITS 2300 Guide](/course_guides/ITS-2300.md)
 # [ITS 4750 Guide](/course_guides/ITS-4750.md)
-# [Other ITS Classes Guide](/course_guides/ITS-Other.md)
+# [Other ITS Guides](/course_guides/ITS-Other.md)
