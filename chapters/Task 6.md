@@ -49,7 +49,7 @@
 
 ### Task 6 - Terminal Shell and File Management
 
-1. Open Powershell in Windows or open a LInux/Mac Terminal.
+1. Open Powershell in Windows or open a Linux Terminal.
 <br>
 
 2. Run the command ``pwd`` to get the current working directory of the session.
