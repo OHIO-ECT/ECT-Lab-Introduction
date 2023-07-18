@@ -66,4 +66,5 @@ Draw.io is the prefered tool for ECT/ITS students. It's free and both webbased a
 
 8. Click and hold on one of the blue dots on one end of the line. Draw that to an anchor point of a shape and release. It should lock to the shape.
 <br>
+
 9. Click and draw the shape around the drawing. The line should stay connected. This feature is the primary difference between a diagraming tool and an art tool (e.g. Photoshop). Diagraming tools will retain the relationship between connected objects when when moved around the drawing.
