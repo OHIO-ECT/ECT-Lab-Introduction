@@ -71,3 +71,9 @@ Draw.io is the prefered tool for ECT/ITS students. It's free and both webbased a
 <br>
 
 9. Click and draw the shape around the drawing. The line should stay connected. This feature is the primary difference between a diagraming tool and an art tool (e.g. Photoshop). Diagraming tools will retain the relationship between connected objects when when moved around the drawing.
+<br>
+
+10. Connect all the other shapes together with lines. Lines have properties the same as shapes and can be edited in the right pane similarly. They also can have names. Double-click on a line and give it a name. 
+<br>
+
+11. Select the text box of the line. Use the yellow dot called a "handle" move the text so that it doesn't interfer with the line.
