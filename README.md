@@ -1,2 +1,32 @@
-# ECT-Lab-Intro
-ECT Lab Introduction
+# ECT Lab Introduction
+
+Welcome to the ECT Lab Introduction. This repository is intended to orient a student to the procedures needed to access the ECT virtual lab environments used to teach networking concepts for the ITS degree program.  This guide serves as lab write up and referrence materials for multiple classes.  Please read the common notes and follow the link to a specific class at the bottom of this page.  Follow the instructors instructions on which elements to complete.
+
+## Common Notes
+
+### Lab Notebook
+- Students should maintain a digital lab notebook.
+- The [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet) represents common information that students will likely want in their Notebook.
+
+### Reading this guide
+-   Commands to be typed by the student and output from shells are indicated within this document in the ``fixed width font Courier New`` (as shown here).
+-   Varibles to be filled in by the student are presented in ``<brackets>``. The student will need to replace the <> and the text with the needed varible. Example: **``My name is <Name>.``**. Would change to **``My name is Bobcat.``**
+
+### Technuggets
+- @Kizan maintains a library of recorded demonstrations of systems that are regularly encounter in labs by ECT studetns.  These [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured) serve as additional guides to help students learn the respective contect.
+- Homework/Labs/Projects will often have associated ECT Tech Nuggets that are recommended viewing.  While related to the topic at hand, technuggets are only for referrence.
+- **DO NOT** follow along with the ECT Tech Nuggets while watching them for the first time. 
+
+### Beware the gHosts
+These guides assume that the student has been issued a virtual machine which will be referred to as a gHost or GNS3 Host.  Students should find information about their assigned gHost from Blackboard and have received an email with the password information from Dr. Bowie.
+
+### Personal Computer
+- Lab activities can be done on and ITS lab machine or from a Personal Computer (Desktop or Laptop)
+- Open lab times will be posted after the first week of the semester.
+- Windows is the only OS that is officially supported.  
+- Other OS's may be possible, but require student to independently adapt to their own environment.
+
+# Guides
+# [ITS 2300 Guide](/course_guides/ITS-2300.md)
+# [ITS 4750 Guide](/course_guides/ITS-4750.md)
+# [Other ITS Classes Guide](/course_guides/ITS-Other.md)
