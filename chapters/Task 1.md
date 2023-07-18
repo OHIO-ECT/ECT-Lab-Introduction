@@ -25,8 +25,6 @@
 
 ### Toolkit
 
--   Shells (i.e. Powershell, Bash)
--   SSH (i.e. Secure Shell)
 -   Commands to be typed by the student and output from shells are indicated within this document in the ``fixed width font Courier New`` (as shown here).
 -   Varibles to be filled in by the student are presented in ``<brackets>``. The student will need to replace the <> and the text with the needed varible. Example: **My name is ``<Name>``**. Would change to **My name is Bob.**
 -   Find a Print Screen / Screen Capture tool that you like. The following is a list of tools known to work:
