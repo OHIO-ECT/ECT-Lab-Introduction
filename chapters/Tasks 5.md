@@ -1,4 +1,4 @@
-## ECT GNS3 Introduction - The Toolkit
+## ECT Lab Introduction - GNS3 Projects
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment
@@ -45,19 +45,6 @@
 -   Find a Print Screen / Screen Capture tool that you like. The following is a list of tools known to work:
     -   Lightshot <https://app.prntscr.com>
     -   Greenshot <https://getgreenshot.org>
-
-### Task 4 - Connecting Objects Inside GNS3
-
-15. Review [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI)
-<br>
-
-16. Drag out and drop the appropreate icons as shown in the Network Diagram.
-<br>
-
-17.  Using the network diagram shown in this document connect all the GNS3 objects together. Review [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI) (scrub to about 6:20) for detailed instructions how to connect objects together in GNS3.
-<br>
-
-18. Please record, in your lab notebook, that GNS3 VMs inside GNS3 use the username `itsclass` and the password `class115#`. There is an ECT cheatsheet that 
 
 ### Task 5 - GNS3 Projects
 

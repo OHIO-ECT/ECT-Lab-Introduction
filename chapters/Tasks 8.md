@@ -1,4 +1,4 @@
-## ECT GNS3 Introduction - The Toolkit
+## ECT Lab Introduction - Basic Network Diagnostic Tools
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment

@@ -1,4 +1,4 @@
-## ECT GNS3 Introduction - The Toolkit
+## ECT Lab Introduction - SSH Sessions via a Jumphost
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment
@@ -45,52 +45,6 @@
 -   Find a Print Screen / Screen Capture tool that you like. The following is a list of tools known to work:
     -   Lightshot <https://app.prntscr.com>
     -   Greenshot <https://getgreenshot.org>
-
-### Task 1 - Connect to your GNS3 VM
-
-Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM) with GNS3 installed upon it.  This system will be referred to as the "gHost" throughout the lab. 
-
-1.  Retreive the following information from Blackboard. Ask faculty for assistance if needed.
-    -   GNS3 VM IP address
-    -   GNS3 VM Username
-    -   GNS3 VM Password
-<br>
-
-2. **DO NOT follow along the first time.** Watch the [ECT Tech Nugget N14.1 RDC Connections](https://youtu.be/H52fC9hCmdk) and other pre-lab videos for procedures to connect to your gHost (AKA GNS3 VM).
-    -   RD Gateway IP/Hostname: `its-s15.its.ohio.edu`
-<br>
-
-3. After following the directions in the YouTube tutorial to configure the RD Gateway. A series of logins is requrired to finally connect to the gHost. The first login (using the itsvm username/password) is used here in the Remote Desktop Connection Client (AKA RDC Client or RDP Client). 
-
-    ![3]
-
-4. The second login prompt will appear after clicking on the "Connect" button. Read the dialog box carefully. If the diaglog is asking for "RD Gateway Server Credentials" use your OHIO ID and password. See below for an example.
-![4]
-
-5.  The gHost machine has web access to the outside world. When saving data for lab reports there are several options. The easiest is to use the browser on the gHost machine to access web-based email. Open the file named "README.txt" on the desktop. Email the contents (i.e. copy/paste text content of the file to an email) to your OHIO ID.
-<br>
-
-6.  It is also possible to copy/paste text data from the gHost. Copy ``Fine Art Indeed`` from this document and paste it into the README file on the gHost desktop.
-
-### Task 2 - SSH (i.e. Secure Shell)
-
-7. The gHost uses the current version of Ubuntu, which is a distribution of Linux that often uses a GUI like Windows and Mac.
-<br>
-
-8. Open the ghost Terminal from the task bar on the right of the gHost desktop.
-    ![](./images/image4.png)
-<br>
-
-9. Ensure that the prompt shows something **similar to**: ``itsvm@ITS-2300-GNS3-000-bc012345``
-<br>
-
-10. Replace ```<ghost IP>``` with the IP for your gHost. Then run the command: ``ssh itsclass@<gHost IP>``
-<br>
-
-11. Return to the gHost terminal by exiting this ssh session with the following command: ``exit``
-<br>
-
-12. The gHost VM will run throughout the semester even if you are not connected to it. The GUI shutdown menu turned is off. **DO NOT** attempt to turn the gHost off without instructor approval. Instead, push the mouse cursor to the top of the screen to reveal the blue control bar. The commands on the bar to exit the remote desktop to return to the personal computer.
 
 ### Task 3 - SSH Sessions via a Jumphost
 

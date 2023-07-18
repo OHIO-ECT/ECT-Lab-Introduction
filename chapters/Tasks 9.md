@@ -1,4 +1,4 @@
-## ECT GNS3 Introduction - The Toolkit
+## ECT Lab Introduction - Wireshark
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment

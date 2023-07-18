@@ -1,4 +1,4 @@
-## ECT GNS3 Introduction - The Toolkit
+## ECT Lab Introduction - Connect to your GNS3 VM
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment
