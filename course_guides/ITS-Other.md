@@ -11,4 +11,5 @@
 - [Task 9 - Wireshark](../chapters/Task%209.md)
 - [Task 10 - GitHub Account Creation](../chapters/Task%2010.md)
 - [Task 11 - Advanced Network Diagnostic Commands](../chapters/Task%2011.md)
-- [Task 12 - ITS Lab Reports](../chapters/Task%2012.md)
+
+- [ITS Lab Reports](../chapters/Lab-Report.md)
