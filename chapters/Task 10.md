@@ -49,10 +49,10 @@
 
 ### Task 10 - GitHub Account Creation
 
-60. The web page you are viewing is part of a *public* "github repo". However, **all other labs will *not* be public.** In a browser open up www.github.com, create a GitHub account. It **MUST** use your OHIO email address to access the private repos.
+1. The web page you are viewing is part of a *public* "github repo". However, **all other labs will *not* be public.** In a browser open up www.github.com, create a GitHub account. It **MUST** use your OHIO email address to access the private repos.
 <br>
 
-61. Send an email to the course instructors with the new GitHub username. 
+2. Send an email to the course instructors with the new GitHub username. 
 <br>
 
-62. You will be unable to access any further labs/repos after this one the GitHub account is created and the information emailed to the instructor.
+3. You will be unable to access any further labs/repos after this one the GitHub account is created and the information emailed to the instructor.

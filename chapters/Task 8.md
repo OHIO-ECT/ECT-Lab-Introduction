@@ -57,13 +57,13 @@ Most implementations of ping will repeat the ping process several times; others 
 
 The format of the ping command is `ping <destination>`. Where `<destination>` is replaced with either a hostname or IP. For example `ping google.com` or `ping 8.8.8.8`
 
-39. Use the ping command on the specified machine to ping the following locations.
+1. Use the ping command on the specified machine to ping the following locations.
     -   Ubuntu-GUI-1: 132.235.1.1
     -   Windows-Desktop-1: 13.107.246.51
     -   Ubuntu-CLI-1: xkcd.com
 <br>
 
-40. Use the help command line flag (`-h` for Linux or `/?` for Windows) to find the properly flag to request 15 pings and then stop.
+2. Use the help command line flag (`-h` for Linux or `/?` for Windows) to find the properly flag to request 15 pings and then stop.
     -   Ubuntu-GUI-1: 99.83.183.221
     -   Windows-Desktop: www.kame.net
 
@@ -75,7 +75,7 @@ The `-n` or `-d` option suppresses DNS hostname lookups on many commands. Typica
 
 When an individual traceroute hit fails (lines noted with `* * *`) traceroute will typically continue until the test has reached 30 hops. Press Ctrl+C to stop it once if you get three or more lines with the `* * *` notation.
 
-41. In gHost open terminal (aka CLI) and use the traceroute command.
+3. In gHost open terminal (aka CLI) and use the traceroute command.
 Syntax: `traceroute -n <destination>`
 Where `<destination>` is replaced with either a hostname or IP.
 Example: `traceroute -n google.com`
@@ -85,7 +85,7 @@ Example: `traceroute -n google.com`
     -   8.8.8.8
     -   itsohio.net
 
-42. In Windows-Desktop access the powershell terminal (aka CLI). Windows is limited to eight-character old-school commands (long story why) and uses a different switch to suppress DNS lookups. Access the Windows CLI and issue the command:
+4. In Windows-Desktop access the powershell terminal (aka CLI). Windows is limited to eight-character old-school commands (long story why) and uses a different switch to suppress DNS lookups. Access the Windows CLI and issue the command:
 Syntax: `tracert -d <destination>`
 Where `<destination>` is replaced with either a hostname or IP.
 Example: `tracert -d google.com`

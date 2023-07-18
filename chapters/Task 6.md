@@ -49,31 +49,31 @@
 
 ### Task 6 - Terminal Shell and File Management
 
-23. Open Powershell in Windows or open a LInux/Mac Terminal.
+1. Open Powershell in Windows or open a LInux/Mac Terminal.
 <br>
 
-24. Run the command ``pwd`` to get the current working directory of the session.
+2. Run the command ``pwd`` to get the current working directory of the session.
 <br>
 
-25. Open a file explorer and go the same directory as seen in the pwd output. Note the relationship between the files in each location.
+3. Open a file explorer and go the same directory as seen in the pwd output. Note the relationship between the files in each location.
 <br>
 
-26. Run the Command ``mkdir test`` and then ``cd test``
+4. Run the Command ``mkdir test`` and then ``cd test``
 <br>
 
-27. Notice that test directory will also now appear in the file browser and you can move into that directory.
+5. Notice that test directory will also now appear in the file browser and you can move into that directory.
 <br>
 
-28. Start a new document in Notepad++ or your preferred text editor. Copy a couple of lines from <https://hipsum.co> into that file and save the file to the test directory made above.
+6. Start a new document in Notepad++ or your preferred text editor. Copy a couple of lines from <https://hipsum.co> into that file and save the file to the test directory made above.
 <br>
 
-29. Use Microsoft Word to create a docx file in this directory with the same text as the text file.
+7. Use Microsoft Word to create a docx file in this directory with the same text as the text file.
 <br>
 
-30. Open a powershell windows and use the ``dir`` or ``ls`` commands in your shell and note the difference in the file sizes.
+8. Open a powershell windows and use the ``dir`` or ``ls`` commands in your shell and note the difference in the file sizes.
 <br>
 
-30. Use the ``cat <TEXT_FILENAME>`` command to show the raw content of the file.
+9. Use the ``cat <TEXT_FILENAME>`` command to show the raw content of the file.
 <br>
 
-31. Cat the word document. What is all that other stuff for?
+10. Cat the word document. What is all that other stuff for?

@@ -54,7 +54,7 @@ The route table is part of an Internet Protocol enabled network stack, and inclu
 - Linux command: `ip route`
 - Windows: `netstat -rn`
 
-63. Use the correct command to get the route table from each of the machines.
+1. Use the correct command to get the route table from each of the machines.
 
 #### NSLookup and Dig
 
@@ -63,15 +63,15 @@ Syntax: `nslookup <destination>`
 Where `<destination>` is replaced with either a hostname or IP.
 Example: `nslookup google.com`<br>
 
-64. On Ubuntu-CLI-1 use `nslookup` for each of the following host names:
+2. On Ubuntu-CLI-1 use `nslookup` for each of the following host names:
 - www.ohio.edu
 - youtube.com
 
-65. On Ubuntu-GUI-1 use `nslookup` for each of the following host names:
+3. On Ubuntu-GUI-1 use `nslookup` for each of the following host names:
 - xkcd.com
 - 69.58.0.32
 
-66. `nslookup` can also use non-default name servers.
+4. `nslookup` can also use non-default name servers.
 Syntax: `nslookup <Target IP> <DNS Server IP>`
 Example: `nslookup google.com 8.8.4.4`<br>
 On Windows-Desktop-1 use nslookup and Google's public DNS server (8.8.8.8) as the `<DNS Server IP>` for each of the following host names:
@@ -81,7 +81,7 @@ On Windows-Desktop-1 use nslookup and Google's public DNS server (8.8.8.8) as th
     -  98.139.183.24
 <br>
 
-67. Dig output returns more information than nslookup giving details of DNS record for that host/IP, but is only available in Linux.
+5. Dig output returns more information than nslookup giving details of DNS record for that host/IP, but is only available in Linux.
 Syntax: `dig <destination>`
 Where `<destination>` is replaced with either a hostname or IP. To request a number to name conversion you must include the `-x` option.
 Example: `dig google.com`
@@ -92,7 +92,7 @@ Example: `dig google.com`
     - www.google.com
 <br>
 
-68. On Ubuntu-CLI-1 `dig` for each of the following host names:
+6. On Ubuntu-CLI-1 `dig` for each of the following host names:
     -   132.235.67.1
     -   69.58.0.32
     -   8.8.8.8

@@ -45,20 +45,20 @@
 
 ### Task 2 - SSH (Secure Shell)
 
-7. The gHost uses the current version of Ubuntu, which is a distribution of Linux that often uses a GUI like Windows and Mac.
+1. The gHost uses the current version of Ubuntu, which is a distribution of Linux that often uses a GUI like Windows and Mac.
 <br>
 
-8. Open the ghost Terminal from the task bar on the right of the gHost desktop.
+2. Open the ghost Terminal from the task bar on the right of the gHost desktop.
     ![](./images/image4.png)
 <br>
 
-9. Ensure that the prompt shows something **similar to**: ``itsvm@ITS-2300-GNS3-000-bc012345``
+3. Ensure that the prompt shows something **similar to**: ``itsvm@ITS-2300-GNS3-000-bc012345``
 <br>
 
-10. Replace ```<ghost IP>``` with the IP for your gHost. Then run the command: ``ssh itsclass@<gHost IP>``
+4. Replace ```<ghost IP>``` with the IP for your gHost. Then run the command: ``ssh itsclass@<gHost IP>``
 <br>
 
-11. Return to the gHost terminal by exiting this ssh session with the following command: ``exit``
+5. Return to the gHost terminal by exiting this ssh session with the following command: ``exit``
 <br>
 
-12. The gHost VM will run throughout the semester even if you are not connected to it. The GUI shutdown menu turned is off. **DO NOT** attempt to turn the gHost off without instructor approval. Instead, push the mouse cursor to the top of the screen to reveal the blue control bar. The commands on the bar to exit the remote desktop to return to the personal computer.
+6. The gHost VM will run throughout the semester even if you are not connected to it. The GUI shutdown menu turned is off. **DO NOT** attempt to turn the gHost off without instructor approval. Instead, push the mouse cursor to the top of the screen to reveal the blue control bar. The commands on the bar to exit the remote desktop to return to the personal computer.

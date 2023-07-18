@@ -48,7 +48,7 @@
 More information about the jump host can be found at: 
 https://sites.google.com/site/ohioitslab/home/how-to/ssh-jump-box
 
-13. It is common to need to customize commands for them to be used by a particular student. For example, the following command would result connecting to a remote machine `132.235.160.189` through the ssh jumphost `ect-bh-its.ohio.edu` using Professor Saunders' student account `bs257595@ohio.edu`.
+1. It is common to need to customize commands for them to be used by a particular student. For example, the following command would result connecting to a remote machine `132.235.160.189` through the ssh jumphost `ect-bh-its.ohio.edu` using Professor Saunders' student account `bs257595@ohio.edu`.
 
     Professor Saunders Example:
 
@@ -62,4 +62,4 @@ https://sites.google.com/site/ohioitslab/home/how-to/ssh-jump-box
     ssh -J <OHIOID>@ohio.edu@ect-bh.its.ohio.edu itsvm@<gHost IP>
     ``
 
-14. Using what commands learned above construct an SSH command that connects from the personal computer to your gHost via the Jumphost.
+2. Using what commands learned above construct an SSH command that connects from the personal computer to your gHost via the Jumphost.

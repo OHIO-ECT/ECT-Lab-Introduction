@@ -51,34 +51,34 @@
 
 **Note:** It is possible to complete this class on PCs that are not Windows based. However, the student is responsible to altering instructions to suit that system. Support from the instructors on these other systems will be very limited.
 
-33. If you do not already have a preferred Text Editor, install Notepad++ with the instructions at: <https://notepad-plus-plus.org> 
+1. If you do not already have a preferred Text Editor, install Notepad++ with the instructions at: <https://notepad-plus-plus.org> 
 **BEWARE: Make sure you are not clicking on an advertisement.**
     - For each of the commands that are used, make sure the response is free from error notations and is like responses that are shown in class and in ECT Tech Nuggets. 
     - Most of the diagnostic commands will be used every lab in this class. Detailed notes should be kept in your lab notebook.
     - All of the diagnostic commands that are in use in the labs have quick help that is available on the command line with either a `-h` or `/?` flag. Additional information can also be found via Internet searches.
 
-34. Each operating system has different ways of naming network cards, which are refered to in this course as an "ethernet card" or an "interfaces" or "NIC" (network interface card). Interface names may be a few letters (2-6) that specifies the type of the technology, followed by a number especially when there is more than one of the same types. 
+2. Each operating system has different ways of naming network cards, which are refered to in this course as an "ethernet card" or an "interfaces" or "NIC" (network interface card). Interface names may be a few letters (2-6) that specifies the type of the technology, followed by a number especially when there is more than one of the same types. 
      - Loopback Interface: `lo0`
      - Ubuntu (Linux):`ens160`
      - VyOS:`eth0` and `eth1`
      - Windows has "helpful" names: `Ethernet Card (1)`
     
-35. In Ubuntu-GUI-1 open a terminal window (AKA CLI or bash shell)
+3. In Ubuntu-GUI-1 open a terminal window (AKA CLI or bash shell)
     - Use the command `ip a` to show command to show similar and additional data
     - Use the command `nmcli` to show command to show similar and additional data
     - Note the similarities and differences
 
-36. Using the consol of Ubuntu-CLI-1 login using itsclass and previously given password.
+4. Using the consol of Ubuntu-CLI-1 login using itsclass and previously given password.
     - Use the command `ip a` to show network information
     - Use the command `nmcli` to show similar and additional data
     - Note the similarities and differences
 
     The ip and nmcli commands are in use in many Linux distributions and have an extensive number of flags that both show and configure the computers network stack. Search engines and man pages are necessary resources to fully leverage these tools.
 
-37. On the Windows-Desktop-1 Left-Click on the Start Button and type `powershell.exe` OR Start Button and type `cmd` [Windows has several CLI environments... Oh yippy]. In this case either CLI type will work.
+5. On the Windows-Desktop-1 Left-Click on the Start Button and type `powershell.exe` OR Start Button and type `cmd` [Windows has several CLI environments... Oh yippy]. In this case either CLI type will work.
     -   In either type of Windows CLI enter `ipconfig /all` to show network information
 
-38. Use the correct command for the each GNS3 object (`ip a` / `nmcli` / `ipconfig /all`) to **create a table** that correlates the following information for each computer. *Be lazy*, copy the ipconfig output from Powershell by highlight the text and then right click within the highlight. 
+6. Use the correct command for the each GNS3 object (`ip a` / `nmcli` / `ipconfig /all`) to **create a table** that correlates the following information for each computer. *Be lazy*, copy the ipconfig output from Powershell by highlight the text and then right click within the highlight. 
 
 |Computer Name   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---|---|
