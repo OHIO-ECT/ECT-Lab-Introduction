@@ -3,9 +3,6 @@
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment
 -   Learn the basic setup of the GNS3 virtual lab environment
--   Overview of Windows and Unix operating systems
--   Introduction to the CLI, and the interaction with filesystems
--   Become familiar with the Linux command line terminal (bash shell)
 
 ### Pre-Lab
 - Homework/Labs/Projects will often have associated ECT Tech Nuggets that are recommended viewing after reading the lab the first time but before starting the work on the lab.  Do **NOT** follow along with the ECT Tech Nuggets while watching them for the first time. Watch the video and use what you have learned. - Windows is the only OS that is officially supported, but other OS's may be possible. 
@@ -25,13 +22,6 @@
 - A document you have created to use as a lab notebook
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
-- Additional [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured):
-  - [ECT Tech Nugget N0.1 Basic Diagnostic Tools 1](https://youtu.be/_pRXauSnU6U)
-  - [ECT Tech Nugget N0.2 Basic Diagnostic Tools 2](https://youtu.be/hWeJlNVaUbU)
-  - [ECT Tech Nugget N0.3 Basic Diagnostic Tools 3](https://youtu.be/PMk53TngTio)
-  - [ECT Tech Nugget N0.4 Basic Diagnostic Tools 4](https://youtu.be/gD-Tk1Bk7x0)
-  - [ECT Tech Nugget N0.5 Basic Diagnostic Tools 5](https://youtu.be/QTIbS9wyfag)
-  - [ECT Tech Nugget N11.0 NMCLI](https://youtu.be/43F51qVz9Ds)
 
 ### Toolkit
 
