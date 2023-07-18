@@ -1,16 +1,14 @@
-# ECT GNS3 Introduction - The Toolkit
+# ITS Lab Guides
 
-The following guides 
-
-## Guides
-- [Adopt tools for the personal computer](1_pc_tools.md)
-- [Remote Desktop with RD Gateway to gHost](2_remote_desktop.md)
-- [Using the command line](3_command_line.md)
-- [Secure Shell command line access](4_ssh.md)
-- [GNS3](5_GNS3.md)
-NOTE: Need a host configuration guide.
-- [Network Information](6_network_Information.md)
-- [Host Based Diagnostics](7_host_based_diagnostics.md)
-- [Wireshark Diagnostics](8_wireshark.md)
-- [Network Based Diagnostics](9_network_diagnostics.md)
-- [Access to future labs with Github account](99_github.md)
+- [Task 1 - Connect to your GNS3 VM](../chapters/Task%201.md)
+- [Task 2 - SSH (Secure Shell)](../chapters/Task%202.md)
+- [Task 3 - SSH Sessions via a Jumphost](../chapters/Task%203.md)
+- [Task 4 - Connecting Objects Inside GNS3](../chapters/Task%204.md)
+- [Task 5 - GNS3 Projects](../chapters/Task%205.md)
+- [Task 6 - Terminal Shell and File Management](../chapters/Task%206.md)
+- [Task 7 - Gathering IP Information](../chapters/Task%207.md)
+- [Task 8 - Basic Network Diagnostic Tools](../chapters/Task%208.md)
+- [Task 9 - Wireshark](../chapters/Task%209.md)
+- [Task 10 - GitHub Account Creation](../chapters/Task%2010.md)
+- [Task 11 - Advanced Network Diagnostic Commands](../chapters/Task%2011.md)
+- [Task 12 - ITS Lab Reports](../chapters/Task%2012.md)
