@@ -32,10 +32,6 @@
   - [ECT Tech Nugget N0.5 Basic Diagnostic Tools 5](https://youtu.be/QTIbS9wyfag)
   - [ECT Tech Nugget N11.0 NMCLI](https://youtu.be/43F51qVz9Ds)
 
-### Network Diagram
-
-![](./images/lab1-pic2-1.png)
-
 ### Toolkit
 
 -   Shells (i.e. Powershell, Bash)
