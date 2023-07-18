@@ -65,24 +65,3 @@
 <br>
 
 12. The gHost VM will run throughout the semester even if you are not connected to it. The GUI shutdown menu turned is off. **DO NOT** attempt to turn the gHost off without instructor approval. Instead, push the mouse cursor to the top of the screen to reveal the blue control bar. The commands on the bar to exit the remote desktop to return to the personal computer.
-
-### Task 3 - SSH Sessions via a Jumphost
-
-More information about the jump host can be found at: 
-https://sites.google.com/site/ohioitslab/home/how-to/ssh-jump-box
-
-13. It is common to need to customize commands for them to be used by a particular student. For example, the following command would result connecting to a remote machine `132.235.160.189` through the ssh jumphost `ect-bh-its.ohio.edu` using Professor Saunders' student account `bs257595@ohio.edu`.
-
-    Professor Saunders Example:
-
-    ``
-    ssh -J bs257595@ohio.edu@ect-bh.its.ohio.edu itsvm@132.235.160.189
-    ``
-    
-    Student Template:
-
-    ``
-    ssh -J <OHIOID>@ohio.edu@ect-bh.its.ohio.edu itsvm@<gHost IP>
-    ``
-
-14. Using what commands learned above construct an SSH command that connects from the personal computer to your gHost via the Jumphost.
