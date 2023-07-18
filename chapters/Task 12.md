@@ -41,6 +41,7 @@ Drawing what's been built (or will be built) is a crucial skill for network desi
 Draw.io is the prefered tool for ECT/ITS students. It's free and both webbased and local application based. We recommend [downloading the application and installing it](https://get.diagrams.net). The following steps of this task assume that that user has done this.
 
 1. Start the Draw.io application. Select "Create New Diagram" when prompted. Then select "Blank Diagram". This will open Draw.io to a blank drawing with no stencils (shapes) pre-selected. Once you understand more play with the different options instead of picking "Blank Diagram".
+![](./images/draw-io-1.png)
 
 2.
 
