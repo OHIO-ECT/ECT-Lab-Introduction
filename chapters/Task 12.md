@@ -1,7 +1,7 @@
 ## ECT Lab Introduction - Drawing Diagrams
 
 ### Goals
--   Learning to create network diagrams
+-   Learn to create network diagrams
 
 ### Resources
 
