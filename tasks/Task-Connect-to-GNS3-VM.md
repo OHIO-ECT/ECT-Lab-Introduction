@@ -21,7 +21,7 @@
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
 
 ### Environmental Context
-- Personal Computer with an RDP client installed (Windows comes pre-installed)
+- Personal Computer with an RDP client installed (on Windows it comes pre-installed)
 
 ### Connect to GNS3 VM
 
