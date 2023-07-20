@@ -1,15 +1,12 @@
-## ECT Lab Introduction - Connect to GNS3 VM
+## Connect to GNS3 VM
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment
 -   Learn the basic setup of the GNS3 virtual lab environment
 
 ### Pre-Lab
-- Homework/Labs/Projects will often have associated ECT Tech Nuggets that are recommended viewing after reading the lab the first time but before starting the work on the lab.  Do **NOT** follow along with the ECT Tech Nuggets while watching them for the first time. Watch the video and use what you have learned. - Windows is the only OS that is officially supported, but other OS's may be possible. 
-<br>
-
 - Watch the the following [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured) videos on YouTube:
-    - GNS3 Introduction - [ECT Tech Nugget N1.1 GNS3]
+    - GNS3 Introduction - [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI)
     - [ECT Tech Nugget - N34.0 - Technology Perspective](https://youtu.be/ixrzbdUu8yQ)
     - Remote Desktop Connection
         - Windows Users: [ECT Tech Nugget N14.1 RDC Connections](https://youtu.be/H52fC9hCmdk)
@@ -23,15 +20,10 @@
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
 
-### Toolkit
+### Environmental Context
+- Personal Computer with an RDP client installed (Windows comes pre-installed)
 
--   Commands to be typed by the student and output from shells are indicated within this document in the ``fixed width font Courier New`` (as shown here).
--   Varibles to be filled in by the student are presented in ``<brackets>``. The student will need to replace the <> and the text with the needed varible. Example: **My name is ``<Name>``**. Would change to **My name is Bob.**
--   Find a Print Screen / Screen Capture tool that you like. The following is a list of tools known to work:
-    -   Lightshot <https://app.prntscr.com>
-    -   Greenshot <https://getgreenshot.org>
-
-### Task 1 - Connect to GNS3 VM
+### Connect to GNS3 VM
 
 Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM) with GNS3 installed upon it.  This system will be referred to as the "gHost" throughout the lab. 
 
