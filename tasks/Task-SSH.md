@@ -9,12 +9,8 @@
 - A document you have created to use as a lab notebook
 - Assigned gHost (GNS3 Virtual Machine)
 
-### Toolkit
-
--   Shells (i.e. Powershell, Bash)
--   SSH (i.e. Secure Shell)
--   Commands to be typed by the student and output from shells are indicated within this document in the ``fixed width font Courier New`` (as shown here).
--   Varibles to be filled in by the student are presented in ``<brackets>``. The student will need to replace the <> and the text with the needed varible. Example: **My name is ``<Name>``**. Would change to **My name is Bob.**
+### Environmental Context
+- Connection to gHost VM (many OS's will have SSH clients)
 
 ### Task SSH (Secure Shell)
 
