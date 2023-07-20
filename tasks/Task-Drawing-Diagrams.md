@@ -12,10 +12,11 @@
 
 ### Toolkit
 
--   Draw.io
+-   Draw.io - https://drawio-app.com
 
 ### Environmental Context
-- Access to personal PC
+
+- Personal PC and a browser
 
 ### Drawing Diagrams
 Drawing what has been built (or will be built) is a crucial skill for network engineers. Often a well anotated drawing is far more helpful than a long chart or table filled with boring numbers. Diagrams will show the relationships between network objects (hosts) in a way that words cannot.
