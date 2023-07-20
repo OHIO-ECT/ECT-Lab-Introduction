@@ -48,7 +48,7 @@ The format of the ping command is `ping <destination>`. Where `<destination>` is
     -   Ubuntu-GUI-1: 99.83.183.221
     -   Windows-Desktop: www.kame.net
 
-#### Traceroute Command
+#### Traceroute
 
 The traceroute command gives more detail about the network **BETWEEN** the machine and the destination.
 
