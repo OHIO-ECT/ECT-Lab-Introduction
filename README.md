@@ -18,13 +18,13 @@ Welcome to the ECT Lab Introduction. This repository is intended to orient a stu
 - **DO NOT** follow along with the ECT Tech Nuggets while watching them for the first time. 
 
 ### Beware the gHosts
-These guides assume that the student has been issued a virtual machine which will be referred to as a gHost or GNS3 Host.  Students should find information about their assigned gHost from Blackboard and have received an email with the password information from Dr. Bowie.
+Most of these guides assume that the student has been issued a virtual machine which will be referred to as a gHost or GNS3 Host.  Students should find information about their assigned gHost from Blackboard and have received an email with the password information from Dr. Bowie.
 
 ### Personal Computer
-- Lab activities can be done on and ITS lab machine or from a Personal Computer (Desktop or Laptop)
+- Lab activities can be done on ITS lab machines or from a Personal Computer (Desktop or Laptop).
 - Open lab times will be posted after the first week of the semester.
-- Windows is the only OS that is officially supported.  
-- Other OS's may be possible, but require student to independently adapt to their own environment.
+- Windows 11 is the **only** OS that is officially supported.  
+- While other OS's may be possible, they will require the student to independently adapt the instructions to that OS.
 
 # Guides
 # [ITS 2300 Guide](/course_guides/ITS-2300.md)
