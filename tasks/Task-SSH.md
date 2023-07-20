@@ -10,7 +10,7 @@
 - Assigned gHost (GNS3 Virtual Machine)
 
 ### Environmental Context
-- Connection to gHost VM (many OS's will have SSH clients)
+- Connection to gHost VM
 
 ### Task SSH (Secure Shell)
 
