@@ -29,6 +29,7 @@
 
 ### Basic Network Diagnostic Tools
 
+#### Ping
 Ping is a basic (the **MOST** basic) tool for figuring out if a machine has network access. The command will, in effect, bounce packets off the destination machine like a sonar.... PING. The command gives a binary answer: **YES** it sees something or **NO** it does not.
 
 The **best** network debugging processes start with pinging another machine that is in the same IP network (more on that idea later) usually this is the default gateway.
