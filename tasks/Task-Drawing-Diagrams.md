@@ -1,4 +1,4 @@
-## ECT Lab Introduction - Drawing Diagrams
+## Drawing Diagrams
 
 ### Goals
 -   Learn to create network diagrams
@@ -14,7 +14,7 @@
 
 -   Draw.io
 
-### Task 12 - Drawing Diagrams
+### Drawing Diagrams
 Drawing what's been built (or will be built) is a crucial skill for network designers. Often a well anotated drawing is far more helpful than a long chart or table filled with boring numbers. Diagrams will show the relationships between network objects (hosts) in a way that words cannot.
 
 Draw.io is the prefered tool for ECT/ITS students. It's free and both webbased and local application based. We recommend [downloading the application and installing it](https://get.diagrams.net). The following steps of this task assume that that user has done this.

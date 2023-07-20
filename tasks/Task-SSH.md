@@ -1,4 +1,4 @@
-## ECT Lab Introduction - SSH (Secure Shell)
+## Task SSH (Secure Shell)
 
 ### Goals
 -   Learn to use SSH to connect to remote systems
@@ -16,7 +16,7 @@
 -   Commands to be typed by the student and output from shells are indicated within this document in the ``fixed width font Courier New`` (as shown here).
 -   Varibles to be filled in by the student are presented in ``<brackets>``. The student will need to replace the <> and the text with the needed varible. Example: **My name is ``<Name>``**. Would change to **My name is Bob.**
 
-### Task 2 - SSH (Secure Shell)
+### Task SSH (Secure Shell)
 
 1. The gHost uses the current version of Ubuntu, which is a distribution of Linux that often uses a GUI like Windows and Mac.
 <br>

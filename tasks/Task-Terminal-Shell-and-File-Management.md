@@ -1,4 +1,4 @@
-## ECT Lab Introduction - Terminal Shell and File Management
+## Terminal Shell and File Management
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment
@@ -32,7 +32,7 @@
     -   Lightshot <https://app.prntscr.com>
     -   Greenshot <https://getgreenshot.org>
 
-### Task 6 - Terminal Shell and File Management
+### Terminal Shell and File Management
 
 1. Open Powershell in Windows or open a Linux Terminal.
 <br>

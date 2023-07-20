@@ -1,4 +1,4 @@
-## ECT Lab Introduction - SSH Sessions via a Jumphost
+## SSH Sessions via a Jumphost
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment
@@ -31,7 +31,7 @@
     -   Lightshot <https://app.prntscr.com>
     -   Greenshot <https://getgreenshot.org>
 
-### Task 3 - SSH Sessions via a Jumphost
+### SSH Sessions via a Jumphost
 
 More information about the jump host can be found at: 
 https://sites.google.com/site/ohioitslab/home/how-to/ssh-jump-box

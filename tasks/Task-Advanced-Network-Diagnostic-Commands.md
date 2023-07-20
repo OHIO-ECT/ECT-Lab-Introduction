@@ -1,4 +1,4 @@
-## ECT Lab Introduction - Advanced Network Diagnostic Commands
+## Advanced Network Diagnostic Commands
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment
@@ -39,7 +39,7 @@
     -   Lightshot <https://app.prntscr.com>
     -   Greenshot <https://getgreenshot.org>
 
-### Task 11 - Advanced Network Diagnostic Commands
+### Advanced Network Diagnostic Commands
 
 #### Route Tables
 The route table is part of an Internet Protocol enabled network stack, and includes the directions on where network packets should be sent next on their journey from the source host to the destination. The network diagnostic tools to view that table is very helpful in lab.

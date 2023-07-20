@@ -1,4 +1,4 @@
-## ECT Lab Introduction - Wireshark
+## Wireshark
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment
@@ -35,7 +35,7 @@
     -   Lightshot <https://app.prntscr.com>
     -   Greenshot <https://getgreenshot.org>
 
-### Task 9 - Wireshark
+### Wireshark
 
 Wireshark is a packet capture tool available on Linux, Mac and Windows for free. This means that it will capture traffic (all or some) that comes to or leaves a NIC on the machine. We will be looking at pre-captured data as an example. From files listed above (i.e. in this repo), download the ITL sample file called `Lab 01 - ITLsample.pcap`. See [ECT ECT Tech Nugget N0.5 Basic Diag Tools 5 Wireshark][ECT Tech Nugget N0.5 Basic Diagnostic Tools 5] for more detail about Wireshark.
 

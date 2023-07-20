@@ -1,4 +1,4 @@
-## ECT Lab Introduction - Connecting Objects Inside GNS3
+## Connecting Objects Inside GNS3
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment
@@ -36,7 +36,7 @@
     -   Lightshot <https://app.prntscr.com>
     -   Greenshot <https://getgreenshot.org>
 
-### Task 4 - Connecting Objects Inside GNS3
+### Task Connecting Objects Inside GNS3
 
 1. Review [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI)
 <br>

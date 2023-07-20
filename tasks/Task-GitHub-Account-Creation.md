@@ -1,4 +1,4 @@
-## ECT Lab Introduction - GitHub Account Creation
+## GitHub Account Creation
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment
@@ -32,7 +32,7 @@
     -   Lightshot <https://app.prntscr.com>
     -   Greenshot <https://getgreenshot.org>
 
-### Task 10 - GitHub Account Creation
+### GitHub Account Creation
 
 1. The web page you are viewing is part of a *public* "github repo". However, **all other labs will *not* be public.** In a browser open up www.github.com, create a GitHub account. It **MUST** use your OHIO email address to access the private repos.
 <br>

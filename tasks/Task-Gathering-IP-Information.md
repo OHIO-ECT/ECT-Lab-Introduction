@@ -1,4 +1,4 @@
-## ECT Lab Introduction - Gathering IP Information
+## Gathering IP Information
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment
@@ -40,7 +40,7 @@
     -   Lightshot <https://app.prntscr.com>
     -   Greenshot <https://getgreenshot.org>
 
-### Task 7 - Gathering IP Information
+### Gathering IP Information
 
 **Note:** It is possible to complete this class on PCs that are not Windows based. However, the student is responsible to altering instructions to suit that system. Support from the instructors on these other systems will be very limited.
 

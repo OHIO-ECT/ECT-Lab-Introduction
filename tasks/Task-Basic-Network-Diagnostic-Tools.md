@@ -1,4 +1,4 @@
-## ECT Lab Introduction - Basic Network Diagnostic Tools
+##Basic Network Diagnostic Tools
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment
@@ -40,7 +40,7 @@
     -   Lightshot <https://app.prntscr.com>
     -   Greenshot <https://getgreenshot.org>
 
-### Task 8 - Basic Network Diagnostic Tools
+### Basic Network Diagnostic Tools
 
 Ping is a basic (the **MOST** basic) tool for figuring out if a machine has network access. The command will, in effect, bounce packets off the destination machine like a sonar.... PING. The command gives a binary answer: **YES** it sees something or **NO** it does not.
 

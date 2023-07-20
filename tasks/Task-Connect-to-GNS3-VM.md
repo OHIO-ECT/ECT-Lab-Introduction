@@ -1,4 +1,4 @@
-## ECT Lab Introduction - Connect to your GNS3 VM
+## ECT Lab Introduction - Connect to GNS3 VM
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment
@@ -31,7 +31,7 @@
     -   Lightshot <https://app.prntscr.com>
     -   Greenshot <https://getgreenshot.org>
 
-### Task 1 - Connect to your GNS3 VM
+### Task 1 - Connect to GNS3 VM
 
 Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM) with GNS3 installed upon it.  This system will be referred to as the "gHost" throughout the lab. 
 

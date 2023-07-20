@@ -1,4 +1,4 @@
-## ECT Lab Introduction - GNS3 Projects
+## GNS3 Projects
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment
@@ -36,7 +36,7 @@
     -   Lightshot <https://app.prntscr.com>
     -   Greenshot <https://getgreenshot.org>
 
-### Task 5 - GNS3 Projects
+### GNS3 Projects
 
 1.  Start all objects in the project with the big green triangle.
 <br>
