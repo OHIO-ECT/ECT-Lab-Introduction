@@ -1,7 +1,7 @@
 ## SSH Sessions via a Jumphost
 
 ### Goals
-    - Learning to connect to remote SSH sessions through an SSH jumpbox
+- Learning to connect to remote SSH sessions through an SSH jumpbox
 
 ### Pre-Lab
 
