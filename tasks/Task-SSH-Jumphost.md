@@ -30,15 +30,11 @@ https://sites.google.com/site/ohioitslab/home/how-to/ssh-jump-box
 <br>
     Professor Saunders Example:
 
-    ``
-    ssh -J bs257595@ohio.edu@ect-bh.its.ohio.edu itsvm@132.235.160.189
-    ``
-<br>    
+    ```ssh -J bs257595@ohio.edu@ect-bh.its.ohio.edu itsvm@132.235.160.189```
+<br>
     Student Template:
 
-    ``
-    ssh -J <OHIOID>@ohio.edu@ect-bh.its.ohio.edu itsvm@<gHost IP>
-    ``
+    ```ssh -J <OHIOID>@ohio.edu@ect-bh.its.ohio.edu itsvm@<gHost IP>```
 <br>
 
 2. Using what commands learned above construct an SSH command that connects your the personal computer to your gHost via the Jumphost.
