@@ -14,10 +14,13 @@
 
 -   Draw.io
 
-### Drawing Diagrams
-Drawing what's been built (or will be built) is a crucial skill for network designers. Often a well anotated drawing is far more helpful than a long chart or table filled with boring numbers. Diagrams will show the relationships between network objects (hosts) in a way that words cannot.
+### Environmental Context
+- Access to personal PC
 
-Draw.io is the prefered tool for ECT/ITS students. It's free and both webbased and local application based. We recommend [downloading the application and installing it](https://get.diagrams.net). The following steps of this task assume that that user has done this.
+### Drawing Diagrams
+Drawing what has been built (or will be built) is a crucial skill for network engineers. Often a well anotated drawing is far more helpful than a long chart or table filled with boring numbers. Diagrams will show the relationships between network objects (hosts) in a way that words cannot.
+
+Draw.io is the prefered tool for ECT/ITS students. It is free, both web-based and a local application based. ITS recommends [downloading the application and installing it](https://get.diagrams.net). The following steps of this task assume that that user has done this.
 <br>
 
 1. Start the Draw.io application. Select "Create New Diagram" when prompted. Then select "Blank Diagram". This will open Draw.io to a blank drawing with no stencils (shapes) pre-selected. Once you understand more play with the different options instead of picking "Blank Diagram".

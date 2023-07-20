@@ -1,10 +1,6 @@
 ## Terminal Shell and File Management
 
 ### Goals
--   Configure Remote Desktop to connect to the lab environment
--   Learn the basic setup of the GNS3 virtual lab environment
--   Overview of Windows and Unix operating systems
--   Introduction to the CLI, and the interaction with filesystems
 -   Become familiar with the Linux command line terminal (bash shell)
 
 ### Pre-Lab
@@ -18,6 +14,11 @@
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
 
+### Environmental Context
+- Connection to gHost VM
+- GNS3 project shown in Network Diagram below
+- Child VMs are started and ready for use
+
 ### Network Diagram
 
 ![](./images/lab1-pic2-1.png)
@@ -25,12 +26,7 @@
 ### Toolkit
 
 -   Shells (i.e. Powershell, Bash)
--   SSH (i.e. Secure Shell)
--   Commands to be typed by the student and output from shells are indicated within this document in the ``fixed width font Courier New`` (as shown here).
--   Varibles to be filled in by the student are presented in ``<brackets>``. The student will need to replace the <> and the text with the needed varible. Example: **My name is ``<Name>``**. Would change to **My name is Bob.**
--   Find a Print Screen / Screen Capture tool that you like. The following is a list of tools known to work:
-    -   Lightshot <https://app.prntscr.com>
-    -   Greenshot <https://getgreenshot.org>
+
 
 ### Terminal Shell and File Management
 

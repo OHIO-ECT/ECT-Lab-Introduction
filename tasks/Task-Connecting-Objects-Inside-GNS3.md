@@ -16,6 +16,9 @@
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
 
+### Environmental Context
+- Connection to gHost VM
+
 ### Network Diagram
 
 ![](./images/lab1-pic2-1.png)
@@ -23,10 +26,11 @@
 
 ### Task Connecting Objects Inside GNS3
 
-1. Review [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI)
+1. If neccessary, review [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI)
 <br>
 
 2. Open GNS3 on your gHost and start a new blank project.
+<br>
 
 3. Drag out and drop the appropreate icons as shown in the Network Diagram.
 <br>
@@ -34,4 +38,4 @@
 4.  Using the network diagram shown in this document connect all the GNS3 objects together. Review [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI) (scrub to about 6:20) for detailed instructions how to connect objects together in GNS3.
 <br>
 
-5. Please record, in your lab notebook, that GNS3 VMs inside GNS3 use the username `itsclass` and the password `class115#`. There is an ECT cheatsheet that 
+5. Please record, in your lab notebook, that GNS3 VMs inside GNS3 use the username `itsclass` and the password `class115#`.
