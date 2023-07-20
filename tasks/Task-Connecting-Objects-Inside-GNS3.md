@@ -29,7 +29,7 @@
 1. If neccessary, review [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI)
 <br>
 
-2. Open GNS3 on your gHost and start a new blank project.
+2. On your gHost start GNS3 and open project "1 - Test Project".
 <br>
 
 3. Drag out and drop the appropreate icons as shown in the Network Diagram.
