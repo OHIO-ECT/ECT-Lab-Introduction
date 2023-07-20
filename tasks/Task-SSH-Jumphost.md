@@ -27,7 +27,7 @@ https://sites.google.com/site/ohioitslab/home/how-to/ssh-jump-box
 <br>
 
 2. It is common to need to customize commands for them to be used by a particular student. For example, the following command would result connecting to a remote machine `132.235.160.189` through the ssh jumphost `ect-bh-its.ohio.edu` using Professor Saunders' student account `bs257595@ohio.edu`.
-<br>
+
     Professor Saunders Example:
 
     ````
