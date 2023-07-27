@@ -7,6 +7,7 @@
 
 - Watch the the following [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured) videos on YouTube:
     - [ECT Tech Nugget - N34.0 - Technology Perspective](https://youtu.be/ixrzbdUu8yQ)
+    - ECT SSH Jumpbox Docs - https://sites.google.com/site/ohioitslab/home/how-to/ssh-jump-box
 
 ### Resources
 
