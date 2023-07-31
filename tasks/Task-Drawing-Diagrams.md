@@ -67,6 +67,6 @@ In the left pane, just below the shape search is the first set of shapes. It is 
 
 12. Download the ![ECT-Scratchpad-Shapes.xml](../files/ECT-Scratchpad-Shapes.xml) to your local machine. Because it's a text file the contents of the text file are displayed in the window that opens. Use the "download raw file" icon to download the file.
 
-![](./images/download-raw-icon.png)
+    ![](./images/download-raw-icon.png)
 
 13. Click on the pencil icon to the right of the word Scratchpad and import the .XML file.
