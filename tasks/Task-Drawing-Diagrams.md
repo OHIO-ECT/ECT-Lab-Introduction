@@ -65,6 +65,6 @@ Draw.io is the prefered tool for ECT/ITS students. It is free, both web-based an
 ### ScratchPad
 In the left pane, just below the shape search is the first set of shapes. It is called the "Scratchpad" users can pull often used shapes into this for quick recall. ECT has provided a set of basic shapes to get you started.
 
-12. Download the ECT-Scratchpad-Shapes.xml ![](../files/ECT-Scratchpad-Shapes.xml) to your local machine. 
-
+12. Download the ![ECT-Scratchpad-Shapes.xml](../files/ECT-Scratchpad-Shapes.xml) to your local machine. 
+<br>
 13. Click on the pencil icon to the right of the word Scratchpad and import the .XML file.
