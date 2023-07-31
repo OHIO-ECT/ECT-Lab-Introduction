@@ -53,11 +53,9 @@ Each operating system has different ways of naming network cards, which are refe
 4. Use the correct command for the each GNS3 object (`ip a` / `nmcli` / `ipconfig /all`) to **create a table** that correlates the following information for each computer. *Be lazy*, copy the ipconfig output from Powershell by highlight the text and then right click within the highlight. 
 <br>
 
-|Computer Name   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |
-|---|---|
-|Adapter Name   |  &nbsp; |
-|Description   |   |
-|IPv4 Address   |   |
-|Subnet Mask   |   |
-|Default Gateway   |   |
-|IPv6 Address (if available)   |   |
+|Computer Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Adapter Name | Description | IPv4 Address | Subnet Mask | Default Gateway | IPv6 Address (if available) |
+|--|--|--|--|--|--|--|
+|Win-Desktop-1| NIC1 | | | | | |
+|Ubuntu-CLI-1 | ens3| | | | | |
+|Ubuntu-GUI-1| ens3| | | | | |
+
