@@ -55,9 +55,9 @@ Each operating system has different ways of naming network cards, which are refe
 
 |Computer Name   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---|---|
-|Adapter Type   |  &nbsp; |
-|Adapter Name   |   |
-|IPv6 Address (if available)   |   |
+|Adapter Name   |  &nbsp; |
+|Description   |   |
 |IPv4 Address   |   |
 |Subnet Mask   |   |
 |Default Gateway   |   |
+|IPv6 Address (if available)   |   |
