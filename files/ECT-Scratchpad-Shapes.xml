@@ -48,9 +48,9 @@
     "title": "Workstation"
   },
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAABsAAAA0CAIAAAD0TNThAAAAB3RJTUUH5wcfDjE0kLjETgAAAAlwSFlzAAALEgAACxIB0t1+/AAAAARnQU1BAACxjwv8YQUAAADnSURBVHjaY5QQkWVgYOgwec1AMdh49+/x9xKMQBOP+L+VVNKh3EQgWH34EmOgKuuSBEOqGAcBTP7KzFQ0DmQidY0bIiayYArFLDhPkhHddqzISQXdxOf3rgDTFInOeovPjUDbjvhfIck8tLTMQlAFqWAoxPWoiaMmjpo4auKoiaMmjpo4+E3E0koBNqZIMoJAuwdonM1GYZJMBLa88LX2gMBS8AWJbkTpGGBp7S1RIslAdDAU4pouqQfYEyPJiFBbPXwmAlNPxRlRkky0kcabeoByHSakuVFSCa8bMX1BKhgKcT0UTAQANfQwoP/VPGUAAAAASUVORK5CYII=;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry y=\"1.1368683772161603e-13\" width=\"27\" height=\"52\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAABsAAAA0CAYAAAB7LkO2AAAAB3RJTUUH5wcfDxAG1TLqGgAAAAlwSFlzAAALEgAACxIB0t1+/AAAAARnQU1BAACxjwv8YQUAAACBSURBVHjaY5QQkWWAgbuFkv8ZqAyU+58zwthMtLQI3VwmSgwiFTDR0lfovqOrzxi/tprR1FfIgK4+Y8ElgZxkyQHY0gH9UyO9AM5gpEV2GL7BOGrZqGWjlo1aNmrZqGWjlo1aNmrZqGXEgNFeDFXAaC9m6Fk2mvSpAkaT/qhleAEAUx0kNeUuUVsAAAAASUVORK5CYII=;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"27\" height=\"52\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 27,
-    "h": 52,
+    "h": 51.99999999999999,
     "aspect": "fixed",
     "title": "Server"
   },
