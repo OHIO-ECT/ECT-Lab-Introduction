@@ -8,7 +8,6 @@
 - Watch the the following [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured) videos on YouTube:
   - [ECT Tech Nugget N0.2 Basic Diagnostic Tools 2](https://youtu.be/hWeJlNVaUbU)
 
-  
 ### Resources
 
 - Personal Computer (Destkop or Laptop)
