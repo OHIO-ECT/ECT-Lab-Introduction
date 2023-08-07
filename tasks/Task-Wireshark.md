@@ -28,12 +28,12 @@
 
 ### Wireshark
 
-Wireshark is a packet capture tool available on Linux, Mac and Windows for free. This means that it will capture traffic (all or some) that comes to or leaves a NIC on the machine. We will be looking at pre-captured data as an example. From files listed above (i.e. in this repo), download the ITL sample file called `Lab 01 - ITLsample.pcap`. See [ECT Tech Nugget N0.5 Basic Diag Tools 5 Wireshark](https://youtu.be/QTIbS9wyfag) for more detail about Wireshark.
+Wireshark is a packet capture tool available on Linux, Mac and Windows for free.  See [ECT Tech Nugget N0.5 Basic Diag Tools 5 Wireshark](https://youtu.be/QTIbS9wyfag) for more detail about Wireshark.
 
 1. Install Wireshark on **your** machine, if not installed already: http://www.wireshark.org/download.html. Install the current stable release.
 <br>
 
-2. From the list of files listed at the top of this page download "ITS-Wireshark-Sample.pcap". Start Wireshark and open the "ITS-Wireshark-Sample.pcap" file using File/Open options. Note that you may not get Wireshark to start by double-clicking a capture file.
+2. From the list of files listed at the top of this page download [ITS-Wireshark-Sample.pcap](../files/ITS-Wireshark-Sample.pcap). Start Wireshark and open the "ITS-Wireshark-Sample.pcap" file using File/Open options. Note that you may not get Wireshark to start by double-clicking a capture file.
 
 #### Wireshark MAC Address Information
 
