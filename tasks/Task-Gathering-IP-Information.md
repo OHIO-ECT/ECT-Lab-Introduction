@@ -21,13 +21,13 @@
 
 ## Gathering IP Information
 
-1. Network interfaces have to parts, outside of the computer will be a connection to the larger network, and inside of the computer the configuration for the card so that it is useful.  Depending on the context Network interfaces are refered to in this course as an "ethernet card" or an "interfaces" or "NIC" (network interface card).  
+1. Network interfaces have two parts, outside of the computer will be a connection to the larger network, and inside of the computer the configuration for the card.  Depending on the context Network interfaces are refered to in this course as an "ethernet card" or an "interfaces" or "NIC" (network interface card).  
 <br>
 
 2. GNS3 represents the outside connection as a red or green dot attached to the GNS3 object and a text identifier like ``e0``.  
 <br>
 
-3. Inside the guest GNS3 object, Interface names vary by may OS vendor by the type of technology, like ethernet, that the interface supports.  Typically names are a few letters (2-6) followed by a number especially when there is more than one of the same types.  CAUTION: Rarely do the numbers on this inside match nubmers on the outside.  For example ``e0`` in GNS3 might be:
+3. Inside the guest GNS3 object, Interface names vary by OS vendor and by the type of technology, like ethernet, that the interface supports.  Typically names are a few letters (2-6) followed by a number especially when there is more than one of the same type of interface.  CAUTION: Rarely do the numbers on this inside match nubmers on the outside.  For example ``e0`` in GNS3 might be:
      - Ubuntu (Linux):`ens160`
      - VyOS:`eth0` and `eth1`
      - Windows has "helpful" names: `Ethernet Card (1)`
