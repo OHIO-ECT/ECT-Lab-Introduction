@@ -17,7 +17,7 @@
 
 ## Task Shutting down GNS3 Projects
 
-1. When work is completed for a lab students should shutdown projects.
+1. When work is completed for a lab, students should shutdown projects.
 
 2. Using the red stop button in the toolbar is effectively like pulling the power from a running computer.  In many cases this is acceptable with two warnings if the project is ever to be used again in the future.
     a.  There is a small chance the child objects will be corrupted. 
