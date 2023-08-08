@@ -50,7 +50,7 @@ Each operating system has different ways of naming network cards, which are refe
     -   In either type of Windows CLI enter `ipconfig /all` to show network information
 <br>
 
-4. Use the correct command for the each GNS3 object (`ip a` / `nmcli` / `ipconfig /all`) to **create a table** that correlates the following information for each computer. *Be lazy*, copy the ipconfig output from Powershell by highlight the text and then right click within the highlight. 
+4. Use the correct command for the each GNS3 object (`ip a` / `nmcli` / `ipconfig /all`) to **create a table** (Excel or Google Sheets) like the chart below. Fill out as much as you can find out. This will be part of your lab report. that correlates the following information for each computer. *Be lazy*, copy the ipconfig output from Powershell by highlight the text and then right click within the highlight. 
 <br>
 
 |Computer Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Adapter Name | Description | IPv4 Address | Subnet Mask | Default Gateway | IPv6 Address (if available) |
