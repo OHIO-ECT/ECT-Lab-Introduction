@@ -28,7 +28,7 @@ If you do not already have a preferred Text Editor, install Notepad++ with the i
 
 ### Screen Capture Tool 
 
-In most situations in ITS classes, diagrams and graphics work such as network and system diagrams will be created using tools dicussed in future labs (Draw.IO). Take note of your instructors specific requirements for various classes. When screen shots are specificly requrested the following tools are able to quickly select a specific region of the screen and maximize the focus on the subject matter.
+In most situations in ITS classes, diagrams and graphics work such as network and system diagrams will be created using tools dicussed in future labs (Draw.IO). Take note of your instructors specific requirements for various classes. When screen shots are specificly requrested, the following tools are able to quickly select a specific region of the screen and maximize the focus on the subject matter.
 -   Lightshot <https://app.prntscr.com>
 -   Greenshot <https://getgreenshot.org>
 

@@ -12,6 +12,7 @@
 
 ## Environmental Context
 - Connection to gHost VM
+- Running "98 - Intro Lab" GNS3 project
 - Running GNS3 project
 
 ## Task Shutting down GNS3 Projects

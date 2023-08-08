@@ -1,7 +1,7 @@
 # Terminal Shell and File Management
 
 ## Goals
--   Become familiar with the Windows Powershell and Linux Bash command line terminals
+-   Become familiar with the Linux Bash command line terminals
 
 ## Resources
 - Personal Computer (Destkop or Laptop)
@@ -74,3 +74,7 @@
 <br>
 
 18. Return to the Files GUI and browse to the test directory and double click on the test.txt file to open the file in the GUI text editor.  
+
+## Windows PowerSheel
+
+19. Microsoft has a set of terminal applications.  The current terminal is called "PowerShell".  Microsoft uses a different set of commands, but also have aliases to simplify operations for people with Linux experiance.  The relationships between files in the terminal and the GUI are similar.
