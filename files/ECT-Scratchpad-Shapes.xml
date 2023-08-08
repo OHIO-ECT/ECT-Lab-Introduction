@@ -67,5 +67,26 @@
     "h": 52,
     "aspect": "fixed",
     "title": "Server"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAABsAAAA0CAYAAAB7LkO2AAAAB3RJTUUH5wgIDDMzcPAf9gAAAAlwSFlzAAALEgAACxIB0t1+/AAAAARnQU1BAACxjwv8YQUAAAB9SURBVHjaY5QQkWWAgRVvFv9noDKIEIllhLGZaGkRurlMlBhEKmCipa/QfUdXnzEeYDhAU18hA7r6jAWXBHKSJQdgSwf0T430AsM3gYxaNmrZqGWjlo1aNmrZqGWjlo1aNmrZoLNstBdDFTDaixl6lo0mfaqA0aQ/ahleAACO1yeHfxRr+gAAAABJRU5ErkJggg==;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"27\" height=\"52\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 27,
+    "h": 52,
+    "aspect": "fixed",
+    "title": "Server"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAABsAAAA0CAYAAAB7LkO2AAAAB3RJTUUH5wgIDDMCIS4fzAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAARnQU1BAACxjwv8YQUAAAB9SURBVHjaY5QQkWWAgRv3n/1noDLQUJRihLGZaGkRurlMlBhEKmCipa/QfUdXnzF++MxMU18hA7r6jAWXBHKSJQdgSwf0T430AsM3gYxaNmrZqGWjlo1aNmrZqGWjlo1aNmrZoLNstBdDFTDaixl6lo0mfaqA0aQ/ahleAAD6cCq3vxtv9QAAAABJRU5ErkJggg==;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"27\" height=\"52\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 27,
+    "h": 52,
+    "aspect": "fixed",
+    "title": "Server"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAABsAAAA0CAYAAAB7LkO2AAAAB3RJTUUH5wgIDDE3Rau5bQAAAAlwSFlzAAALEgAACxIB0t1+/AAAAARnQU1BAACxjwv8YQUAAACBSURBVHjaY5QQkWWAgRehhv8ZqAwkVp9nhLGZaGkRurlMlBhEKmCipa/QfUdXnzEyZPrR1FfIgK4+Y8ElgZxkyQHY0gH9UyO9AM5gpEV2GL7BOGrZqGWjlo1aNmrZqGWjlo1aNmrZqGXEgNFeDFXAaC9m6Fk2mvSpAkaT/qhleAEA1LAjbQ8y3zIAAAAASUVORK5CYII=;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"27\" height=\"52\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 27,
+    "h": 52,
+    "aspect": "fixed",
+    "title": "Server"
   }
 ]</mxlibrary>
