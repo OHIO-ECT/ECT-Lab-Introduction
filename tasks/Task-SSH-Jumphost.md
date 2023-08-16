@@ -27,12 +27,12 @@ https://sites.google.com/site/ohioitslab/home/how-to/ssh-jump-box
 1. Open a Powershell or CMD session on a Windows PC.
 <br>
 
-2. It is common to need to customize commands for them to be used by a particular student. For example, the following command would result connecting to a remote machine `132.235.160.189` through the ssh jumphost `ect-bh-its.ohio.edu` using Professor Saunders' student account `bs257595@ohio.edu`.
+2. It is common to need to customize commands for them to be used by a particular student. For example, the following command would result connecting to a remote machine `132.235.207.189` through the ssh jumphost `ect-bh-its.ohio.edu` using Professor Saunders' student account `bs257595@ohio.edu`.
 
     Professor Saunders Example:
 
     ````
-    ssh -J bs257595@ohio.edu@ect-bh.its.ohio.edu itsvm@132.235.160.189
+    ssh -J bs257595@ohio.edu@ect-bh.its.ohio.edu itsvm@132.235.207.189
     ````
 
     Student Template:
