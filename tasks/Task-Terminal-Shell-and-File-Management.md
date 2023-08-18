@@ -46,8 +46,11 @@
 
 10. Computers are typically given hostnames which help the administrator maintain the perspective of what computer they are issuing commands to.  Including those in the terminal.  The objects in GNS3 are all given a generic name.  Use the ``hostname`` command to see this name and note that is also a part of the default shell prompt.  Issue the following command to update the hostname of the GUI.
 
-``sudo nmcli general hostname lab98-ubuntu-gui``
+```
+sudo nmcli general hostname lab98-ubuntu-gui
+```
 <br>
+
 11. The ``sudo`` prefix causes the program to run with adminstrative privilages.  USE significant caution when using the ``sudo`` command.
 <br>
 
@@ -59,22 +62,22 @@
 
 ## Linux text editor
 
-13. Use ``cd test`` to return to the test directory.
+14. Use ``cd test`` to return to the test directory.
 <br>
 
-14. Enter the command ``nano file.txt`` to launch a simple command line based text editor for a new file.  In a browser on the user PC open <https://hipsum.co> complete the form for 1 paragraph and copy the output to the clipboard. Return to the nano editor in the Ubuntu-GUI on the gHost.  Right click on the window to select the paste option to put the text into the file.  
+15. Enter the command ``nano file.txt`` to launch a simple command line based text editor for a new file.  In a browser on the user PC open <https://hipsum.co> complete the form for 1 paragraph and copy the output to the clipboard. Return to the nano editor in the Ubuntu-GUI on the gHost.  Right click on the window to select the paste option to put the text into the file.  
 <br>
 
-15. Nano uses the control (Ctrl) key to access the menu which is visable at the bottom of the terminal.  Hit ``<ctrl>-j`` to change the justification and see the whole paragraph.  Students are STRONGLY encouraged to use this ability to copy and paste text and commands accross all parts of the lab system to complete lab work.
+16. Nano uses the control (Ctrl) key to access the menu which is visable at the bottom of the terminal.  Hit ``<ctrl>-j`` to change the justification and see the whole paragraph.  Students are STRONGLY encouraged to use this ability to copy and paste text and commands accross all parts of the lab system to complete lab work.
 <br>
 
-16. Issue the command ``<ctrl>-x`` to nano to exit the program.  When prompted enter ``y`` to save the file buffer, and hit enter to accept the file.txt filename.
+17. Issue the command ``<ctrl>-x`` to nano to exit the program.  When prompted enter ``y`` to save the file buffer, and hit enter to accept the file.txt filename.
 
-17. The command prompt should return.  Files can also be viewed from the command line with the ``cat`` program.  Use the command ``cat file.txt`` to show the content of the file that was just created.
+18. The command prompt should return.  Files can also be viewed from the command line with the ``cat`` program.  Use the command ``cat file.txt`` to show the content of the file that was just created.
 <br>
 
-18. Return to the Files GUI and browse to the test directory and double click on the test.txt file to open the file in the GUI text editor.  
+19. Return to the Files GUI and browse to the test directory and double click on the test.txt file to open the file in the GUI text editor.  
 
-## Windows PowerSheel
+## Windows PowerShell
 
-19. Microsoft has a set of terminal applications.  The current terminal is called "PowerShell".  Microsoft uses a different set of commands, but also have aliases to simplify operations for people with Linux experiance.  The relationships between files in the terminal and the GUI are similar.
+20. Microsoft has a set of terminal applications.  The current terminal is called "PowerShell".  Microsoft uses a different set of commands, but also have aliases to simplify operations for people with Linux experiance.  The relationships between files in the terminal and the GUI are similar.
