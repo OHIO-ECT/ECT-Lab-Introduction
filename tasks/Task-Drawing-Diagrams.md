@@ -70,3 +70,9 @@ In the left pane, just below the shape search is the first set of shapes. It is 
     ![](./images/download-raw-icon.png)
 
 13. Click on the pencil icon to the right of the word Scratchpad and import the .XML file.
+
+### Draw!
+
+14. Replicate the hand drawn picture shown below in Draw.IO using the iconography from the Scratchpad provided and other shapes as needed. Try to make the art match as much as possible. Make sure to label everything as shown in the picture below.
+
+    ![](./images/network-diag-1.jpg)
