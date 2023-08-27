@@ -28,17 +28,17 @@ Draw.io is the preferred tool for ECT/ITS students. It is free, both web-based a
 
     ![](./images/draw-io-1.png)
 
-2. In the left pane are stencils (shapes) that can be pulled out into the drawing and edited there. Grab several five different shapes from the General category and place them into the center "drawing pane", spread apart a bit.
+2. In the left pane are stencils (shapes) that can be pulled out into the drawing and edited there. Grab at least five different shapes from the General category and place them into the center "drawing pane", spread apart a bit.
 <br>
 
 3. At the top of the left pane is a "Search Shapes" dialog box. Search for "router". This will show a group of shapes that Draw.io has tagged as switches. In ITS classes we want you to use shapes that are usually one color and **NOT** 3D physical representations of an object. Select the orange circle with multiple arrows and place a copy in your drawing (as shown below).
 
     ![](./images/draw-io-router.png)
 
-4. Select one of the shapes. The right pane will provide detailed options for customizing that specific shape. Double-clicking on the shape provides the option to label the shape. Label all your six shapes this way.
+4. Select one of the shapes. The right pane will provide detailed options for customizing that specific shape. Double-clicking on the shape provides the option to label the shape. Label all shapes this way.
 <br>
 
-5. Layering - Select one of the General shapes, at the top of the right pane select the green color. Then right-click on the shape and select "To Back". Drag the green shape so that the router shape and the green shape overlap (as shown below). This allow the drawing to have background coloring when needed.
+5. Layering - Select one of the General shapes, at the top of the right pane select the green color. Then right-click on the shape and select "To Back". Drag the green shape so that the router shape and the green shape overlap (as shown below). This allows the drawing to have background coloring when needed.
 
     ![](./images/draw-io-2.png)
 

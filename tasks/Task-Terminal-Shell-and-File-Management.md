@@ -29,10 +29,10 @@
 
 4. Use the command ``ls`` to list the files in this terminals current working directory.
 
-5. Selection the "Files" application from the Ubuntu-GUI menu.  By default this will open to the same Home directory and show show graphical representations of the same directory as seen in the ``ls`` output. 
+5. Select the "Files" application from the Ubuntu-GUI menu. By default this will open to the same Home directory and show graphical representations of the same directory as seen in the ``ls`` output. 
 <br>
 
-6. In the terminal, run the Command ``mkdir test`` and then issue the command ``cd test``, to create a new directory and change the CWD for the terminal to that new directory.  Note the change in the prompt to be ``itsclass@its-ud-xx:~/test$`` In many linux terminals given the home directory the shortcut ``~``.  This prompt is configurable and non-standardized but most linux distributions include the CWD in the terminal prompt.
+6. In the terminal, run the Command ``mkdir test`` and then issue the command ``cd test``, to create a new directory and change the CWD for the terminal to that new directory.  Note the change in the prompt to be ``itsclass@its-ud-xx:~/test$`` In many linux terminals the home directory the shortcut ``~``.  This prompt is configurable and non-standardized but most linux distributions include the CWD in the terminal prompt.
 
 7. Note that ``test`` also appears in the Files GUI.  
 

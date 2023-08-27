@@ -24,7 +24,7 @@
     b.  Work inside of the VMs (unsaved documents or configurations) could be lost.
 
 3. Each child VM has a correct shutdown procedure for each operating system.
-    a. Windows - Close all applications and save all documents.  Select the start button, the power icon, and "Shut Down" from the rollup menu.  The VM window should close when the system powers it self off.
+    a. Windows - Close all applications and save all documents.  Select the start button, the power icon, and "Shut Down" from the rollup menu.  The VM window should close when the VM powers itself off.
 
     b. Ubuntu-GUI - Close all applications and save all documents.  Select the power icon in the upper right corner of the child object.  Note make sure to NOT select the power icon for the gHost.  In the drop down menu select "Power Off/Log Out" and then "Power Off".  Confirm the power off in the dialog box that pops up.  The VM window should close when the system powers it self off.
 

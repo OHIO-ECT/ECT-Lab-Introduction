@@ -34,7 +34,7 @@ The **best** network debugging processes start with pinging another machine that
 
 4. Ping can also take DNS names.  Try ``ping xkcd.com`` on the Ubuntu-CLI-1
 
-5. Use the help command line flag (`-h` for Linux or `/?` for Windows) to find the properly flag to request 15 pings and then stop.
+5. Use the help command line flag (`-h` for Linux or `/?` for Windows) to find the proper flag to request 15 pings and then stop.
     -   Ubuntu-GUI-1: 99.83.183.221
     -   Windows-Desktop: www.kame.net
 
@@ -44,7 +44,7 @@ The traceroute command gives more detail about the network **BETWEEN** the machi
 
 The `-n` or `-d` option suppresses DNS hostname lookups on many commands. Typically, DNS names are not necessary for network diagnostics and consume time and create unwanted network traffic.
 
-When an individual traceroute hit fails (lines noted with `* * *`) traceroute will typically continue until the test has reached 30 hops. Press Ctrl+C to stop it once if you get three or more lines with the `* * *` notation.
+When an individual traceroute hit fails (lines noted with `* * *`) traceroute will typically continue until the test has reached 30 hops. Press Ctrl+C to stop traceroute, if you get three or more lines with the `* * *` notation.
 
 Syntax: `traceroute -n <destination>`
 Where `<destination>` is replaced with either a hostname or IP.

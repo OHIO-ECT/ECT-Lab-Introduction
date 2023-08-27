@@ -27,13 +27,13 @@
 2. GNS3 represents the outside connection as a red or green dot attached to the GNS3 object and a text identifier like ``e0``.  
 <br>
 
-3. Inside the guest GNS3 object, Interface names vary by OS vendor and by the type of technology, like ethernet, that the interface supports.  Typically names are a few letters (2-6) followed by a number especially when there is more than one of the same type of interface.  CAUTION: Rarely do the numbers on this inside match numbers on the outside.  For example ``e0`` in GNS3 might be:
+3. Inside the guest GNS3 object, Interface names vary by OS vendor and by the type of technology, like ethernet, that the interface supports.  Typically names are a few letters (2-6) followed by a number especially when there is more than one of the same type of interface.  CAUTION: Rarely do the NIC numbers on the inside match NIC numbers on the outside.  For example ``e0`` in GNS3 might be:
      - Ubuntu (Linux):`ens160`
      - VyOS:`eth0` and `eth1`
      - Windows has "helpful" names: `Ethernet Card (1)`
 <br>
 
-4. Many network systems have two representation of network configurations.  The most fundamental is the resultant or current configuration.  In Ubuntu-GUI-1 open a terminal window (AKA CLI or bash shell) and issue the commands ``ip address`` and ``ip route``.  These commands output a lot of data about the current network configuration.
+4. Many network systems have two representations of network configurations. The most fundamental is the resultant or current configuration.  In Ubuntu-GUI-1 open a terminal window (AKA CLI or bash shell) and issue the commands ``ip address`` and ``ip route``.  These commands output a lot of data about the current network configuration.
 
 5. In modern linux' the "Network Manager" application is used to configure the network cards and can show the same fundamental information.  Run the command ``nmcli`` on the Ubuntu-GUI-1 and note the similarities and differences.
 <br>
@@ -49,7 +49,7 @@
 
 9. In Windows the command ``netstat -nr`` is also used to show more detailed routing information similar to ``ip route`` in linux.
 
-9. Use the correct command for the each GNS3 object (`ip a` / `nmcli` / `ipconfig /all`) to **create a table/chart** (Excel or Google Sheets) like the chart below. Fill out as much as you can find out. This will be part of your lab report. that correlates the following information for each computer. *Be lazy*, copy the ipconfig output from Powershell by highlight the text and then right click within the highlight. 
+10. Use the correct command for the each GNS3 object (`ip a` / `nmcli` / `ipconfig /all`) to **create a table/chart** (Excel or Google Sheets) like the chart below that correlates the following information for each computer. Fill out as much as you can find out. This will be part of your lab report. *Be lazy*, copy the ipconfig output from Powershell by highlight the text and then right click within the highlight. 
 <br>
 
 |Computer Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Adapter Name | Description | IPv4 Address | Subnet Mask | Default Gateway | IPv6 Address (if available) |

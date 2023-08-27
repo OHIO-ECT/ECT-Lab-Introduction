@@ -24,12 +24,12 @@
 
 ## Personal Computer Wireshark
 
-Wireshark is a packet capture tool available on Linux, Mac and Windows for free.  See [ECT Tech Nugget N0.5 Basic Diag Tools 5 Wireshark](https://youtu.be/QTIbS9wyfag) for more detail about Wireshark.  Wireshark may be used in several contexts with the student's ecosystem.  Including on the the student Personal Computer, within GNS3, and with GNS3 objects.
+Wireshark is a packet capture tool available on Linux, Mac and Windows for free.  See [ECT Tech Nugget N0.5 Basic Diag Tools 5 Wireshark](https://youtu.be/QTIbS9wyfag) for more detail about Wireshark.  Wireshark may be used in several contexts with the student's ecosystem.  Including on the the student's Personal Computer, within GNS3, and with GNS3 objects.
 
 1. Install Wireshark on **your** machine, if not installed already: http://www.wireshark.org/download.html. Install the current stable release.
 <br>
 
-2. When Wireshark first starts it request the user to select the interface to capture on.  Wait 20 to 30 seconds and look for an interface with traffic on the the associated graph, and double click on that interface to start the packet capture.  Stop the capture and explore the interface.  DO NOT LEAVE WIRESHARK CAPTURING PACKETS.  It will cause significant memory issues for the device that it is running on.
+2. When Wireshark first starts it requests the user to select the interface to capture on.  Wait 20 to 30 seconds and look for an interface with traffic on the the associated graph, and double click on that interface to start the packet capture.  Stop the capture and explore the interface.  DO NOT LEAVE WIRESHARK CAPTURING PACKETS.  It will cause significant memory issues for the device that it is running on.
 
 3. Wireshark can save packets in an industry standard libpcap format for later processing.  Students will regularly capture data on the gHost to be processed later on the student PC. From the list of files listed at the top of this page download [ITS-Wireshark-Sample.pcap](../files/ITS-Wireshark-Sample.pcap). Start Wireshark and open the "ITS-Wireshark-Sample.pcap" file using File/Open options. Note that you may not get Wireshark to start by double-clicking a capture file.  The data in this file will be used for the remainder of this task.
 
@@ -72,10 +72,10 @@ text box near the top of the Wireshark window.
 
 Using Wireshark to sniff packets in a GNS3 project can be very helpful when diagnosing issues. The procedure is shown in [ECT Tech Nugget - N1.1 - GNS3](https://youtu.be/w5qsM3LhpQI) (scrub to 9:49) for details. Wireshark functions a bit different in a GNS3 environment. It's a two part process. Right-Clicking on a link and selecting "Start Capture" will start the packet capture program on the link **and** start Wireshark to view the the packets. The problem is that stopping Wireshark **does not** stop the packet capture program. This means will will keep running collecting packets! After enough time the gHost will run out of memory and crash if the packet capture program isn't stopped. To stop the capture program, right-click on the link again and select "Stop Capture".
 
-14. In the running GNS3 project right-click on the link between the Ubuntu-GUI-1 and the switch. In the context menu select `Start Capture` and press OK on the popup dialog box to begin packet capture (AKA packet sniffing). Wireshark GUI will auto-start and begin showing packet data for traffic going to or from the Ubuntu-GUI-1 object. A small magnifiying glass icon will appear in GNS3 on the link.
+14. In the running GNS3 project right-click on the link between the Ubuntu-GUI-1 and the switch. In the context menu select `Start Capture` and press OK on the popup dialog box to begin packet capture (AKA packet sniffing). Wireshark GUI will auto-start and begin showing packet data for traffic going to or from the Ubuntu-GUI-1 object. A small magnifying glass icon will appear in GNS3 on the link.
 <br>
 
-15. In the Wireshark display filter use the following filter: `ip.addr==X.X.X.X`. Make sure to replace `X.X.X.X` with the IP for the Ubuntu-GUI-1 that was discovered earlier. This filter display only traffic going to or from the specified IP (Ubuntu-GUI-1 in this case). 
+15. In the Wireshark display filter use the following filter: `ip.addr==X.X.X.X`. Make sure to replace `X.X.X.X` with the IP for the Ubuntu-GUI-1 that was discovered earlier. This filter displays traffic going to or from the specified IP (Ubuntu-GUI-1 in this case). 
 <br>
 
 16. On Ubuntu-GUI-1 open a terminal window and `ping 8.8.8.8`. Allow it to run for five ping iterations and use CTRL+C to stop ping.
