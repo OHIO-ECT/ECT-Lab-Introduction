@@ -5,7 +5,7 @@
 - Learning to connect GNS3 child objects together.
 
 ## Resources
-- Personal Computer (Destkop or Laptop)
+- Personal Computer (Desktop or Laptop)
 - A document you have created to use as a lab notebook
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
@@ -35,5 +35,3 @@
 4. Once all child objects are closed the stop button can be pressed to shutdown the other objects in the project and GNS3 can be safely closed.
 
 5. NEVER SHUTDOWN THE gHOST.
-
-

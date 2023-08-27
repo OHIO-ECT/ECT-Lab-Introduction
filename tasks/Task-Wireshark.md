@@ -11,7 +11,7 @@
 
 ## Resources
 
-- Personal Computer (Destkop or Laptop)
+- Personal Computer (Desktop or Laptop)
 - A document you have created to use as a lab notebook
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
@@ -58,7 +58,7 @@ text box near the top of the Wireshark window.
 9. To get packet detail needed into a format where portions of it are can be used in a lab report use `File -> Export Packet Dissections -> As Plain Text...`
 <br>
 
-10. A Wireshark Save dialog window will open with serveral choices along the bottom. 
+10. A Wireshark Save dialog window will open with several choices along the bottom. 
     - In the lower left called `Packet Range` change the radio button to `Selected packet`
     - In the lower right called `Packet Format` make sure the `Packet summary line`,`Include column headings` and `Packet details: As Displayed` options are checked (checked by default)
 <br>
@@ -84,7 +84,7 @@ Using Wireshark to sniff packets in a GNS3 project can be very helpful when diag
 17. Go back to Wireshark and find those five ping packets (there should also be five responses).
 <br>
 
-18. Stop the capture process (not Wireshark). Right-click on the link with the magnifiying glass, in the context menu select `Stop Capture`. This will stop **new** packets from showing up in Wireshark.
+18. Stop the capture process (not Wireshark). Right-click on the link with the magnifying glass, in the context menu select `Stop Capture`. This will stop **new** packets from showing up in Wireshark.
 <br>
 
 19. On the filter line in Wireshark add the following to the end after the current filter `&& icmp`. The complete filter will be:

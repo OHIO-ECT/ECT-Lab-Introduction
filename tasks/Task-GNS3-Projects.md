@@ -4,7 +4,7 @@
 - Learn to start GNS3 Project
 
 ## Resources
-- Personal Computer (Destkop or Laptop)
+- Personal Computer (Desktop or Laptop)
 - A document you have created to use as a lab notebook
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
@@ -32,7 +32,7 @@
 
 ![](./images/lab1-pic2-1.png)
 
-6. Start all objects in the project with the big green triangle in the top tool bar.  This action will start **ALL** the VMs will start at once. Get comfy as Atlas heaves the world up. The more objects in a project the longer this start up time will take. If you don't know who Atlas is you'll have some time to read [this](https://greekgodsandgoddesses.net/gods/atlas) while the all the GNS3 VMs (AKA child VMs) start up. Each child VM typicially starts a console window so the user can see what's going on. 
+6. Start all objects in the project with the big green triangle in the top tool bar.  This action will start **ALL** the VMs will start at once. Get comfy as Atlas heaves the world up. The more objects in a project the longer this start up time will take. If you don't know who Atlas is you'll have some time to read [this](https://greekgodsandgoddesses.net/gods/atlas) while the all the GNS3 VMs (AKA child VMs) start up. Each child VM typically starts a console window so the user can see what's going on. 
 <br>
 
 --Note:--  It is not always necessary (or desired) to start all objects at once. If needed, Right-Click a specific child object and use it's context menu to control it individually.
@@ -52,4 +52,4 @@
 
 11. Projects remain running even if the user is NOT connected to the remote desktop connection.  This allows the student to break from the lab work and return to the project later.
 
-12. Shutting down GNS3 projects will be discussed on a seperate page.
+12. Shutting down GNS3 projects will be discussed on a separate page.

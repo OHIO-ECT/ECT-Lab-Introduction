@@ -10,7 +10,7 @@
   - [ECT Tech Nugget N0.4 Basic Diagnostic Tools 4](https://youtu.be/gD-Tk1Bk7x0)
 
 ## Resources
-- Personal Computer (Destkop or Laptop)
+- Personal Computer (Desktop or Laptop)
 - A document you have created to use as a lab notebook
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
@@ -84,7 +84,7 @@ Example: `nslookup google.com`
 - xkcd.com
 - 69.58.0.32
 
-12. nslookup always uses the computers configured name server.  There are advanced debugging processes where it is helpful to query some other DNS server for its responce to a query.  For example Google runs two open Caching DNS servers that are regularly used in these labs.  8.8.8.8 and 8.8.4.4.
+12. nslookup always uses the computers configured name server.  There are advanced debugging processes where it is helpful to query some other DNS server for its response to a query.  For example Google runs two open Caching DNS servers that are regularly used in these labs.  8.8.8.8 and 8.8.4.4.
 
 Syntax: ``nslookup <Target IP> <DNS Server IP>``
 Example: ``nslookup google.com 8.8.8.8``

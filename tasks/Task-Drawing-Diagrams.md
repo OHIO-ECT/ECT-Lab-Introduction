@@ -5,7 +5,7 @@
 
 ### Resources
 
-- Personal Computer (Destkop or Laptop)
+- Personal Computer (Desktop or Laptop)
 - A document you have created to use as a lab notebook
 - Additional [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured)
 - Draw.io offers [tutorials](https://drawio-app.com/tutorials)
@@ -19,9 +19,9 @@
 - Personal PC and a browser
 
 ### Drawing Diagrams
-Drawing what has been built (or will be built) is a crucial skill for network engineers. Often a well anotated drawing is far more helpful than a long chart or table filled with boring numbers. Diagrams will show the relationships between network objects (hosts) in a way that words cannot.
+Drawing what has been built (or will be built) is a crucial skill for network engineers. Often a well annotated drawing is far more helpful than a long chart or table filled with boring numbers. Diagrams will show the relationships between network objects (hosts) in a way that words cannot.
 
-Draw.io is the prefered tool for ECT/ITS students. It is free, both web-based and a local application based. ITS recommends [downloading the application and installing it](https://get.diagrams.net). The following steps of this task assume that that user has done this.
+Draw.io is the preferred tool for ECT/ITS students. It is free, both web-based and a local application based. ITS recommends [downloading the application and installing it](https://get.diagrams.net). The following steps of this task assume that that user has done this.
 <br>
 
 1. Start the Draw.io application. Select "Create New Diagram" when prompted. Then select "Blank Diagram". This will open Draw.io to a blank drawing with no stencils (shapes) pre-selected. Once you understand more play with the different options instead of picking "Blank Diagram".
@@ -35,7 +35,7 @@ Draw.io is the prefered tool for ECT/ITS students. It is free, both web-based an
 
     ![](./images/draw-io-router.png)
 
-4. Select one of the shapes. The right pane will provide detailed options for customizing that specific shape. Double-clicking on the shape provides the option to lable the shape. Label all your six shapes this way.
+4. Select one of the shapes. The right pane will provide detailed options for customizing that specific shape. Double-clicking on the shape provides the option to label the shape. Label all your six shapes this way.
 <br>
 
 5. Layering - Select one of the General shapes, at the top of the right pane select the green color. Then right-click on the shape and select "To Back". Drag the green shape so that the router shape and the green shape overlap (as shown below). This allow the drawing to have background coloring when needed.

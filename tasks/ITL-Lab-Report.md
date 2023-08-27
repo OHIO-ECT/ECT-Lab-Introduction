@@ -4,7 +4,7 @@
 -   Configure Remote Desktop to connect to the lab environment
 -   Learn the basic setup of the GNS3 virtual lab environment
 -   Overview of Windows and Unix operating systems
--   Introduction to the CLI, and the interaction with filesystems
+-   Introduction to the CLI, and the interaction with filesystem
 -   Become familiar with the Linux command line terminal (bash shell)
 
 ### Pre-Lab
@@ -21,7 +21,7 @@
 
 ### Resources
 
-- Personal Computer (Destkop or Laptop)
+- Personal Computer (Desktop or Laptop)
 - A document you have created to use as a lab notebook
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
@@ -42,7 +42,7 @@
 -   Shells (i.e. Powershell, Bash)
 -   SSH (i.e. Secure Shell)
 -   Commands to be typed by the student and output from shells are indicated within this document in the ``fixed width font Courier New`` (as shown here).
--   Varibles to be filled in by the student are presented in ``<brackets>``. The student will need to replace the <> and the text with the needed varible. Example: **My name is ``<Name>``**. Would change to **My name is Bob.**
+-   Variables to be filled in by the student are presented in ``<brackets>``. The student will need to replace the <> and the text with the needed variable. Example: **My name is ``<Name>``**. Would change to **My name is Bob.**
 -   Find a Print Screen / Screen Capture tool that you like. The following is a list of tools known to work:
     -   Lightshot <https://app.prntscr.com>
     -   Greenshot <https://getgreenshot.org>
@@ -62,7 +62,7 @@ Lab Reports are to be written individually (no group work). Reports will be uplo
 - For terminal window data (ping, traceroute, netstat etc.) data should be formatted with a fixed width font like courier to preserve the columns and displayed as shown on screen.
 <br>
 
-- Absolutly **NO SCREEN SHOTS!** (with your phone camera or screen shot tool) There are exteremly rare cases when a screen shot (usually for a web interface) will be required. This will be noted in the assignment instructions.
+- Absolutely **NO SCREEN SHOTS!** (with your phone camera or screen shot tool) There are extremely rare cases when a screen shot (usually for a web interface) will be required. This will be noted in the assignment instructions.
 <br>
 
 - Number your answers with the same numbers as the Lab Report Questions.
@@ -87,11 +87,11 @@ Lab Reports are to be written individually (no group work). Reports will be uplo
 5.  From the **Route Table Commands** section - **Show** the IP address of the router AKA default gateway for each GNS3 guest VMs in the project (i.e. Windows, Ubuntu, etc.) **Hint:** check against traceroute data for verification!
 <br>
 
-6.  From the **NSLookup and Dig Commands** - **Show** command and command output for each target, hightlight only the IPv4 address or addresses returned for that particular hostname. The command line version will return additional names and IP addresses; ignore these for now. Highlight only the host name or names returned for that particular IP address.
+6.  From the **NSLookup and Dig Commands** - **Show** command and command output for each target, highlight only the IPv4 address or addresses returned for that particular hostname. The command line version will return additional names and IP addresses; ignore these for now. Highlight only the host name or names returned for that particular IP address.
 <br>
 
 7.  From the **Wireshark Data** section - (for help see Lab Writeup Guide and [ECT Tech Nugget N0.5 Wireshark][ECT Tech Nugget N0.5 Basic Diagnostic Tools 5])<br>
-    a.  Find packet 58, show the full MAC address (don't let Wireshark hide parts). **Explain** which part of the address identifies the manufacturer of the card. Wireshark may try to "help" you out. Using ONLY the MAC address how can YOU figure out who NIC manufacterer is?<br>
+    a.  Find packet 58, show the full MAC address (don't let Wireshark hide parts). **Explain** which part of the address identifies the manufacturer of the card. Wireshark may try to "help" you out. Using ONLY the MAC address how can YOU figure out who NIC manufacturer is?<br>
     <br>
     b.  Find DNS data in the capture and **show** entire Wireshark packet output from the packet.
 <br>

@@ -6,7 +6,7 @@
 
 ### Resources
 
-- Personal Computer (Destkop or Laptop)
+- Personal Computer (Desktop or Laptop)
 - A document you have created to use as a lab notebook
 
 ### Environmental Context
@@ -20,7 +20,7 @@
 
 2. If you don't already have an account, create a GitHub account. It **MUST** use your OHIO email address to access the private repos. 
 
-    **Note:** Students with existing accounts will need to assocate their OHIO email address with an existing account.
+    **Note:** Students with existing accounts will need to associate their OHIO email address with an existing account.
 <br>
 
 3. Send an email to the course instructors with the GitHub username. 

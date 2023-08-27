@@ -4,7 +4,7 @@
 -   Become familiar with the Linux Bash command line terminals
 
 ## Resources
-- Personal Computer (Destkop or Laptop)
+- Personal Computer (Desktop or Laptop)
 - A document you have created to use as a lab notebook
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
@@ -21,7 +21,7 @@
 
 1. Open the Ubuntu-GUI object and start a terminal with the black >_ icon.  The runs a program called a shell.  The terms terminal and shell are often used interchangeable.
 
-2. Terminals take text commands and typically offer text based responces.  The shell provides a prompt that should look something like ``itsclass@its-ud-xx:~$`` Terminals will be used in the administration of many of the computer and networking systems in real and virtual environments.  In addition to running programs, terminals are often an interface to the files that make up the object.
+2. Terminals take text commands and typically offer text based responses.  The shell provides a prompt that should look something like ``itsclass@its-ud-xx:~$`` Terminals will be used in the administration of many of the computer and networking systems in real and virtual environments.  In addition to running programs, terminals are often an interface to the files that make up the object.
 <br>
 
 3. Run the command ``pwd`` to get the Current Working Directory (CWD) of the terminal session.  This will return the string ``/home/itsclass`` which is this users Home directory.  
@@ -39,7 +39,7 @@
 8. Open a second terminal and note current working directory starts at the home directory again.  The development of even simple networks can lead to a multitude of open terminals.  Maintaining the perspective of where one is working will minimize mistakes in both academic labs and real life systems.
 <br>
 
-9. Use the ``cd`` and ``ls`` commands to explore two or three directorys in the file system of the Ubuntu-GUI.  
+9. Use the ``cd`` and ``ls`` commands to explore two or three directories (aka folders) in the file system of the Ubuntu-GUI.  
 <br>
 
 ## Hostnames and sudo
@@ -51,7 +51,7 @@ sudo nmcli general hostname lab98-ubuntu-gui
 ```
 <br>
 
-11. The ``sudo`` prefix causes the program to run with adminstrative privilages.  USE significant caution when using the ``sudo`` command.
+11. The ``sudo`` prefix causes the program to run with administrative privileges.  USE significant caution when using the ``sudo`` command.
 <br>
 
 12. This hostname command is available in the lab notebook cheatsheet, but should also be maintained in a digital lab notebook.
@@ -68,7 +68,7 @@ sudo nmcli general hostname lab98-ubuntu-gui
 15. Enter the command ``nano file.txt`` to launch a simple command line based text editor for a new file.  In a browser on the user PC open <https://hipsum.co> complete the form for 1 paragraph and copy the output to the clipboard. Return to the nano editor in the Ubuntu-GUI on the gHost.  Right click on the window to select the paste option to put the text into the file.  
 <br>
 
-16. Nano uses the control (Ctrl) key to access the menu which is visable at the bottom of the terminal.  Hit ``<ctrl>-j`` to change the justification and see the whole paragraph.  Students are STRONGLY encouraged to use this ability to copy and paste text and commands accross all parts of the lab system to complete lab work.
+16. Nano uses the control (Ctrl) key to access the menu which is visible at the bottom of the terminal.  Hit ``<ctrl>-j`` to change the justification and see the whole paragraph.  Students are STRONGLY encouraged to use this ability to copy and paste text and commands across all parts of the lab system to complete lab work.
 <br>
 
 17. Issue the command ``<ctrl>-x`` to nano to exit the program.  When prompted enter ``y`` to save the file buffer, and hit enter to accept the file.txt filename.
@@ -80,4 +80,4 @@ sudo nmcli general hostname lab98-ubuntu-gui
 
 ## Windows PowerShell
 
-20. Microsoft has a set of terminal applications.  The current terminal is called "PowerShell".  Microsoft uses a different set of commands, but also have aliases to simplify operations for people with Linux experiance.  The relationships between files in the terminal and the GUI are similar.
+20. Microsoft has a set of terminal applications.  The current terminal is called "PowerShell".  Microsoft uses a different set of commands, but also have aliases to simplify operations for people with Linux experience.  The relationships between files in the terminal and the GUI are similar.
