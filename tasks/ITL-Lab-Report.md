@@ -1,4 +1,4 @@
-## ECT Lab Introduction - ITS Lab Reports
+## ECT Lab Introduction - Lab Reports
 
 ### Goals
 -   Configure Remote Desktop to connect to the lab environment
