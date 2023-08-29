@@ -51,23 +51,11 @@
 
 Lab Reports are to be written individually (no group work). Reports will be uploaded to Blackboard electronically as a **PDF** (ONLY!). Reports do not generally need to be more than several pages. Officially, they need to be "long enough to answer the questions". Each lab report must have a header (**no cover pages!**) on the first page that includes:
 -   Student Name
-<br>
-
 -   Lab section attended
-<br>
-
 -   Student program affiliation (CS ugrad, CS grad, ITS ugrad, ITS grad, etc.)
-<br>
-
 - For terminal window data (ping, traceroute, netstat etc.) data should be formatted with a fixed width font like courier to preserve the columns and displayed as shown on screen.
-<br>
-
 - Absolutely **NO SCREEN SHOTS!** (with your phone camera or screen shot tool) There are extremely rare cases when a screen shot (usually for a web interface) will be required. This will be noted in the assignment instructions.
-<br>
-
 - Number your answers with the same numbers as the Lab Report Questions.
-<br>
-
 - Terminal window (CLI) data needs to be reformatted to remove the extra line breaks. While this report is long future ones will be **much** longer. Removing the extra line breaks will save much space. A smaller font can also be used for terminal window data or adjust margins for that data to stop line wrapping.
 
 #### Lab Report Questions
@@ -81,7 +69,7 @@ Lab Reports are to be written individually (no group work). Reports will be uplo
 3.  From the **Ping Command** section - **Show** the command used and the first 3 lines of output for each target, and add the average round trip time for each destination on the next line (copy it from the summary line if ping printed one, or calculate it).
 <br>
 
-4.  From the **Traceroute Command** section - Using output from tracerout command create a table showing command, hops (IP or hostname), and hop time. In the table **show** the single **longest** delay among all times for each hop. Note that each line (AKA hop) of traceroute output is the results from a new set of probe packets (i.e. times are not always getting longer for later lines in the output). 
+4.  From the **Traceroute Command** section - Using output from traceroute command create a table showing command, hops (IP or hostname), and hop time. In the table **show** the single **longest** delay among all times for each hop. Note that each line (AKA hop) of traceroute output is the results from a new set of probe packets (i.e. times are not always getting longer for later lines in the output). 
 <br>
 
 5.  From the **Route Table Commands** section - **Show** the IP address of the router AKA default gateway for each GNS3 guest VMs in the project (i.e. Windows, Ubuntu, etc.) **Hint:** check against traceroute data for verification!
