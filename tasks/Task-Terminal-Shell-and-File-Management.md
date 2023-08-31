@@ -65,19 +65,13 @@ sudo nmcli general hostname lab98-ubuntu-gui
 14. Use ``cd test`` to return to the test directory.
 <br>
 
-15. Enter the command ``nano file.txt`` to launch a simple command line based text editor for a new file.  In a browser on the user PC open <https://hipsum.co> complete the form for 1 paragraph and copy the output to the clipboard. Return to the nano editor in the Ubuntu-GUI on the gHost.  Right click on the window to select the paste option to put the text into the file.  
+15. Issue the command ``<ctrl>-x`` to nano to exit the program.  When prompted enter ``y`` to save the file buffer, and hit enter to accept the file.txt filename.
+
+16. The command prompt should return.  Files can also be viewed from the command line with the ``cat`` program.  Use the command ``cat file.txt`` to show the content of the file that was just created.
 <br>
 
-16. Nano uses the control (Ctrl) key to access the menu which is visible at the bottom of the terminal.  Hit ``<ctrl>-j`` to change the justification and see the whole paragraph.  Students are STRONGLY encouraged to use this ability to copy and paste text and commands across all parts of the lab system to complete lab work.
-<br>
-
-17. Issue the command ``<ctrl>-x`` to nano to exit the program.  When prompted enter ``y`` to save the file buffer, and hit enter to accept the file.txt filename.
-
-18. The command prompt should return.  Files can also be viewed from the command line with the ``cat`` program.  Use the command ``cat file.txt`` to show the content of the file that was just created.
-<br>
-
-19. Return to the Files GUI and browse to the test directory and double click on the test.txt file to open the file in the GUI text editor.  
+17. Return to the Files GUI and browse to the test directory and double click on the test.txt file to open the file in the GUI text editor.  
 
 ## Windows PowerShell
 
-20. Microsoft has a set of terminal applications.  The current terminal is called "PowerShell".  Microsoft uses a different set of commands, but also have aliases to simplify operations for people with Linux experience.  The relationships between files in the terminal and the GUI are similar.
+18. Microsoft has a set of terminal applications.  The current terminal is called "PowerShell".  Microsoft uses a different set of commands, but also have aliases to simplify operations for people with Linux experience.  The relationships between files in the terminal and the GUI are similar.
