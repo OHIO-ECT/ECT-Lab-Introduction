@@ -65,13 +65,16 @@ sudo nmcli general hostname lab98-ubuntu-gui
 14. Use ``cd test`` to return to the test directory.
 <br>
 
-15. Issue the command ``<ctrl>-x`` to nano to exit the program.  When prompted enter ``y`` to save the file buffer, and hit enter to accept the file.txt filename.
-
-16. The command prompt should return.  Files can also be viewed from the command line with the ``cat`` program.  Use the command ``cat file.txt`` to show the content of the file that was just created.
+15. Type several sentances into the text file.
 <br>
 
-17. Return to the Files GUI and browse to the test directory and double click on the test.txt file to open the file in the GUI text editor.  
+16. Issue the command ``<ctrl>-x`` to nano to exit the program.  When prompted enter ``y`` to save the file buffer, and hit enter to accept the file.txt filename.
+
+17. The command prompt should return.  Files can also be viewed from the command line with the ``cat`` program.  Use the command ``cat file.txt`` to show the content of the file that was just created.
+<br>
+
+18. Return to the Files GUI and browse to the test directory and double click on the test.txt file to open the file in the GUI text editor.  
 
 ## Windows PowerShell
 
-18. Microsoft has a set of terminal applications.  The current terminal is called "PowerShell".  Microsoft uses a different set of commands, but also have aliases to simplify operations for people with Linux experience.  The relationships between files in the terminal and the GUI are similar.
+19. Microsoft has a set of terminal applications.  The current terminal is called "PowerShell".  Microsoft uses a different set of commands, but also have aliases to simplify operations for people with Linux experience.  The relationships between files in the terminal and the GUI are similar.
