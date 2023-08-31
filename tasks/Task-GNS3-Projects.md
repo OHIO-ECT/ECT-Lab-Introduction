@@ -34,7 +34,7 @@
 
 6. Start all objects in the project with the big green triangle in the top tool bar.  This action will start **ALL** the VMs will start at once. Get comfy as Atlas heaves the world up. The more objects in a project the longer this start up time will take. If you don't know who Atlas is you'll have some time to read [this](https://greekgodsandgoddesses.net/gods/atlas) while the all the GNS3 VMs (AKA child VMs) start up. Each child VM typically starts a console window so the user can see what's going on.
 
-**Note:**  It is not always necessary (or desired) to start all objects at once. If needed, Right-Click a specific child object and use it's context menu to control it individually.
+**Note:**  It is not always necessary (or desired) to start all objects at once. If needed, Right-Click a specific child object and use its context menu to control it individually.
 <br>
 <br>
 
