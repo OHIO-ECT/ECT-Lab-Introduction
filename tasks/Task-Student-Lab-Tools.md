@@ -37,7 +37,7 @@ In most situations in ITS classes, diagrams and graphics work such as network an
 On a Mac there are some options (They have not been fully tested). Not sure what happens when RD Client is full screened and these keys are used.
 
 Mac Screen Shot Options (credit Bruce Tong)
-  Command+Shift+3 - whole screen, saved to mac desktop as a file
-  Command+Shift+5 - provides snipping tool and saves to mac desktop as file
+  - Command+Shift+3 - whole screen, saved to mac desktop as a file
+  - Command+Shift+5 - provides snipping tool and saves to mac desktop as file
   
 Source: <https://www.esafety.gov.au/report/how-to-collect-evidence/how-to-screenshot-on-a-mac>
