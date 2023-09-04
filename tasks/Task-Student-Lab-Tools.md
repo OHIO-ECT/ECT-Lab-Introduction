@@ -1,4 +1,4 @@
-## Task Student Lab Tools
+## Student Lab Tools
 
 ### Goals
 
