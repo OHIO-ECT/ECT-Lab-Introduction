@@ -31,7 +31,7 @@ Wireshark is a packet capture tool available on Linux, Mac and Windows for free.
 
 2. When Wireshark first starts it requests the user to select the interface to capture on.  Wait 20 to 30 seconds and look for an interface with traffic on the the associated graph, and double click on that interface to start the packet capture.  Stop the capture and explore the interface.  DO NOT LEAVE WIRESHARK CAPTURING PACKETS.  It will cause significant memory issues for the device that it is running on.
 
-3. Wireshark can save packets in an industry standard libpcap format for later processing.  Students will regularly capture data on the gHost to be processed later on the student PC. From the list of files listed at the top of this page download [ITS-Wireshark-Sample.pcap](../files/ITS-Wireshark-Sample.pcap). Start Wireshark and open the "ITS-Wireshark-Sample.pcap" file using File/Open options. Note that you may not get Wireshark to start by double-clicking a capture file.  The data in this file will be used for the remainder of this task.
+3. Wireshark can save packets in an industry standard libpcap format for later processing.  Students will regularly capture data on the gHost to be processed later on the student PC. Download [ITS-Wireshark-Sample.pcap](../files/ITS-Wireshark-Sample.pcap) by clicking on the link, and download using the "raw" option. Start Wireshark and open the "ITS-Wireshark-Sample.pcap" file using File/Open options. Note that you may not get Wireshark to start by double-clicking a capture file.  The data in this file will be used for the remainder of this task.
 
 ## Wireshark MAC Address Information
 
