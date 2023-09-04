@@ -54,7 +54,7 @@ Example: `traceroute -n google.com`
     -   132.235.8.133
     -   www.ford.com
     -   8.8.8.8
-    -   itsohio.net
+    -   github.com
 <br>
 
 7. In Windows-Desktop access the powershell terminal (aka CLI). Windows is limited to eight-character old-school commands (long story why) and uses a different switch to suppress DNS lookups. Access the Windows CLI and issue the command:
