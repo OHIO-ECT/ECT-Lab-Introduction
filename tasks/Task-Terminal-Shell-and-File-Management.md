@@ -11,7 +11,7 @@
 
 ## Environmental Context
 - Connection to gHost VM
-- Running "98 - Intro Lab" GNS3 project
+- Running "98 - Intro Lab" GNS3 project (see Task GNS3 Projects)
 - Child VMs are started and ready for use
 
 ## Toolkit

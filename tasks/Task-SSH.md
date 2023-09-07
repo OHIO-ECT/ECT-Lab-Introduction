@@ -6,7 +6,7 @@
 ### Resources
 
 - Personal Computer (Desktop or Laptop)
-- A document you have created to use as a lab notebook
+- A document you have created to use as a lab notebookF
 - Assigned gHost (GNS3 Virtual Machine)
 
 ### Environmental Context
@@ -24,7 +24,7 @@
 3. Ensure that the prompt shows something **similar to**: ``itsvm@ITS-2300-GNS3-000-bc012345``
 <br>
 
-4. Replace ```<ghost IP>``` with the IP for your gHost. Then run the command: ``ssh itsclass@<gHost IP>``
+4. Replace ```<ghost IP>``` with the IP for your gHost. Then run the command: ``ssh itsvm@<gHost IP>``
 <br>
 
 5. Return to the gHost terminal by exiting this ssh session with the following command: ``exit``
