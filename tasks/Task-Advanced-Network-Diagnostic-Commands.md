@@ -76,7 +76,7 @@ Where `<destination>` is replaced with either a hostname or IP.
 Example: `nslookup google.com`
 <br>
 
-10. On Ubuntu-CLI-1 use `nslookup` for each of the following host names:
+10. On Windows use `nslookup` for each of the following host names:
 - www.ohio.edu
 - youtube.com
 
