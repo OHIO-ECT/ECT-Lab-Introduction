@@ -111,5 +111,3 @@ Example: `dig google.com`
     - www.ford.com
     - www.ohio.edu
     - www.google.com
-<br>
-
