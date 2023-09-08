@@ -22,7 +22,7 @@
 2. Use the "New Blank Project" button from the GNS3 toolbar. The interface that appears has two tabs.  The first allow the user to create a new blank project and the second provides a list of projects from this computer "Project Library".  Choose the project library and open the project "98 - Intro Lab".
 <br>
 
-3. If neccessary, review [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI)
+3. If necessary, review [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI)
 <br>
 
 4. Expand the "All Devices" menu from the "Devices Toolbar" on the left hand side of GNS3.

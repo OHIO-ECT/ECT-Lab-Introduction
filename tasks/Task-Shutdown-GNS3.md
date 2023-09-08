@@ -20,17 +20,17 @@
 1. When work is completed for a lab, students should shutdown projects.
 
 2. Using the red stop button in the toolbar is effectively like pulling the power from a running computer.  In many cases this is acceptable **with the following two warnings** if the project is ever to be used again in the future:
-    1. There is a small chance the child objects will be corrupted.
-    2. Work inside of the VMs (unsaved documents or configurations) could be lost.
+    a. There is a small chance the child objects will be corrupted.
+    b. Work inside of the VMs (unsaved documents or configurations) could be lost.
 
 3. Each child VM has a correct shutdown procedure for each operating system.
-    1. Windows - Close all applications and save all documents.  Select the start button, the power icon, and "Shut Down" from the rollup menu.  The VM window should close when the VM powers itself off.
+    a. Windows - Close all applications and save all documents.  Select the start button, the power icon, and "Shut Down" from the rollup menu.  The VM window should close when the VM powers itself off.
   
-    2. Ubuntu-GUI - Close all applications and save all documents.  Select the power icon in the upper right corner of the child object.  Note: make sure to NOT select the power icon for the gHost.  In the drop down menu select "Power Off/Log Out" and then "Power Off".  Confirm the power off in the dialog box that pops up.  The VM window should close when the system powers itself off.
+    b. Ubuntu-GUI - Close all applications and save all documents.  Select the power icon in the upper right corner of the child object.  Note: make sure to NOT select the power icon for the gHost.  In the drop down menu select "Power Off/Log Out" and then "Power Off".  Confirm the power off in the dialog box that pops up.  The VM window should close when the system powers itself off.
 
-    3. Ubuntu-CLI - In the CLI window issue the command ``sudo poweroff`` and enter the itsclass user's password.
+    c. Ubuntu-CLI - In the CLI window issue the command ``sudo poweroff`` and enter the itsclass user's password.
 
-    4. Proper shutdown for other objects will be described as they are introduced.
+    d. Proper shutdown for other objects will be described as they are introduced.
 
 4. Once all child objects are closed the stop button can be pressed to shutdown the other objects in the project and GNS3 can be safely closed.
 

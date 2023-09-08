@@ -69,7 +69,7 @@ Example: `tracert -d google.com`
 
 ## Simple Name Resolution
 
-9. Converting Internet names to numbers and numbers to names is the responsibility of the Name Resolution services which use the Domain Name System (DNS) protocols. There are two commands that can access this name system. nslookup is universal accross all of the GNS3 objects that the ITS department uses. 
+9. Converting Internet names to numbers and numbers to names is the responsibility of the Name Resolution services which use the Domain Name System (DNS) protocols. There are two commands that can access this name system. nslookup is universal across all of the GNS3 objects that the ITS department uses. 
 
 Syntax: `nslookup <destination>`
 Where `<destination>` is replaced with either a hostname or IP.
