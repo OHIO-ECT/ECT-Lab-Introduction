@@ -65,7 +65,7 @@ sudo nmcli general hostname lab98-ubuntu-gui
 14. Use ``cd test`` to return to the test directory.
 <br>
 
-15. Type ```nano``` to start the text editor. Type several sentances into the text file.
+15. Type ```nano``` to start the text editor. Type several sentences into the text file.
 <br>
 
 16. Issue the command ``<ctrl>-x`` to nano to exit the program.  When prompted enter ``y`` to save the file buffer, and hit enter to accept the file.txt filename.
