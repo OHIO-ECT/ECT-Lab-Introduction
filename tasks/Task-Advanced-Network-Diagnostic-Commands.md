@@ -1,4 +1,4 @@
-# Advanced Network Diagnostic Commands
+# Network Diagnostic Tools
 
 ## Goals
 - Learn to use the following command line (CLI) tools: netstat, ip, nslookup, dig
