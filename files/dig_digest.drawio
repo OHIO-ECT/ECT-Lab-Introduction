@@ -1,0 +1,73 @@
+<mxfile host="Electron" modified="2023-09-26T18:37:25.781Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="btsuAuBMBOAWBcvJwIc2" version="21.6.5" type="device">
+  <diagram id="zsCuPslAyDn7hACSV7nc" name="Page-1">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jA5IXjnh-s6YCJ-tQ2Xk-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="370" y="96" width="100" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="jA5IXjnh-s6YCJ-tQ2Xk-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="280" y="80" width="120" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="jA5IXjnh-s6YCJ-tQ2Xk-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="40" y="192" width="470" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jA5IXjnh-s6YCJ-tQ2Xk-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="80" y="320" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jA5IXjnh-s6YCJ-tQ2Xk-7" value="Typically status is NOERROR.&amp;nbsp; Check if the records errored in some way" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="600" y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jA5IXjnh-s6YCJ-tQ2Xk-9" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jA5IXjnh-s6YCJ-tQ2Xk-5" target="jA5IXjnh-s6YCJ-tQ2Xk-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="170" as="sourcePoint" />
+            <mxPoint x="730" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jA5IXjnh-s6YCJ-tQ2Xk-10" value="Will be 1 if the server queried is &quot;Authoritative&quot; for the record.&amp;nbsp; This is unsual" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="600" y="73" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jA5IXjnh-s6YCJ-tQ2Xk-11" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="jA5IXjnh-s6YCJ-tQ2Xk-6" target="jA5IXjnh-s6YCJ-tQ2Xk-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="190" as="sourcePoint" />
+            <mxPoint x="680" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jA5IXjnh-s6YCJ-tQ2Xk-12" value="Answers can have multiple lines.&amp;nbsp; Each line has the following elements from left to right.&amp;nbsp;&lt;br&gt;1) DNS Name (Resource Record)&lt;br&gt;2) TTL of the record.&lt;br&gt;3) IN stands for Internet Number and is a constant&lt;br&gt;4) Record Type&lt;br&gt;5) Record Value (Note records like MX and TXT maight have multiple columns here)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="600" y="120" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="jA5IXjnh-s6YCJ-tQ2Xk-13" value="Information about the responding server.&amp;nbsp; Many systems us a local resolver service that can obsfucate details.&amp;nbsp; Using @&amp;lt;DNS Serve&amp;gt; on the command line avoids these issues.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="600" y="290" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jA5IXjnh-s6YCJ-tQ2Xk-14" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="jA5IXjnh-s6YCJ-tQ2Xk-3" target="jA5IXjnh-s6YCJ-tQ2Xk-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="390" as="sourcePoint" />
+            <mxPoint x="550" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jA5IXjnh-s6YCJ-tQ2Xk-15" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="jA5IXjnh-s6YCJ-tQ2Xk-4" target="jA5IXjnh-s6YCJ-tQ2Xk-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="250" as="sourcePoint" />
+            <mxPoint x="610" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiKjwn33s3jx9T5mBHJn-2" value="Name" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="90" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JiKjwn33s3jx9T5mBHJn-3" value="TTL" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="210" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JiKjwn33s3jx9T5mBHJn-5" value="Type" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="330" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jA5IXjnh-s6YCJ-tQ2Xk-2" value="&lt;font face=&quot;Courier New&quot;&gt;itsclass@Ubuntu-cli:~$ dig www.its.ohio.edu @132.235.9.75&lt;br&gt;; &amp;lt;&amp;lt;&amp;gt;&amp;gt; DiG 9.18.1-1ubuntu1.2-Ubuntu &amp;lt;&amp;lt;&amp;gt;&amp;gt; www.its.ohio.edu @132.235.9.75&lt;br&gt;;; global options: +cmd&lt;br&gt;;; Got answer:&lt;br&gt;;; -&amp;gt;&amp;gt;HEADER&amp;lt;&amp;lt;- opcode: QUERY, status: NOERROR, id: 11327&lt;br&gt;;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1&lt;br&gt;&lt;br&gt;&lt;br&gt;;; OPT PSEUDOSECTION:&lt;br&gt;; EDNS: version: 0, flags:; udp: 4000&lt;br&gt;;; QUESTION SECTION:&lt;br&gt;;www.its.ohio.edu.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; IN&amp;nbsp; &amp;nbsp; &amp;nbsp; A&lt;br&gt;&lt;br&gt;&lt;br&gt;;; ANSWER SECTION:&lt;br&gt;www.its.ohio.edu.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;300&amp;nbsp; &amp;nbsp; &amp;nbsp;IN&amp;nbsp; &amp;nbsp; &amp;nbsp; A&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;132.235.61.30&lt;br&gt;&lt;br&gt;&lt;br&gt;;; Query time: 0 msec&lt;br&gt;;; SERVER: 132.235.9.75#53(132.235.9.75) (UDP)&lt;br&gt;;; WHEN: Wed Aug 09 11:05:38 EDT 2023&lt;br&gt;;; MSG SIZE&amp;nbsp; rcvd: 61&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="12" width="530" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="JiKjwn33s3jx9T5mBHJn-6" value="Value" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="430" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
