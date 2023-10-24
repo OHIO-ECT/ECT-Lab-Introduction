@@ -1,7 +1,7 @@
 ## Task SSH (Secure Shell)
 
 ### Goals
--   Learn to use SSH to connect to remote systems
+- Learn to use SSH to connect to remote systems
 
 ### Resources
 
@@ -18,7 +18,7 @@
 <br>
 
 2. Open the ghost Terminal from the task bar on the right of the gHost desktop.
-    ![](./images/image4.png)
+![](./images/image4.png)
 <br>
 
 3. Ensure that the prompt shows something **similar to**: ``itsvm@ITS-2300-GNS3-000-bc012345``

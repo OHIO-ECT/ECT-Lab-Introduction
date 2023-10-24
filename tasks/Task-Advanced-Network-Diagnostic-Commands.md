@@ -5,9 +5,9 @@
 
 ## Pre-Lab
 - Watch the the following [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured) videos on YouTube:
-  - [ECT Tech Nugget N0.2 Basic Diagnostic Tools 2](https://youtu.be/hWeJlNVaUbU)
-  - [ECT Tech Nugget N0.3 Basic Diagnostic Tools 3](https://youtu.be/PMk53TngTio)
-  - [ECT Tech Nugget N0.4 Basic Diagnostic Tools 4](https://youtu.be/gD-Tk1Bk7x0)
+    - [ECT Tech Nugget N0.2 Basic Diagnostic Tools 2](https://youtu.be/hWeJlNVaUbU)
+    - [ECT Tech Nugget N0.3 Basic Diagnostic Tools 3](https://youtu.be/PMk53TngTio)
+    - [ECT Tech Nugget N0.4 Basic Diagnostic Tools 4](https://youtu.be/gD-Tk1Bk7x0)
 
 ## Resources
 - Personal Computer (Desktop or Laptop)
@@ -30,13 +30,13 @@ The **best** network debugging processes start with pinging another machine that
 
 2. In a powershell terminal in Windows-Desktop-1 run the command ``ping 13.107.246.51`` and expect to get 4 "Reply" with round trip or ping time.
 
-3. Most implementations of ping will repeat the ping process several times; others will run continuously until user presses <ctrl+c> to stop the process.  For example, try ``ping 132.235.1.1`` in the Ubuntu-GUI-1.  
+3. Most implementations of ping will repeat the ping process several times; others will run continuously until user presses <ctrl+c> to stop the process. For example, try ``ping 132.235.1.1`` in the Ubuntu-GUI-1.
 
-4. Ping can also take DNS names.  Try ``ping xkcd.com`` on the Ubuntu-CLI-1
+4. Ping can also take DNS names. Try ``ping xkcd.com`` on the Ubuntu-CLI-1
 
 5. Use the help command line flag (`-h` for Linux or `/?` for Windows) to find the proper flag to request 15 pings and then stop.
-    -   Ubuntu-GUI-1: 99.83.183.221
-    -   Windows-Desktop: www.kame.net
+    - Ubuntu-GUI-1: 99.83.183.221
+    - Windows-Desktop: www.kame.net
 
 ## Traceroute
 
@@ -51,10 +51,10 @@ Where `<destination>` is replaced with either a hostname or IP.
 Example: `traceroute -n google.com`
 
 6. In Ubuntu-GUI-1 machine and use the traceroute command gather path information to the following destinations:
-    -   132.235.8.133
-    -   www.ford.com
-    -   8.8.8.8
-    -   github.com
+    - 132.235.8.133
+    - www.ford.com
+    - 8.8.8.8
+    - github.com
 <br>
 
 7. In Windows-Desktop access the powershell terminal (aka CLI). Windows is limited to eight-character old-school commands (long story why) and uses a different switch to suppress DNS lookups. Access the Windows CLI and issue the command:
@@ -64,8 +64,8 @@ Example: `tracert -d google.com`
 <br>
 
 8. In the Windows machine, traceroute to the following destinations:
-    -   8.8.4.4
-    -   microsoft.com
+    - 8.8.4.4
+    - microsoft.com
 
 ## Simple Name Resolution
 
@@ -84,17 +84,17 @@ Example: `nslookup google.com`
 - xkcd.com
 - 69.58.0.32
 
-12. nslookup always uses the computers configured name server.  There are advanced debugging processes where it is helpful to query some other DNS server for its response to a query.  For example Google runs two open Caching DNS servers that are regularly used in these labs.  8.8.8.8 and 8.8.4.4.
+12. nslookup always uses the computers configured name server. There are advanced debugging processes where it is helpful to query some other DNS server for its response to a query. For example Google runs two open Caching DNS servers that are regularly used in these labs. 8.8.8.8 and 8.8.4.4.
 
 Syntax: ``nslookup <Target IP> <DNS Server IP>``
 Example: ``nslookup google.com 8.8.8.8``
 <br>
 
 13. On Windows-Desktop-1 use nslookup and Google's public DNS server (8.8.8.8) as the `<DNS Server IP>` for each of the following host names:
-    -  132.235.1.1
-    -  www.cnn.com
-    -  132.235.9.75
-    -  98.139.183.24
+    - 132.235.1.1
+    - www.cnn.com
+    - 132.235.9.75
+    - 98.139.183.24
 <br>
 
 ## Detailed Name Resolution

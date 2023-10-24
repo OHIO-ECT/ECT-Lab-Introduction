@@ -24,14 +24,14 @@
 
 ## Personal Computer Wireshark
 
-Wireshark is a packet capture tool available on Linux, Mac and Windows for free.  See [ECT Tech Nugget N0.5 Basic Diag Tools 5 Wireshark](https://youtu.be/QTIbS9wyfag) for more detail about Wireshark.  Wireshark may be used in several contexts with the student's ecosystem.  Including on the the student's Personal Computer, within GNS3, and with GNS3 objects.
+Wireshark is a packet capture tool available on Linux, Mac and Windows for free. See [ECT Tech Nugget N0.5 Basic Diag Tools 5 Wireshark](https://youtu.be/QTIbS9wyfag) for more detail about Wireshark. Wireshark may be used in several contexts with the student's ecosystem. Including on the the student's Personal Computer, within GNS3, and with GNS3 objects.
 
 1. Install Wireshark on **your** machine, if not installed already: http://www.wireshark.org/download.html. Install the current stable release.
 <br>
 
-2. When Wireshark first starts it requests the user to select the interface to capture on.  Wait 20 to 30 seconds and look for an interface with traffic on the the associated graph, and double click on that interface to start the packet capture.  Stop the capture and explore the interface.  DO NOT LEAVE WIRESHARK CAPTURING PACKETS.  It will cause significant memory issues for the device that it is running on.
+2. When Wireshark first starts it requests the user to select the interface to capture on. Wait 20 to 30 seconds and look for an interface with traffic on the the associated graph, and double click on that interface to start the packet capture. Stop the capture and explore the interface. DO NOT LEAVE WIRESHARK CAPTURING PACKETS. It will cause significant memory issues for the device that it is running on.
 
-3. Wireshark can save packets in an industry standard libpcap format for later processing.  Students will regularly capture data on the gHost to be processed later on the student PC. Download [ITS-Wireshark-Sample.pcap](../files/ITS-Wireshark-Sample.pcap) by clicking on the link, and download using the "raw" option. Start Wireshark and open the "ITS-Wireshark-Sample.pcap" file using File/Open options. Note that you may not get Wireshark to start by double-clicking a capture file.  The data in this file will be used for the remainder of this task.
+3. Wireshark can save packets in an industry standard libpcap format for later processing. Students will regularly capture data on the gHost to be processed later on the student PC. Download [ITS-Wireshark-Sample.pcap](../files/ITS-Wireshark-Sample.pcap) by clicking on the link, and download using the "raw" option. Start Wireshark and open the "ITS-Wireshark-Sample.pcap" file using File/Open options. Note that you may not get Wireshark to start by double-clicking a capture file. The data in this file will be used for the remainder of this task.
 
 ## Wireshark MAC Address Information
 

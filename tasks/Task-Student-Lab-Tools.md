@@ -29,15 +29,15 @@ If you do not already have a preferred Text Editor, install Notepad++ with the i
 ### Screen Capture Tool 
 
 In most situations in ITS classes, diagrams and graphics work such as network and system diagrams will be created using tools discussed in future labs (Draw.IO). Take note of your instructors specific requirements for various classes. When screen shots are specifically requested, the following tools are able to quickly select a specific region of the screen and maximize the focus on the subject matter.
--   Lightshot <https://app.prntscr.com>
--   Greenshot <https://getgreenshot.org>
+- Lightshot <https://app.prntscr.com>
+- Greenshot <https://getgreenshot.org>
 
 **Note:** Photos taken with cell phone will ONLY be acceptable when a student is asked to document physical world work. 
 
 On a Mac there are some options (They have not been fully tested). Not sure what happens when RD Client is full screened and these keys are used.
 
 Mac Screen Shot Options (credit Bruce Tong)
-  - Command+Shift+3 - whole screen, saved to mac desktop as a file
-  - Command+Shift+5 - provides snipping tool and saves to mac desktop as file
-  
+    - Command+Shift+3 - whole screen, saved to mac desktop as a file
+    - Command+Shift+5 - provides snipping tool and saves to mac desktop as file
+
 Source: <https://www.esafety.gov.au/report/how-to-collect-evidence/how-to-screenshot-on-a-mac>

@@ -1,7 +1,7 @@
 ## Drawing Diagrams
 
 ### Goals
--   Learn to create network diagrams
+- Learn to create network diagrams
 
 ### Resources
 
@@ -12,7 +12,7 @@
 
 ### Toolkit
 
--   Draw.io - https://drawio-app.com
+- Draw.io - https://drawio-app.com
 
 ### Environmental Context
 
@@ -26,30 +26,30 @@ Draw.io is the preferred tool for ECT/ITS students. It is free, both web-based a
 
 1. Start the Draw.io application. Select "Create New Diagram" when prompted. Then select "Blank Diagram". This will open Draw.io to a blank drawing with no stencils (shapes) pre-selected. Once you understand more play with the different options instead of picking "Blank Diagram".
 
-    ![](./images/draw-io-1.png)
+![](./images/draw-io-1.png)
 
 2. In the left pane are stencils (shapes) that can be pulled out into the drawing and edited there. Grab at least five different shapes from the General category and place them into the center "drawing pane", spread apart a bit.
 <br>
 
 3. At the top of the left pane is a "Search Shapes" dialog box. Search for "router". This will show a group of shapes that Draw.io has tagged as switches. In ITS classes we want you to use shapes that are usually one color and **NOT** 3D physical representations of an object. Select the orange circle with multiple arrows and place a copy in your drawing (as shown below).
 
-    ![](./images/draw-io-router.png)
+![](./images/draw-io-router.png)
 
 4. Select one of the shapes. The right pane will provide detailed options for customizing that specific shape. Double-clicking on the shape provides the option to label the shape. Label all shapes this way.
 <br>
 
 5. Layering - Select one of the General shapes, at the top of the right pane select the green color. Then right-click on the shape and select "To Back". Drag the green shape so that the router shape and the green shape overlap (as shown below). This allows the drawing to have background coloring when needed.
 
-    ![](./images/draw-io-2.png)
+![](./images/draw-io-2.png)
 
 6. Connecting Objects - Mouse over (but not click) on a shape. Note the light blue X's that appear on the shape. Those are called anchor points.
 
-    ![](./images/draw-io-4.png)
+![](./images/draw-io-4.png)
 
 
 7. In the left pane in the General category select and place a "line" into the drawing. Select the line shape and note the blue dots that appear on the line.
 
-    ![](./images/draw-io-3.png)
+![](./images/draw-io-3.png)
 
 8. Click and hold on one of the blue dots on one end of the line. Draw that to an anchor point of a shape and release. It should lock to the shape.
 <br>
@@ -67,7 +67,7 @@ In the left pane, just below the shape search is the first set of shapes. It is 
 
 12. Download the ![ECT-Scratchpad-Shapes.xml](../files/ECT-Scratchpad-Shapes.xml) to your local machine. Because it's a text file the contents of the text file are displayed in the window that opens. Use the "download raw file" icon to download the file.
 
-    ![](./images/download-raw-icon.png)
+![](./images/download-raw-icon.png)
 
 13. Click on the pencil icon to the right of the word Scratchpad and import the .XML file.
 
@@ -75,4 +75,4 @@ In the left pane, just below the shape search is the first set of shapes. It is 
 
 14. Replicate the hand drawn picture shown below in Draw.IO **using the iconography from the Scratchpad** provided and other shapes as needed. Make sure to label everything as shown in the picture below.
 
-    ![](./images/network-diag-1.jpg)
+![](./images/network-diag-1.jpg)
