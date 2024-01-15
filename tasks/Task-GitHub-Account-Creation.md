@@ -23,7 +23,7 @@
     **Note:** Students with existing accounts will need to associate their OHIO email address with an existing account.
 <br>
 
-3. Send an email to the course instructors with the GitHub username. 
+3. Send an email to the course instructors with the Course number and GitHub username. 
 <br>
 
 4. You will be unable to access any further labs/repos after this one the GitHub account is created and the information emailed to the instructor.
