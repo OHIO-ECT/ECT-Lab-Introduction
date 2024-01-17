@@ -44,6 +44,8 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 4. The second login prompt will appear after clicking on the "Connect" button. Read the dialog box carefully. If the dialog is asking for "RD Gateway Server Credentials" use your OHIO ID and password. See below for an example.
 ![](./images/RDC-Login-2.png)
 
+## Exfiltrating Data
+
 5. The gHost machine has web access to the outside world. When saving data for lab reports there are several options. The easiest is to use the browser on the gHost machine to access web-based email. Open the file named "README.txt" on the desktop. Email the contents (i.e. copy/paste text content of the file to an email) to your OHIO ID.
 <br>
 

@@ -30,6 +30,7 @@ The gHost VM will run throughout the semester **even when you are not connected 
 
 # Guides
 # [ITS 2300 Guide - Bowie](/course_guides/ITS-2300-Bowie.md)
+# [ITS 3100 Guide](/course_guides/ITS-3100.md)
 # [ITS 4510 Guide](/course_guides/ITS-4510.md)
 # [ITS 4750 Guide](/course_guides/ITS-4750.md)
 # [Other ITS Guides](/course_guides/ITS-Other.md)
