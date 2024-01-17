@@ -1,7 +1,7 @@
 # GNS3 Projects
 
 ## Goals
-- Learn to start GNS3 Project
+- Deploy an Ubuntu Server in GNS3.
 
 ## Resources
 - Personal Computer (Desktop or Laptop)
@@ -15,7 +15,7 @@
 ## Environmental Context
 - Connection to gHost VM
 
-## GNS3 Projects
+## Deploy the Ubuntu GUI
 
 1. Start the GNS3 application with gecko icon in the right hand navigation.
 
@@ -23,12 +23,19 @@
 
 3. Expand the "All Devices" menu from the "Devices Toolbar" on the left hand side of GNS3.
 
-4. Using the network diagram shown in this document connect all the GNS3 objects together. Review [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI) (scrub to about 6:20) for detailed instructions how to connect objects together in GNS3.
+4. Using the network diagram shown in this document connect all the GNS3 objects together. 
 
 ![](./images/deploy-ubuntu.png)
 
-10. Once all the GNS3 VMs have started and are either at a login prompt to a desktop GUI they are ready for use. Please record, in your lab notebook, that child VMs inside GNS3 typically use the username `itsclass` and the password `class115#`.
+5. Once all the GNS3 VM has started and is at a login prompt it is ready to use. Use the standard username `itsclass` and the password `class115#` to log into the server.
 
-11. Projects remain running even if the user is NOT connected to the remote desktop connection. This allows the student to break from the lab work and return to the project later.
+6. Projects remain running even if the user is NOT connected to the remote desktop connection. This allows the student to break from the lab work and return to the project later.  Lets this project running unless instructed otherwise.
 
-12. Shutting down GNS3 projects will be discussed on a separate page.
+## Configure the network
+
+7. Using knowledge from ITS 2300 and the [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet) to configure the "Wired connection 1" with the IPv4 and IPv6 addresses show in the Network Information page in Canvas.
+
+8. Show that the server can ping google via IPv4 and IPv6.
+
+```ping -4 google.com```
+```ping -6 google.com```
