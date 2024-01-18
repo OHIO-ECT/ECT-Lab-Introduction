@@ -20,7 +20,7 @@
 
 3. Ensure that the prompt shows something **similar to**: ``itsvm@ITS-2300-GNS3-000-bc012345``
 
-4. Open a terminal in the Ubuntu-GUI and retrieve the IP address of that computer.
+4. Open a terminal in the Ubuntu-CLI and retrieve the IP address of that computer.
 
 5. In the terminal, run the command: ``ssh itsclass@<Ubuntu-CLI IP>``.  Replace ```<Ubuntu-CLI IP>``` with the IP set in the previous step. 
 
