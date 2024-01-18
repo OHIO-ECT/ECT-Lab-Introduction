@@ -10,16 +10,6 @@
 -   GSN3
 
 # Guides
--   [Tech Nugget N25.0 - Ubuntu 20.04 Intro](https://youtu.be/X4bfK24sbzM)
-
-# Deploy the Ubuntu GUI
-
-1. Return to GNS3 
-
-![](media/nestedVMs.png)
-
-Figure 1 - Nested Virtual Machines
-
 
 
 # Configure the server hostname
@@ -45,7 +35,7 @@ address 132.235.160.150.
     hostname. Replace the X with the number from the public IP address
     that is assigned via Blackboard and used in previous labs.
 
-> sudo hostnamectl set-hostname its-160-X.its.ohio.edu
+
 
 31.  In a new terminal window on the student PC SSH to this
     domain name using the jump host. Observe that the prompt on the
