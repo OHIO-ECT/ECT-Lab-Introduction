@@ -20,9 +20,9 @@
 
 3. Ensure that the prompt shows something **similar to**: ``itsvm@ITS-2300-GNS3-000-bc012345``
 
-4. Open a terminal in the Ubuntu-GUI and retrieve the IP address of that computer.
+4. Open a terminal in the Ubuntu Server and retrieve the IP address of that computer.
 
-5. In the terminal, run the command: ``ssh itsclass@<Ubuntu-GUI IP>``.  Replace ```<Ubuntu-GUI IP>``` with the IP retrieved in the previous step. 
+5. In the terminal, run the command: ``ssh itsclass@<Ubuntu-IP>``.  Replace ``<Ubuntu-IP>`` with the IP retrieved in the previous step. 
 
 6. Note the change in the prompt to reflect the change in the device that commands are issued to.  This is the reason to set server host names.
 

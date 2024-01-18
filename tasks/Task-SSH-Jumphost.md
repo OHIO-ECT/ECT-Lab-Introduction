@@ -33,16 +33,18 @@ The use of multiple @ as part of the command is due to the use of OHIO IDs for c
     Professor Saunders Example:
 
     ````
-    ssh -J bs257595@ohio.edu@ect-bh.its.ohio.edu itsvm@132.235.207.189
+    ssh -J bs257595@ohio.edu@ect-bh.its.ohio.edu itsclass@132.235.207.189
     ````
 
     Student Template:
 
     ````
-    ssh -J <OHIOID>@ohio.edu@ect-bh.its.ohio.edu itsvm@<gHost IP>
+    ssh -J <OHIOID>@ohio.edu@ect-bh.its.ohio.edu <username>@<server IP>
     ````
-Different GUI clients will have different settings that may need to be used to access this feature. The standard OpenSSH client uses a "-J" option to specify the jump box.
 
-3. Using what commands learned above construct an SSH command that connects your the personal computer to your gHost via the Jumphost.
+Different SSH clients will have different settings that may need to be used to access this feature. The standard OpenSSH client uses a "-J" option to specify the jump box.
+
+3. Using what commands shown above construct an SSH command that connects your the personal computer to your gHost via the Jumphost.  If prompted to accept a security key it is safe to accpet the key with a ```yes``` in this situation.
+
 
 
