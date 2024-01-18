@@ -1,22 +1,4 @@
-## ECT Lab Introduction - Lab Reports
-
-### Goals
-- Configure Remote Desktop to connect to the lab environment
-- Learn the basic setup of the GNS3 virtual lab environment
-- Overview of Windows and Unix operating systems
-- Introduction to the CLI, and the interaction with filesystem
-- Become familiar with the Linux command line terminal (bash shell)
-
-### Pre-Lab
-- Homework/Labs/Projects will often have associated ECT Tech Nuggets that are recommended viewing after reading the lab the first time but before starting the work on the lab. Do **NOT** follow along with the ECT Tech Nuggets while watching them for the first time. Watch the video and use what you have learned. - Windows is the only OS that is officially supported, but other OS's may be possible. 
-
-### Resources
-
-- Personal Computer (Desktop or Laptop)
-- A document you have created to use as a lab notebook
-- Assigned gHost (GNS3 Virtual Machine)
-
-### - Lab Reports
+# ECT Lab Introduction - Lab Reports
 
 Lab Reports are to be written individually (no group work). Reports will be uploaded to Blackboard electronically as a **PDF** (ONLY!). Reports do not generally need to be more than several pages. Officially, they need to be "long enough to answer the questions".
 
