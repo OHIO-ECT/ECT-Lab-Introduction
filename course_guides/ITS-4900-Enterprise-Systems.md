@@ -6,8 +6,7 @@ These tasks ensure that the student is properly connected to the class' lab infr
 
 - [Task 1 - GitHub Account Creation](../tasks/Task-GitHub-Account-Creation.md)
 - [Task 2 - Connect to your GNS3 VM](../tasks/Task-Connect-to-GNS3-VM.md)
-- [Task 3 - Connecting Objects Inside GNS3](../tasks/Task-Connecting-Objects-Inside-GNS3.md)
-- [Task 4 - GNS3 Projects](../tasks/Task-GNS3-Projects.md)
+- [Task 3 - GNS3 Projects](../tasks/Task-GNS3-Projects.md)
 
 The following pages show some of the key documentation standards and practices for the class.
 

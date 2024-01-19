@@ -3,7 +3,6 @@
 - [Task 1 - Connect to your GNS3 VM](../tasks/Task-Connect-to-GNS3-VM.md)
 - [Task 2 - SSH (Secure Shell)](../tasks/Task-SSH.md)
 - [Task 3 - SSH Sessions via a Jumphost](../tasks/Task-SSH-Jumphost.md)
-- [Task 4 - Connecting Objects Inside GNS3](../tasks/Task-Connecting-Objects-Inside-GNS3.md)
 - [Task 5 - GNS3 Projects](../tasks/Task-GNS3-Projects.md)
 - [Task 6 - Terminal Shell and File Management](../tasks/Task-Terminal-Shell-and-File-Management.md)
 - [Task 7 - Gathering IP Information](../tasks/Task-Gathering-IP-Information.md)
