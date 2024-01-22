@@ -12,8 +12,8 @@ Welcome to the ECT Lab Introduction. This repository is intended to orient a stu
 - Commands to be typed by the student and output from shells are indicated within this document in the ``fixed width font Courier New`` (as shown here).
 - Variables to be filled in by the student are presented in ``<brackets>``. The student will need to replace the <> and the text with the needed variable. Example: **``My name is <Name>.``**. Would change to **``My name is Bobcat.``**
 
-### ECT Technuggets
-- @Kizan maintains a library of recorded demonstrations of systems that are regularly encounter in labs by ECT students. These [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured) serve as additional guides to help students learn the respective connect.
+### ECT Tech Nuggets
+- ECT Dept maintains a library of recorded demonstrations of systems that are regularly encounter in labs by ECT students. These [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured) serve as additional guides to help students learn the respective connect.
 - Homework/Labs/Projects will often have associated ECT Tech Nuggets that are recommended viewing. While related to the topic at hand, ECT Technuggets are **only** for reference.
 - **DO NOT** follow along with the ECT Tech Nuggets while watching them for the first time. 
 
