@@ -52,6 +52,7 @@ The Enter to open github.com in your browser...
 
 10. If launching the browser produces the following error, enter the standard class password to proceed to the browser.
 
+![Browswer Keyring Error](./images/Browser-keyring-error.png)
 
 11. If the process doesn't present a web browser to login to github, browse to the following URL on any computer that is already logged into on GitHub: https://github.com/login/device  Enter the one-time code and select "Authorize github"
 
