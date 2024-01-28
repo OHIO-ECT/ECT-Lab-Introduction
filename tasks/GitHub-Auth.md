@@ -33,20 +33,8 @@ gh auth login
 
 ```
 ? What is your preferred protocol for Git operations?  [Use arrows to move, type to filter]
-  HTTPS
-> SSH
-```
-
-6. You will be prompted (as shown below) for a new SSH key. You should do this. Is this needed?  Use N to not generate a key or selecting a key if one is presented are also options, but requires the user to understand the consequences of advanced key management.
-
-```
-? Generate a new SSH key to add to your GitHub account? (Y/n) Y
-```
-
-7. It is suggested to use a proper passphrase here.
-
-```
-? Enter a passphrase for your new SSH key (Optional)
+> HTTPS
+  SSH
 ```
 
 8. When prompted select "Login with a web browser" option (default choice) regardless of the type of terminal these commands are being entered in.
@@ -62,14 +50,14 @@ gh auth login
 The Enter to open github.com in your browser...  
 ```
 
-10. If it doesn't present a web browser to login to github at browse to the following URL on any computer that is already logged into on GitHub: https://github.com/login/device  Enter the one-time code and select "Authorize github"
+10. If launching the browser produces the following error, enter the standard class password to proceed to the browser.
 
 
-11. Return to terminal window that we started on and press enter at "Authentication complete. Press Enter to continue..." to complete the SSH key upload process.
+11. If the process doesn't present a web browser to login to github, browse to the following URL on any computer that is already logged into on GitHub: https://github.com/login/device  Enter the one-time code and select "Authorize github"
 
-12. Return to GitHub SSH keys page at https://github.com/settings/keys.  Find the key titled "GitHub CLI" with a recent added date.  Select the "Configure SSO" dropdown and then select "Authorize" for OHIO-ECT.
+12. Follow the prompts to authorize this session to the OHIO-ECT repo, which may include additional login's to Ohio University's SSO.
 
-13. Follow the Ohio University Single sign on process.
+13. Return to terminal window and press enter at "Authentication complete. Press Enter to continue..." to complete the authentication process.
 
 14. In the gHost terminal configure Git user info with the following commands
 ```
