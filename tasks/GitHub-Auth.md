@@ -29,7 +29,7 @@ gh auth login
   GitHub Enterprise Server
 ```
 
-5. Select SSH (**NOT** default choice, use arrow keys to change)
+5. Select HTTPS
 
 ```
 ? What is your preferred protocol for Git operations?  [Use arrows to move, type to filter]
