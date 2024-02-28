@@ -8,6 +8,9 @@ Welcome to the ECT Lab Introduction. This repository is intended to orient a stu
 - Students should maintain a digital lab notebook.
 - The [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet) represents common information that students will likely want in their Notebook.
 
+### Resources
+- A good overview or refresh on [Linux CLI environments and commands](https://learn.adafruit.com/an-illustrated-shell-command-primer)
+
 ### Reading this guide
 - Commands to be typed by the student and output from shells are indicated within this document in the ``fixed width font Courier New`` (as shown here).
 - Variables to be filled in by the student are presented in ``<brackets>``. The student will need to replace the <> and the text with the needed variable. Example: **``My name is <Name>.``**. Would change to **``My name is Bobcat.``**
