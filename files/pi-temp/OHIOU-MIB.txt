@@ -1,0 +1,155 @@
+OHIOU DEFINITIONS ::= BEGIN
+
+IMPORTS
+	MODULE-IDENTITY,
+	OBJECT-IDENTITY,
+	enterprises
+		FROM SNMPv2-SMI;
+
+ohiou MODULE-IDENTITY
+	LAST-UPDATED "202104020000Z"
+	ORGANIZATION "Ohio Unviersity"
+	CONTACT-INFO
+		"
+		Brandon Saunders
+		Ohio University
+		Scripps College of Communication
+		Athens, OH 45701
+		United States 
+
+		email: saundeb1@ohio.edu"
+	DESCRIPTION
+		"The Structure of Ohio University."
+
+	-- revision history
+
+	REVISION "202104020000Z"  
+	DESCRIPTION
+		"Picked this up from Bruce until I hear from someone else"
+
+	::= { enterprises 32396 }	-- assigned by IANA
+
+OIT OBJECT-IDENTITY
+	STATUS	current
+	DESCRIPTION
+		"Space Central IT"
+	::= { ohiou 1 }
+
+CS OBJECT-IDENTITY
+	STATUS  current
+	DESCRIPTION
+		"Space for the CS department"
+	::= { ohiou 2 }
+
+ECT OBJECT-IDENTITY
+	STATUS  current
+	DESCRIPTION
+		"Space for the ECT department"
+	::= { ohiou 3 }
+
+
+ECT MODULE-IDENTITY
+	LAST-UPDATED "202104020000Z"
+	ORGANIZATION "Ohio University ECT Department"
+	CONTACT-INFO
+		"
+		Brandon Saunders
+		Ohio University
+		Scripps College of Communication
+		Athens, OH 45701
+		United States 
+
+		email: saundeb1@ohio.edu"
+	DESCRIPTION
+		"The Structure of the ECT Department at Ohio University."
+
+	-- revision history
+
+	REVISION "202104020000Z"  
+	DESCRIPTION
+		"Picked this up from Bruce"
+
+	::= { ohiou 3 }	-- assigned by IANA
+
+ITS3100 OBJECT-IDENTITY
+	STATUS  current
+	DESCRIPTION
+		"Space for the ECT department"
+	::= { ECT 3100 }
+
+ITS3100 MODULE-IDENTITY
+	LAST-UPDATED "202104020000Z"
+	ORGANIZATION "Ohio University ECT Department ITS3100 Class"
+	CONTACT-INFO
+		"
+		Brandon Saunders
+		Ohio University
+		Scripps College of Communication
+		Athens, OH 45701
+		United States 
+
+		email: saundeb1@ohio.edu"
+	DESCRIPTION
+		"The Structure of the ECT Department at Ohio University."
+
+	-- revision history
+
+	REVISION "202104020000Z"  
+	DESCRIPTION
+		"Picked this up from Bruce"
+
+	::= { ECT 3100 }	-- assigned by IANA
+
+LAB10 OBJECT-IDENTITY
+	STATUS  current
+	DESCRIPTION
+		"Space for the ECT department"
+	::= { ITS3100 10 }
+
+LAB10 MODULE-IDENTITY
+	LAST-UPDATED "202104020000Z"
+	ORGANIZATION "Ohio University ECT Department ITS3100 Class"
+	CONTACT-INFO
+		"
+		Brandon Saunders
+		Ohio University
+		Scripps College of Communication
+		Athens, OH 45701
+		United States 
+
+		email: saundeb1@ohio.edu"
+	DESCRIPTION
+		"The Structure of the ECT Department at Ohio University."
+
+	-- revision history
+
+	REVISION "202104020000Z"  
+	DESCRIPTION
+		"Picked this up from Bruce"
+
+	::= { ITS3100 10 }	-- assigned by IANA
+
+Temperature OBJECT-IDENTITY
+	STATUS  current
+	DESCRIPTION
+		"Lab 10 Temperature Sensor"
+	::= { LAB10 1 }
+
+Humidity OBJECT-IDENTITY
+	STATUS  current
+	DESCRIPTION
+		"Lab 10 Relative Humidity Sensor"
+	::= { LAB10 2 }
+
+Pressure OBJECT-IDENTITY
+	STATUS  current
+	DESCRIPTION
+		"Lab 10 Barometric pressure Sensor"
+	::= { LAB10 3 }
+
+Test OBJECT-IDENTITY
+	STATUS  current
+	DESCRIPTION
+		"Lab 10 Barometric pressure Sensor"
+	::= { LAB10 5 }
+END
