@@ -32,7 +32,7 @@ The gHost VM will run throughout the semester **even when you are not connected 
 - While other OS's may be possible, they will require the student to independently adapt the instructions to that OS.
 
 # Guides
-# [ITS 2300 Guide - Bowie](/course_guides/ITS-2300-Bowie.md)
+# [ITS 2300 Guide](/course_guides/ITS-2300.md)
 # [ITS 3100 Guide](/course_guides/ITS-3100.md)
 # [ITS 4510 Guide](/course_guides/ITS-4510.md)
 # [ITS 4750 Guide](/course_guides/ITS-4750.md)
