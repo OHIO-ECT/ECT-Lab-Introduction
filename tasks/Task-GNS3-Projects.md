@@ -26,7 +26,7 @@
 
 5. Using the network diagram shown in this document connect all the GNS3 objects together. Review [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI) (scrub to about 6:20) for detailed instructions how to connect objects together in GNS3.
 
-![](./images/lab1-pic2-1.png)
+![](./images/lab1-pic2.png)
 
 6. Start all objects in the project with the big green triangle in the top tool bar. This action will start **ALL** the VMs will start at once. Get comfy as Atlas heaves the world up. The more objects in a project the longer this start up time will take. If you don't know who Atlas is you'll have some time to read [this](https://greekgodsandgoddesses.net/gods/atlas) while the all the GNS3 VMs (AKA child VMs) start up. Each child VM typically starts a console window so the user can see what's going on.
 
