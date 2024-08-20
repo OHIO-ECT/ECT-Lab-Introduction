@@ -14,7 +14,7 @@ The ITS faculty strongly recommend for each student to have the following tools 
 
 ### MS Teams and MS Office
 
-Ohio University purchases licenses from Microsoft Office 365, O365, for every faculty, staff, and student. O365 includes online and installed PC version of Office, Productivity, and Messaging tools. These tools are recommended by the ITS department. The Microsoft Teams messaging tool included in O365 is an excellent tool for communicating with faculty for class work.
+Ohio University purchases licenses from Microsoft Office 365 (O365) for every faculty, staff, and student. O365 includes online and installed PC version of Office, Productivity, and Messaging tools. These tools are recommended by the ITS department. The Microsoft Teams messaging tool included in O365 is an excellent tool for communicating with faculty for class work.
 
 Instructions for downloading and installing O365 can be found at [OIT's Office 365 Help page](https://help.ohio.edu/TDClient/30/Portal/KB/ArticleDet?ID=116).
 
