@@ -19,6 +19,7 @@
 - A document you have created to use as a lab notebook
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
+- [Windows RDP Client Microsoft Store Version](https://apps.microsoft.com/detail/9wzdncrfj3ps?hl=en-US&gl=US)
 - [Windows RDP Client NON-Microsoft Store Version](https://www.its.ohio.edu/exe/RDP-Setup_x64_v2.exe)
 
 ### Environmental Context
