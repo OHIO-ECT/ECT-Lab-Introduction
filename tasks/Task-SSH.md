@@ -15,7 +15,7 @@
 
 1. The gHost uses the current version of Ubuntu, which is a distribution of Linux that often uses a GUI like Windows and Mac.
 
-2. Open the ghost Terminal from the task bar on the right of the gHost desktop.
+2. On the gHost open a Terminal from the task bar on the right of the gHost desktop.
 ![](./images/image4.png)
 
 3. Ensure that the prompt shows something **similar to**: ``itsvm@ITS-2300-GNS3-000-bc012345``
