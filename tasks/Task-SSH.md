@@ -20,7 +20,7 @@
 
 3. Ensure that the prompt shows something **similar to**: ``itsvm@ITS-2300-GNS3-000-bc012345``
 
-4. Open a terminal in the Ubuntu-CLI and retrieve the IP address of that computer.
+4. In Ubuntu-CLI open a terminal and retrieve the IP address of that computer.
 
 5. In the gHost terminal, run the command: ``ssh itsclass@<Ubuntu-CLI IP>``.  Replace ```<Ubuntu-CLI IP>``` with the IP found in the previous step. 
 
