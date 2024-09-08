@@ -22,7 +22,7 @@
 
 4. Open a terminal in the Ubuntu-CLI and retrieve the IP address of that computer.
 
-5. In the gHost terminal, run the command: ``ssh itsclass@<Ubuntu-CLI IP>``.  Replace ```<Ubuntu-CLI IP>``` with the IP set in the previous step. 
+5. In the gHost terminal, run the command: ``ssh itsclass@<Ubuntu-CLI IP>``.  Replace ```<Ubuntu-CLI IP>``` with the IP found in the previous step. 
 
 6. Note the change in the prompt to reflect the change in the device that commands are issued to.  This is the reason to set server host names.
 
