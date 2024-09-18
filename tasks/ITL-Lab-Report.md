@@ -6,6 +6,8 @@ An example lab report format doc: https://github.com/OHIO-ECT/ECT-Lab-Introducti
 
 There is also a Wireshark Exporting Guide: https://github.com/OHIO-ECT/Wireshark-Export-Guide
 
+It is expected that students will read and follow these guidelines and examples.
+
 Each lab report must have a header (**no cover pages!**) on the first page that includes:
 - Student Name
 - Lab section attended
