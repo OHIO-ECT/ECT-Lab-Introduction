@@ -12,6 +12,7 @@ Each lab report must have a header (**no cover pages!**) on the first page that 
 - Student Name
 - Lab section attended
 - Student program affiliation (CS ugrad, CS grad, ITS ugrad, ITS grad, etc.)
+- No cover sheets!
 - For terminal window data (ping, traceroute, netstat etc.) data should be formatted with a fixed width font like courier to preserve the columns and displayed as shown on screen.
 - Absolutely **NO SCREEN SHOTS!** (with your phone camera or screen shot tool) There are extremely rare cases when a screen shot (usually for a web interface) will be required. This will be noted in the assignment instructions.
 - Number your answers with the same numbers as the Lab Report Questions.
