@@ -13,9 +13,8 @@ Each lab report must have a header (**no cover pages!**) on the first page that 
 - Lab section attended
 - Student program affiliation (CS ugrad, CS grad, ITS ugrad, ITS grad, etc.)
 - No cover sheets!
-- Number your answers with the same numbers from the lab writeup.
+- Number your answers with the same numbers as the Lab Report Questions.
 - No appendixes! 
 - For terminal window data (ping, traceroute, netstat etc.) data should be formatted with a fixed width font like courier to preserve the columns and displayed as shown on screen.
 - Absolutely **NO SCREEN SHOTS!** (with your phone camera or screen shot tool) There are extremely rare cases when a screen shot (usually for a web interface) will be required. This will be noted in the assignment instructions.
-- Number your answers with the same numbers as the Lab Report Questions.
 - Terminal window (CLI) data needs to be reformatted to remove the extra line breaks. While this report is long future ones will be **much** longer. Removing the extra line breaks will save much space. A smaller font can also be used for terminal window data or adjust margins for that data to stop line wrapping.
