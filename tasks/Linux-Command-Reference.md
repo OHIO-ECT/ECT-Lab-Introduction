@@ -2,6 +2,8 @@
 
 ## File System
 
+| Command | Explanation |
+| ------- | ----------- |
 | cd \<path\> | Change Directory |
 | ls \<path\> | List Files |
 | mkdir \<path\> | Make Directory |
