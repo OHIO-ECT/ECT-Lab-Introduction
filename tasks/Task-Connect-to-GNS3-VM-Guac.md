@@ -1,4 +1,4 @@
-## Connect to GNS3 VM via a Web Browser (Guacamole Service) to a GUI.
+## Connect to GNS3 VM via a Web Browser (Guacamole Service) to a GUI
 
 ### Goals
 - Demonstrate how a student can connect to a Graphical User Interface of their virtual host via a web-based method.
@@ -37,7 +37,7 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 ![](./images/Guac-Home-1.png)
 <br>
 
-### Connect to your Virtual Machine's GUI
+### Connect to your Virtual Machine's GUI via Guacamole
 
 5. Locate and expand the "Class and Labs" caret (a little plus sign in a box) to reveal a list of the classes for which you have a VM.
 <br>
@@ -82,7 +82,7 @@ The last one is in the lower left corner, similar to where you might find the Wi
 ![](./images/VM-Apps-File.png)
 <br>
 
-## Exfiltrating Data
+### Exfiltrating Data
 
 11. The gHost machine has web access to the outside world. When saving data for lab reports there are several options. The easiest is to use a browser on the VM to access web-based email. Open the file named "README.txt" on the desktop, highlight the text found within, and copy it either by right-clicking on the highlighted text and choosing "copy" or via the CONTROL-C keys.
 <br>
@@ -100,3 +100,36 @@ The last one is in the lower left corner, similar to where you might find the Wi
 15. Note that you can use the LMS as normal and that you could turn in assignments directly from your VM, if needed.
 <br>
 
+
+### Disconnecting from a VM
+
+16. Information: To disconnect from your VM you would normally just close the browser window or tab. That would leave your VM in its current state so you could pick up where you left off when you returned. For this lab, we're going to do something else.
+<br>
+
+17. Use your browser's back button to return to the Guacamole Home screen. If in the step above you actually closed your browser window, then return to the URL and login again:
+- https://rm.its.ohio.edu/
+<br>
+
+### Connect to your Virtual Machine's CLI
+
+18. Locate and expand the "Class and Labs" caret to reveal a list of the classes for which you have a VM. Lower on the list of VMs for a specific class is another caret (plus sign) that you can expand to reveal SSH options. Click on that caret (plus sign). Each of your VMs will be listed with a >_ icon beside them.
+
+![](./images/Guac-Home-3.png)
+<br>
+
+19. Click on that entry. This will log you into your VM and lead to a command line interface.
+
+![](./images/Guac-CLI-1.png)
+<br>
+
+### A Tour of the CLI
+
+20. You are now at a Command Line interface to your VM. It is quite possible to develop applications in this environment, though you are more likely to do so in the GUI environment if you know your Linux commands.
+
+You might be wondering why somebody might prefer to use a CLI. There are several reasons. First, professionally speaking, persons in certain specialties become very familiar with the available commands and can actually work faster in a command line environment. Secondly, computers running services that do not need a GUI can save a lot of resources by only offering a command line environment. Thirdly, when either a network or a host computer has lots of demand and is very busy a command line environment remains viable where a graphical environment becomes unusable.
+
+In short, late in the semester when many classes are using the environment and some classes are doing some processor or I/O intensive operations, you may find the GUI to be laggy but the CLI to be fine. Keep your options open.
+
+### Disconnect, Again
+
+21. This series of steps is complete. Disconnect from your VM as the next task likely assumes you are not connected. If you don't remember how to disconnect, see one of the steps above.
