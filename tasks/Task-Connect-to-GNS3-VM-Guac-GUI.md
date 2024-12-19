@@ -12,13 +12,14 @@
 - Personal Computer (Desktop or Laptop) with a web browser, such as Chrome, Firefox, or Edge.
 - Assigned gHost (GNS3 Virtual Machine)
 - A document you have created to use as a lab notebook
-- Tech Nuggets [Tech Nuggets on YouTube](https://www.youtube.com/@ecttechnuggets9126)
+- Tech Nuggets: [Tech Nuggets on YouTube](https://www.youtube.com/@ecttechnuggets9126)
 
 ### Connect to the Guacamole Service
 
 Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM). This system will be referred to as the "gHost" throughout the lab. The goal of this task is to show you how to connect to that environment so that you can work and complete assignments.
 
 1. Retrieve the following information from either information presented in class, received via email, or perhaps found in canvas or other documentation related to the assignment. Ask faculty for assistance if needed.
+<br>
     - GNS3 VM IP address
     - GNS3 VM Username
     - GNS3 VM Password
@@ -41,6 +42,7 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 5. Locate and expand the "Class and Labs" caret (a little plus sign in a box) to reveal a list of the classes for which you have a VM.
 <br>
 It is possible to be in multiple classes each with their own VM. If so, it is important to use the right VM for the right class as they may have configuration differences and behind the scenes the VM environments are managed class-by-class. That is, don't use an ITS-2801 VM for ITS-2300, and vice-versa, even if it does work.
+<br>
 
 ![](./images/Guac-Home-2.png)
 <br>
@@ -95,6 +97,6 @@ The last one is in the lower left corner, similar to where you might find the Wi
 - https://canvas.ohio.edu
 <br>
 
-15. Note that you can turn in assignments directly from your VM, if needed.
+15. Note that you can use the LMS as normal and that you could turn in assignments directly from your VM, if needed.
 <br>
 
