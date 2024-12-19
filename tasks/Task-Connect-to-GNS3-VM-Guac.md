@@ -1,11 +1,12 @@
-## Connect to GNS3 VM via a Web Browser (Guacamole Service) to a GUI
+## Connect to a VM via a Web Browser and the Guacamole Service
 
 ### Goals
 - Demonstrate how a student can connect to a Graphical User Interface of their virtual host via a web-based method.
+- Demonstrate how a student can connect to a Command Line Interface of their virtual host via a web-based method.
 
 ### Pre-Lab
 - Watch the the following [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured) videos on YouTube:
-    - [ECT Tech Nugget - N99.0 - Guacamole GUI](https://youtu.be/)
+    - [ECT Tech Nugget - N99.0 - Guacamole](https://youtu.be/)
 
 ### Resources
 
@@ -30,6 +31,8 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 
 3. Connect to the Guacamole service from your own computer using your favorite browser. The URL is:
 - https://rm.its.ohio.edu/
+
+You should bookmark that URL.
 <br>
 
 4. Login using your OHIO ID, Password, and your established method of Multifactor Authentication. If you are already logged into some other University service, single sign-on features will reuse the credentials and session already established. Once authenticated, you will see a screen similar to the following:
@@ -108,6 +111,8 @@ The last one is in the lower left corner, similar to where you might find the Wi
 
 17. Use your browser's back button to return to the Guacamole Home screen. If in the step above you actually closed your browser window, then return to the URL and login again:
 - https://rm.its.ohio.edu/
+
+If you haven't already done so, you should bookmark that URL.
 <br>
 
 ### Connect to your Virtual Machine's CLI
