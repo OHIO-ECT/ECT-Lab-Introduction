@@ -73,7 +73,7 @@ VS Code (Visual Studio Code) is a popular text editor used by programmers. It un
 
 10. Launch VS Code via either of these methods:
 
-- Type this command: ```code``` in your Terminal window.
+- Type this command: "code" in your Terminal window.
 - Click on the "Visual Studio Code" icon that you've added to your Toolbar.
 - Click on the "Show Apps" icon in the lower left corner of the GUI and then choose "Visual Studio Code."
 <br>
@@ -96,14 +96,79 @@ VS Code (Visual Studio Code) is a popular text editor used by programmers. It un
 13. In the Explorer pane, click on "program00" and it should become highlighted.
 <br>
 
-14. Click on the "New File" icon in the upper right of the Explorer pane as shown here:
+14. Click on the "New File" icon, name the file hello.py, and hit RETURN. This will both create the new file and open a pane on the right side of VSCode. If you cannot find the "New File" button, it is in the upper right of the Explorer pane as shown here:
 
 ![](./images/VSCode-2.png)
 <br>
 
+15. At the bottom of your VSCode screen you may see an alert asking if you want to install the recommended 'Python' extension. **Yes, install the Python language extension.** This will change your view to the "Extensions" pane on the left, and open a new pane on the right. There will be a progress bar above the Extensions pane. Let it finish. Once it is complete, you can close the "Extension: Python" pane on the right and on the left, return to the "hello.py" pane on the right, and you can return to the "Explorer" pane on the left.
+<br>
+
+16. In the "hello.py" pane, enter the following:
+
+```
+print( "Hello World!" )
+```
+
+Every letter matters so you have to be exact. Notice that VSCode will try to offer helpful advice. At this point that advice is probably more intrusive than helpful, but it will become more useful the more you know.
+<br>
+
+17. Notice there is a white dot beside your hello.py name at the top of the right pane. This is an indicator that you have made changes to the file that have not been saved. There are two ways to save your work. Pick one:
+
+- On the VSCode Menu, select File > Save
+- The the shortcut keys: CONTROL-S
+
+At this point you have a program that is ready to be tested.
+<br>
 
 ### Run the Hello World Program
 
+18. Switch to the Terminal window.
+<br>
+
+19. Make sure you are in the program00 folder:
+
+```
+pwd
+```
+
+It should read "/home/itsvm/python/program00" and if you use the "ls" command you should see "hello.py" is present. If not, then you either need to use the "cd" command to get to the right directory, or you have made a mistake using VSCode and put your "hello.py" file in some other location.
+<br>
+
+20. Run your program:
+
+```
+python3 hello.py
+```
+
+It should result in something like this:
+
+![](./images/VSCode-3.png)
+
+Note that it printed "Hello World!" to your terminal. Your program ran, printed, and exited leaving you at another prompt.
+<br>
+
+21. At the risk of confusing you, let look at another VSCode feature. The VSCode developers know that programmers often use a terminal to run their programs so there is a terminal feature built into VSCode. Open a terminal **within** VSCode via the menus at the top of the window:
+
+- Terminal > New Terminal
+
+This will open up a terminal session in a pane at the bottom of your VSCode window. It acts just like a real terminal (because it is a real terminal.) If you like the terminal window in VSCode, then leave that pane open. If you prefer to have more screen space for working on programs, then close it and use the Terminal application. It is a matter of personal preference.
+
+![](./images/VSCode-4.png)
+<br>
+
+22. Another way to run your program is the "Run and Debug" pane that you can select on the far left as an alternative to the "Explorer" pane. When selected, it looks like this:
+
+![](./images/VSCode-5.png)
+<br>
+
+23. Click on the "Run and Debug" button. It will likely ask you which debugger to use. **Choose the Python Debugger.** It will followup with another question "Select a debug configuration." **Choose Python File** from the list. Since it the first time you have used this feature it will need time to download and install that feature.
+
+Notice that this feature opens a Terminal pane for you if you didn't have one open. Then it issues the commands to run your program.It uses a lot more options when it runs your program so that it could provide debugging features if needed.
+
+The use of a debugger isa topic best left for later as it assumes you know more about Python. We recommend using one of the terminal options to run your program until such time as you learn more about debugging features. It is mentioned here because you were likely to discover the option as you become familiar with VSCode.
+<br>
+
 ### Exfiltrate the Hello World Program
 
-
+24. Launch a browser on your VM (Chrome or Firefox) and use it to either send your hello.py file to yourself via email or to upload it to canvas, depending on the class you are taking. If you are taking ITS 2801 then there is likely more to be done on your program, so you might have more work to do in VSCode before you are done.
