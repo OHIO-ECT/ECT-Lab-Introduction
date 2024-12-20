@@ -164,9 +164,9 @@ This will open up a terminal session in a pane at the bottom of your VSCode wind
 
 23. Click on the "Run and Debug" button. It will likely ask you which debugger to use. **Choose the Python Debugger.** It will followup with another question "Select a debug configuration." **Choose Python File** from the list. Since it the first time you have used this feature it will need time to download and install that feature.
 
-Notice that this feature opens a Terminal pane for you if you didn't have one open. Then it issues the commands to run your program.It uses a lot more options when it runs your program so that it could provide debugging features if needed.
+Notice that this feature opens a Terminal pane for you if you didn't have one open. Then it issues the commands to run your program. It uses a lot more options when it runs your program so that it could provide debugging features if needed.
 
-The use of a debugger isa topic best left for later as it assumes you know more about Python. We recommend using one of the terminal options to run your program until such time as you learn more about debugging features. It is mentioned here because you were likely to discover the option as you become familiar with VSCode.
+The use of a debugger is a topic best left for later as it assumes you know more about Python. We recommend using one of the terminal options to run your program until such time as you learn more about debugging features. It is mentioned here because you were likely to discover the option as you become familiar with VSCode.
 <br>
 
 ### Exfiltrate the Hello World Program
