@@ -5,13 +5,13 @@
 These tasks ensure that the student is properly connected to the class' lab infrastructure
 
 - [Task 1 - GitHub Account Creation](../tasks/Task-GitHub-Account-Creation.md)
-- [Task 2 - Connect to your GNS3 VM](../tasks/Task-Connect-to-GNS3-VM.md)
+- [Task 2 - Connect to your GNS3 VM](../tasks/Task-Connect-to-GNS3-VM-Guac.md)
 - [Task 3 - GNS3 Projects](../tasks/Task-GNS3-Projects.md)
 
 The following pages show some of the key documentation standards and practices for the class.
 
 - [Drawing Diagrams](../tasks/Task-Drawing-Diagrams.md)
-- [ITS Lab Reports](../tasks/ITL-Lab-Report.md)
+- [Lab Reports](../tasks/ITL-Lab-Report.md)
 
 ## Optional Elements
 
