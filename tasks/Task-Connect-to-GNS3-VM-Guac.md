@@ -50,7 +50,6 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 It is possible to be in multiple classes each with their own VM. If so, it is important to use the correct VM for the correct class. Different classes may have gHost configurations for different classes. 
 <br>
 **TL;DR - Don't use an ITS-2801 VM for ITS-2300, and vice-versa, even if it does work.**
-<br>
 
 ![](./images/Guac-Home-2.png)
 
