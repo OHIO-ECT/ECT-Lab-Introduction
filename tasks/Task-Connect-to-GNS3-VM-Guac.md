@@ -35,6 +35,7 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
     Bookmark that URL!
 
 4. The first time a browser connects to the Guacamole service, a screen similar to the following will appear. Click on the "Allow" button to allow the Guacamole service to access your clipboard. This will allow you to copy and paste text between your personal computer and the VM. This is a very handy feature that you will use often.
+
 ![](./images/Guac-Browser-Clipboard-Access.png)
 
 5. Login using your OHIO ID, Password, and your established method of Multifactor Authentication (MFA). Note: If you are already logged into some other University service, single sign-on features will reuse the credentials and session already established. 
