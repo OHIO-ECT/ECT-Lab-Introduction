@@ -38,4 +38,5 @@ The gHost VM will run throughout the semester **even when you are not connected 
 # [ITS 4510 Guide](/course_guides/ITS-4510.md)
 # [ITS 4750 Guide](/course_guides/ITS-4750.md)
 # [ITS 4900 Enterprise Systems Guide](/course_guides/ITS-4900-Enterprise-Systems.md)
+# [ITS 4900 Cybersecurity Attack](/course_guides/ITS-4900-Attack.md)
 # [Other ITS Guides](/course_guides/ITS-Other.md)
