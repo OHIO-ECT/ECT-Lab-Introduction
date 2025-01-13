@@ -44,9 +44,7 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 
 ![](./images/Guac-Home-1.png)
 
-
 ### Connect to your Virtual Machine's GUI via Guacamole
-
 6. Locate and expand the "Class and Labs" caret (a little plus sign in a box) to reveal a list of the classes for which you have a VM.
 <br>
 It is possible to be in multiple classes each with their own VM. If so, it is important to use the correct VM for the correct class. Different classes may have gHost configurations for different classes. 
@@ -56,11 +54,9 @@ It is possible to be in multiple classes each with their own VM. If so, it is im
 
 ![](./images/Guac-Home-2.png)
 
-
 7. Note that if you have connected to Guacamole before the "Recent Connections" portion of the screen will present you with a quick way to reconnect as you had done before. You would just click on the connectio you desired. You won't see that the first time you connect, but it looks something like this:
 
 ![](./images/Guac-Home-4.png)
-
 
 8. Click on the line with the computer icon. This will login to your into your VM and lead to a GUI interface. **Be patient** with the connection as it may take a few seconds to establish. If the black login screen persists for more than 30 seconds, please contact your instructor.
 
@@ -80,7 +76,7 @@ It is possible to be in multiple classes each with their own VM. If so, it is im
 - Trash
 - Show Apps
 
-The last one is in the lower left corner, similar to where you might find the Windows icon (aka Start Button) on a Windows computer.
+    The last one is in the lower left corner, similar to where you might find the Windows icon (aka Start Button) on a Windows computer.
 
 10. Some classes (ITS 2801) use the Visual Studio Code editor. If you are taking ITS 2801, click on the "Show Apps" icon. Find the "Visual Studio Code" icon, right-click on it, and choose "Pin to Dash" and it will be added to your toolbar. Once done, you can click on the "Show Apps" icon to make the list go away.
 
@@ -97,11 +93,10 @@ The last one is in the lower left corner, similar to where you might find the Wi
 
 13. Back on your personal computer, open up any application that can receive text, such as Notepad or MS Word. Paste in the text that you copied from your VM. Notice that you can copy and paste from your VM to your personal computer, and vice-versa. You may find this to be handy in future assignments. You can close out the text application on your personal computer as we will not need it any more in this exercise.
 
-
 14. Back on your VM, launch either the Chrome or Firefox browsers, login to your email service, compose a message to your OHIO ID, and attach the ReadMe.txt file to your message as an attachment. Send yourself the message. Then, on your personal computer, check your email and verify the attachment was included.
 
 15. Back on your VM, point your browser to the Canvas LMS used by the class:
-- https://canvas.ohio.edu
+    - https://canvas.ohio.edu
 
 16. Note that you can use the LMS as normal and that you could turn in assignments directly from your VM, if needed.
 
