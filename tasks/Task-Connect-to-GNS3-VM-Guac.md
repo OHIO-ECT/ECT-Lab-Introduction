@@ -39,7 +39,7 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 ![](./images/Guac-Browser-Clipboard-Access.png)
     <br>
     This is a one-time action. If you are using a different browser or a different computer, you will need to allow clipboard access again. If set correctly in the browser settings, you may not see this message again.
-    <br>
+    <br><br>
     Check status of this setting in your browser settings if you have trouble copying and pasting between your personal computer and the VM.
     ![](./images/Guac-Browser-Clipboard-Status.png)
 
