@@ -105,7 +105,7 @@ It is possible to be in multiple classes each with their own VM. If so, it is im
 17. Information: To disconnect from your VM you would normally just close the browser window or tab. That would leave your VM in its current state so you could pick up where you left off when you returned. For this lab, we're going to do something else.
 
 18. Use your browser's back button to return to the Guacamole Home screen. If in the step above you actually closed your browser window, then return to the URL and login again:
-- https://rm.its.ohio.edu/
+    - https://rm.its.ohio.edu
 
 If you haven't already done so, you should bookmark that URL.
 
