@@ -6,7 +6,7 @@
 
 ### Pre-Lab
 - Watch the the following [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured) videos on YouTube:
-    - [ECT Tech Nugget - N99.0 - Guacamole](https://youtu.be/)
+    - (Not available yet) [ECT Tech Nugget - N99.0 - Guacamole](https://youtu.be/)
 
 ### Resources
 
