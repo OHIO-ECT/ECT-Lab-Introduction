@@ -35,7 +35,9 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 4. The first time a browser connects to the Guacamole service, a screen similar to the following will appear. Click on the "Allow" button to allow the Guacamole service to access your clipboard. This will allow you to copy and paste text between your personal computer and the VM. This feature will be required to work effectively with the remote machines.
 
 ![](./images/Guac-Browser-Clipboard-Access.png)
+
     <br>
+    
     This is a one-time action. If you are using a different browser or a different computer, you will need to allow clipboard access again. If set correctly in the browser settings, you may not see this message again.
     
 5. Check status of this setting in your browser settings to ensure it is enabled. For example, in Chrome, you can check the clipboard setting by clicking on the lock icon in the address bar and then clicking on "Site settings". Ensure that the clipboard setting is set to "Allow" as shown below:
