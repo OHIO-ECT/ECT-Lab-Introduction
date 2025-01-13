@@ -38,6 +38,7 @@
 11. Run the script, when prompted provide the name of the template you wish to import. For example, to import the Kali Linux template type the following command:
 ```./import-template.sh```
 
+Output should look like this:
 ```Importing GNS3 Template
 Get templates from https://www.its.ohio.edu/gns3
 Script for use with the itsvm user!
