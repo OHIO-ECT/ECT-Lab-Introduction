@@ -171,4 +171,4 @@ The use of a debugger is a topic best left for later as it assumes you know more
 
 ### Exfiltrate the Hello World Program
 
-24. Launch a browser on your VM (Chrome or Firefox) and use it to either send your hello.py file to yourself via email or to upload it to canvas, depending on the class you are taking. If you are taking ITS 2801 then there is likely more to be done on your program, so you might have more work to do in VSCode before you are done.
+24. Launch a browser on your VM (Chrome or Firefox) and use it to either send your hello.py file to yourself via email or to upload it to canvas, depending on the class you are taking.
