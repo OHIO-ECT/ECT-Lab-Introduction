@@ -38,4 +38,3 @@
 8. Show that the server can ping google via IPv4 and IPv6.
 
 ```ping -4 google.com```
-```ping -6 google.com```
