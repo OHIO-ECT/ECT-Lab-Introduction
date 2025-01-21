@@ -10,18 +10,22 @@
 
 ## Process
 
-1. Deploy the GitHub command line application and authenticate the local Linux/Unix account to the GitHub account.
+1. If at any time during this produce the following error occures, enter the standard class password to proceed to the browser.
+
+![Browswer Keyring Error](./images/Browser-keyring-error.png)
+
+2. Deploy the GitHub command line application and authenticate the local Linux/Unix account to the GitHub account.
 ```
 sudo apt install -y gh
 ```
 
-2. Setup authentication with the command line tool.
+3. Setup authentication with the command line tool.
 
 ```
 gh auth login
 ```
 
-3. Follow the following prompts. Select GitHub.com (default choice)
+4. Follow the following prompts. Select GitHub.com (default choice)
 
 ```
 ? What account do you want to log into?  [Use arrows to move, type to filter]
@@ -37,7 +41,7 @@ gh auth login
   SSH
 ```
 
-8. When prompted select "Login with a web browser" option (default choice) regardless of the type of terminal these commands are being entered in.
+6. When prompted select "Login with a web browser" option (default choice) regardless of the type of terminal these commands are being entered in.
 
 ```
 ? How would you like to authenticate GitHub CLI?  [Use arrows to move, type to filter]
@@ -45,28 +49,24 @@ gh auth login
    Paste an authentication token
 ```
 
-9. The "open browser" prompt will only work in certain contexts. Press enter to open the local browser.  
+7. The "open browser" prompt will only work in certain contexts. Press enter to open the local browser.  
 ```
 The Enter to open github.com in your browser...  
 ```
 
-10. If launching the browser produces the following error, enter the standard class password to proceed to the browser.
+8. If the process doesn't present a web browser to login to github, browse to the following URL on any computer that is already logged into on GitHub: https://github.com/login/device  Enter the one-time code and select "Authorize github"
 
-![Browswer Keyring Error](./images/Browser-keyring-error.png)
+9. Follow the prompts to authorize this session to the OHIO-ECT repo, which may include additional login's to Ohio University's SSO.
 
-11. If the process doesn't present a web browser to login to github, browse to the following URL on any computer that is already logged into on GitHub: https://github.com/login/device  Enter the one-time code and select "Authorize github"
+10. Return to terminal window and press enter at "Authentication complete. Press Enter to continue..." to complete the authentication process.
 
-12. Follow the prompts to authorize this session to the OHIO-ECT repo, which may include additional login's to Ohio University's SSO.
-
-13. Return to terminal window and press enter at "Authentication complete. Press Enter to continue..." to complete the authentication process.
-
-14. In the gHost terminal configure Git user info with the following commands
+11. In the gHost terminal configure Git user info with the following commands
 ```
 git config --global user.email "<OHIO_EMAIL>"
 git config --global user.name "<FIRSTNAME> <LASTNAME>"
 ```
 
-15. The following test should produce the markdown text of the ECT Cheat sheet repo
+12. The following test should produce the markdown text of the ECT Cheat sheet repo
 ```
 gh repo view OHIO-ECT/Lab-Notebook-Cheat-Sheet
 ```
