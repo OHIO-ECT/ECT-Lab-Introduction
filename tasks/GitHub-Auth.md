@@ -41,6 +41,11 @@ gh auth login
   SSH
 ```
 
+6. Select yes to authenticate with GitHub credentials.
+```
+? Authenticate Git with your GitHub credentials? (Y/n)
+```
+
 6. When prompted select "Login with a web browser" option (default choice) regardless of the type of terminal these commands are being entered in.
 
 ```
