@@ -46,7 +46,7 @@ gh auth login
 ? Authenticate Git with your GitHub credentials? (Y/n)
 ```
 
-6. When prompted select "Login with a web browser" option (default choice) regardless of the type of terminal these commands are being entered in.
+7. When prompted select "Login with a web browser" option (default choice) regardless of the type of terminal these commands are being entered in.
 
 ```
 ? How would you like to authenticate GitHub CLI?  [Use arrows to move, type to filter]
@@ -54,24 +54,24 @@ gh auth login
    Paste an authentication token
 ```
 
-7. The "open browser" prompt will only work in certain contexts. Press enter to open the local browser.  
+8. The "open browser" prompt will only work in certain contexts. Press enter to open the local browser.  
 ```
 The Enter to open github.com in your browser...  
 ```
 
-8. If the process doesn't present a web browser to login to github, browse to the following URL on any computer that is already logged into on GitHub: https://github.com/login/device  Enter the one-time code and select "Authorize github"
+9. If the process doesn't present a web browser to login to github, browse to the following URL on any computer that is already logged into on GitHub: https://github.com/login/device  Enter the one-time code and select "Authorize github"
 
-9. Follow the prompts to authorize this session to the OHIO-ECT repo, which may include additional login's to Ohio University's SSO.
+10. Follow the prompts to authorize this session to the OHIO-ECT repo, which may include additional login's to Ohio University's SSO.
 
-10. Return to terminal window and press enter at "Authentication complete. Press Enter to continue..." to complete the authentication process.
+11. Return to terminal window and press enter at "Authentication complete. Press Enter to continue..." to complete the authentication process.
 
-11. In the gHost terminal configure Git user info with the following commands
+12. In the gHost terminal configure Git user info with the following commands
 ```
 git config --global user.email "<OHIO_EMAIL>"
 git config --global user.name "<FIRSTNAME> <LASTNAME>"
 ```
 
-12. The following test should produce the markdown text of the ECT Cheat sheet repo
+13. The following test should produce the markdown text of the ECT Cheat sheet repo
 ```
 gh repo view OHIO-ECT/Lab-Notebook-Cheat-Sheet
 ```
