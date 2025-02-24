@@ -32,11 +32,8 @@
 9. Change to the Downloads folder by typing the following command:
 ```cd Downloads```
 
-10. Make the script executable by typing the following command (you will be prompted for the itsvm password):
-```sudo chmod +x import-template.sh```
-
-11. Run the script, when prompted provide the name of the template you wish to import. For example, to import the Kali Linux template type the following command:
-```./import-template.sh```
+10. Run the script, when prompted provide the name of the template you wish to import. **For example,** to import the Kali Linux template type the following command:
+```bash import-template.sh```
 
 Output should look like this:
 ```Importing GNS3 Template
@@ -48,8 +45,8 @@ Enter filename (no path, no extensions) :
 ```
 In our example, type "kali" and press enter.
 
-12. The script will then extract the files and import the template into GNS3.
+11. The script will then extract the files and import the template into GNS3.
 
-13. There is a cleanup phase at the end of the script. If you respond ``rm: remove regular file '/home/itsvm/Downloads/kali.7z.001'?`` the script will delete the kali.7z.* files. This is normal and expected. Type "y" and press enter. 
+12. There is a cleanup phase at the end of the script. If you respond ``rm: remove regular file '/home/itsvm/Downloads/kali.7z.001'?`` the script will delete the kali.7z.* files. This is normal and expected. Type "y" and press enter. 
 
-14. The template should now be available in the "All Devices" menu in GNS3. Press 
+13. The template should now be available in the "All Devices" menu in GNS3. Press 
