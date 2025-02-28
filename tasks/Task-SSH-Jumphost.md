@@ -30,17 +30,17 @@ Access is controlled through two layers.  The first uses the OHIO ID and passwor
 
 The use of multiple @ as part of the command is due to the use of OHIO IDs for connections through the SSH jump box.
 
-    Professor Saunders Example:
+Professor Saunders Example:
 
-    ````
-    ssh -J bs257595@ohio.edu@ect-bh.its.ohio.edu itsclass@132.235.207.189
-    ````
+```
+ssh -J bs257595@ohio.edu@ect-bh.its.ohio.edu itsclass@132.235.207.189
+```
 
-    Student Template:
+Student Template:
 
-    ````
-    ssh -J <OHIOID>@ohio.edu@ect-bh.its.ohio.edu <username>@<server IP>
-    ````
+```
+ssh -J <OHIOID>@ohio.edu@ect-bh.its.ohio.edu <username>@<server IP>
+```
 
 Different SSH clients will have different settings that may need to be used to access this feature. The standard OpenSSH client uses a "-J" option to specify the jump box.
 
