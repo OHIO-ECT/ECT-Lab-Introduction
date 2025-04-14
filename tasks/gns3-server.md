@@ -26,7 +26,7 @@ Failure to heed that warning will open your GNS3 to unauthenticated access and p
 9. The open projects dialog should show the projects from the "server" gHost.
 
 # Loading local projects again
-    To reopen projects on each client gHost.  
+To reopen projects on each client gHost.  
 
 1. Select the Edit -> Preferenced Menu and select "Server" from the left hand navigation
 
