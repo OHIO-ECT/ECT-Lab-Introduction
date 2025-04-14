@@ -17,7 +17,7 @@ Failure to heed that warning will open your GNS3 to unauthenticated access and p
 
 6. Enter the internal IP address of the gHost that will function as the server.
 
-![](./files/gns3-server-settings.png)
+![](./images/gns3-server-settings.png)
 
 7. Save the configuration.
 
