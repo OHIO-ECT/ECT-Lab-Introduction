@@ -97,7 +97,6 @@ The last one is in the lower left corner, similar to where the Windows icon (aka
 ### Connect to gHost Virtual Machine's CLI
 
 18. Locate and expand the "Class and Labs" caret to reveal a list of the classes for which the user has a gHost connection. Withing the folder showing GUI connections to gHosts is another sub-folder ending in "-SSH". Expand that folder to reveal SSH connections to gHost. The connection icon ">_" will indicate these connections. The name of the connection will end in "-SSH", but otherwise have the same name as the GUI connection.
-
 ![](./images/Guac-Home-3.png)
 
 18. Click on that entry. This will log you into your VM and lead to a command line interface.
