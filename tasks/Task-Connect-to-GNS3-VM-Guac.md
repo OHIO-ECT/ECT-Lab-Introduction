@@ -19,12 +19,13 @@
 
 Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM). This system will be referred to as the "gHost" throughout the lab. The goal of this task is to show you how to connect to that environment so that you can work and complete assignments.
 
-1. Retrieve the following information from either information presented in class, received via email, or perhaps found in canvas or other documentation related to the assignment. Ask faculty for assistance if needed.
+1. Retrieve the following received via email. (Ask faculty for assistance if needed).
 <br>
 
 - GNS3 VM IP address
 - GNS3 VM Username
 - GNS3 VM Password
+<br>
 
 2. Watch the Pre-Lab video. **DO NOT follow along the first time.** Watch other Tech Nuggets as necessary to round out your understanding of related topics.
 
