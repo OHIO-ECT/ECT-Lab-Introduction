@@ -75,46 +75,38 @@ This is a one-time action. If you are using a different browser or a different c
 
     The last one is in the lower left corner, similar to where you might find the Windows icon (aka Start Button) on a Windows computer.
 
-11. Some classes (ITS 2801) use the Visual Studio Code editor. If you are taking ITS 2801, click on the "Show Apps" icon. Find the "Visual Studio Code" icon, right-click on it, and choose "Pin to Dash" and it will be added to your toolbar. Once done, you can click on the "Show Apps" icon to make the list go away.
-
-![](./images/Guac-GUI-2.png)
-
-12. Launch the "Files" application from your toolbar by clicking on it. This is very similar to the Windows File Explorer or the Finder on the Macintosh. By default, it shows you the "Home" directory associated with your account. You can manage your files and directories (folders) using this application, though you can also do so via commands which is described in other Lab activities.
-![](./images/VM-Apps-File.png)
-
-
 ### ExfiltratingEx Data
 
-13. The gHost machine has web access to the outside world. When saving data for lab reports there are several options. The easiest is to use a browser on the VM to access web-based email. Open the file named "README.txt" on the desktop, highlight the text found within, and copy it either by right-clicking on the highlighted text and choosing "copy" or via the CONTROL-C keys.
+11. The gHost machine has web access to the outside world. When saving data for lab reports there are several options. The easiest is to use a browser on the VM to access web-based email. Open the file named "README.txt" on the desktop, highlight the text found within, and copy it either by right-clicking on the highlighted text and choosing "copy" or via the CONTROL-C keys.
 
-14. Back on your personal computer, open up any application that can receive text, such as Notepad or MS Word. Paste in the text that you copied from your VM. Notice that you can copy and paste from your VM to your personal computer, and vice-versa. You may find this to be handy in future assignments. You can close out the text application on your personal computer as we will not need it any more in this exercise.
+12. Back on your personal computer, open up any application that can receive text, such as Notepad or MS Word. Paste in the text that you copied from your VM. Notice that you can copy and paste from your VM to your personal computer, and vice-versa. You may find this to be handy in future assignments. You can close out the text application on your personal computer as we will not need it any more in this exercise.
 
-15. Back on your VM, launch either the Chrome or Firefox browsers, login to your email service, compose a message to your OHIO ID, and attach the ReadMe.txt file to your message as an attachment. Send yourself the message. Then, on your personal computer, check your email and verify the attachment was included.
+13. Back on your VM, launch either the Chrome or Firefox browsers, login to your email service, compose a message to your OHIO ID, and attach the ReadMe.txt file to your message as an attachment. Send yourself the message. Then, on your personal computer, check your email and verify the attachment was included.
 
-16. Back on your VM, point your browser to the Canvas LMS used by the class:
+14. Back on your VM, point your browser to the Canvas LMS used by the class:
     - https://canvas.ohio.edu
 
-17. Note that you can use the LMS as normal and that you could turn in assignments directly from your VM, if needed.
+15. Note that you can use the LMS as normal and that you could turn in assignments directly from your VM, if needed.
 
 ### Disconnecting from a VM
 
-18. Information: To disconnect from your VM you would normally just close the browser window or tab. That would leave your VM in its current state so you could pick up where you left off when you returned. For this lab, we're going to do something else.
+16. Information: To disconnect from your VM you would normally just close the browser window or tab. That would leave your VM in its current state so you could pick up where you left off when you returned. For this lab, we're going to do something else.
 
-19. Use your browser's back button to return to the Guacamole Home screen. If in the step above you actually closed your browser window, then return to the URL and login again:
+17. Use your browser's back button to return to the Guacamole Home screen. If in the step above you actually closed your browser window, then return to the URL and login again:
     - https://rm.its.ohio.edu
 
 ### Connect to your Virtual Machine's CLI
 
-20. Locate and expand the "Class and Labs" caret to reveal a list of the classes for which you have a VM. Lower on the list of VMs for a specific class is another caret (plus sign) that you can expand to reveal SSH options. Click on that caret (plus sign). Each of your VMs will be listed with a >_ icon beside them.
+18. Locate and expand the "Class and Labs" caret to reveal a list of the classes for which you have a VM. Lower on the list of VMs for a specific class is another caret (plus sign) that you can expand to reveal SSH options. Click on that caret (plus sign). Each of your VMs will be listed with a >_ icon beside them.
 
 ![](./images/Guac-Home-3.png)
 
-21. Click on that entry. This will log you into your VM and lead to a command line interface.
+18. Click on that entry. This will log you into your VM and lead to a command line interface.
 ![](./images/Guac-CLI-1.png)
 
 ### A Tour of the CLI
 
-22. You are now at a Command Line interface to your VM. It is quite possible to develop applications in this environment, though you are more likely to do so in the GUI environment if you know your Linux commands.
+20. You are now at a Command Line interface to your VM. It is quite possible to develop applications in this environment, though you are more likely to do so in the GUI environment if you know your Linux commands.
 
 You might be wondering why somebody might prefer to use a CLI. There are several reasons. First, professionally speaking, persons in certain specialties become very familiar with the available commands and can actually work faster in a command line environment. Secondly, computers running services that do not need a GUI can save a lot of resources by only offering a command line environment. Thirdly, when either a network or a host computer has lots of demand and is very busy a command line environment remains viable where a graphical environment becomes unusable.
 
@@ -122,4 +114,4 @@ In short, late in the semester when many classes are using the environment and s
 
 ### Disconnect, Again
 
-23. This series of steps is complete. Disconnect from your VM as the next task likely assumes you are not connected. If you don't remember how to disconnect, see one of the steps above.
+21. This series of steps is complete. Disconnect from your VM as the next task likely assumes you are not connected. If you don't remember how to disconnect, see one of the steps above.
