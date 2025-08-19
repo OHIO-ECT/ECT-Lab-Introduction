@@ -49,12 +49,11 @@ This is a one-time action. If you are using a different browser or a different c
 
 - It is possible to be in multiple classes each with their own VM. If so, it is important to use the correct VM for the correct class. Different classes may have gHost configurations for different classes. 
 
-**TL;DR - Don't use an ITS-2801 VM for ITS-2300, and vice-versa, even if it does work.**
+**TL;DR - Don't use an ITS-2801 VM for ITS-2300, and/or vice-versa, even if it seems to work.**
 
 ![](./images/Guac-Home-2.png)
 
 8. Note that if you have connected to Guacamole before the "Recent Connections" portion of the screen will present you with a quick way to reconnect as you had done before. You would just click on the connectio you desired. You won't see that the first time you connect, but it looks something like this:
-
 ![](./images/Guac-Home-4.png)
 
 9. Click on the line with the computer icon. This will login to your into your VM and lead to a GUI interface. **Be patient** with the connection as it may take a few seconds to establish. If the black login screen persists for more than 30 seconds, please contact your instructor.
