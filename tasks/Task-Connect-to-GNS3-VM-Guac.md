@@ -12,7 +12,7 @@
 
 - Personal Computer (Desktop or Laptop) with a web browser, such as Chrome, Firefox, or Edge.
 - Assigned gHost (GNS3 Virtual Machine)
-- A document you have created to use as a lab notebook
+- A document used as a lab notebook
 - Tech Nuggets: [Tech Nuggets on YouTube](https://www.youtube.com/@ecttechnuggets9126)
 
 ### Connect to the Guacamole Service
@@ -25,7 +25,7 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 - GNS3 VM Username
 - GNS3 VM Password
 
-2. Watch the Pre-Lab video. **DO NOT follow along the first time.** Watch other Tech Nuggets as necessary to round out your understanding of related topics.
+2. Watch the Pre-Lab video. **DO NOT follow along the first time.** Watch other ECT Tech Nuggets as necessary to round out understanding of related topics.
 
 3.  Connect to the Guacamole service from computer using a browser. Bookmark the following URL!
     - https://rm.its.ohio.edu
@@ -43,7 +43,7 @@ This is a one-time action. If using a different browser or a different computer,
     Once authenticated, the following screen will be shown:
 ![](./images/Guac-Home-1.png)
 
-### Connect to your Virtual Machine's GUI via Guacamole
+### Connect to gHost's GUI via Guacamole
 7. Locate and expand the "Class and Labs" caret (a little plus sign in a box) to reveal a list of the classes in which the user has gHosts.
 
 - It is possible to be in multiple classes each with their own VM. If so, it is important to use the correct VM for the correct class. Different classes may have gHost configurations for different classes. 
