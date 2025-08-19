@@ -21,6 +21,7 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 
 1. Retrieve the following information from either information presented in class, received via email, or perhaps found in canvas or other documentation related to the assignment. Ask faculty for assistance if needed.
 <br>
+
 - GNS3 VM IP address
 - GNS3 VM Username
 - GNS3 VM Password
