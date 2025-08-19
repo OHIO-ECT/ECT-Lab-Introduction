@@ -24,7 +24,6 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 - GNS3 VM IP address
 - GNS3 VM Username
 - GNS3 VM Password
-<br>
 
 2. Watch the Pre-Lab video. **DO NOT follow along the first time.** Watch other Tech Nuggets as necessary to round out your understanding of related topics.
 
@@ -59,7 +58,7 @@ This is a one-time action. If you are using a different browser or a different c
 
 9. Click on the line with the computer icon. This will login to your into your VM and lead to a GUI interface. **Be patient** with the connection as it may take a few seconds to establish. If the black login screen persists for more than 30 seconds, please contact your instructor.
 
-    For now, avoid any lines with a >_ icon as that leads to a SSH Command Line interface (CLI).
+    For now, avoid any lines with an ">_" icon as that leads to a SSH Command Line interface (CLI).
 ![](./images/Guac-GUI-1.png)
 
 ### A Tour of the GUI
