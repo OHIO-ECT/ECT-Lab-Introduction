@@ -108,8 +108,6 @@ It is possible to be in multiple classes each with their own VM. If so, it is im
 19. Use your browser's back button to return to the Guacamole Home screen. If in the step above you actually closed your browser window, then return to the URL and login again:
     - https://rm.its.ohio.edu
 
-If you haven't already done so, you should bookmark that URL.
-
 ### Connect to your Virtual Machine's CLI
 
 20. Locate and expand the "Class and Labs" caret to reveal a list of the classes for which you have a VM. Lower on the list of VMs for a specific class is another caret (plus sign) that you can expand to reveal SSH options. Click on that caret (plus sign). Each of your VMs will be listed with a >_ icon beside them.
