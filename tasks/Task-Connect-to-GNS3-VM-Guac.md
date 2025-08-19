@@ -101,4 +101,4 @@ Note: The Canvas LMS can be used as normal from within gHost and assignments can
 
 ### Disconnecting from a VM
 
-18. To disconnect from gHost either close the browser window or tab. This will leave gHost in its current state so that later work can resume left off.
+18. To disconnect from gHost either close the browser window or tab. This will leave gHost in its current state (all applications still running) so that later work can resume left off. This is **recommended** as often projects will require multiple sessions to complete.
