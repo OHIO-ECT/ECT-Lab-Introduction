@@ -85,28 +85,20 @@ The last one is in the lower left corner, similar to where the Windows icon (aka
 14. Back on gHost, use a web browser to navigate to the Canvas LMS used by the class:
     - https://canvas.ohio.edu
 
-15. Note: The Canvas LMS can be used as normal from within gHost and assignments can be submitted directly from gHost, if needed.
+Note: The Canvas LMS can be used as normal from within gHost and assignments can be submitted directly from gHost, if needed.
 
-### Disconnecting from a VM
-
-16. To disconnect from gHost either close the browser window or tab. This will leave gHost in its current state so that later work can resume left off.
-
-17. Use browser's back button to return to the Guacamole Home screen. If in the step above the user closed the browser window, then return to the URL and login again:
+15. Use browser's back button to return to the Guacamole Home screen. If in the step above the user closed the browser window, then return to the URL and login again:
     - https://rm.its.ohio.edu
 
 ### Connect to gHost Virtual Machine's CLI
 
-18. Locate and expand the "Class and Labs" caret to reveal a list of the classes for which the user has a gHost connection. Within the folder showing GUI connections to gHosts is another sub-folder ending in "-SSH". Expand that folder to reveal SSH connections to gHost. The connection icon ">_" will indicate these connections. The name of the connection will end in "-SSH", but otherwise have the same name as the GUI connection.
+16. Locate and expand the "Class and Labs" caret to reveal a list of the classes for which the user has a gHost connection. Within the folder showing GUI connections to gHosts is another sub-folder ending in "-SSH". Expand that folder to reveal SSH connections to gHost. The connection icon ">_" will indicate these connections. The name of the connection will end in "-SSH", but otherwise have the same name as the GUI connection.
 
 ![](./images/Guac-Home-3.png)
 
-19. Click on that entry. This will log you into your VM and lead to a command line interface.
+17. Select the SSH connection to login the gHost SSH (AKA CLI) interface.
 ![](./images/Guac-CLI-1.png)
 
-### A Tour of the CLI
+### Disconnecting from a VM
 
-20. You are now at a Command Line interface to your VM. It is quite possible to develop applications in this environment, though you are more likely to do so in the GUI environment if you know your Linux commands.
-
-### Disconnect, Again
-
-21. This series of steps is complete. Disconnect from your VM as the next task likely assumes you are not connected. If you don't remember how to disconnect, see one of the steps above.
+18. To disconnect from gHost either close the browser window or tab. This will leave gHost in its current state so that later work can resume left off.
