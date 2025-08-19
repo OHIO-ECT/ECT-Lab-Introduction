@@ -1,4 +1,4 @@
-## Connect to a VM via a Web Browser and the Guacamole Service
+## Connect gHost VM via Guacamole Remote Access Service
 
 ### Goals
 - Demonstrate how a student can connect to a Graphical User Interface of their virtual host via a web-based method.
