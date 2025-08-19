@@ -20,7 +20,6 @@
 Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM). This system will be referred to as the "gHost" throughout the lab. The goal of this task is to show you how to connect to that environment so that you can work and complete assignments.
 
 1. Retrieve the following received via email from ECT Dept. (Ask faculty for assistance if needed).
-<br>
 
 - GNS3 VM IP address
 - GNS3 VM Username
@@ -50,19 +49,16 @@ This is a one-time action. If you are using a different browser or a different c
 <br>
 It is possible to be in multiple classes each with their own VM. If so, it is important to use the correct VM for the correct class. Different classes may have gHost configurations for different classes. 
 <br>
-
 **TL;DR - Don't use an ITS-2801 VM for ITS-2300, and vice-versa, even if it does work.**
-
 ![](./images/Guac-Home-2.png)
+<br>
 
 8. Note that if you have connected to Guacamole before the "Recent Connections" portion of the screen will present you with a quick way to reconnect as you had done before. You would just click on the connectio you desired. You won't see that the first time you connect, but it looks something like this:
-
 ![](./images/Guac-Home-4.png)
 
 9. Click on the line with the computer icon. This will login to your into your VM and lead to a GUI interface. **Be patient** with the connection as it may take a few seconds to establish. If the black login screen persists for more than 30 seconds, please contact your instructor.
 
     For now, avoid any lines with a >_ icon as that leads to a SSH Command Line interface (CLI).
-
 ![](./images/Guac-GUI-1.png)
 
 ### A Tour of the GUI
@@ -80,15 +76,13 @@ It is possible to be in multiple classes each with their own VM. If so, it is im
     The last one is in the lower left corner, similar to where you might find the Windows icon (aka Start Button) on a Windows computer.
 
 11. Some classes (ITS 2801) use the Visual Studio Code editor. If you are taking ITS 2801, click on the "Show Apps" icon. Find the "Visual Studio Code" icon, right-click on it, and choose "Pin to Dash" and it will be added to your toolbar. Once done, you can click on the "Show Apps" icon to make the list go away.
-
 ![](./images/Guac-GUI-2.png)
 
 12. Launch the "Files" application from your toolbar by clicking on it. This is very similar to the Windows File Explorer or the Finder on the Macintosh. By default, it shows you the "Home" directory associated with your account. You can manage your files and directories (folders) using this application, though you can also do so via commands which is described in other Lab activities.
-
 ![](./images/VM-Apps-File.png)
 
 
-### Exfiltrating Data
+### ExfiltratingEx Data
 
 13. The gHost machine has web access to the outside world. When saving data for lab reports there are several options. The easiest is to use a browser on the VM to access web-based email. Open the file named "README.txt" on the desktop, highlight the text found within, and copy it either by right-clicking on the highlighted text and choosing "copy" or via the CONTROL-C keys.
 
@@ -111,11 +105,9 @@ It is possible to be in multiple classes each with their own VM. If so, it is im
 ### Connect to your Virtual Machine's CLI
 
 20. Locate and expand the "Class and Labs" caret to reveal a list of the classes for which you have a VM. Lower on the list of VMs for a specific class is another caret (plus sign) that you can expand to reveal SSH options. Click on that caret (plus sign). Each of your VMs will be listed with a >_ icon beside them.
-
 ![](./images/Guac-Home-3.png)
 
 21. Click on that entry. This will log you into your VM and lead to a command line interface.
-
 ![](./images/Guac-CLI-1.png)
 
 ### A Tour of the CLI
