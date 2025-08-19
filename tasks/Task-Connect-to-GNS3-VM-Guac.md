@@ -48,10 +48,8 @@ This is a one-time action. If you are using a different browser or a different c
 7. Locate and expand the "Class and Labs" caret (a little plus sign in a box) to reveal a list of the classes for which you have a VM.
 <br>
 It is possible to be in multiple classes each with their own VM. If so, it is important to use the correct VM for the correct class. Different classes may have gHost configurations for different classes. 
-<br>
 **TL;DR - Don't use an ITS-2801 VM for ITS-2300, and vice-versa, even if it does work.**
 ![](./images/Guac-Home-2.png)
-<br>
 
 8. Note that if you have connected to Guacamole before the "Recent Connections" portion of the screen will present you with a quick way to reconnect as you had done before. You would just click on the connectio you desired. You won't see that the first time you connect, but it looks something like this:
 
