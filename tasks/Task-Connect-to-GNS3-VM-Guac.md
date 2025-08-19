@@ -37,7 +37,7 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 
 This is a one-time action. If you are using a different browser or a different computer, you will need to allow clipboard access again. If set correctly in the browser settings, you may not see this message again.<br>
 
-5. Check status of this setting in your browser settings to ensure it is enabled. For example, in Chrome, you can check the clipboard setting by clicking on the lock icon in the address bar and then clicking on "Site settings". Ensure that the clipboard setting is set to "Allow" as shown below:
+5. Check status of this setting in your browser settings to ensure it is enabled. For example, in Chrome, you can check the clipboard setting by clicking on the lock icon in the address bar and then clicking on "Site settings". Ensure that the clipboard setting is set to "Allow" as shown below:<br>
     ![](./images/Guac-Browser-Clipboard-Status.png)
 
 6. Login using your OHIO ID, Password, and your established method of Multifactor Authentication (MFA). Note: If you are already logged into some other University service, single sign-on features will reuse the credentials and session already established. 
