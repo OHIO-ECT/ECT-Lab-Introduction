@@ -29,10 +29,8 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 
 2. Watch the Pre-Lab video. **DO NOT follow along the first time.** Watch other Tech Nuggets as necessary to round out your understanding of related topics.
 
-3. Connect to the Guacamole service from your own computer using your favorite browser. The URL is:
+3.  Connect to the Guacamole service from your own computer using your favorite browser. Bookmark the following URL! The URL is:
     - https://rm.its.ohio.edu/
-
-    Bookmark that URL!
 
 4. The first time a browser connects to the Guacamole service, a screen similar to the following will appear. Click on the "Allow" button to allow the Guacamole service to access your clipboard. This will allow you to copy and paste text between your personal computer and the VM. This feature will be required to work effectively with the remote machines.
 
