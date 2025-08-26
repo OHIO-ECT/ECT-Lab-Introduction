@@ -80,7 +80,7 @@ The last one is in the lower left corner, similar to where the Windows icon (aka
 
 12. Back on local personal computer, open up any application that can receive text, such as Notepad, Notepad++. Paste in the text copied from gHost. Notice that it's possible to copy and paste to and from gHost to local personal computer, and vice-versa. This will be very helpful (even necessary) for future assignments.
 
-13. Back on gHost, launch either the Chrome or Firefox browsers, login into Catmail, compose a message to OHIO ID, and attach the ReadMe.txt file to the message as an attachment. Send the message. Then, on local personal computer, check Catmail to verify the email was received with attachment.
+13. Back on gHost, launch either the Chrome or Firefox browsers, login into Catmail, compose a message to your OHIO ID, and attach the ReadMe.txt file to the message as an attachment. Send the message. Then, on local personal computer, check Catmail to verify the email was received with attachment.
 
 14. Back on gHost, use a web browser to navigate to the Canvas LMS used by the class:
     - https://canvas.ohio.edu
