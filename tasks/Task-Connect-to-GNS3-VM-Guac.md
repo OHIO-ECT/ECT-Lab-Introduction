@@ -102,3 +102,11 @@ Note: The Canvas LMS can be used as normal from within gHost and assignments can
 ### Disconnecting from a VM
 
 18. To disconnect from gHost either close the browser window or tab. This will leave gHost in its current state (all applications still running) so that later work can resume left off. This is **recommended** as often projects will require multiple sessions to complete.
+
+### Black Screen of Death (sigh)
+**DON NOT RUN THIS UNLESS INSTRUCTED**
+The instructor will have you use this command if you encounter a black screen when trying to connect to the gHost. It's used via the SSH Guac connection:
+
+```
+DISPLAY=:10.0 timeout 0.5 xmessage -iconic x
+```
