@@ -20,12 +20,10 @@
 
 3. Ensure that the prompt shows something **similar to**: ``itsvm@ITS-2300-GNS3-000-bc012345``
 
-4. (Intentionally left blank)
+4. In the gHost terminal, run the command: ``ssh itsclass@<Ubuntu-CLI IP>``.  Replace ```<Ubuntu-CLI IP>``` with the IP found in the previous step.
 
-5. In the gHost terminal, run the command: ``ssh itsclass@<Ubuntu-CLI IP>``.  Replace ```<Ubuntu-CLI IP>``` with the IP found in the previous step. 
+5. You might be prompted to confirm a security hash 
 
 6. Note the change in the prompt to reflect the change in the device that commands are issued to.  This is the reason to set server host names.
 
-7. Use the following command to set a permanent hostname on the server.  Note: The prompt will only update when the user logs out and logs back into the server.
-
-8. Return to the gHost terminal by exiting this ssh session with the following command: ``exit``
+7. Return to the gHost terminal by exiting this ssh session with the following command: ``exit``
