@@ -27,7 +27,7 @@
 
 ![](./images/deploy-ubuntu.png)
 
-5. Once all the GNS3 VM has started and is at a login prompt it is ready to use. Use the standard username `itsclass` and the password `class115#` to log into the server.
+5. Once all the GNS3 VM has started and is at a login prompt it is ready to use. Use the standard username `itsclass` and the password `class115#` to log into the server. Note: The Ubuntu password prompt will NOT show characters as they are typed. This is a security feature of the Linux operating system. To stop shoulder surfers from telling how many characters there are in the password.
 
 6. Projects remain running even if the user is NOT connected to the remote desktop connection. This allows the student to break from the lab work and return to the project later.  Lets this project running unless instructed otherwise.
 
