@@ -30,7 +30,7 @@ The **best** network debugging processes start with pinging another machine that
 
 2. In a powershell terminal in Windows-Desktop-1 run the command ``ping 13.107.246.51`` and expect to get 4 "Reply" with round trip or ping time.
 
-3. Most implementations of ping will repeat the ping process several times; others will run continuously until user presses <ctrl+c> to stop the process. For example, try ``ping 132.235.1.1`` in the Ubuntu-GUI-1.
+3. Most implementations of ping will repeat the ping process several times; others will run continuously until user presses <ctrl+c> to stop the process. For example, try ``ping ohio.edu`` in the Ubuntu-GUI-1.
 
 4. Ping can also take DNS names. Try ``ping xkcd.com`` on the Ubuntu-CLI-1
 
