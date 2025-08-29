@@ -23,7 +23,7 @@
     **Note:** Students with existing accounts will need to associate their OHIO email address with an existing account.
 <br>
 
-3. Send an email to the course instructors. The subject of the message needs to be the course number (e.g. ITS 2300). The body of the message should include your GitHub username.
+3. Send an email to the course instructors. The subject of the message needs to be the course number (e.g. ITS 2300). The body of the message should include your GitHub username (e.g. Github username: johnsmith)
 <br>
 
 4. You will be unable to access any further labs/repos after this one the GitHub account is created and the information emailed to the instructor.
