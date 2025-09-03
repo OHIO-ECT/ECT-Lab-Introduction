@@ -34,7 +34,7 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 ![](./images/Guac-Browser-Clipboard-Access.png)<br>
 This is a one-time action. If using a different browser or a different computer, the user will need to allow clipboard access again. If set correctly in the browser settings, the user should not see this message again.<br>
 
-1. Other browsers will work with Guacamole; *however*, access to the clipboard will need to be granted manually. Please refer to the documentation for your specific browser for instructions on how to do this.
+1. Other browsers will work with Guacamole; _however_, access to the clipboard will need to be granted manually. Please refer to the documentation for your specific browser for instructions on how to do this.
 
 2. Check the status of this setting in the current settings to ensure it is enabled. In Chrome, check the clipboard setting by clicking on the lock icon in the address bar and then clicking on "Site settings". Ensure that the clipboard setting is set to "Allow" as shown below:<br>
     ![](./images/Guac-Browser-Clipboard-Status.png)
