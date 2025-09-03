@@ -34,18 +34,18 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 ![](./images/Guac-Browser-Clipboard-Access.png)<br>
 This is a one-time action. If using a different browser or a different computer, the user will need to allow clipboard access again. If set correctly in the browser settings, the user should not see this message again.<br>
 
-1. Other browsers will work with Guacamole; however, access to the clipboard will need to be granted manually. Please refer to the documentation for your specific browser for instructions on how to do this.
+5. Other browsers will work with Guacamole; however, access to the clipboard will need to be granted manually. Please refer to the documentation for your specific browser for instructions on how to do this.
 
-2. Check the status of this setting in the current settings to ensure it is enabled. In Chrome, check the clipboard setting by clicking on the lock icon in the address bar and then clicking on "Site settings". Ensure that the clipboard setting is set to "Allow" as shown below:<br>
+6. Check the status of this setting in the current settings to ensure it is enabled. In Chrome, check the clipboard setting by clicking on the lock icon in the address bar and then clicking on "Site settings". Ensure that the clipboard setting is set to "Allow" as shown below:<br>
     ![](./images/Guac-Browser-Clipboard-Status.png)
 
-3. Login using OHIO ID, Password, and established method of multifactor Authentication (MFA). Note: If user is already logged into some other Ohio University service, single sign-on features will reuse the credentials and session already established. 
+7. Login using OHIO ID, Password, and established method of multifactor Authentication (MFA). Note: If user is already logged into some other Ohio University service, single sign-on features will reuse the credentials and session already established. 
     <br>
     Once authenticated, the following screen will be shown:
 ![](./images/Guac-Home-1.png)
 
 ### Connect to gHost's GUI via Guacamole
-7. Locate and click on "Class and Labs" expander (a little plus sign in a box) to reveal a list of the classes in which the user has gHosts.
+8. Locate and click on "Class and Labs" expander (a little plus sign in a box) to reveal a list of the classes in which the user has gHosts.
 
 - It is possible to be in multiple classes each with their own VM. If so, it is important to use the correct VM for the correct class. Different classes may have gHost configurations for different classes. 
 
@@ -53,11 +53,11 @@ This is a one-time action. If using a different browser or a different computer,
 
 ![](./images/Guac-Home-2.png)
 
-8. If connected to Guacamole previously the "Recent Connections" portion of the screen will present with a quick way to reconnect. Previous connections are presented as shown below:
+9. If connected to Guacamole previously the "Recent Connections" portion of the screen will present with a quick way to reconnect. Previous connections are presented as shown below:
 
 ![](./images/Guac-Home-4.png)
 
-9. Click on the line with the computer icon. This will establish a GUI connection to the gHost. **Be patient** as it may take a few seconds to establish. If the black login screen persists for more than 30 seconds, please contact the course instructor.
+10. Click on the line with the computer icon. This will establish a GUI connection to the gHost. **Be patient** as it may take a few seconds to establish. If the black login screen persists for more than 30 seconds, please contact the course instructor.
 
 ![](./images/Guac-GUI-1.png)
 
@@ -65,7 +65,7 @@ This is a one-time action. If using a different browser or a different computer,
 
 ### A Tour of the GUI
 
-10. The toolbar on the left of the screen has a number of useful icons. Mouse-over icons to see the names of the applications. Find each of the following:
+11. The toolbar on the left of the screen has a number of useful icons. Mouse-over icons to see the names of the applications. Find each of the following:
 - Google Chrome
 - Firefox
 - Files
@@ -78,31 +78,31 @@ The last one is in the lower left corner, similar to where the Windows icon (aka
 
 ### Exfiltrating Data
 
-11. The gHost machine has access to the outside world. When saving data for lab reports there are several options. The easiest is to use a browser on the gHost to access web-based email. Open the file named "README.txt" on the desktop, highlight the text found within, and copy it either by right-clicking on the highlighted text and choosing "copy" or via the CONTROL-C keys (Note: on a Mac you will need to use CTRL+C to copy on the gHost).
+12. The gHost machine has access to the outside world. When saving data for lab reports there are several options. The easiest is to use a browser on the gHost to access web-based email. Open the file named "README.txt" on the desktop, highlight the text found within, and copy it either by right-clicking on the highlighted text and choosing "copy" or via the CONTROL-C keys (Note: on a Mac you will need to use CTRL+C to copy on the gHost).
 
-12. Back on local personal computer, open up any application that can receive text, such as Notepad, Notepad++. Paste in the text copied from gHost. Notice that it's possible to copy and paste to and from gHost to local personal computer, and vice-versa. This will be very helpful (even necessary) for future assignments. Note: If this isn't working user may need to enable browser clipboard sharing as discussed earlier in the lab.
+13. Back on local personal computer, open up any application that can receive text, such as Notepad, Notepad++. Paste in the text copied from gHost. Notice that it's possible to copy and paste to and from gHost to local personal computer, and vice-versa. This will be very helpful (even necessary) for future assignments. Note: If this isn't working user may need to enable browser clipboard sharing as discussed earlier in the lab.
 
-13. Back on gHost, launch either the Chrome or Firefox browsers, login into Catmail, compose a message to your OHIO ID, and attach the ReadMe.txt file to the message. Send the message. On the local computer, Catmail should be checked to confirm that the email and its attachment were received.
+14. Back on gHost, launch either the Chrome or Firefox browsers, login into Catmail, compose a message to your OHIO ID, and attach the ReadMe.txt file to the message. Send the message. On the local computer, Catmail should be checked to confirm that the email and its attachment were received.
 
-14. Back on gHost, use a web browser to navigate to the Canvas LMS used by the class:
+15. Back on gHost, use a web browser to navigate to the Canvas LMS used by the class:
     - https://canvas.ohio.edu
 
 Note: The Canvas LMS can be used as normal from within gHost and assignments can be submitted directly from gHost, if needed.
 
-15. To disconnect use browser's back button to return to the Guacamole home screen or use previously created bookmark for Guacamole.
+16. To disconnect use browser's back button to return to the Guacamole home screen or use previously created bookmark for Guacamole.
 
 ### Connect to gHost Virtual Machine's CLI
 
-1.  Locate appropriate Guacamole course folder to reveal a list of the classes. Within the folder showing GUI connections to gHosts is another sub-folder ending in "-SSH". Expand that folder to reveal SSH connections to gHost. The connection icon ">_" will indicate these connections. The name of the connection will end in "-SSH", but otherwise have the same name as the GUI connection.
+17.  Locate appropriate Guacamole course folder to reveal a list of the classes. Within the folder showing GUI connections to gHosts is another sub-folder ending in "-SSH". Expand that folder to reveal SSH connections to gHost. The connection icon ">_" will indicate these connections. The name of the connection will end in "-SSH", but otherwise have the same name as the GUI connection.
 
 ![](./images/Guac-Home-3.png)
 
-17. Select the SSH connection to login the gHost SSH (AKA CLI) interface.
+18. Select the SSH connection to login the gHost SSH (AKA CLI) interface.
 ![](./images/Guac-CLI-1.png)
 
 ### Disconnecting from a VM
 
-18. To disconnect from gHost either close the browser window or tab. This will leave gHost in its current state (all applications still running) so that later work can resume where it left off. This is **recommended** as often projects will require multiple sessions to complete.
+19. To disconnect from gHost either close the browser window or tab. This will leave gHost in its current state (all applications still running) so that later work can resume where it left off. This is **recommended** as often projects will require multiple sessions to complete.
 
 ### TROUBLESHOOTING - Black Screen of Death (sigh)
 **DO NOT RUN THIS UNLESS INSTRUCTED**
