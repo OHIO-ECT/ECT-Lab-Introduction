@@ -31,16 +31,17 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
     - https://rm.its.ohio.edu
 
 4. We encourage using the Chrome browser, the first time it connects to the Guacamole service, a screen similar to the following will appear. Click on the "Allow" button to allow the Guacamole service to access the local clipboard. This will allow a user to copy and paste text between their personal computer and the VM. This feature will be required to work effectively with the remote machines.
+   
 ![](./images/Guac-Browser-Clipboard-Access.png)
 
 This is a one-time action. If using a different browser or a different computer, the user will need to allow clipboard access again. If set correctly in the browser settings, the user should not see this message again.<br>
 
-5. Other browsers will work with Guacamole; however, access to the clipboard will need to be granted manually. Please refer to the documentation for your specific browser for instructions on how to do this.
+1. Other browsers will work with Guacamole; however, access to the clipboard will need to be granted manually. Please refer to the documentation for your specific browser for instructions on how to do this.
 
-5. Check the status of this setting in the current settings to ensure it is enabled. In Chrome, check the clipboard setting by clicking on the lock icon in the address bar and then clicking on "Site settings". Ensure that the clipboard setting is set to "Allow" as shown below:<br>
+2. Check the status of this setting in the current settings to ensure it is enabled. In Chrome, check the clipboard setting by clicking on the lock icon in the address bar and then clicking on "Site settings". Ensure that the clipboard setting is set to "Allow" as shown below:<br>
     ![](./images/Guac-Browser-Clipboard-Status.png)
 
-6. Login using OHIO ID, Password, and established method of multifactor Authentication (MFA). Note: If user is already logged into some other Ohio University service, single sign-on features will reuse the credentials and session already established. 
+3. Login using OHIO ID, Password, and established method of multifactor Authentication (MFA). Note: If user is already logged into some other Ohio University service, single sign-on features will reuse the credentials and session already established. 
     <br>
     Once authenticated, the following screen will be shown:
 ![](./images/Guac-Home-1.png)
