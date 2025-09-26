@@ -21,7 +21,7 @@ Welcome to the ECT Lab Introduction. This repository is intended to orient a stu
 - **DO NOT** follow along with the ECT Tech Nuggets while watching them for the first time. 
 
 ### Beware the gHosts
-Most of these guides assume that the student has been issued a virtual machine which will be referred to as a gHost or GNS3 Host. Students should find information about their assigned gHost from Blackboard and have received an email with the password information from Dr. Bowie.
+Most of these guides assume that the student has been issued a virtual machine which will be referred to as a gHost or GNS3 Host. Students should find information about their assigned gHost from Canvas and have received an email with the password information from Dr. Bowie.
 
 The gHost VM will run throughout the semester **even when you are not connected to it.** The GUI shutdown menu turned is off. **DO NOT** attempt to turn the gHost off without instructor approval. Instead, push the mouse cursor to the top of the screen to reveal the blue control bar. The commands on the bar to exit the remote desktop to return to the personal computer.
 

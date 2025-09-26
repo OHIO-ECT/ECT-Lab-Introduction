@@ -29,7 +29,7 @@
 
 Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM) with GNS3 installed upon it. This system will be referred to as the "gHost" throughout the lab. 
 
-1. Retrieve the following information from Blackboard. Ask faculty for assistance if needed.
+1. Retrieve the following information from Canvas. Ask faculty for assistance if needed.
     - GNS3 VM IP address
     - GNS3 VM Username
     - GNS3 VM Password

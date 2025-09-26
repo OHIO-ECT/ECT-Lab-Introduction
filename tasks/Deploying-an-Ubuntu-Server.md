@@ -33,7 +33,7 @@ address 132.235.160.150.
     the remainder of this lab does this. RDP into the GNS3 system and on
     a terminal in the VM and use the following command to set the
     hostname. Replace the X with the number from the public IP address
-    that is assigned via Blackboard and used in previous labs.
+    that is assigned via Canvas and used in previous labs.
 
 
 

@@ -1,6 +1,6 @@
 # ECT Lab Introduction - Lab Reports
 
-Lab Reports are to be written individually (no group work). Reports will be uploaded to Blackboard electronically as a **PDF** (ONLY!). Reports do not generally need to be more than several pages. Officially, they need to be "long enough to answer the questions".
+Lab Reports are to be written individually (no group work). Reports will be uploaded to Canvas electronically as a **PDF** (ONLY!). Reports do not generally need to be more than several pages. Officially, they need to be "long enough to answer the questions".
 
 An example lab report format doc: https://github.com/OHIO-ECT/ECT-Lab-Introduction/blob/main/files/ITL%20-%20Lab%20Report%20Example.pdf
 
