@@ -21,7 +21,7 @@
 
 4. Expand the "All Devices" menu from the "Devices Toolbar" on the left hand side of GNS3.
 
-5. Open a browser window on the gHost machine. Navigate to: [https://www.its.ohio.edu/gns3](https://www.its.ohio.edu/gns3)
+5. Open a browser window on the gHost machine. Navigate to: [https://gns3.its.ohio.edu/](https://gns3.its.ohio.edu/)
 
 6. Download the file "import-template.sh". Save the file to the "Downloads" folder on the gHost machine.
 
