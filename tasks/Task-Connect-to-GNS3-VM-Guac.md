@@ -106,7 +106,7 @@ Note: The Canvas LMS can be used as normal from within gHost and assignments can
 
 
 ### Black Screen of Death (BSOD) Mitigation
-If you encounter a black screen when trying to connect to the GUI on the gHost there is a connection in the folder ITS-XXXX-SSH-BSOD-Fix (where XXXX is the course number). This connection will open a SSH terminal to the gHost and run a command that should fix the black screen issue. It will not harm anything to run this command even if not experiencing the black screen issue.
+If you encounter a black screen when trying to connect to the GUI on the gHost there is a connection in the folder **ITS-XXXX-SSH-BSOD-Fix** (where XXXX is the course number). This connection will open a SSH terminal to the gHost and run a command that should fix the black screen issue. It will not harm anything to run this command even if not experiencing the black screen issue.
 
 ## Further Troubleshooting the Black Screen of Death (sigh)
 If you are still experiencing issues with a black screen after running the above BSOD fix connection, you may need to run the following command manually.<br>
