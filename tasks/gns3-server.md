@@ -11,19 +11,23 @@ Failure to heed that warning will open your GNS3 to unauthenticated access and p
 
 4. Change the "Host binding" from `localhost` to `0.0.0.0`.
 
+5. Get the password from the server `rep password ~/.config/GNS3/2.2/gns3_server.conf`
+
 # On each gHost that will serve as a client. 
 
-5. Un-check "Enable local server"
+6. Un-check "Enable local server"
 
-6. Enter the internal IP address of the gHost that will function as the server.
+7. Enter the internal IP address of the gHost that will function as the server.
 
 ![](./images/gns3-server-settings.png)
 
-7. Save the configuration.
+8. Save the configuration.
 
-8. Close and reopen GNS3.
+9. Close and reopen GNS3.
 
-9. The open projects dialog should show the projects from the "server" gHost.
+10. The open projects dialog should show the projects from the "server" gHost.
+
+
 
 # Loading local projects again
 To reopen projects on each client gHost.  
