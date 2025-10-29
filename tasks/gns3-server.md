@@ -17,7 +17,7 @@ Failure to heed that warning will open your GNS3 to unauthenticated access and p
 
 6. Un-check "Enable local server"
 
-7. Enter the internal IP address of the gHost that will function as the server.
+7. Enter the internal IP address of the gHost that will function as the server and the password retrieved earlier.
 
 ![](./images/gns3-server-settings.png)
 
