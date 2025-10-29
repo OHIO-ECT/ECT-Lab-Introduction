@@ -104,9 +104,15 @@ Note: The Canvas LMS can be used as normal from within gHost and assignments can
 
 19. To disconnect from gHost either close the browser window or tab. This will leave gHost in its current state (all applications still running) so that later work can resume where it left off. This is **recommended** as often projects will require multiple sessions to complete.
 
-### TROUBLESHOOTING - Black Screen of Death (sigh)
-**DO NOT RUN THIS UNLESS INSTRUCTED**
-The instructor will have you use this command if you encounter a black screen when trying to connect to the gHost. It's used via the SSH Guac connection:
+
+### Black Screen of Death (BSOD) Mitigation
+If you encounter a black screen when trying to connect to the GUI on the gHost there is a connection in the folder ITS-XXXX-SSH-BSOD-Fix (where XXXX is the course number). This connection will open a SSH terminal to the gHost and run a command that should fix the black screen issue. It will not harm anything to run this command even if not experiencing the black screen issue.
+
+## Further Troubleshooting the Black Screen of Death (sigh)
+If you are still experiencing issues with a black screen after running the above BSOD fix connection, you may need to run the following command manually.<br>
+**DO NOT RUN THIS UNLESS INSTRUCTED BY THE INSTRUCTOR.**
+
+It's used via the SSH Guac connection:
 
 ```
 DISPLAY=:10.0 timeout 0.5 xmessage -iconic x
