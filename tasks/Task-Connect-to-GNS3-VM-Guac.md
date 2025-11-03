@@ -34,18 +34,18 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 ![](./images/Guac-Browser-Clipboard-Access.png)<br>
 This is a one-time action. If using a different browser or a different computer, clipboard access must be allowed again. If set correctly in the browser settings, this message should not appear again.<br>
 
-5. Other browsers will work with Guacamole; however, access to the clipboard will need to be granted manually. Please refer to the documentation for your specific browser for instructions on how to do this.
+5. Other browsers will work with Guacamole; however, access to the clipboard will need to be granted manually. Refer to the documentation for the specific browser for instructions on how to do this.
 
 6. Check the status of this setting in the current settings to ensure it is enabled. In Chrome, check the clipboard setting by clicking on the lock icon in the address bar and then clicking on "Site settings". Ensure that the clipboard setting is set to "Allow" as shown below:<br>
     ![](./images/Guac-Browser-Clipboard-Status.png)
 
-7. Login using OHIO ID, Password, and established method of multifactor Authentication (MFA). Note: If user is already logged into some other Ohio University service, single sign-on features will reuse the credentials and session already established. 
+7. Login using OHIO ID, Password, and established method of multifactor Authentication (MFA). Note: If already logged into some other Ohio University service, single sign-on features will reuse the credentials and session already established.
     <br>
     Once authenticated, the following screen will be shown:
 ![](./images/Guac-Home-1.png)
 
 ### Connect to gHost's GUI via Guacamole
-8. Locate and click on "Class and Labs" expander (a little plus sign in a box) to reveal a list of the classes in which the user has gHosts.
+8. Locate and click on "Class and Labs" expander (a little plus sign in a box) to reveal a list of classes with gHosts.
 
 - It is possible to be in multiple classes each with their own VM. If so, it is important to use the correct VM for the correct class. Different classes may have gHost configurations for different classes. 
 
