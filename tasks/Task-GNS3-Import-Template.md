@@ -49,9 +49,13 @@ In our example, type "kali" and press enter.
 11.The command output should look similar to this:
 ```
 itsvm@ITS-2300-GNS3-076-bowie:~$ ./import-template.sh 
-Importing GNS3 Template
+GNS3 Template Import Script
+Version: 1.1
+Created: 2025-10-31
+
 Get templates from https://gns3.its.ohio.edu
 Script for use with the itsvm user!
+
 GNS3 is running!
 This script looks for files in your ~/Downloads folder.
 
