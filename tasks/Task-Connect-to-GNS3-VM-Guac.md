@@ -1,8 +1,8 @@
 ## Connect gHost VM via Guacamole Remote Access Service
 
 ### Goals
-- Demonstrate how a student can connect to a Graphical User Interface (GUI) of their virtual host via a web-based method.
-- Demonstrate how a student can connect to a Command Line Interface (CLI) of their virtual host via a web-based method.
+- Demonstrate connecting to a Graphical User Interface (GUI) of a virtual host via a web-based method.
+- Demonstrate connecting to a Command Line Interface (CLI) of a virtual host via a web-based method.
 
 ### Pre-Lab
 - Watch the the following [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured) videos on YouTube:
