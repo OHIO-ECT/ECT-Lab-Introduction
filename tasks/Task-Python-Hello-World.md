@@ -2,31 +2,31 @@
 
 Stated plainly, a python script is a series of python command placed in a text file which is then executed by the Python interpreter. So, in order to develop a python script, you must type your commands into a text file. By convention, we name these scripts with a ".py" extension. Thus, a file named "hello.py" is a python script.
 
-Any text editor can be used to write a script. You could use Notepad on your Windows computer or nano on a Linux computer. You could even use MS Word and save the program as a text file. But programmers tend to use text editors that are specially designed to be used for programming because those editors come with more features. This task will walk you through using the VS Code editor.
+Any text editor can be used to write a script. Notepad can be used on Windows computers or nano on Linux computers. Even MS Word can be used and the program saved as a text file. But programmers tend to use text editors that are specially designed to be used for programming because those editors come with more features. This task will walk through using the VS Code editor.
 
 ## Objectives
 
 - Demonstrate how to use the VS Code Editor
 - Develop a basic program that will prove the Development Environment is functional.
 - Run the basic program and observe the results.
-- Exfiltrate your program so you can turn it in as part of your assignment.
+- Exfiltrate the program so it can be turned in as part of the assignment.
 
 ## Tasks
 
-### Login to your VM
+### Login to the VM
 
-1. Login to your VM as has been described in previous tasks.
+1. Login to the VM as has been described in previous tasks.
 <br>
 
 2. Launch the Terminal application. It might still be running from a previous task.
 <br>
 
-3. Launch the Files application if you want to, but it is not required. It might also still be running from a previous task.
+3. Launch the Files application if desired, but it is not required. It might also still be running from a previous task.
 <br>
 
 ### Create a python Directory
 
-4. In the Terminal application, make sure your current directory is your Home Directory. Remember that you can use the "cd" command with no other options to return to your Home Directory.
+4. In the Terminal application, make sure the current directory is the Home Directory. Remember that the "cd" command with no other options can be used to return to the Home Directory.
 
 ```
 cd

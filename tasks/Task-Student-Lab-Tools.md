@@ -2,7 +2,7 @@
 
 ### Goals
 
-The ITS faculty strongly recommend for each student to have the following tools on their Personal Computer. These tools simplify communication with the faculty, allow the student to organize knowledge, and produce high quality lab reports. Students may use different products so long as they can produce equivalent results without support.
+The ITS faculty strongly recommend for each student to have the following tools on their Personal Computer. These tools simplify communication with the faculty, allow students to organize knowledge, and produce high quality lab reports. Students may use different products so long as they can produce equivalent results without support.
 
 ### Resources
 
@@ -22,9 +22,9 @@ Instructions for downloading and installing O365 can be found at [OIT's Office 3
 
 The Office 365 tools are not good a manipulating text with formatting. Many of the of the interactions with IT system are still done via text based interfaces, and can be confused by the formatting done by the office tools. A simple text editor like ``Notepad`` in Windows or ``TextEdit`` in Apple avoids the formatting issues. ``Notepad++`` the recommended text editor for ITS classes because it is able to handle nuanced differences in text formats between different operating systems.
 
-If you do not already have a preferred Text Editor, install Notepad++ with the instructions at: <https://notepad-plus-plus.org> 
+If there is no preferred Text Editor already, install Notepad++ with the instructions at: <https://notepad-plus-plus.org>
 
-**Note:** Make sure you are not clicking on an advertisement.
+**Note:** Make sure not to click on an advertisement.
 
 ### Screen Capture Tool 
 

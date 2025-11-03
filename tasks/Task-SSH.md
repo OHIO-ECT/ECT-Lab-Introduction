@@ -5,7 +5,7 @@
 
 ## Resources
 
-- A document you have created to use as a lab notebookF
+- Lab notebook document
 - Assigned gHost (GNS3 Virtual Machine)
 
 ## Environmental Context
@@ -22,7 +22,7 @@
 
 4. In the gHost terminal, run the command: ``ssh itsclass@<Ubuntu-CLI IP>``.  Replace ```<Ubuntu-CLI IP>``` with the IP found in the previous step.
 
-5. You might be prompted to confirm a security hash 
+5. A prompt might appear to confirm a security hash 
 
 6. Note the change in the prompt to reflect the change in the device that commands are issued to.  This is the reason to set server host names.
 
