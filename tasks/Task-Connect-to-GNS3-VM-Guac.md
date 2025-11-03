@@ -78,11 +78,11 @@ The last one is in the lower left corner, similar to where the Windows icon (aka
 
 ### Exfiltrating Data
 
-12. The gHost machine has access to the outside world. When saving data for lab reports there are several options. The easiest is to use a browser on the gHost to access web-based email. Open the file named "README.txt" on the desktop, highlight the text found within, and copy it either by right-clicking on the highlighted text and choosing "copy" or via the CONTROL-C keys (Note: on a Mac you will need to use CTRL+C to copy on the gHost).
+12. The gHost machine has access to the outside world. When saving data for lab reports there are several options. The easiest is to use a browser on the gHost to access web-based email. Open the file named "README.txt" on the desktop, highlight the text found within, and copy it either by right-clicking on the highlighted text and choosing "copy" or via the CONTROL-C keys (Note: on a Mac CTRL+C must be used to copy on the gHost).
 
-13. Back on local personal computer, open up any application that can receive text, such as Notepad, Notepad++. Paste in the text copied from gHost. Notice that it's possible to copy and paste to and from gHost to local personal computer, and vice-versa. This will be very helpful (even necessary) for future assignments. Note: If this isn't working user may need to enable browser clipboard sharing as discussed earlier in the lab.
+13. Back on local personal computer, open up any application that can receive text, such as Notepad or Notepad++. Paste in the text copied from gHost. Notice that it's possible to copy and paste to and from gHost to local personal computer, and vice-versa. This will be very helpful (even necessary) for future assignments. Note: If this isn't working, browser clipboard sharing may need to be enabled as discussed earlier in the lab.
 
-14. Back on gHost, launch either the Chrome or Firefox browsers, login into Catmail, compose a message to your OHIO ID, and attach the ReadMe.txt file to the message. Send the message. On the local computer, Catmail should be checked to confirm that the email and its attachment were received.
+14. Back on gHost, launch either the Chrome or Firefox browsers, login into Catmail, compose a message to the OHIO ID, and attach the ReadMe.txt file to the message. Send the message. On the local computer, check Catmail to confirm that the email and its attachment were received.
 
 15. Back on gHost, use a web browser to navigate to the Canvas LMS used by the class:
     - https://canvas.ohio.edu
