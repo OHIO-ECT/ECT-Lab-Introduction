@@ -20,9 +20,9 @@
 
 3. Review [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI) if necessary.
 
-4. Expand the "All Devices" menu from the "Devices Toolbar" on the left hand side of GNS3.
+4. In GNS3, expand the "All Devices" menu from the "Devices Toolbar" on the left hand side of GNS3. This will show all available templates in GNS3.
 
-5. Open a browser window on the gHost machine. Navigate to: [https://gns3.its.ohio.edu](https://gns3.its.ohio.edu)
+5. Open a browser window on the gHost machine and navigate to: [https://gns3.its.ohio.edu](https://gns3.its.ohio.edu)
 
 6. At the top of the file listing find the yellow box for "import-template.sh". To update the import script run the following command in a terminal window on the gHost machine:
 ``` 
@@ -34,24 +34,40 @@ wget -O import-template.sh.tmp http://gns3.its.ohio.edu/import-template.sh && ca
 
 9. Once the downloads are completed. Open a terminal window on the gHost machine.
 
-10. Change to the Downloads folder by typing the following command:
-```cd Downloads```
-
-1.  Run the script, when prompted provide the name of the template to import. **For example,** to import the Kali Linux template type the following command:
-```bash import-template.sh```
-
-Output should look like this:
-```Importing GNS3 Template
-Get templates from https://www.its.ohio.edu/gns3
-Script for use with the itsvm user!
-GNS3 is running
-This script looks for files in your ~/Downloads folder.
-Enter filename (no path, no extensions) : 
+10.  Run the script with the command:
 ```
+bash ~/import-template.sh
+```
+or 
+```
+./import-template.sh
+```
+
+
 In our example, type "kali" and press enter.
 
-11. The script will then extract the files and import the template into GNS3.
+11.The command output should look similar to this:
+```
+itsvm@ITS-2300-GNS3-076-bowie:~$ ./import-template.sh 
+Importing GNS3 Template
+Get templates from https://gns3.its.ohio.edu
+Script for use with the itsvm user!
+GNS3 is running!
+This script looks for files in your ~/Downloads folder.
 
-12. There is a cleanup phase at the end of the script. If prompted with ``rm: remove regular file '/home/itsvm/Downloads/kali.7z.001'?`` the script will delete the kali.7z.* files. This is normal and expected. Type "y" and press enter. 
+Available templates:
+kali
 
-13. The template should now be available in the "All Devices" menu in GNS3. Press 
+Enter filename (no path, no extensions): 
+```
+
+ 12. Type the word "kali" (as shown in blue/cyan in the prompt) and press enter. The script will then extract the files and import the template into GNS3.
+
+13. There is a cleanup phase at the end of the script. The script will delete the kali.7z.* files. This is normal and expected. Type "y" when prompted with:
+```
+Template imported successfully!
+
+Remove the .7z file? (y/n):
+``` 
+
+14. The template should now be available in the "All Devices" menu in GNS3.
