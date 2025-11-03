@@ -17,7 +17,7 @@
 
 ### Connect to the Guacamole Service
 
-Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM). This system will be referred to as the "gHost" throughout the lab. The goal of this task is to show students how to connect to that environment so that they can work and complete assignments.
+Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM). This system will be referred to as the "gHost" throughout the lab. The goal of this task is to demonstrate how to connect to that environment to work and complete assignments.
 
 1. Retrieve the following received via email from ECT Dept. (Ask faculty for assistance if needed).
 
