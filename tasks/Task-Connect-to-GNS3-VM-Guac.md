@@ -30,9 +30,9 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 3.  Connect to the Guacamole (Guac) service from computer using a browser. Bookmark the following URL!
     - https://rm.its.ohio.edu
 
-4. We encourage using the Chrome browser, the first time it connects to the Guacamole service, a screen similar to the following will appear. Click on the "Allow" button to allow the Guacamole service to access the local clipboard. This will allow a user to copy and paste text between their personal computer and the VM. This feature will be required to work effectively with the remote machines.<br>
+4. When using the Chrome browser, the first time it connects to the Guacamole service, a screen similar to the following will appear. Click on the "Allow" button to allow the Guacamole service to access the local clipboard. This will enable copying and pasting text between the personal computer and the VM. This feature is required to work effectively with the remote machines.<br>
 ![](./images/Guac-Browser-Clipboard-Access.png)<br>
-This is a one-time action. If using a different browser or a different computer, the user will need to allow clipboard access again. If set correctly in the browser settings, the user should not see this message again.<br>
+This is a one-time action. If using a different browser or a different computer, clipboard access must be allowed again. If set correctly in the browser settings, this message should not appear again.<br>
 
 5. Other browsers will work with Guacamole; however, access to the clipboard will need to be granted manually. Please refer to the documentation for your specific browser for instructions on how to do this.
 
