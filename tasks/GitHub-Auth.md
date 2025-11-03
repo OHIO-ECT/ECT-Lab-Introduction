@@ -10,7 +10,7 @@
 
 ## Process
 
-1. If at any time during this produce the following error occures, enter the standard class password to proceed to the browser.
+1. If at any time during this process the following error occurs, enter the standard class password to proceed to the browser.
 
 ![Browswer Keyring Error](./images/Browser-keyring-error.png)
 
@@ -59,9 +59,9 @@ gh auth login
 The Enter to open github.com in your browser...  
 ```
 
-9. If the process doesn't present a web browser to login to github, browse to the following URL on any computer that is already logged into on GitHub: https://github.com/login/device  Enter the one-time code and select "Authorize github"
+9. If the process doesn't present a web browser to login to github, browse to the following URL on any computer that is already logged into GitHub: https://github.com/login/device  Enter the one-time code and select "Authorize github"
 
-10. Follow the prompts to authorize this session to the OHIO-ECT repo, which may include additional login's to Ohio University's SSO.
+10. Follow the prompts to authorize this session to the OHIO-ECT repo, which may include additional logins to Ohio University's SSO.
 
 11. Return to terminal window and press enter at "Authentication complete. Press Enter to continue..." to complete the authentication process.
 

@@ -16,7 +16,7 @@
 ### Resources
 
 - Personal Computer (Desktop or Laptop)
-- A document you have created to use as a lab notebook
+- Lab notebook document
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
 - [Windows RDP Client Microsoft Store Version](https://apps.microsoft.com/detail/9wzdncrfj3ps?hl=en-US&gl=US)
@@ -43,12 +43,12 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 
 ![](./images/RDC-Login-1.png)
 
-4. The second login prompt will appear after clicking on the "Connect" button. Read the dialog box carefully. If the dialog is asking for "RD Gateway Server Credentials" use your OHIO ID and password. See below for an example.
+4. The second login prompt will appear after clicking on the "Connect" button. Read the dialog box carefully. If the dialog is asking for "RD Gateway Server Credentials" use the OHIO ID and password. See below for an example.
 ![](./images/RDC-Login-2.png)
 
 ## Exfiltrating Data
 
-5. The gHost machine has web access to the outside world. When saving data for lab reports there are several options. The easiest is to use the browser on the gHost machine to access web-based email. Open the file named "README.txt" on the desktop. Email the contents (i.e. copy/paste text content of the file to an email) to your OHIO ID.
+5. The gHost machine has web access to the outside world. When saving data for lab reports there are several options. The easiest is to use the browser on the gHost machine to access web-based email. Open the file named "README.txt" on the desktop. Email the contents (i.e. copy/paste text content of the file to an email) to the OHIO ID.
 <br>
 
 6. It is also possible to copy/paste text data from the gHost. Copy ``Fine Art Indeed`` from this document and paste it into the README file on the gHost desktop.

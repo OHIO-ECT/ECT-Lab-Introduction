@@ -58,13 +58,13 @@ environments.
 > <http://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf>
 
 1. Experiment with the various text editors including nano and vim in a
-    terminal in the gHost machine. Students will need to be able to move
-    fluently between the various editors.
+    terminal in the gHost machine. Proficiency with moving fluently between
+    the various editors will be required.
 
-2. Use a command line editor create a file in the user home directory.
-    Write a sentence or two about your experience in this task. Use the
+2. Use a command line editor to create a file in the user home directory.
+    Write a sentence or two about the experience in this task. Use the
     appropriate editor commands to write the file to the disk and exit
-    the editor. This is a procedure that you will do quite often and
+    the editor. This is a procedure that will be done quite often and
     should become moderately reflexive.
 
 3. Open "Text Editor" in the gHost and open the same file created in
