@@ -5,7 +5,7 @@
 
 ## Resources
 - Personal Computer (Desktop or Laptop)
-- A document you have created to use as a lab notebook
+- Lab notebook document
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
 - [ECT Tech Nuggets Playlist](https://www.youtube.com/playlist?list=PLEA5GnkCPRTlvN_eyR99jOSsBCaV6khRS)
@@ -18,7 +18,7 @@
 
 1. Start the GNS3 application with gecko icon in the right hand navigation.
 
-2. Use the "New Blank Project" button from the GNS3 toolbar. The interface that appears has two tabs. The first allow the user to create a new blank project and the second provides a list of projects from this computer "Project Library". Choose the project library and open the project "98 - Intro Lab".
+2. Use the "New Blank Project" button from the GNS3 toolbar. The interface that appears has two tabs. The first allows creating a new blank project and the second provides a list of projects from this computer "Project Library". Choose the project library and open the project "98 - Intro Lab".
 
 3. If necessary, review [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI)
 
@@ -28,7 +28,7 @@
 
 ![](./images/lab1-pic2.png)
 
-6. Start all objects in the project with the big green triangle in the top tool bar. This action will start **ALL** the VMs will start at once. Get comfy as Atlas heaves the world up. The more objects in a project the longer this start up time will take. If you don't know who Atlas is you'll have some time to read [this](https://greekgodsandgoddesses.net/gods/atlas) while the all the GNS3 VMs (AKA child VMs) start up. Each child VM typically starts a console window so the user can see what's going on.
+6. Start all objects in the project with the big green triangle in the top tool bar. This action will start **ALL** the VMs at once. Get comfy as Atlas heaves the world up. The more objects in a project the longer this start up time will take. If Atlas is unfamiliar, there is time to read [this](https://greekgodsandgoddesses.net/gods/atlas) while all the GNS3 VMs (AKA child VMs) start up. Each child VM typically starts a console window so the status can be monitored.
 
 **Note:** It is not always necessary (or desired) to start all objects at once. If needed, Right-Click a specific child object and use its context menu to control it individually.
 
@@ -41,7 +41,7 @@
 
 8. For the non GUI machines it is possible to close the console and the GNS3 object will continue to operate. The console can be restored by right click on the object and selecting "Console".
 
-9. Operating systems running inside operating systems (with windows inside windows) can be a very [Inception] idea. If this idea gives you a headache you are **doing it correctly**. Much of what we do as IT Professional is virtual. This type of environment is a very good example. For some help with this idea see [ECT Tech Nugget - N34.0 - Technology Perspective](https://youtu.be/ixrzbdUu8yQ.)
+9. Operating systems running inside operating systems (with windows inside windows) can be a very [Inception] idea. If this idea gives a headache, **it is being done correctly**. Much of what we do as IT Professional is virtual. This type of environment is a very good example. For some help with this idea see [ECT Tech Nugget - N34.0 - Technology Perspective](https://youtu.be/ixrzbdUu8yQ.)
 
 10. Once all the GNS3 VMs have started and are either at a login prompt to a desktop GUI they are ready for use. Please record, in your lab notebook, that child VMs inside GNS3 typically use the username `itsclass` and the password `class115#`.
 

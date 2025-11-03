@@ -10,7 +10,7 @@
 
 ## Resources
 - Personal Computer (Desktop or Laptop)
-- A document you have created to use as a lab notebook
+- Lab notebook document
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
 
@@ -49,7 +49,7 @@
 
 9. In Windows the command ``netstat -nr`` is also used to show more detailed routing information similar to ``ip route`` in linux.
 
-10. Use the correct command for the each GNS3 object (`ip a` / `nmcli` / `ipconfig /all`) to **create a table/chart** (Excel or Google Sheets) like the chart below that correlates the following information for each computer. Fill out as much as you can find out. This will be part of your lab report. *Be lazy*, copy the ipconfig output from Powershell by highlight the text and then right click within the highlight. This copy/paste concept should work pretty well in most CLI environments.
+10. Use the correct command for the each GNS3 object (`ip a` / `nmcli` / `ipconfig /all`) to **create a table/chart** (Excel or Google Sheets) like the chart below that correlates the following information for each computer. Fill out as much as can be found. This will be part of the lab report. *Be lazy*, copy the ipconfig output from Powershell by highlighting the text and then right clicking within the highlight. This copy/paste concept should work pretty well in most CLI environments.
 <br>
 
 |Computer Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Interface Name | IPv4 Address | Subnet Mask | Default Gateway | IPv6 Address (if available) |

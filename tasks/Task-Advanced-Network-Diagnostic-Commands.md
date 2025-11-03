@@ -11,7 +11,7 @@
 
 ## Resources
 - Personal Computer (Desktop or Laptop)
-- A document you have created to use as a lab notebook
+- Lab notebook document
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
 
@@ -30,7 +30,7 @@ The **best** network debugging processes start with pinging another machine that
 
 2. In a powershell terminal in Windows-Desktop-1 run the command ``ping 13.107.246.51`` and expect to get 4 "Reply" with round trip or ping time.
 
-3. Most implementations of ping will repeat the ping process several times; others will run continuously until user presses <ctrl+c> to stop the process. For example, try ``ping ohio.edu`` in the Ubuntu-GUI-1.
+3. Most implementations of ping will repeat the ping process several times; others will run continuously until <ctrl+c> is pressed to stop the process. For example, try ``ping ohio.edu`` in the Ubuntu-GUI-1.
 
 4. Ping can also take DNS names. Try ``ping xkcd.com`` on the Ubuntu-CLI-1
 
@@ -44,7 +44,7 @@ The traceroute command gives more detail about the network **BETWEEN** the machi
 
 The `-n` or `-d` option suppresses DNS hostname lookups on many commands. Typically, DNS names are not necessary for network diagnostics and consume time and create unwanted network traffic.
 
-When an individual traceroute hit fails (lines noted with `* * *`) traceroute will typically continue until the test has reached 30 hops. Press Ctrl+C to stop traceroute, if you get three or more lines with the `* * *` notation.
+When an individual traceroute hit fails (lines noted with `* * *`) traceroute will typically continue until the test has reached 30 hops. Press Ctrl+C to stop traceroute, if three or more lines with the `* * *` notation appear.
 
 Syntax: `traceroute -n <destination>`
 Where `<destination>` is replaced with either a hostname or IP.
