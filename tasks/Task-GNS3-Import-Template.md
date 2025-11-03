@@ -24,8 +24,7 @@
 
 5. Open a browser window on the gHost machine and navigate to: [https://gns3.its.ohio.edu](https://gns3.its.ohio.edu)
 
-6. At the top of the file listing find the yellow box for "import-template.sh". To update the import script run the following command in a terminal window on the gHost machine:
-``` 
+6. At the top of the file listing find the yellow box for "import-template.sh". To update the import script run the following command in a terminal window on the gHost machine:``` 
 wget -O import-template.sh.tmp http://gns3.its.ohio.edu/import-template.sh && cat import-template.sh.tmp > import-template.sh && rm import-template.sh.tmp
 ```
 
