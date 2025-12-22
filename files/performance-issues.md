@@ -1,17 +1,48 @@
 # Performance discrepencies in Ubridge when using a SOCK_RAW verses /dev/net/tun 
 
-## Symptom
-Very poor network performance in the GNS3 Child Virtual machines.  See the example "git clone" in the working section of this document takes less than 1 minute, but this configuration will take more than 15min, often much long, and sometimes will timeout.  
+Ohio University's Emerginging Communication Technology deparment has been using Ubuntu/GNS3 systems for student lab envirnments since 2019.  These systems constitute a persistant VDI system, that the department refers to as a gHost.  Early deployments of these systems encountered performance problems for systems running as VMs as part of GNS3.  Experiance from other operational environments suggested that a linux bridge would solve performance problems and did for a period of time.  In our most recent gHost interation with Ubuntu 24.04, tests indicated that performance was the same with and without the linux bridge, though neither configureation was particularly high performance.  A pending network upgrade delayed further testing on this issue.  The new network was recently deployed and testing on this issue resumed.  In this iteration the performance was significantly improved with the inclusion of the linux bridge.  For example a specific "git clone" which completes in approximatly 1 minute on systems ouside of GNS3, including the gHost itself, takes more than 15min, often much long, and sometimes will timeout.  
 
-This performance issue does not appear on any other machine in the network including the GNS3 host itself.  We have also tested other qemu based  machines using a bridge interface.
+The most notable difference between good performance and poor performance that has been observed is the Ubridge that constitutes that cloud object uses SOCK_RAW in the poor performance configuration verses /dev/net/tun in the good performance configuration.
 
-# Broken configuration
+We are looking for input on why default/perscribed configuration in GNS3 requires the additional configuration of a Linux bridge.
 
-GNS3 cloud exposing ens224 interface directly connected to a Ubuntu based  
+## Test Environment
+
+In an attempt to eliminate variables performance tests were repeated following GNS3 host environmnets:
+      - VMWare instance running Ubuntu 22.04 (Historical reference that is no longer available for testing)
+      - VMWare instance running Ubuntu 24.04
+            - 4 CPUs
+            - 32 GB RAM
+            - 500GB HDD
+            - ESXi 8.0 U2 
+            - Ubuntu 24.04.3 Desktop
+            - GNS3 2.2.55
+      - Dedicated Dell hardware running Ubuntu 24.04
+            - Optiplex 7040
+            - i7 (8 gen)
+            - 16GB RAM
+            - 1TB nVMe
+
+Ubuntu was installed with the default ISO retrieved from Ubuntu's download page.  GNS3 was installing via apt on each of these systems.  No other customizations were implemented in the OS or GNS3 configuration.  
+
+The GNS3 QEMU based client VM:
+      - Ubuntu 24.04.3 CLI
+      - 2 CPUs
+      - 4GB RAM
+
+The gHosts can be connected to a number of network configurations, that have a range of IPv4 public, IPv4 private, and IPv6 networks.  The type of IP connectivity has not been found to change the performace issues.
+
+The broken and working configurations described below exist in each one of these host environments with little difference between each of the hardware configurations.  
+
+Tests with other qemu based machines using a bridge interface on the gHost but outside of GNS3 have shown good network performance.
+
+# Poor network performance
+
+The poor network perofrance  GNS3 project consists of the Cloud object and the Client VM connected with a single link from eth0 on the Client to ens224 on the Cloud.
 
 ## Data
 
-### Download client
+### Git client
 
 The following was ran for 2 minutes and completed less than 10% of the oject download.
 
@@ -23,7 +54,6 @@ remote: Counting objects: 100% (68/68), done.
 remote: Compressing objects: 100% (62/62), done.
 ^Cfetch-pack: unexpected disconnect while reading sideband packet
 
-
 real	2m0.755s
 user	0m0.069s
 sys	0m0.879s
@@ -31,9 +61,11 @@ sys	0m0.879s
 
 ### Packet capture anaylsis
  
-The slow network performance can be observed via packet captures.  For example the previous test showed 2126 of 11164 (19%) packets were re-transmissions.
+The slow network performance can be observed as a high volume of retransmissions in packet captures.  For example the previous test showed 2126 of 11164 (19%) packets were re-transmissions.
 
 ### Packet capture sample
+
+Other than retransmissions, nothing notable to observe.
 
 ```
 No.     Time           Source                Destination           Protocol Length Info
@@ -129,7 +161,7 @@ No.     Time           Source                Destination           Protocol Leng
 
 ### Process list showing GNS3 running on the GNS3 host
 
-For reference for Process IDs
+For reference for Process IDs.
 
 ```
    4051 ?        Sl     0:17  |   \_ /usr/share/gns3/gns3-gui/bin/python /usr/bin/gns3
@@ -153,7 +185,7 @@ Recv-Q        Send-Q               Local Address:Port                Peer Addres
 
 ### List of open files for first ubridge cloud process
 
-Note the connection to SOCK_RAW
+Note the connection to SOCK_RAW.
 
 ```
 itsvm@BS-Faculty-GNS3-2025-12-22-001-saundeb1:~$ sudo lsof -p 4085
