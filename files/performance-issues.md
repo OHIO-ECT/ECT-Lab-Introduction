@@ -155,6 +155,7 @@ Recv-Q        Send-Q               Local Address:Port                Peer Addres
 
 Note the connection to SOCK_RAW
 
+```
 itsvm@BS-Faculty-GNS3-2025-12-22-001-saundeb1:~$ sudo lsof -p 4085
 lsof: WARNING: can't stat() fuse.portal file system /run/user/120/doc
       Output information may be incomplete.
@@ -190,9 +191,11 @@ ubridge 4085 itsvm    3u  IPv4  41210      0t0      TCP localhost:42551 (LISTEN)
 ubridge 4085 itsvm    4u  IPv4  41211      0t0      TCP localhost:42551->localhost:34064 (ESTABLISHED)
 ubridge 4085 itsvm    5u  IPv4  55777      0t0      UDP localhost:10000->localhost:10001 
 ubridge 4085 itsvm    6u  pack  55778      0t0      ALL type=SOCK_RAW
+```
 
 ### Log file for first ubridge cloud process
 
+```
 itsvm@BS-Faculty-GNS3-2025-12-22-001-saundeb1:~$ cat /home/itsvm/GNS3/projects/Perf-test/project-files/builtin/13206a64-e3dd-47f1-95c1-a94fa3126276/ubridge.log
 uBridge version 0.9.19 running with libpcap version 1.10.4 (with TPACKET_V3)
 Hypervisor TCP control server started (IP localhost port 42551).
@@ -216,9 +219,11 @@ UDP tunnel connecting from local port 10000 to IPv4 address 127.0.0.1 on port 10
 Destination NIO listener thread for 13206a64-e3dd-47f1-95c1-a94fa3126276-1 has started
 Source NIO listener thread for 13206a64-e3dd-47f1-95c1-a94fa3126276-1 has started
 Capturing to file '/home/itsvm/GNS3/projects/Perf-test/project-files/captures/Cloud1_ens224_to_Ubuntu-CLI-1_eth0.pcap'
+```
 
 ### List of open files for ubridge wire process
 
+```
 itsvm@BS-Faculty-GNS3-2025-12-22-001-saundeb1:~$ sudo lsof -p 4125
 lsof: WARNING: can't stat() fuse.portal file system /run/user/120/doc
       Output information may be incomplete.
@@ -254,9 +259,11 @@ ubridge 4125 itsvm    3u  IPv4  42132      0t0      TCP localhost:41465 (LISTEN)
 ubridge 4125 itsvm    4u  IPv4  41318      0t0      TCP localhost:41465->localhost:55736 (ESTABLISHED)
 ubridge 4125 itsvm    5u  IPv4  56624      0t0      UDP localhost:10003->localhost:10002 
 ubridge 4125 itsvm    6u  IPv4  56625      0t0      UDP localhost:10001->localhost:10000 
+``` 
 
 ### Log file for ubridge wire/connection process
 
+```
 itsvm@BS-Faculty-GNS3-2025-12-22-001-saundeb1:~$ cat /home/itsvm/GNS3/projects/Perf-test/project-files/qemu/2ceb5127-51c8-40a5-a00b-cf252f9bc681/ubridge.log
 uBridge version 0.9.19 running with libpcap version 1.10.4 (with TPACKET_V3)
 Hypervisor TCP control server started (IP localhost port 41465).
@@ -268,10 +275,73 @@ UDP tunnel connecting from local port 10003 to IPv4 address 127.0.0.1 on port 10
 UDP tunnel connecting from local port 10001 to IPv4 address 127.0.0.1 on port 10000
 Source NIO listener thread for QEMU-2ceb5127-51c8-40a5-a00b-cf252f9bc681-0 has started
 Destination NIO listener thread for QEMU-2ceb5127-51c8-40a5-a00b-cf252f9bc681-0 has started
+``` 
+
+### Interogating the Ubridge management interface
+
+```
+itsvm@BS-Faculty-GNS3-2025-12-22-001-saundeb1:~$ telnet localhost 42551
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+
+bridge list
+101 13206a64-e3dd-47f1-95c1-a94fa3126276-1 (NIOs = 2)
+100-OK
+bridge get_stats 13206a64-e3dd-47f1-95c1-a94fa3126276-1
+101 Source NIO:      IN: 4728 packets (354684 bytes) OUT: 11237 packets (11838720 bytes)
+101 Destination NIO: IN: 11237 packets (11838720 bytes) OUT: 4728 packets (354684 bytes)
+100-OK
+
+hypervisor module_list
+101 brctl
+101 iol_bridge
+101 docker
+101 bridge
+101 hypervisor
+100-OK
+iol_bridge list
+100-OK
+
+200-At least a module and a command must be specified
+bridge show 13206a64-e3dd-47f1-95c1-a94fa3126276-1
+101 bridge '13206a64-e3dd-47f1-95c1-a94fa3126276-1' is running
+101 Source NIO: 10001:127.0.0.1:10000
+101 Destination NIO: ens224
+100-OK
+```
+
+### Sample output from `top` while a download is running
+
+```
+itsvm@BS-Faculty-GNS3-2025-12-22-001-saundeb1:~$ top
+
+top - 15:18:43 up  3:23,  2 users,  load average: 0.00, 0.02, 0.00
+Tasks: 368 total,   1 running, 363 sleeping,   0 stopped,   4 zombie
+%Cpu(s):  5.6 us,  3.3 sy,  0.0 ni, 90.7 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :  32050.2 total,  25517.6 free,   2829.4 used,   4181.3 buff/cache     
+MiB Swap:   8192.0 total,   8192.0 free,      0.0 used.  29220.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                          
+   5581 itsvm     20   0 3643996 691100  29056 S   4.0   2.1   1:16.80 qemu-system-x86                                                  
+   3071 itsvm     20   0  378256 161068  80944 S   3.7   0.5   3:45.43 Xorg                                                             
+   3302 itsvm     20   0 4004368 430648 162064 S   3.0   1.3   2:30.98 gnome-shell                                                      
+   2588 root      20   0  102908  29248   5824 S   1.7   0.1   0:53.90 xrdp                                                             
+   4151 itsvm     20   0  854280  62904  44556 S   1.3   0.2   0:16.40 gnome-terminal-                                                  
+   4051 itsvm     20   0 1589620 223376 129076 S   0.7   0.7   1:01.36 gns3                                                             
+   1435 root      20   0 1792700  44928  31872 S   0.3   0.1   0:12.59 containerd                                                       
+   3457 itsvm     20   0  388860  12812   7040 S   0.3   0.0   0:06.93 ibus-daemon                                                      
+   3540 itsvm     20   0  141624  38216  29784 S   0.3   0.1   0:24.26 vmtoolsd                                                         
+   4066 itsvm     20   0  522844  67980  15360 S   0.3   0.2   0:20.51 gns3server                                                       
+   4085 itsvm     20   0  171772   4208   3712 S   0.3   0.0   0:13.73 ubridge                                                          
+   5583 itsvm     20   0   97856   3968   3456 S   0.3   0.0   0:01.11 ubridge                                                          
+   5874 root      20   0       0      0      0 I   0.3   0.0   0:00.75 kworker/1:0-events_freezable                                     
+   6190 itsvm     20   0   14528   5888   3712 R   0.3   0.0   0:00.23 top    
+```
 
 # Expected performance
 
-Same system but through the Linux Bridge interface
+Same system but through the Linux Bridge interface which brings performance into align with the native connectivity on the GNS3 Host.
 
 ## Change
 
