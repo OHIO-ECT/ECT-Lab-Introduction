@@ -2,15 +2,15 @@
 
 ## Complete all of the following tasks
 
-These tasks ensure that the student is properly connected to the class' lab infrastructure
+- [GitHub Account Creation](../tasks/Task-GitHub-Account-Creation.md) ensures that the student is properly connected to the class' private GitHub repositories
+- [Connect to your GNS3 VM with Remote Desktop](../tasks/Task-Connect-to-GNS3-VM.md) connects the student to the ECT departments virutal resources for this class.
+- [Drawing Diagrams](../tasks/Task-Drawing-Diagrams.md) 
+- [ITS Lab Reports](../tasks/ITL-Lab-Report.md) presents some of the key documentation standards and practices for the class.
 
-- [Task 1 - GitHub Account Creation](../tasks/Task-GitHub-Account-Creation.md)
-- [Task 2 - Connect to your GNS3 VM](../tasks/Task-Connect-to-GNS3-VM.md)
+## Complete all of these tasks on the gHost
 
-The following pages show some of the key documentation standards and practices for the class.
-
-- [Drawing Diagrams](../tasks/Task-Drawing-Diagrams.md)
-- [ITS Lab Reports](../tasks/ITL-Lab-Report.md)
+- [GitHub Authentiation](../tasks/GitHub-Auth.md)
+- [Pin VSCode to the start bar](../tasks/Pin-VSCode.md)
 
 ## Optional Elements
 
@@ -26,3 +26,5 @@ These pages have handy guides for students that have not used the ITS ecosystem 
 - [Terminal Shell and File Management](../tasks/Task-Terminal-Shell-and-File-Management.md)
 - [SSH (Secure Shell)](../tasks/Task-SSH.md)
 - [SSH Sessions via a Jumphost](../tasks/Task-SSH-Jumphost.md)
+
+- [Connect to your GNS3 VM with Guacamole](../tasks/Task-Connect-to-GNS3-VM-Guac.md) connects the student to the ECT departments virutal resources for this class.
