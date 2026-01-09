@@ -6,7 +6,6 @@ These tasks ensure that the student is properly connected to the class' lab infr
 
 - [Task 1 - GitHub Account Creation](../tasks/Task-GitHub-Account-Creation.md)
 - [Task 2 - Connect to your GNS3 VM](../tasks/Task-Connect-to-GNS3-VM.md)
-- [Task 3 - GNS3 Projects](../tasks/Task-GNS3-Projects.md)
 
 The following pages show some of the key documentation standards and practices for the class.
 
@@ -16,6 +15,8 @@ The following pages show some of the key documentation standards and practices f
 ## Optional Elements
 
 These pages have handy guides for students that have not used the ITS ecosystem before.  
+
+- [GNS3 Projects](../tasks/Task-GNS3-Projects.md)
 
 - [Gathering IP Information](../tasks/Task-Gathering-IP-Information.md)
 - [Basic Network Diagnostic Tools](../tasks/Task-Basic-Network-Diagnostic-Tools.md)
