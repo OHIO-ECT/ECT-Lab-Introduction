@@ -24,29 +24,19 @@
 
 5. Open a browser window on the gHost machine and navigate to: [https://gns3.its.ohio.edu](https://gns3.its.ohio.edu)
 
-6. At the top of the file listing find the yellow box for "import-template.sh". To update the import script run the following command in a terminal window on the gHost machine:
-``` 
-wget -O import-template.sh.tmp http://gns3.its.ohio.edu/import-template.sh && cat import-template.sh.tmp > import-template.sh && rm import-template.sh.tmp
-```
-
-7. Use the search bar to filter the list of templates to import. For example, all files that start with "kali" are for the Kali Linux template. Click on download and the files will be downloaded into the "Downloads" folder.<br>
+6. Use the search bar to filter the list of templates to import. For example, all files that start with "kali" are for the Kali Linux template. Click on download and the files will be downloaded into the "Downloads" folder.<br>
 **Note:** Some templates have multiple files. All files for the template must be downloaded for the import.<br>
 
-9. Once the downloads are completed. Open a terminal window on the gHost machine.
+7. Once the downloads are completed. Open a terminal window on the gHost machine.
 
-10.  Run the script with the command:
-```
-bash ~/import-template.sh
-```
-or 
+8.  Run the script with the command:
 ```
 ./import-template.sh
 ```
 
-
 In our example, type "kali" and press enter.
 
-11.The command output should look similar to this:
+9.The command output should look similar to this:
 ```
 itsvm@ITS-2300-GNS3-076-bowie:~$ ./import-template.sh 
 GNS3 Template Import Script
@@ -65,9 +55,9 @@ kali
 Enter filename (no path, no extensions): 
 ```
 
- 12. Type the word "kali" (as shown in blue/cyan in the prompt) and press enter. The script will then extract the files and import the template into GNS3.
+10. Type the word "kali" (as shown in blue/cyan in the prompt) and press enter. The script will then extract the files and import the template into GNS3.
 
-13. There is a cleanup phase at the end of the script. The script will delete the kali.7z.* files. This is normal and expected. Type "y" when prompted with:
+11. There is a cleanup phase at the end of the script. The script will delete the kali.7z.* files. This is normal and expected. Type "y" when prompted with:
 ```
 Template imported successfully!
 
