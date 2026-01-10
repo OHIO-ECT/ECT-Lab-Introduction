@@ -2,19 +2,23 @@
 
 ## Complete all of the following tasks
 
-- [GitHub Account Creation](../tasks/Task-GitHub-Account-Creation.md) ensures that the student is properly connected to the class' private GitHub repositories
-- [Connect to your GNS3 VM with Remote Desktop](../tasks/Task-Connect-to-GNS3-VM.md) connects the student to the ECT departments virutal resources for this class.
-- [Drawing Diagrams](../tasks/Task-Drawing-Diagrams.md) 
-- [ITS Lab Reports](../tasks/ITL-Lab-Report.md) presents some of the key documentation standards and practices for the class.
+- [GitHub Account Creation](../tasks/Task-GitHub-Account-Creation.md) ensures that the student is properly connected to the class's private GitHub repositories
+
+This class will make intensive use of command line and code interfaces.  Students will be expected to manage their own development environment.  The department will provide instructions for using the students' gHost as a development environment, and will ONLY provide support in the gHost ecosystem.  The intensity of the interaction with the gHost will make the Guacamole web interface prohibitively inconvenient.
+
+- [Connect to your GNS3 VM with Remote Desktop](../tasks/Task-Connect-to-GNS3-VM.md) connects the student to the ECT department's virtual resources for this class.
+- [SSH Sessions via a Jumphost](../tasks/Task-SSH-Jumphost.md)
 
 ## Complete all of these tasks on the gHost
 
-- [GitHub Authentiation](../tasks/GitHub-Auth.md)
+- [GitHub Authentication](../tasks/GitHub-Auth.md)
 - [Pin VSCode to the start bar](../tasks/Pin-VSCode.md)
 
 ## Optional Elements
 
-These pages have handy guides for students that have not used the ITS ecosystem before.  
+These pages have handy guides for students who have not used the ITS ecosystem before.
+- [Drawing Diagrams](../tasks/Task-Drawing-Diagrams.md) 
+- [ITS Lab Reports](../tasks/ITL-Lab-Report.md) presents some of the key documentation standards and practices for the class.
 
 - [GNS3 Projects](../tasks/Task-GNS3-Projects.md)
 
@@ -25,6 +29,4 @@ These pages have handy guides for students that have not used the ITS ecosystem 
 
 - [Terminal Shell and File Management](../tasks/Task-Terminal-Shell-and-File-Management.md)
 - [SSH (Secure Shell)](../tasks/Task-SSH.md)
-- [SSH Sessions via a Jumphost](../tasks/Task-SSH-Jumphost.md)
-
-- [Connect to your GNS3 VM with Guacamole](../tasks/Task-Connect-to-GNS3-VM-Guac.md) connects the student to the ECT departments virutal resources for this class.
+- [Connect to your GNS3 VM with Guacamole](../tasks/Task-Connect-to-GNS3-VM-Guac.md) connects the student to the ECT department's virtual resources for this class.
