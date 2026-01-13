@@ -47,20 +47,15 @@ Please note that the NAME of your machine has needed information. (details matte
     - **"001" is the unique number of your VM for this class**
     - "absmith" is your OHIO ID
 
-8. It is possible to be in multiple classes each with their own VM. If so, it is important to use the correct VM for the correct class. Different classes may have gHost configurations for different classes. 
-
-**TL;DR - Don't use an ITS-2801 VM for ITS-2300, and/or vice-versa, even if it seems to work.**
-
+8. It is possible to be in multiple classes each with their own VM. If so, it is important to use the correct VM for the correct class. Different classes may have gHost configurations for different classes.<br>
+**TL;DR - Don't use an ITS-2801 VM for ITS-2300, and/or vice-versa, even if it seems to work.**<br>
 ![](./images/Guac-Home-2.png)
 
-9. If connected to Guacamole previously the "Recent Connections" portion of the screen will present with a quick way to reconnect. Previous connections are presented as shown below:
-
+9. If connected to Guacamole previously the "Recent Connections" portion of the screen will present with a quick way to reconnect. Previous connections are presented as shown below:<br>
 ![](./images/Guac-Home-4.png)
 
-10. Click on the line with the computer icon. This will establish a GUI connection to the gHost. **Be patient** as it may take a few seconds to establish. If the black login screen persists for more than 30 seconds, please contact the course instructor.
-
-![](./images/Guac-GUI-1.png)
-
+10. Click on the line with the computer icon. This will establish a GUI connection to the gHost. **Be patient** as it may take a few seconds to establish. If the black login screen persists for more than 30 seconds, please contact the course instructor.<br>
+![](./images/Guac-GUI-1.png)<br>
 **Note:** For now, avoid any lines with an ">_" icon as that leads to a SSH Command Line interface (CLI).
 
 ### A Tour of the GUI
