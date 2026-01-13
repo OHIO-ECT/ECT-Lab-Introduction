@@ -19,16 +19,17 @@
 
 Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM). This system will be referred to as the "gHost" throughout the lab. The goal of this task is to demonstrate how to connect to that environment to work and complete assignments.
 
-1. Retrieve the following received via email from ECT Dept. (Ask faculty for assistance if needed).
+1. Watch the Pre-Lab video about Guacamole as needed. **DO NOT follow along the first time.** Watch other ECT Tech Nuggets as necessary to round out understanding of related topics.
 
-- GNS3 VM IP address
-- GNS3 VM Username
-- GNS3 VM Password
-
-2. Watch the Pre-Lab video about Guacamole as needed. **DO NOT follow along the first time.** Watch other ECT Tech Nuggets as necessary to round out understanding of related topics.
-
-3.  Connect to the Guacamole (Guac) service from computer using a browser. Bookmark the following URL!
+2.  Connect to the Guacamole (Guac) service from computer using a browser. Bookmark the following URL!
     - https://rm.its.ohio.edu
+
+3. Within Guac open the folder "Classes and Labs" and then open the folder for your class, e.g., "ITS-2300". Within that folder will be the connection to the gHost VM for the class. Please note that the NAME of your machine has information within that you will want.
+    For  example if your machine name is: ITS-2300-GNS3-001-absmith
+    - ITS-2300 is the course number
+    - GNS3 indicates that this is a GNS3 VM 
+    - **001 is the unique number of your VM for this class**
+    - absmith is your OHIO ID
 
 4. When using the Chrome browser, the first time it connects to the Guacamole service, a screen similar to the following will appear. Click on the "Allow" button to allow the Guacamole service to access the local clipboard. This will enable copying and pasting text between the personal computer and the VM. This feature is required to work effectively with the remote machines.<br>
 ![](./images/Guac-Browser-Clipboard-Access.png)<br>
