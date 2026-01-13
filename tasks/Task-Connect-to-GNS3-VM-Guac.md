@@ -88,8 +88,7 @@ Note: The Canvas LMS can be used as normal from within gHost and assignments can
 
 ### Connect to gHost Virtual Machine's CLI
 
-17.  Locate appropriate Guacamole course folder to reveal a list of the classes. Within the folder showing GUI connections to gHosts is another sub-folder ending in "-SSH". Expand that folder to reveal SSH connections to gHost. The connection icon ">_" will indicate these connections. The name of the connection will end in "-SSH", but otherwise have the same name as the GUI connection.
-
+17.  Locate appropriate Guacamole course folder to reveal a list of the classes. Within the folder showing GUI connections to gHosts is another sub-folder ending in "-SSH". Expand that folder to reveal SSH connections to gHost. The connection icon ">_" will indicate these connections. The name of the connection will end in "-SSH", but otherwise have the same name as the GUI connection.<br>
 ![](./images/Guac-Home-3.png)
 
 18. Select the SSH connection to login the gHost SSH (AKA CLI) interface.
