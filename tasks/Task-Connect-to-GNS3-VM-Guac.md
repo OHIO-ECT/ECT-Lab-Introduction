@@ -24,31 +24,30 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 2.  Connect to the Guacamole (Guac) service from computer using a browser. Bookmark the following URL!
     - https://rm.its.ohio.edu
 
-3. Within Guac open the folder "Classes and Labs" and then open the folder for your class, e.g., "ITS-2300". Within that folder will be the connection to the gHost VM for the class. Please note that the NAME of your machine has information within that you will want.
+3. When using the Chrome browser, the first time it connects to the Guacamole service, a screen similar to the following will appear. Click on the "Allow" button to allow the Guacamole service to access the local clipboard. This will enable copying and pasting text between the personal computer and the VM. This feature is required to work effectively with the remote machines.<br>
+![](./images/Guac-Browser-Clipboard-Access.png)<br>
+This is a one-time action. If using a different browser or a different computer, clipboard access must be allowed again. If set correctly in the browser settings, this message should not appear again.<br>
+
+4. Other browsers will work with Guacamole; however, access to the clipboard will need to be granted manually. Refer to the documentation for the specific browser for instructions on how to do this.
+
+5. Check the status of this setting in the current settings to ensure it is enabled. In Chrome, check the clipboard setting by clicking on the lock icon in the address bar and then clicking on "Site settings". Ensure that the clipboard setting is set to "Allow" as shown below:<br>
+    ![](./images/Guac-Browser-Clipboard-Status.png)
+
+6. Login using OHIO ID, Password, and established method of multifactor Authentication (MFA). Note: If already logged into some other Ohio University service, single sign-on features will reuse the credentials and session already established.
+    <br>
+    Once authenticated, the following screen will be shown:
+![](./images/Guac-Home-1.png)
+
+### Connect to gHost's GUI via Guacamole
+7. Locate and click on "Class and Labs" expander (a little plus sign in a box) and then open the folder for your class, e.g., "ITS-2300". Within that folder will be the connection to the gHost VM for the class.<br>
+Please note that the NAME of your machine has needed information. (details matter!)
     For  example if your machine name is: ITS-2300-GNS3-001-absmith
     - "ITS-2300" is the course number
     - "GNS3" indicates that this is a GNS3 VM 
     - **"001" is the unique number of your VM for this class**
     - "absmith" is your OHIO ID
 
-4. When using the Chrome browser, the first time it connects to the Guacamole service, a screen similar to the following will appear. Click on the "Allow" button to allow the Guacamole service to access the local clipboard. This will enable copying and pasting text between the personal computer and the VM. This feature is required to work effectively with the remote machines.<br>
-![](./images/Guac-Browser-Clipboard-Access.png)<br>
-This is a one-time action. If using a different browser or a different computer, clipboard access must be allowed again. If set correctly in the browser settings, this message should not appear again.<br>
-
-5. Other browsers will work with Guacamole; however, access to the clipboard will need to be granted manually. Refer to the documentation for the specific browser for instructions on how to do this.
-
-6. Check the status of this setting in the current settings to ensure it is enabled. In Chrome, check the clipboard setting by clicking on the lock icon in the address bar and then clicking on "Site settings". Ensure that the clipboard setting is set to "Allow" as shown below:<br>
-    ![](./images/Guac-Browser-Clipboard-Status.png)
-
-7. Login using OHIO ID, Password, and established method of multifactor Authentication (MFA). Note: If already logged into some other Ohio University service, single sign-on features will reuse the credentials and session already established.
-    <br>
-    Once authenticated, the following screen will be shown:
-![](./images/Guac-Home-1.png)
-
-### Connect to gHost's GUI via Guacamole
-8. Locate and click on "Class and Labs" expander (a little plus sign in a box) to reveal a list of classes with gHosts.
-
-- It is possible to be in multiple classes each with their own VM. If so, it is important to use the correct VM for the correct class. Different classes may have gHost configurations for different classes. 
+8. It is possible to be in multiple classes each with their own VM. If so, it is important to use the correct VM for the correct class. Different classes may have gHost configurations for different classes. 
 
 **TL;DR - Don't use an ITS-2801 VM for ITS-2300, and/or vice-versa, even if it seems to work.**
 
