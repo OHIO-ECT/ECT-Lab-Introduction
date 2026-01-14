@@ -47,19 +47,19 @@ This is a one-time action. If using a different browser or a different computer,
     - Password<br>
 Note: The NAME of your gHost VM is VERY IMPORTANT as it contains the unique identifier for your VM. This is especially important when multiple classes are using GNS3 VMs. <br><br>
 For example if your machine name is: ITS-2300-GNS3-001-absmith
-    - "ITS-2300" is the course number
-    - "GNS3" indicates that this is a GNS3 VM 
-    - **"001" is the unique number of your VM for this class**
-    - "absmith" is your OHIO ID
+      - "ITS-2300" is the course number
+      - "GNS3" indicates that this is a GNS3 VM 
+      - **"001" is the unique number of your VM for this class**
+      - "absmith" is your OHIO ID
 
-9. It is possible to be in multiple classes each with their own VM. If so, it is important to use the correct VM for the correct class. Different classes may have gHost configurations for different classes.<br>
+1. It is possible to be in multiple classes each with their own VM. If so, it is important to use the correct VM for the correct class. Different classes may have gHost configurations for different classes.<br>
 **TL;DR - Don't use an ITS-2801 VM for ITS-2300, and/or vice-versa, even if it seems to work.**<br>
 ![](./images/Guac-Home-2.png)
 
-10. If connected to Guacamole previously the "Recent Connections" portion of the screen will present with a quick way to reconnect. Previous connections are presented as shown below:<br>
+1.  If connected to Guacamole previously the "Recent Connections" portion of the screen will present with a quick way to reconnect. Previous connections are presented as shown below:<br>
 ![](./images/Guac-Home-4.png)
 
-11. Click on the line with the computer icon. This will establish a GUI connection to the gHost. **Be patient** as it may take a few seconds to establish. If the black login screen persists for more than 30 seconds, please contact the course instructor.<br>
+1.  Click on the line with the computer icon. This will establish a GUI connection to the gHost. **Be patient** as it may take a few seconds to establish. If the black login screen persists for more than 30 seconds, please contact the course instructor.<br>
 ![](./images/Guac-GUI-1.png)<br>
 **Note:** For now, avoid any lines with an ">_" icon as that leads to a SSH Command Line interface (CLI).
 
