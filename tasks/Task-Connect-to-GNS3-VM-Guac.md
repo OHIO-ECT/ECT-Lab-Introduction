@@ -46,12 +46,11 @@ This is a one-time action. If using a different browser or a different computer,
     - Username
     - Password
   
-Note: The NAME of your gHost VM is VERY IMPORTANT as it contains the unique identifier for your VM. This is especially important when multiple classes are using GNS3 VMs. <br><br>
-For example if your machine name is: ITS-2300-GNS3-001-absmith
-      - "ITS-2300" is the course number
-      - "GNS3" indicates that this is a GNS3 VM 
-      - **"001" is the unique number of your VM for this class**
-      - "absmith" is your OHIO ID
+Note: The NAME of your gHost VM is VERY IMPORTANT as it contains the unique identifier for your VM. This is especially important when multiple classes are using GNS3 VMs. For example if your machine name is: ITS-2300-GNS3-001-absmith
+    - "ITS-2300" is the course number
+    - "GNS3" indicates that this is a GNS3 VM 
+    - **"001" is the unique number of your VM for this class**
+    - "absmith" is your OHIO ID
 
 1. It is possible to be in multiple classes each with their own VM. If so, it is important to use the correct VM for the correct class. Different classes may have gHost configurations for different classes.<br>
 **TL;DR - Don't use an ITS-2801 VM for ITS-2300, and/or vice-versa, even if it seems to work.**<br>
