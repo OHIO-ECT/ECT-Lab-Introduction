@@ -44,7 +44,7 @@ This is a one-time action. If using a different browser or a different computer,
 8. Once connected into your gHost look at the files on the destktop. There should be a file with your gHost's name. Inside that file is information about your gHost including:
     - IP Address
     - Username
-    - Password<br>
+    - Password
 Note: The NAME of your gHost VM is VERY IMPORTANT as it contains the unique identifier for your VM. This is especially important when multiple classes are using GNS3 VMs. <br><br>
 For example if your machine name is: ITS-2300-GNS3-001-absmith
       - "ITS-2300" is the course number
