@@ -98,12 +98,11 @@ Example: ``nslookup google.com 8.8.8.8``
 
 ## Detailed Name Resolution
 
-14. Dig output returns more detailed information than nslookup does by default, but is only available in Linux.
-
-Syntax: `dig <destination>`
-Where `<destination>` is replaced with either a hostname or IP. 
+14. Dig output returns more detailed information than nslookup does by default, but is only available in Linux.<br>
+Syntax: `dig <destination>`<br>
+Where `<destination>` is replaced with either a hostname or IP. <br>
 Example: `dig google.com`<br>
-To request a number to name conversion you must include the `-x` option.
+To request a number to name conversion you must include the `-x` option.<br>
 Example: `dig -x 8.8.8.8`
 
 15. On Ubuntu-GUI-1 `dig` for each of the following host names:
