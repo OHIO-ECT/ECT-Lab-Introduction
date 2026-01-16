@@ -87,7 +87,7 @@ The last one is in the lower left corner, similar to where the Windows icon (aka
 
 15. Back on gHost, launch either the Chrome or Firefox browsers, login into Catmail (the name of Ohio Universities email service), compose a message to your OHIO ID, and attach the README.txt file to the message. Send the message. On the local computer, check Catmail to confirm that the email and its attachment were received.
 16. Back on gHost, use a web browser to navigate to Canvas LMS used by the class:
-    - https://canvas.ohio.edu
+    - https://canvas.ohio.edu<br>
 **Note:** Canvas LMS can be accessed as normal from within gHost. Assignments can be submitted directly from gHost, if needed.
 
 16. To disconnect from the gHost use browser's back button to return to the Guacamole main menu.
