@@ -1,23 +1,26 @@
 # Connecting Objects Inside GNS3
 
 ## Goals
+
 - Learning to create new GNS3 projects
-- Learning to connect GNS3 child objects together.
+- Learning to connect GNS3 child objects together
 
 ## Resources
+
 - Personal Computer (Desktop or Laptop)
 - A document you have created to use as a lab notebook
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
 
 ## Environmental Context
+
 - Connection to gHost VM
 - Running "98 - Intro Lab" GNS3 project
 - Running GNS3 project
 
 ## Task Shutting down GNS3 Projects
 
-1. When work is completed for a lab, students should shutdown projects.
+1. When work is completed for a lab, students should shutdown projects, **but not the gHost!**.
 
 2. Using the red stop button in the toolbar is effectively like pulling the power from a running computer. In many cases this is acceptable **with the following two warnings** if the project is ever to be used again in the future:
     - There is a small chance the child objects will be corrupted.
@@ -31,4 +34,4 @@
 
 4. Once all child objects are closed the stop button can be pressed to shutdown the other objects in the project and GNS3 can be safely closed.
 
-5. NEVER SHUTDOWN THE gHOST. If you have to provide the password for ITSVM that's not correct!
+5. **NEVER SHUTDOWN THE gHOST.** If you have to provide the password for ITSVM that's not correct!
