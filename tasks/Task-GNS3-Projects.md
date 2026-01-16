@@ -45,7 +45,7 @@
 
 10. Once all the GNS3 VMs (aka "child VMs" as they are a child the the gHost) have started and are either at a login prompt or are at a GUI desktop they are ready for use.
 
-11. **Record the following credentials in your lab notebook for future reference.** Child VMs in GNS3 and many other student used system will use this standard username `itsclass` and password `class115#`. You will need these credentials to access each child VM throughout the remainder of the course.
+11. **Record the following credentials in your lab notebook for future reference.** Child VMs in GNS3 and many other student used systems will use this standard username `itsclass` and password `class115#`. You will need these credentials to access each child VM throughout the remainder of the course.
 
 12. Projects remain running even if the user is NOT connected to the remote desktop connection. This allows the student to take a break from the lab work and return to the project later.
 
