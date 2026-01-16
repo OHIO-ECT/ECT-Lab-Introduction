@@ -30,7 +30,7 @@ Ping is a basic (the **MOST** basic) tool for figuring out if a machine has netw
 
 The **best** network debugging processes start with pinging another machine that is in the same IP network (more on that idea later) usually this is the default gateway.
 
-1. The format of the ping command is `ping <destination>`. Where `<destination>` is replaced with either a hostname or IP. For example `ping google.com` or `ping 8.8.8.8`
+1. The format of the ping command is `ping <destination>`. Where `<destination>` is replaced with either a hostname or IP.<br>For example `ping google.com` or `ping 8.8.8.8`
 
 2. In a powershell terminal in Windows-Desktop-1 run the command ``ping 13.107.246.51`` and expect to get 4 "Reply" with round trip or ping time.
 
