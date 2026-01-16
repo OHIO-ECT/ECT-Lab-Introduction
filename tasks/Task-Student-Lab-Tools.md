@@ -34,7 +34,7 @@ When screenshots are specifically requested, use screen capture tools that let y
 - Lightshot <https://app.prntscr.com>
 - Greenshot <https://getgreenshot.org>
 
-**Note:** Photos taken with cell phone will **ONLY** be acceptable when a student is asked to document physical world work. This is **VERY RARE** in ITS classes.<br>
+**Note:** Photos taken with cell phone will **ONLY** be acceptable when a student is asked to document physical world work. This is **VERY RARE** in ITS classes.<br><br>
 Mac users have several screenshot options available, though these have not been fully tested in this environment.
 Mac Screen Shot Options (credit Bruce Tong)
 - Command+Shift+3 - whole screen, saved to mac desktop as a file
