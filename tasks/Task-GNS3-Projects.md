@@ -36,7 +36,7 @@
 7. After starting up a project each GNS3 VM object will (typically) open a child console window. In this case should be three child windows inside the gHost.
 - "Ubuntu-CLI-1", a Linux Server (terminal only)
 - "Ubuntu-GUI-1", a Linux Desktop (GUI with terminal option)
-- "Windows-Desktop-1", a Windows Desktop (GUI)<br> 
+- "Windows-Desktop-1", a Windows Desktop (GUI)<br><br>
 ![](./images/lab1-pic1.png)
 
 8. For the non GUI machines it is possible to close the console and the GNS3 object will continue to operate. The console can be restored by right click on the object and selecting "Console".
