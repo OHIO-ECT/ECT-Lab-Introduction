@@ -1,27 +1,29 @@
-## Connect gHost VM via Guacamole Remote Access Service
+# Connect gHost VM via Guacamole Remote Access Service
 
-### Goals
+## Goals
+
 - Demonstrate connecting to a Graphical User Interface (GUI) of a virtual host via a web-based method.
 - Demonstrate connecting to a Command Line Interface (CLI) of a virtual host via a web-based method.
 
-### Pre-Lab
+## Pre-Lab
+
 - Watch the the following [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured) videos on YouTube:
     - [ECT Tech Nugget - N15.1 - Guacamole Remote Access](https://www.youtube.com/watch?v=sG9YlohRf_0)
 
-### Resources
+## Resources
 
 - Personal Computer (Desktop or Laptop) with a web browser, recommend Chrome.
 - Assigned gHost (GNS3 Virtual Machine)
 - A document used as a lab notebook
 - Tech Nuggets: [Tech Nuggets on YouTube](https://www.youtube.com/@ecttechnuggets9126)
 
-### Connect to the Guacamole Service
+## Connect to the Guacamole Service
 
 Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM). This system will be referred to as the "gHost" throughout the lab. The goal of this task is to demonstrate how to connect to that environment to work and complete assignments.
 
 1. Watch the Pre-Lab video about Guacamole as needed. **DO NOT follow along the first time.** Watch other ECT Tech Nuggets as necessary to round out understanding of related topics.
 
-2.  Connect to the Guacamole (Guac) service from computer using a browser. Bookmark the following URL!
+2. Connect to the Guacamole (Guac) service from computer using a browser. Bookmark the following URL!
     - https://rm.its.ohio.edu
 
 3. When using the Chrome browser, the first time it connects to the Guacamole service, a screen similar to the following will appear. Click on the "Allow" button to allow the Guacamole service to access the local clipboard. This will enable copying and pasting text between the personal computer and the VM. This feature is required to work effectively with the remote machines.<br>
@@ -38,7 +40,8 @@ This is a one-time action. If using a different browser or a different computer,
     Once authenticated, the following screen will be shown:
 ![](./images/Guac-Home-1.png)
 
-### Connect to gHost's GUI via Guacamole
+## Connect to gHost's GUI via Guacamole
+
 7. Locate and click on "Class and Labs" expander (a little plus sign in a box) and then open the folder for your class, e.g., "ITS-2300". Within that folder will be the connection to the gHost VM for the class.<br>
 
 8. Once connected into your gHost look at the files on the destktop. There should be a file with your gHost's name. Inside that file is information about your gHost including:
@@ -63,7 +66,7 @@ This is a one-time action. If using a different browser or a different computer,
 ![](./images/Guac-GUI-1.png)<br>
 **Note:** For now, avoid any lines with an ">_" icon as that leads to a SSH Command Line interface (CLI).
 
-### A Tour of the GUI
+## A Tour of the GUI
 
 12. The toolbar on the left of the screen has a number of useful icons. Mouse-over icons to see the names of the applications. Find each of the following:
 - Google Chrome
@@ -76,7 +79,7 @@ This is a one-time action. If using a different browser or a different computer,
 
 The last one is in the lower left corner, similar to where the Windows icon (aka Start Button) would be located.
 
-### Exfiltrating Data
+## Exfiltrating Data
 
 13. The gHost machine has access to the outside world. When saving data for lab reports there are several options. The easiest is to use a browser on the gHost to access web-based email. Open the file named "README.txt" on the desktop, highlight the text found within, and copy it either by right-clicking on the highlighted text and choosing "copy" or via the CONTROL-C keys (Note: on a Mac CTRL+C must be used to copy on the gHost).
 
@@ -90,7 +93,7 @@ Note: The Canvas LMS can be used as normal from within gHost and assignments can
 
 16. To disconnect use browser's back button to return to the Guacamole home screen or use previously created bookmark for Guacamole.
 
-### Connect to gHost Virtual Machine's CLI
+## Connect to gHost Virtual Machine's CLI
 
 18.  Locate appropriate Guacamole course folder to reveal a list of the classes. Within the folder showing GUI connections to gHosts is another sub-folder ending in "-SSH". Expand that folder to reveal SSH connections to gHost. The connection icon ">_" will indicate these connections. The name of the connection will end in "-SSH", but otherwise have the same name as the GUI connection.<br>
 ![](./images/Guac-Home-3.png)
@@ -98,12 +101,12 @@ Note: The Canvas LMS can be used as normal from within gHost and assignments can
 19. Select the SSH connection to login the gHost SSH (AKA CLI) interface.
 ![](./images/Guac-CLI-1.png)
 
-### Disconnecting from a VM
+## Disconnecting from a VM
 
 20. To disconnect from gHost either close the browser window or tab. This will leave gHost in its current state (all applications still running) so that later work can resume where it left off. This is **recommended** as often projects will require multiple sessions to complete.
 
 
-### Black Screen of Death (BSOD) Mitigation
+## Black Screen of Death (BSOD) Mitigation
 If encountering a black screen when trying to connect to the GUI on the gHost, there is a connection in the folder **ITS-XXXX-SSH-BSOD-Fix** (where XXXX is the course number). This connection will open a SSH terminal to the gHost and run a command that should fix the black screen issue. It will not harm anything to run this command even if not experiencing the black screen issue.
 
 ## Further Troubleshooting the Black Screen of Death (sigh)
