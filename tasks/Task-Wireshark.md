@@ -8,7 +8,7 @@
 ## Pre-Lab
 
 - Watch the the following [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured) videos on YouTube:
-    - [ECT Tech Nugget N0.5 Basic Diagnostic Tools 5](https://youtu.be/QTIbS9wyfag)
+- [ECT Tech Nugget N0.5 Basic Diagnostic Tools 5](https://youtu.be/QTIbS9wyfag)
 
 ## Resources
 
@@ -52,7 +52,7 @@ text box near the top of the Wireshark window.
 
 8. Use the `View` menu and select `Expand All`. Notice that the middle frame expands the packet data to show **a lot** of detail.
 
-9. To get packet detail needed into a format where portions of it are can be used in a lab report use `File -> Export Packet Dissections -> As Plain Text...`
+9. To get packet detail needed into a format where portions of it are can be used in a lab report use:<br>`File -> Export Packet Dissections -> As Plain Text...`
 
 10. A Wireshark Save dialog window will open with several choices along the bottom. 
     - In the lower left called `Packet Range` change the radio button to `Selected packet`
