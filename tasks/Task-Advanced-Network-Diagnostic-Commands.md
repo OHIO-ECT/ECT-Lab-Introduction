@@ -85,16 +85,16 @@ Example: `nslookup google.com`
 - xkcd.com
 - 69.58.0.32
 
-12. nslookup always uses the computers configured name server. There are advanced debugging processes where it is helpful to query some other DNS server for its response to a query. For example Google runs two open Caching DNS servers that are regularly used in these labs. 8.8.8.8 and 8.8.4.4.
+12. nslookup always uses the computer's configured name server. There are advanced debugging processes where it is helpful to query some other DNS server for its response to a query. For example Google runs two open Caching DNS servers that are regularly used in these labs. 8.8.8.8 and 8.8.4.4.
 
 Syntax: ``nslookup <Target IP> <DNS Server IP>``
 Example: ``nslookup google.com 8.8.8.8``
 
 13. On Windows-Desktop-1 use nslookup and Google's public DNS server (8.8.8.8) as the `<DNS Server IP>` for each of the following host names:
-    - 132.235.1.1
-    - www.cnn.com
-    - 132.235.9.75
-    - 98.139.183.24
+- 132.235.1.1
+- www.cnn.com
+- 132.235.9.75
+- 98.139.183.24
 
 ## Detailed Name Resolution
 
@@ -102,9 +102,9 @@ Example: ``nslookup google.com 8.8.8.8``
 
 Syntax: `dig <destination>`
 Where `<destination>` is replaced with either a hostname or IP. 
-Example: `dig google.com`
+Example: `dig google.com`<br>
 To request a number to name conversion you must include the `-x` option.
-Example: `dig -x google.com`
+Example: `dig -x 8.8.8.8`
 
 15. On Ubuntu-GUI-1 `dig` for each of the following host names:
     - 203.178.141.194
