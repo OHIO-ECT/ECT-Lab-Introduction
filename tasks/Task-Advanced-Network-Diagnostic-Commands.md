@@ -1,21 +1,25 @@
 # Network Diagnostic Tools
 
 ## Goals
+
 - Learn to use the following command line (CLI) tools: netstat, ip, nslookup, dig
 
 ## Pre-Lab
-- Watch the the following [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured) videos on YouTube:
+
+- Watch the following [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured) videos on YouTube:
     - [ECT Tech Nugget N0.2 Basic Diagnostic Tools 2](https://youtu.be/hWeJlNVaUbU)
     - [ECT Tech Nugget N0.3 Basic Diagnostic Tools 3](https://youtu.be/PMk53TngTio)
     - [ECT Tech Nugget N0.4 Basic Diagnostic Tools 4](https://youtu.be/gD-Tk1Bk7x0)
 
 ## Resources
+
 - Personal Computer (Desktop or Laptop)
 - Lab notebook document
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
 
 ## Environmental Context
+
 - Connection to gHost VM
 - GNS3 Running "98 - Intro Lab" GNS3 project
 - Child VMs are started and ready for use
@@ -50,18 +54,16 @@ Syntax: `traceroute -n <destination>`
 Where `<destination>` is replaced with either a hostname or IP.
 Example: `traceroute -n google.com`
 
-6. In Ubuntu-GUI-1 machine and use the traceroute command gather path information to the following destinations:
+6. On Ubuntu-GUI-1 machine and use the traceroute command gather path information to the following destinations:
     - 132.235.8.133
     - www.ford.com
     - 8.8.8.8
     - github.com
-<br>
 
-7. In Windows-Desktop access the powershell terminal (aka CLI). Windows is limited to eight-character old-school commands (long story why) and uses a different switch to suppress DNS lookups. Access the Windows CLI and issue the command:
+7. On Windows-Desktop access the powershell terminal (aka CLI). Windows is limited to eight-character old-school commands (long story why) and uses a different switch to suppress DNS lookups. Access the Windows CLI and issue the command:
 Syntax: `tracert -d <destination>`
 Where `<destination>` is replaced with either a hostname or IP.
 Example: `tracert -d google.com`
-<br>
 
 8. In the Windows machine, traceroute to the following destinations:
     - 8.8.4.4
@@ -74,7 +76,6 @@ Example: `tracert -d google.com`
 Syntax: `nslookup <destination>`
 Where `<destination>` is replaced with either a hostname or IP.
 Example: `nslookup google.com`
-<br>
 
 10. On Windows use `nslookup` for each of the following host names:
 - www.ohio.edu
@@ -88,14 +89,12 @@ Example: `nslookup google.com`
 
 Syntax: ``nslookup <Target IP> <DNS Server IP>``
 Example: ``nslookup google.com 8.8.8.8``
-<br>
 
 13. On Windows-Desktop-1 use nslookup and Google's public DNS server (8.8.8.8) as the `<DNS Server IP>` for each of the following host names:
     - 132.235.1.1
     - www.cnn.com
     - 132.235.9.75
     - 98.139.183.24
-<br>
 
 ## Detailed Name Resolution
 
@@ -103,8 +102,9 @@ Example: ``nslookup google.com 8.8.8.8``
 
 Syntax: `dig <destination>`
 Where `<destination>` is replaced with either a hostname or IP. 
-To request a number to name conversion you must include the `-x` option.
 Example: `dig google.com`
+To request a number to name conversion you must include the `-x` option.
+Example: `dig -x google.com`
 
 15. On Ubuntu-GUI-1 `dig` for each of the following host names:
     - 203.178.141.194
