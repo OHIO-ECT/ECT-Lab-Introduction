@@ -25,7 +25,7 @@
 ## Terminal Shell and File Management
 
 1. Open the Ubuntu-GUI object and start a terminal with the black ">_" icon.
- The runs a program called a shell. The terms terminal and shell are often used interchangeable.
+ The runs a program called a shell. The terms terminal and shell are often used interchangeable.<br>
  ![](./images/ubuntu-terminal-icon.png)
 
 2. Terminals take text commands and typically offer text based responses. The shell provides a prompt that should look something like ``itsclass@its-ud-xx:~$`` Terminals will be used in the administration of many of the computer and networking systems in real and virtual environments. In addition to running programs, terminals are often an interface to the files that make up the object.
