@@ -63,8 +63,8 @@ This is a one-time action. If using a different browser or a different computer,
 ![](./images/Guac-Home-4.png)
 
 11.  Click on the line with the computer icon. This will establish a GUI connection to the gHost. **Be patient** as it may take a few seconds to establish. If the black login screen persists for more than 30 seconds, please contact the course instructor.<br>
-![](./images/Guac-GUI-1.png)<br>
 **Note:** For now, avoid any lines with an ">_" icon as that leads to a SSH Command Line interface (CLI).
+![](./images/Guac-GUI-1.png)<br>
 
 ## A Tour of the GUI
 
