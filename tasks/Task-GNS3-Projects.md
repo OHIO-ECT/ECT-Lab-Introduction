@@ -39,7 +39,7 @@
 - "Windows-Desktop-1", a Windows Desktop (GUI)<br><br>
 ![](./images/lab1-pic1.png)
 
-8. For the non GUI machines it is possible to close the console and the GNS3 object will continue to operate. The console can be restored by right click on the object and selecting "Console".
+8. It is possible to close the console of a GNS3 object and it will continue to operate normally (it would be like turning off the monitor on a physical computer). The console can be restored by right click on the object and selecting "Console".
 
 9. Operating systems running inside operating systems (with windows inside windows) can be a very [Inception] idea. If this idea gives a headache, **it is being done correctly**. Much of what we do as IT Professional is virtual. This type of environment is a very good example. For some help with this idea see [ECT Tech Nugget - N34.0 - Technology Perspective](https://youtu.be/ixrzbdUu8yQ.)
 
