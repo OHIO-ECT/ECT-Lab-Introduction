@@ -41,10 +41,12 @@
 
 8. It is possible to close the console of a GNS3 object and it will continue to operate normally (it would be like turning off the monitor on a physical computer). The console can be restored by right click on the object and selecting "Console".
 
-9. Operating systems running inside operating systems (with windows inside windows) can be a very [Inception] idea. If this idea gives a headache, **it is being done correctly**. Much of what we do as IT Professional is virtual. This type of environment is a very good example. For some help with this idea see [ECT Tech Nugget - N34.0 - Technology Perspective](https://youtu.be/ixrzbdUu8yQ.)
+9. Operating systems running inside operating systems (with computers running inside computers) can be a very [Inception] idea. If this idea provides a headache, **it is being done correctly**. Much of what we do as IT Professional is virtual. Our gHost environment is a very good example. For some help with this idea see [ECT Tech Nugget - N34.0 - Technology Perspective](https://youtu.be/ixrzbdUu8yQ.)
 
-10. Once all the GNS3 VMs have started and are either at a login prompt to a desktop GUI they are ready for use. Please record, in your lab notebook, that child VMs inside GNS3 typically use the username `itsclass` and the password `class115#`.
+10. Once all the GNS3 VMs (aka "child VMs" as they are a child the the gHost) have started and are either at a login prompt or are at a GUI desktop they are ready for use.
 
-11. Projects remain running even if the user is NOT connected to the remote desktop connection. This allows the student to break from the lab work and return to the project later.
+11. **Record, in your lab notebook the following information. Child VMs in GNS3 typically use the username `itsclass` and the password `class115#`.** This information is needed to log into each VM. This information will be used for the remainder of the course.
 
-12. Shutting down GNS3 projects will be discussed on a separate page.
+12. Projects remain running even if the user is NOT connected to the remote desktop connection. This allows the student to take a break from the lab work and return to the project later.
+
+13. Shutting down GNS3 projects will be discussed on a separate page.
