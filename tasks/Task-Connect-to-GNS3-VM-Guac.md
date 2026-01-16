@@ -24,7 +24,7 @@ Each student has been issued their own Linux Ubuntu Desktop Virtual Machine (VM)
 1. Watch the Pre-Lab video about Guacamole as needed. **DO NOT follow along the first time.** Watch other ECT Tech Nuggets as necessary to round out understanding of related topics.
 
 2. Connect to the Guacamole (Guac) service from computer using a browser. Bookmark the following URL!
-    - https://rm.its.ohio.edu
+    - https://rm.its.ohio.edu<br>
 
 3. When using the Chrome browser, the first time it connects to the Guacamole service, a screen similar to the following will appear. Click on the "Allow" button to allow the Guacamole service to access the local clipboard. This will enable copying and pasting text between the personal computer and the VM. This feature is required to work effectively with the remote machines.<br>
 ![](./images/Guac-Browser-Clipboard-Access.png)<br>
@@ -44,7 +44,7 @@ This is a one-time action. If using a different browser or a different computer,
 
 7. Locate and click on "Class and Labs" expander (a little plus sign in a box) and then open the folder for your class, e.g., "ITS-2300". Within that folder will be the connection to the gHost VM for the class.<br>
 
-8. Once connected into your gHost look at the files on the destktop. There should be a file with your gHost's name. Inside that file is information about your gHost including:
+8. Once connected into your gHost look at the files on the desktop. There should be a file with your gHost's name. Inside that file is information about your gHost including:
     - IP Address
     - Username
     - Password
@@ -81,17 +81,17 @@ The last one is in the lower left corner, similar to where the Windows icon (aka
 
 ## Exfiltrating Data
 
-13. The gHost machine has access to the outside world. When saving data for lab reports there are several options. The easiest is to use a browser on the gHost to access web-based email. Open the file named "README.txt" on the desktop, highlight the text found within, and copy it either by right-clicking on the highlighted text and choosing "copy" or via the CONTROL-C keys (Note: on a Mac CTRL+C must be used to copy on the gHost).
+13. The gHost machine has access to the outside world. When saving data for lab reports there are several options. The easiest is to use a browser on the gHost to access web-based email. Open the file named **"README.txt"** on the desktop, highlight the text found within, and copy it either by right-clicking on the highlighted text and choosing "copy" or via the CONTROL-C keys (Note: on a Mac CTRL+C must be used to copy on the gHost).
 
 14. Back on local personal computer, open up any application that can receive text, such as Notepad or Notepad++. Paste in the text copied from gHost. Notice that it's possible to copy and paste to and from gHost to local personal computer, and vice-versa. This will be very helpful (even necessary) for future assignments. Note: If this isn't working, browser clipboard sharing may need to be enabled as discussed earlier in the lab.
 
-15. Back on gHost, launch either the Chrome or Firefox browsers, login into Catmail, compose a message to the OHIO ID, and attach the ReadMe.txt file to the message. Send the message. On the local computer, check Catmail to confirm that the email and its attachment were received.
-16. Back on gHost, use a web browser to navigate to the Canvas LMS used by the class:
+15. Back on gHost, launch either the Chrome or Firefox browsers, login into Catmail (the name of Ohio Universities email service), compose a message to your OHIO ID, and attach the README.txt file to the message. Send the message. On the local computer, check Catmail to confirm that the email and its attachment were received.
+16. Back on gHost, use a web browser to navigate to Canvas LMS used by the class:
     - https://canvas.ohio.edu
 
-Note: The Canvas LMS can be used as normal from within gHost and assignments can be submitted directly from gHost, if needed.
+**Note:** Canvas LMS can be accessed as normal from within gHost. Assignments can be submitted directly from gHost, if needed.
 
-16. To disconnect use browser's back button to return to the Guacamole home screen or use previously created bookmark for Guacamole.
+16. To disconnect from the gHost use browser's back button to return to the Guacamole main menu.
 
 ## Connect to gHost Virtual Machine's CLI
 
@@ -103,8 +103,7 @@ Note: The Canvas LMS can be used as normal from within gHost and assignments can
 
 ## Disconnecting from a VM
 
-20. To disconnect from gHost either close the browser window or tab. This will leave gHost in its current state (all applications still running) so that later work can resume where it left off. This is **recommended** as often projects will require multiple sessions to complete.
-
+20. **DO NOT SHUT DOWN YOUR gHost!** Disconnect from gHost by either closing the browser window or browser tab. This will leave gHost in its current state (all applications still running) so that later work can resume where it left off. This is **recommended** as often projects will require multiple sessions to complete.
 
 ## Black Screen of Death (BSOD) Mitigation
 If encountering a black screen when trying to connect to the GUI on the gHost, there is a connection in the folder **ITS-XXXX-SSH-BSOD-Fix** (where XXXX is the course number). This connection will open a SSH terminal to the gHost and run a command that should fix the black screen issue. It will not harm anything to run this command even if not experiencing the black screen issue.
