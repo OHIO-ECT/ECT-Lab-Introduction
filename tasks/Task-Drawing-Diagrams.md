@@ -73,6 +73,6 @@ In the left pane, just below the shape search is the first set of shapes. It is 
 
 ### Draw!
 
-14. Replicate the hand drawn picture shown below in Draw.IO **using the iconography from the Scratchpad** provided and other shapes as needed. Make sure to label everything as shown in the picture below.
+14. Replicate the hand drawn picture shown below in Draw.IO **using ONLY the iconography from the Scratchpad** provided. Make sure to label everything as shown in the picture below.
 
 ![](./images/network-diag-1.jpg)
