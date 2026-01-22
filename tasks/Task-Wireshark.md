@@ -44,7 +44,7 @@ Wireshark is a packet capture tool available on Linux, Mac and Windows for free.
 6. Rather than searching through the raw data, display filters are used to help find types of packets. Look for:
 `Apply a display filter ... <Ctrl-/>` 
 text box near the top of the Wireshark window. 
-    - In the filter window use the filter `ip.addr==132.235.232.204`
+    - In the filter window use the filter `ip.addr==132.235.9.75`
     - The field should turn green showing that this is a valid filter. 
     - Press Enter to apply filter. To reset the view, use the "X" button on the far right of the filter line.
 
