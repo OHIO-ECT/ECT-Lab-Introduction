@@ -50,7 +50,7 @@ The commands `tracert -d` (Windows) or `traceroute -n` (Linux) option suppresses
 
 When an individual traceroute hit fails (lines noted with `* * *`) traceroute will typically continue until the test has reached 30 hops. Press Ctrl+C to stop traceroute, if three or more lines with the `* * *` notation appear.<br>
 
-Syntax: `traceroute -d <destination>` or `tracert -n <destination>`<br>
+Syntax: `traceroute -n <destination>` or `tracert -d <destination>`<br>
 Where `<destination>` is replaced with either a hostname or IP.<br>
 Example: `traceroute -d google.com`
 
