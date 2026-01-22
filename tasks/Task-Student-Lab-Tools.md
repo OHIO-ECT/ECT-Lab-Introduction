@@ -2,7 +2,7 @@
 
 ## Goals
 
-The ECT faculty strongly recommend for each student to have the following tools on their Personal Computer. These tools simplify communication with the faculty, allow students to organize knowledge, and produce high quality lab reports. Students may use different products so long as they can produce equivalent results without support.
+The ECT faculty strongly recommend for each student have the following tools on their Personal Computer. These tools simplify communication with the faculty, allow students to organize knowledge, and produce high quality lab reports. Students may use different products so long as they can produce equivalent results without support.
 
 ## Resources
 - Personal Computer (Desktop or Laptop)
