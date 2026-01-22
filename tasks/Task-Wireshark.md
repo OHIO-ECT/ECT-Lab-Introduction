@@ -76,7 +76,7 @@ Using Wireshark to sniff packets in a GNS3 project can be very helpful when diag
 
 17. Stop the capture process (not Wireshark). Right-click on the link with the magnifying glass, in the context menu select `Stop Capture`. This will stop **new** packets from showing up in Wireshark.
 
-18. On the filter line in Wireshark add the following to the end after the current filter `&& icmp`. The complete filter will be:
+18. On the filter line in Wireshark, add the following to the end after the current filter `&& icmp`. The complete filter will be:
 
     ``ip.addr==X.X.X.X && icmp``
 
