@@ -1,6 +1,6 @@
 # ECT Lab Introduction
 
-Welcome to the ECT Lab Introduction. This repository is intended to orient a student to the procedures needed to access the ECT virtual lab environments used to teach networking concepts for the ITS degree program. This guide serves as lab write up and reference materials for multiple classes. Please read the common notes and follow the link to a specific class at the bottom of this page. Follow the instructors instructions on which elements to complete.
+Welcome to the ECT Lab Introduction. This repository is designed to guide students through the procedures necessary to access the ECT virtual lab environments used for teaching networking concepts in the ITS degree program. This guide serves as both a lab write-up and reference material for multiple classes. Please read the common notes and follow the link to a specific class at the bottom of this page. Follow the instructor's instructions on which elements to complete.
 
 ## Common Notes
 
@@ -16,14 +16,14 @@ Welcome to the ECT Lab Introduction. This repository is intended to orient a stu
 - Variables to be filled in by the student are presented in ``<brackets>``. The student will need to replace the <> and the text with the needed variable. Example: **``My name is <Name>.``**. Would change to **``My name is Bobcat.``**
 
 ### ECT Tech Nuggets
-- ECT Dept maintains a library of recorded demonstrations of systems that are regularly encounter in labs by ECT students. These [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured) serve as additional guides to help students learn the respective connect.
+- ECT Dept maintains a library of recorded demonstrations of systems that are regularly encountered in labs by ECT students. These [ECT Tech Nuggets](https://www.youtube.com/@ecttechnuggets9126/featured) serve as additional guides to help students learn the respective connections.
 - Homework/Labs/Projects will often have associated ECT Tech Nuggets that are recommended viewing. While related to the topic at hand, ECT Technuggets are **only** for reference.
 - **DO NOT** follow along with the ECT Tech Nuggets while watching them for the first time. 
 
 ### Beware the gHosts
-Most of these guides assume that the student has been issued a virtual machine which will be referred to as a gHost or GNS3 Host. Students should find information about their assigned gHost from Canvas and have received an email with the password information from Dr. Bowie.
+Most of these guides assume that the student has been issued a virtual machine, which will be referred to as a gHost or GNS3 Host. Students should find information about their assigned gHost from Canvas and have received an email with the password information from Dr. Bowie.
 
-The gHost VM will run throughout the semester **even when you are not connected to it.** The GUI shutdown menu turned is off. **DO NOT** attempt to turn the gHost off without instructor approval. Instead, push the mouse cursor to the top of the screen to reveal the blue control bar. The commands on the bar to exit the remote desktop to return to the personal computer.
+The gHost VM will run throughout the semester **even when you are not connected to it.** The GUI shutdown menu turned off. **DO NOT** attempt to turn the gHost off without instructor approval. Instead, push the mouse cursor to the top of the screen to reveal the blue control bar. The commands on the bar allow you to exit the remote desktop to return to the personal computer.
 
 ### Personal Computer
 - Lab activities can be done on ITS lab machines or from a Personal Computer (Desktop or Laptop).
