@@ -46,7 +46,7 @@ The **best** network debugging processes start with pinging another machine that
 
 The traceroute command gives more detail about the network **BETWEEN** the machine and the destination.
 
-The commands `tracert -n` (Windows) or `traceroute -d` (Linux) option suppresses DNS hostname lookups on many commands. Typically, DNS names are not necessary for network diagnostics and consume time and create unwanted network traffic.
+The commands `tracert -d` (Windows) or `traceroute -n` (Linux) option suppresses DNS hostname lookups on many commands. Typically, DNS names are not necessary for network diagnostics and consume time and create unwanted network traffic.
 
 When an individual traceroute hit fails (lines noted with `* * *`) traceroute will typically continue until the test has reached 30 hops. Press Ctrl+C to stop traceroute, if three or more lines with the `* * *` notation appear.<br>
 
