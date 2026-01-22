@@ -32,7 +32,7 @@ The **best** network debugging processes start with pinging another machine that
 
 1. The format of the ping command is `ping <destination>`. Where `<destination>` is replaced with either a hostname or IP.<br>For example `ping google.com` or `ping 8.8.8.8`
 
-2. In a powershell terminal in Windows-Desktop-1 run the command ``ping 13.107.246.51`` and expect to get 4 "Reply" with round trip or ping time.
+2. In a PowerShell terminal in Windows-Desktop-1 run the command ``ping 132.235.9.75`` and expect to get 4 "Reply" with round-trip or ping time.
 
 3. Most implementations of ping will repeat the ping process several times; others will run continuously until <ctrl+c> is pressed to stop the process. For example, try ``ping ohio.edu`` in the Ubuntu-GUI-1.
 
