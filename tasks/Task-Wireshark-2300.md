@@ -29,23 +29,26 @@ Wireshark is a packet capture tool available on Linux, Mac, and Windows for free
 
 1. On your gHost, start Wireshark by clicking on the "Wireshark" icon on the desktop or by using the application menu to find and start Wireshark.
 
-2. When Wireshark first starts, it requests the user to select the interface to capture on. You may need to wait 20 to 30 seconds for the interface list to populate. Then look for an interface with traffic on the associated graph, double click on that interface to start the packet capture. Run the capture for a minute or two and stop the capture and explore the captured traffic. **DO NOT LEAVE WIRESHARK CAPTURING PACKETS.** It will cause significant memory issues for the device on which it is running.
+2. Wireshark can save/load packet dump files from an industry-standard ``.pcap`` format for later processing. Students will regularly capture data on their gHost to be processed later. Download [ITS-Wireshark-Sample.pcap](../files/ITS-Wireshark-Sample.pcap) to your gHost's desktop by clicking on the link, and select download using the "raw" option.
 
-3. Wireshark can save/load packet dump files from an industry-standard ``.pcap`` format for later processing. Students will regularly capture data on their gHost to be processed later. Download [ITS-Wireshark-Sample.pcap](../files/ITS-Wireshark-Sample.pcap) to your gHost's desktop by clicking on the link, and select download using the "raw" option. Start Wireshark and open the "ITS-Wireshark-Sample.pcap" file using File/Open options. **Note:** Wireshark may not start by double-clicking a capture file. 
+3. Start Wireshark and open the "ITS-Wireshark-Sample.pcap" file using File/Open options. **Note:** Wireshark may not start by double-clicking a capture file. 
 
-4. Using the previously downloaded ITS-Wireshark-Sample.pcap, open it in Wireshark. 
-5. 
-6. 
-7. 
-8. 
-9. Observe the summary lines in the top frame of Wireshark. To select a packet, click anywhere on the summary line.
+
+
+4. Once the file is loaded, Wireshark will display three panes:
+    - Top pane: Summary lines for each packet captured
+    - Middle pane: Detailed breakdown of the selected packet
+    - Bottom pane: Raw hexadecimal and ASCII representation of the selected packet
+   ![](./images/wireshark_panes.png)<br>
+
+5. Observe the summary lines in the top frame of Wireshark. To select a packet, click anywhere on the summary line.
    
 ## Wireshark Filtering and Exporting
 1. Scroll down to packet 58. This machine is trying to match the IP address 132.235.233.254 to the corresponding Ethernet (MAC) address using the ARP protocol. The next packet (59) contains the answer, right on the summary line in the top Wireshark window.
 
-2. Rather than searching through the raw data, display filters are used to help find types of packets. Look for:<br>`Apply a display filter ... <Ctrl-/>` text box near the top of the Wireshark window. 
-    - In the filter window, use the filter `ip.addr==132.235.9.75`
-    - The field should turn green showing that this is a valid filter. 
+2. Rather than searching through the raw data, display filters are used to help find types of packets. Just above the summary Pane is Display Filter entry for:<br>`Apply a display filter ... <Ctrl-/>` text box.
+    - In the filter window, use the filter ``ip.addr==132.235.9.75`` to show only packets to or from the IP address.
+    - The field should turn **green** showing that this is a valid filter (Red means invalid, yellow means incomplete).
     - Press Enter to apply filter. To reset the view, use the "X" button on the far right of the filter line.
 
 3. In the filtered view, look for a packet with `Echo (ping) Request`.
