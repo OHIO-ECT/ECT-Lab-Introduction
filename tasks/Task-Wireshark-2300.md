@@ -38,7 +38,7 @@ Wireshark is a packet capture tool available on Linux, Mac, and Windows for free
 4. Once the file is loaded, Wireshark will display three panes:
     - Top pane: Summary lines for each packet captured
     - Middle pane: Detailed breakdown of the selected packet
-    - Bottom pane: Raw hexadecimal and ASCII representation of the selected packet
+    - Bottom pane: Raw hexadecimal and ASCII representation of the selected packet<br>
    ![](./images/wireshark_panes.png)<br>
 
 5. Observe the summary lines in the top frame of Wireshark. To select a packet, click anywhere on the summary line.
