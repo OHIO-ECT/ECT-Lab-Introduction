@@ -33,29 +33,34 @@ Wireshark is a packet capture tool available on Linux, Mac, and Windows for free
 
 3. Wireshark can save/load packet dump files from an industry-standard ``.pcap`` format for later processing. Students will regularly capture data on their gHost to be processed later. Download [ITS-Wireshark-Sample.pcap](../files/ITS-Wireshark-Sample.pcap) to your gHost's desktop by clicking on the link, and select download using the "raw" option. Start Wireshark and open the "ITS-Wireshark-Sample.pcap" file using File/Open options. **Note:** Wireshark may not start by double-clicking a capture file. 
 
+4. Using the previously downloaded ITS-Wireshark-Sample.pcap, open it in Wireshark. 
+5. 
+6. 
+7. 
+8. 
+9. Observe the summary lines in the top frame of Wireshark. To select a packet, click anywhere on the summary line.
+   
 ## Wireshark Filtering and Exporting
-4. Using the previously opened ITS-Wireshark-Sample.pcap, observe the summary lines in the top frame of Wireshark. To select a packet, click anywhere on the summary line.
+1. Scroll down to packet 58. This machine is trying to match the IP address 132.235.233.254 to the corresponding Ethernet (MAC) address using the ARP protocol. The next packet (59) contains the answer, right on the summary line in the top Wireshark window.
 
-5. Scroll down to packet 58. This machine is trying to match the IP address 132.235.233.254 to the corresponding Ethernet (MAC) address using the ARP protocol. The next packet (59) contains the answer, right on the summary line in the top Wireshark window.
-
-6. Rather than searching through the raw data, display filters are used to help find types of packets. Look for:<br>`Apply a display filter ... <Ctrl-/>` text box near the top of the Wireshark window. 
+2. Rather than searching through the raw data, display filters are used to help find types of packets. Look for:<br>`Apply a display filter ... <Ctrl-/>` text box near the top of the Wireshark window. 
     - In the filter window, use the filter `ip.addr==132.235.9.75`
     - The field should turn green showing that this is a valid filter. 
     - Press Enter to apply filter. To reset the view, use the "X" button on the far right of the filter line.
 
-7. In the filtered view, look for a packet with `Echo (ping) Request`.
+3. In the filtered view, look for a packet with `Echo (ping) Request`.
 
-8. Use the `View` menu and select `Expand All`. Notice that the middle frame expands the packet data to show **a lot** of detail.
+4. Use the `View` menu and select `Expand All`. Notice that the middle frame expands the packet data to show **a lot** of detail.
 
-9. To export packet details for use in a lab report, use: needed into a format where portions of it can be used in a lab report. First stop the capture then use:<br>`File -> Export Packet Dissections -> As Plain Text...`
+5. To export packet details for use in a lab report, use: needed into a format where portions of it can be used in a lab report. First stop the capture then use:<br>`File -> Export Packet Dissections -> As Plain Text...`
 
-10. A Wireshark Save dialog window will open with several choices along the bottom. 
+6.  A Wireshark Save dialog window will open with several choices along the bottom. 
     - In the lower left, called `Packet Range` change the radio button to `Selected packet`
     - In the lower right, called `Packet Format` make sure the `Packet summary line`,`Include column headings` and `Packet details: As Displayed` options are checked (checked by default)
 
-11. Select a location and name for the file. Pressing the Save button will create a **TEXT** file for use in a lab report. The packet text output may need some formatting before using it in an assignment.
+7.  Select a location and name for the file. Pressing the Save button will create a **TEXT** file for use in a lab report. The packet text output may need some formatting before using it in an assignment.
 
-12. For more details about how to export data for lab reports see [ECT Wireshark Export Guide](https://github.com/OHIO-ECT/Wireshark-Export-Guide). Close Wireshark when done.
+8.  For more details about how to export data for lab reports see [ECT Wireshark Export Guide](https://github.com/OHIO-ECT/Wireshark-Export-Guide). Close Wireshark when done.
 
 ## GNS3 Wireshark - Live Packet Capture!
 
