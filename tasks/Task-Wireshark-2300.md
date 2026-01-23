@@ -38,8 +38,7 @@ Wireshark is a packet capture tool available on Linux, Mac, and Windows for free
 
 5. Scroll down to packet 58. This machine is trying to match the IP address 132.235.233.254 to the corresponding Ethernet (MAC) address using the ARP protocol. The next packet (59) contains the answer, right on the summary line in the top Wireshark window.
 
-6. Rather than searching through the raw data, display filters are used to help find types of packets. Look for:<br>`Apply a display filter ... <Ctrl-/>` 
-text box near the top of the Wireshark window. 
+6. Rather than searching through the raw data, display filters are used to help find types of packets. Look for:<br>`Apply a display filter ... <Ctrl-/>` text box near the top of the Wireshark window. 
     - In the filter window, use the filter `ip.addr==132.235.9.75`
     - The field should turn green showing that this is a valid filter. 
     - Press Enter to apply filter. To reset the view, use the "X" button on the far right of the filter line.
