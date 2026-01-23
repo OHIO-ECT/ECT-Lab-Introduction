@@ -23,54 +23,58 @@
 - Running "98 - Intro Lab" GNS3 project
 - Child VMs are started and ready for use
 
-## Personal Computer Wireshark
+## Wireshark Packet Sniffer
 
 Wireshark is a packet capture tool available on Linux, Mac, and Windows for free. See [ECT Tech Nugget N0.5 Basic Diag Tools 5 Wireshark](https://youtu.be/QTIbS9wyfag) for more details about Wireshark. Wireshark may be used in several contexts within the student's ecosystem. Including on the student's Personal Computer, within GNS3, and with GNS3 objects.
 
-1. ITS-2300 students will not need to install Wireshark on their personal machine. Install Wireshark on **your** machine, if not installed already: http://www.wireshark.org/download.html. Install the current stable release.
+1. On your gHost, start Wireshark by clicking on the "Wireshark" icon on the desktop or by using the application menu to find and start Wireshark.
 
-2. When Wireshark first starts, it requests the user to select the interface to capture on. Wait 20 to 30 seconds and look for an interface with traffic on the associated graph, and double click on that interface to start the packet capture. Stop the capture and explore the interface. DO NOT LEAVE WIRESHARK CAPTURING PACKETS. It will cause significant memory issues for the device on which it is running.
+2. Wireshark can save/load packet dump files from an industry-standard ``.pcap`` format for later processing. Students will regularly capture data on their gHost to be processed later. Download [ITS-Wireshark-Sample.pcap](../files/ITS-Wireshark-Sample.pcap) to your gHost's desktop by clicking on the link, and select download using the "raw" option.
 
-3. Wireshark can save packets in an industry-standard ``.pcap`` format for later processing. Students will regularly capture data on the gHost to be processed later on the student's PC. Download [ITS-Wireshark-Sample.pcap](../files/ITS-Wireshark-Sample.pcap) by clicking on the link, and download using the "raw" option. Start Wireshark and open the "ITS-Wireshark-Sample.pcap" file using File/Open options. Note that you may not get Wireshark to start by double-clicking a capture file. The data in this file will be used for the remainder of this task.
+3. Start Wireshark and open the "ITS-Wireshark-Sample.pcap" file using File/Open options. **Note:** Wireshark may not start by double-clicking a capture file. 
 
-## Wireshark MAC Address Information
 
-4. In Wireshark, the summary lines are the lines of data shown in the top frame of Wireshark. To select a packet, click anywhere on the summary line.
 
-5. Scroll down to packet 58. This machine is trying to match the IP address 132.235.233.254 to the corresponding Ethernet (MAC) address using the ARP protocol. The next packet (59) contains the answer, right on the summary line in the top Wireshark window.
+4. Once the file is loaded, Wireshark will display three panes:
+    - Top pane: Summary lines for each packet captured
+    - Middle pane: Detailed breakdown of the selected packet
+    - Bottom pane: Raw hexadecimal and ASCII representation of the selected packet<br>
+   ![](./images/wireshark_panes.png)<br>
 
-## Wireshark Filtering and exporting
+5. Observe the summary lines in the top frame of Wireshark. To select a packet, click anywhere on the summary line.
+   
+## Wireshark Filtering and Exporting
+1. Scroll down to packet 58. This machine is trying to match the IP address 132.235.233.254 to the corresponding Ethernet (MAC) address using the ARP protocol. The next packet (59) contains the answer, right on the summary line in the top Wireshark window.
 
-6. Rather than searching through the raw data, display filters are used to help find types of packets. Look for:
-`Apply a display filter ... <Ctrl-/>` 
-text box near the top of the Wireshark window. 
-    - In the filter window, use the filter `ip.addr==132.235.9.75`
-    - The field should turn green showing that this is a valid filter. 
+2. Rather than searching through the raw data, display filters are used to help find types of packets. Just above the summary Pane is Display Filter entry for:<br>`Apply a display filter ... <Ctrl-/>` text box.
+    - In the filter window, use the filter ``ip.addr==132.235.232.204`` to show only packets to or from the IP address.
+    - The field should turn **green** showing that this is a valid filter (Red means invalid, yellow means incomplete).
     - Press Enter to apply filter. To reset the view, use the "X" button on the far right of the filter line.
+  ![](./images/wireshark_display_filter.png)<br>
 
-7. In the filtered view, look for a packet with `Echo (ping) Request`.
+3. In the filtered view, look for a packet with `Echo (ping) Request`.
 
-8. Use the `View` menu and select `Expand All`. Notice that the middle frame expands the packet data to show **a lot** of detail.
+4. Use the `View` menu and select `Expand All`. Notice that the middle frame expands the packet data to show **a lot** of detail.
 
-9. To get the packet detail needed into a format where portions of it can be used in a lab report. First stop the capture then use:<br>`File -> Export Packet Dissections -> As Plain Text...`
+5. To export packet details for use in a lab report, use: needed into a format where portions of it can be used in a lab report. First stop the capture then use:<br>`File -> Export Packet Dissections -> As Plain Text...`
 
-10. A Wireshark Save dialog window will open with several choices along the bottom. 
+6.  A Wireshark Save dialog window will open with several choices along the bottom. 
     - In the lower left, called `Packet Range` change the radio button to `Selected packet`
     - In the lower right, called `Packet Format` make sure the `Packet summary line`,`Include column headings` and `Packet details: As Displayed` options are checked (checked by default)
 
-11. Select a location and name for the file. Pressing the Save button will create a **TEXT** file for use in a lab report. The packet text output may need some formatting before using it in an assignment.
+7.  Select a location and name for the file. Pressing the Save button will create a **TEXT** file for use in a lab report. The packet text output may need some formatting before using it in an assignment.
 
-12. For more details about how to export data for lab report,s see [ECT Wireshark Export Guide](https://github.com/OHIO-ECT/Wireshark-Export-Guide).
+8.  For more details about how to export data for lab reports see [ECT Wireshark Export Guide](https://github.com/OHIO-ECT/Wireshark-Export-Guide). Close Wireshark when done.
 
-## GNS3 Wireshark
+## GNS3 Wireshark - Live Packet Capture!
 
-Using Wireshark to sniff packets in a GNS3 project can be very helpful when diagnosing issues. The procedure is shown in [ECT Tech Nugget - N1.1 - GNS3](https://youtu.be/w5qsM3LhpQI) (scrub to 9:49) for details. Wireshark functions a bit differently in a GNS3 environment. It's a two-part process. Right-Clicking on a link and selecting "Start Capture" will start the packet capture program on the link **and** start Wireshark to view the packets. The problem is that stopping Wireshark **does not** stop the packet capture program. This means it will keep running, collecting packets! After enough time, the gHost will run out of memory and crash if the packet capture program isn't stopped. To stop the capture program, right-click on the link again and select "Stop Capture".
+Wireshark can sniff packets on GNS3 project links, which is helpful for diagnosing issues. See [ECT Tech Nugget - N1.1 - GNS3](https://youtu.be/w5qsM3LhpQI) (9:49) for a demo. To start a capture, right-click on a link between two objects (the link turns red when selected) and choose "Start Capture". This starts both the capture program and Wireshark. **Important:** Closing Wireshark does **not** stop the capture program (indicated by a magnifying glass icon on the link). The capture will continue running and eventually crash the gHost due to memory exhaustion. Always right-click the link and select "Stop Capture" when finished.
 
-13. On the GNS3 project, right-click on the link between the Ubuntu-GUI-1 and the switch. In the context menu, select `Start Capture` and press OK on the pop-up dialog box to begin packet capture (AKA packet sniffing). Wireshark GUI will auto-start and begin showing packet data for traffic going to or from the Ubuntu-GUI-1 object. A small magnifying glass icon will appear in GNS3 on the link.
+13. In the GNS3 project, right-click on the link between the Ubuntu-GUI-1 and the switch. In the context menu, select `Start Capture` and press OK on the pop-up dialog box to begin packet capture (AKA packet sniffing). Wireshark GUI will auto-start and begin showing packet data for traffic going to or from the Ubuntu-GUI-1 object. A small magnifying glass icon will appear in GNS3 on the link.
 
 14. In Wireshark, use the following display filter: `ip.addr==X.X.X.X`. Make sure to replace `X.X.X.X` with the IP for the Ubuntu-GUI-1 that was discovered earlier. This filter displays traffic going **to or from** the specified IP (Ubuntu-GUI-1 in this case).
 
-15. On Ubuntu-GUI-1 open a terminal window and `ping 8.8.8.8`. Allow it to run for five ping iterations and use CTRL+C to stop ping.
+15. On Ubuntu-GUI-1, open a terminal window and `ping 8.8.8.8`. Allow it to run for five ping iterations and use CTRL+C to stop ping.
 
 16. Go back to Wireshark and find those five ping packets (there should also be five responses).
 
