@@ -50,6 +50,7 @@ Wireshark is a packet capture tool available on Linux, Mac, and Windows for free
     - In the filter window, use the filter ``ip.addr==132.235.232.204`` to show only packets to or from the IP address.
     - The field should turn **green** showing that this is a valid filter (Red means invalid, yellow means incomplete).
     - Press Enter to apply filter. To reset the view, use the "X" button on the far right of the filter line.
+  ![](./images/wireshark_display_filter.png)<br>
 
 3. In the filtered view, look for a packet with `Echo (ping) Request`.
 
