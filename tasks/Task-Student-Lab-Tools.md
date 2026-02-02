@@ -19,13 +19,10 @@ Instructions for downloading and installing O365 can be found at [OIT's Office 3
 
 ## Text Editor
 
-The Office 365 tools are not good a manipulating text with formatting. Many of the of the interactions with IT system are still done via text based interfaces, and can be confused by the formatting done by the office tools. A simple text editor like ``Notepad`` in Windows or ``TextEdit`` in Apple avoids the formatting issues. ``Notepad++`` the recommended text editor for ITS classes because it is able to handle nuanced differences in text formats between different operating systems.
+The Office 365 tools are not good a manipulating text with formatting. Many of the of the interactions with IT system are still done via text based interfaces, and can be confused by the formatting done by the office tools. A simple text editor like ``VSCode`` in Windows/Mac avoids many of the formatting issues.<br>
+VS Code can be installed from either the Microsoft Store the Apple App store or from the VS Code website.<br>
+ <https://code.visualstudio.com/download>
 
-For windows users, Notepad should already be installed. To open Notepad, press the Windows key and type "Notepad", then press Enter.
-
-Optional: If there is no preferred Text Editor already, install Notepad++ with the instructions at: <https://notepad-plus-plus.org>
-
-**Note:** Make sure **not** to click on an advertisement.
 
 ## Screen Capture Tool 
 
