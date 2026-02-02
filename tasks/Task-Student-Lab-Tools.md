@@ -20,7 +20,7 @@ Instructions for downloading and installing O365 can be found at [OIT's Office 3
 ## Text Editor
 
 The Office365 and/or Google Docs tools are not good a manipulating text with formatting. Many of the of the interactions with IT system are still done via text based interfaces, and can be confused by the formatting done by the office tools. A simple text editor like ``VSCode`` in Windows/Mac avoids many of the formatting issues.<br><br>
-VS Code can be installed from either the Microsoft Store the Apple App store or from the VS Code website.<br><br>
+VSCode can be installed from either the Microsoft Store the Apple App store or from the VS Code website.<br><br>
  <https://code.visualstudio.com/download>
 
 
