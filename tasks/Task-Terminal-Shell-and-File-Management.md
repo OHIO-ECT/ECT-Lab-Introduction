@@ -1,25 +1,33 @@
 # Terminal Shell and File Management
 
 ## Goals
-- Become familiar with the Linux Bash command line terminals
+
+- Become familiar with the Linux Bash command line terminals (CLIs)
+- Understand the relationship between terminal file systems and graphical file systems
 
 ## Resources
+
 - Personal Computer (Desktop or Laptop)
 - A document you have created to use as a lab notebook
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
+- [Linux Command Reference](Linux-Command-Reference.md)
 
 ## Environmental Context
+
 - Connection to gHost VM
 - Running "98 - Intro Lab" GNS3 project (see Task GNS3 Projects)
 - Child VMs are started and ready for use
 
 ## Toolkit
+
 - Shells (i.e. Powershell, Bash)
 
 ## Terminal Shell and File Management
 
-1. Open the Ubuntu-GUI object and start a terminal with the black >_ icon. The runs a program called a shell. The terms terminal and shell are often used interchangeable.
+1. Open the Ubuntu-GUI object and start a terminal with the black ">_" icon.
+ The runs a program called a shell. The terms terminal and shell are often used interchangeable.<br>
+ ![](./images/ubuntu-terminal-icon.png)
 
 2. Terminals take text commands and typically offer text based responses. The shell provides a prompt that should look something like ``itsclass@its-ud-xx:~$`` Terminals will be used in the administration of many of the computer and networking systems in real and virtual environments. In addition to running programs, terminals are often an interface to the files that make up the object.
 <br>
@@ -34,7 +42,7 @@
 
 6. In the terminal, run the Command ``mkdir test`` and then issue the command ``cd test``, to create a new directory and change the CWD for the terminal to that new directory. Note the change in the prompt to be ``itsclass@its-ud-xx:~/test$`` In many linux terminals the home directory the shortcut ``~``. This prompt is configurable and non-standardized but most linux distributions include the CWD in the terminal prompt.
 
-7. Note that ``test`` also appears in the Files GUI.
+7. The folder ``test`` also appears in the Files GUI now. This demonstrates that both the terminal and the graphical file manager are viewing the same underlying file system.
 
 8. Open a second terminal and note current working directory starts at the home directory again. The development of even simple networks can lead to a multitude of open terminals. Maintaining the perspective of where one is working will minimize mistakes in both academic labs and real life systems.
 <br>
@@ -73,7 +81,7 @@ sudo nmcli general hostname lab98-ubuntu-gui
 17. The command prompt should return. Files can also be viewed from the command line with the ``cat`` program. Use the command ``cat file.txt`` to show the content of the file that was just created.
 <br>
 
-18. Return to the Files GUI and browse to the test directory and double click on the test.txt file to open the file in the GUI text editor.
+18. Return to the Files GUI and browse to the test directory and double click on the file.txt file to open the file in the GUI text editor.
 
 ## Windows PowerShell
 
