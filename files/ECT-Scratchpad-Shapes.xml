@@ -24,7 +24,8 @@
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.router;fillColor=#F58534;gradientColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"69\" height=\"72\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 69,
     "h": 72,
-    "aspect": "fixed"
+    "aspect": "fixed",
+    "title": "Router"
   },
   {
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAADIAAAAsCAYAAAAn4+taAAAAB3RJTUUH5wcfDi8MbPtDDwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAARnQU1BAACxjwv8YQUAAAD4SURBVHja7ZmxDcIwEEUvxNBTsAGiCwU9DRswBT2zMAQdQ1CHAjrEBhQMEEHgIpAo/S0cDvNfnTvnWbLuy85Ws1497HcEYXOspBjkgtb5cLrc5HC+ynzUheqc/sx0MgZFSgmp82K3b0TQ3p/f0i9BEWtQxBoUsUYyIk4nqQ4hlNA6r74PtmDvbFHkdZw9ahenmSZK1HiyXJcSew0lmTNCEWtQxBqtiLxmw8+LtAFFrPHfEUVjh7nroNAFeR0UCYpYgyLWoIg1khFpIopOaQQdWGgN0ltB+7uQqIF8j75uhcaeoBcrhKivW28kc0YoYg2KWIMi1khG5A4B0kuCEUvU3gAAAABJRU5ErkJggg==;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"44\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
