@@ -18,7 +18,7 @@
 
 ## Environmental Context
 
-- Personal PC and browser — no gHost, no VMs, no install required
+- Personal PC and browser - no gHost, no VMs, no install required
 - ENE runs entirely in the browser
 - This task uses a single topology to observe all protocol areas
 
@@ -30,10 +30,10 @@ Before exploring any protocol, build the following topology in ENE. You will use
 
 2. Place the following devices:
     - 1x **Cloud** (represents the simulated ISP/Internet connection)
-    - 1x **Router** — label it `R1`
-    - 1x **Switch** — label it `SW1`
-    - 1x **Client** — label it `Client1`
-    - 1x **DNS Server** — label it `NS1`
+    - 1x **Router** - label it `R1`
+    - 1x **Switch** - label it `SW1`
+    - 1x **Client** - label it `Client1`
+    - 1x **DNS Server** - label it `NS1`
 
 3. Connect the devices:
     - `R1` eth0 → `Cloud`
@@ -44,20 +44,20 @@ Before exploring any protocol, build the following topology in ENE. You will use
 4. Configure `R1`:
     - eth0 (WAN): obtain address from Cloud (DHCP client or the address the Cloud assigns)
     - eth1 (LAN): set a static IP of `10.10.10.254/24`
-    - Enable **DHCP server** on eth1: pool range `10.10.10.10` – `10.10.10.200`, gateway `10.10.10.254`, DNS pointing to `NS1`
+    - Enable **DHCP server** on eth1: pool range `10.10.10.10` - `10.10.10.200`, gateway `10.10.10.254`, DNS pointing to `NS1`
     - Enable **NAT** (masquerade) toward eth0
 
 5. Configure `NS1`:
     - Static IP: `10.10.10.2/24`, gateway `10.10.10.254`
     - Add at least two A records, for example: `client1.lab` → `10.10.10.11` and `server.lab` → `10.10.10.2`
 
-6. Leave `Client1` set to DHCP — it should receive an address automatically when the topology starts.
+6. Leave `Client1` set to DHCP - it should receive an address automatically when the topology starts.
 
 7. Start the topology. Confirm that `Client1` has received a `10.10.10.x` address before proceeding.
 
 ---
 
-## Part A — IPv4 Native Connectivity
+## Part A - IPv4 Native Connectivity
 
 IPv4 is the protocol that identifies every device on the network with a 32-bit address and describes how packets are forwarded from source to destination. Every other protocol in this task depends on IPv4 being functional first.
 
@@ -78,11 +78,11 @@ IPv4 is the protocol that identifies every device on the network with a 32-bit a
 12. From `Client1`, ping an external address through the Cloud (use a destination provided by ENE's Cloud device, such as `8.8.8.8` or the address shown in the Cloud config).
     - Record whether the ping succeeds and the approximate RTT.
 
-**Deliverable A:** In your lab report, describe the IP address assignments in this topology and explain the path a ping from Client1 to 8.8.8.8 takes — which devices does it pass through, and at which point does the source address change?
+**Deliverable A:** In your lab report, describe the IP address assignments in this topology and explain the path a ping from Client1 to 8.8.8.8 takes - which devices does it pass through, and at which point does the source address change?
 
 ---
 
-## Part B — IPv6 Native Connectivity
+## Part B - IPv6 Native Connectivity
 
 IPv6 uses 128-bit addresses. One of its key features is **link-local auto-configuration**: every IPv6-capable interface automatically generates a link-local address in the `fe80::/10` range without any manual configuration or DHCP. These addresses are only valid on the local link segment.
 
@@ -96,13 +96,13 @@ IPv6 uses 128-bit addresses. One of its key features is **link-local auto-config
 
     Record whether the ping succeeds. If it does not, note what error you receive.
 
-> **Note:** ENE's Router does not currently support IPv6 routing between subnets. Full IPv6 routing — including stateless address autoconfiguration (SLAAC), DHCPv6, and OSPFv3 — is covered in the GNS3 lab environment starting with Lab 7. What you observed here is IPv6 **link-local only**: automatic and always present, but limited to the local segment.
+> **Note:** ENE's Router does not currently support IPv6 routing between subnets. Full IPv6 routing - including stateless address autoconfiguration (SLAAC), DHCPv6, and OSPFv3 - is covered in the GNS3 lab environment starting with Lab 7. What you observed here is IPv6 **link-local only**: automatic and always present, but limited to the local segment.
 
 **Deliverable B:** Record the link-local address on Client1 and NS1. Explain in one sentence why they appeared without any configuration.
 
 ---
 
-## Part C — Core Diagnostic Tools
+## Part C - Core Diagnostic Tools
 
 These are the first tools you reach for when something doesn't work. You will use them in every lab this semester.
 
@@ -127,7 +127,7 @@ Traceroute maps the path from source to destination hop by hop, using the TTL (T
 
 ### Link Sniffer (Wireshark-style)
 
-ENE includes a per-link packet sniffer. It shows you the actual frames and packets on a given link — the same view Wireshark gives you on a physical interface.
+ENE includes a per-link packet sniffer. It shows you the actual frames and packets on a given link - the same view Wireshark gives you on a physical interface.
 
 19. Click on the link between `Client1` and `SW1` to open the link sniffer. Start the capture.
 
@@ -142,7 +142,7 @@ ENE includes a per-link packet sniffer. It shows you the actual frames and packe
 
 ---
 
-## Part D — DHCP
+## Part D - DHCP
 
 DHCP (Dynamic Host Configuration Protocol) automates IP address assignment. Rather than manually configuring every host, a DHCP server maintains a pool of addresses and hands them out on request. The exchange follows a four-step process: **Discover → Offer → Request → Acknowledge (DORA)**.
 
@@ -165,7 +165,7 @@ DHCP (Dynamic Host Configuration Protocol) automates IP address assignment. Rath
 
 ---
 
-## Part E — NAT
+## Part E - NAT
 
 NAT (Network Address Translation) allows many hosts on a private network to share a single public (routable) IP address. When a packet from `Client1` crosses R1 to reach the Cloud, R1 rewrites the source IP from `Client1`'s private address to R1's WAN address. The return packet is translated back.
 
@@ -187,7 +187,7 @@ NAT (Network Address Translation) allows many hosts on a private network to shar
 
 ---
 
-## Part F — DNS
+## Part F - DNS
 
 DNS (Domain Name System) translates human-readable names (like `server.lab`) into IP addresses. The client sends a query to its configured DNS server; the server looks up the name and returns the address. Without DNS, every application would require users to remember IP addresses.
 
@@ -207,7 +207,7 @@ DNS (Domain Name System) translates human-readable names (like `server.lab`) int
     - What do A records do?
 
 34. From `Client1`, run: `nslookup 10.10.10.2`
-    - This is a **reverse lookup** — translating an IP back to a name.
+    - This is a **reverse lookup** - translating an IP back to a name.
     - Does NS1 have a reverse record configured? What happens when it does not?
 
 **Deliverable F:** In your lab report: (1) show the dig output for `server.lab` with the ANSWER SECTION highlighted, (2) identify the DNS server that responded, and (3) explain in one sentence the difference between an A record and a reverse (PTR) record.

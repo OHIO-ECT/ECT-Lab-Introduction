@@ -15,12 +15,12 @@
 
 ## Environmental Context
 
-- Personal PC and browser — no gHost, no VMs, no install required
+- Personal PC and browser - no gHost, no VMs, no install required
 - ENE runs entirely in the browser
 
 ## ENE Orientation
 
-ENE (ECT Network Emulator) is a browser-based network simulation tool. It supports real network protocols including DHCP, NAT, DNS, and basic routing — all without requiring GNS3 or a gHost VM. You will use it in this introduction and in early course activities to build familiarity with network concepts before moving to GNS3.
+ENE (ECT Network Emulator) is a browser-based network simulation tool. It supports real network protocols including DHCP, NAT, DNS, and basic routing - all without requiring GNS3 or a gHost VM. You will use it in this introduction and in early course activities to build familiarity with network concepts before moving to GNS3.
 
 ### Build a simple topology
 
@@ -41,9 +41,9 @@ ENE (ECT Network Emulator) is a browser-based network simulation tool. It suppor
 
 ### Deliverables
 
-6. Take a **screenshot of the ENE canvas** showing your topology with all three devices connected. This is one of the rare cases where a screenshot is the appropriate form of documentation — ENE is a graphical interface.
+6. Take a **screenshot of the ENE canvas** showing your topology with all three devices connected. This is one of the rare cases where a screenshot is the appropriate form of documentation - ENE is a graphical interface.
 
-7. In your lab report, describe what you see in 2–3 sentences:
+7. In your lab report, describe what you see in 2-3 sentences:
     - What IP address was assigned to the Client?
     - How did the Client get that address?
     - What does the connection between the Router and Cloud represent?

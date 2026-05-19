@@ -16,12 +16,12 @@
 
 ## Environmental Context
 
-- Personal PC and browser — no gHost, no VMs, no install required
+- Personal PC and browser - no gHost, no VMs, no install required
 - ENE runs entirely in the browser
 
 ---
 
-> **🚧 INSTRUCTOR NOTE — PENDING DOUG'S ENE SLATE**
+> **🚧 INSTRUCTOR NOTE - PENDING DOUG'S ENE SLATE**
 >
 > This task requires a pre-built ENE slate (a saved topology) with:
 > - A single router with two LAN interfaces and one Cloud connection
@@ -40,7 +40,7 @@
 
 ## Background
 
-This exercise bridges the paper-and-pencil IP planning you did in Task-Art-of-IP-Assignment with the live configuration work you will do in Lab 1. The steps are the same ones you will follow every week:
+This exercise bridges the paper-and-pencil IP planning you did in Task-Art-of-IP-Assignment with the live configuration work you will do in Lab 1. The steps are the same ones you will follow in every unit:
 
 1. Receive a network description (addresses, host requirements, topology)
 2. Produce an IP plan before touching any device
@@ -51,11 +51,11 @@ This exercise bridges the paper-and-pencil IP planning you did in Task-Art-of-IP
 
 *(Full instructions will appear here when Doug's ENE slate is available. The sections below are the intended structure.)*
 
-### Step 1 — Load the ENE slate
+### Step 1 - Load the ENE slate
 
-Import or open the provided ENE topology file. Do not modify the topology — only configure the addresses.
+Import or open the provided ENE topology file. Do not modify the topology - only configure the addresses.
 
-### Step 2 — Complete the IP grid
+### Step 2 - Complete the IP grid
 
 Using the provided topology description and the ITS 4750 IP conventions, fill in the IP grid:
 - Network addresses and prefix lengths for each subnet
@@ -66,11 +66,11 @@ Using the provided topology description and the ITS 4750 IP conventions, fill in
 
 Submit the completed IP grid as a pre-lab deliverable before configuring anything.
 
-### Step 3 — Configure the devices
+### Step 3 - Configure the devices
 
 Apply the addresses from your IP grid to the devices in ENE.
 
-### Step 4 — Verify connectivity
+### Step 4 - Verify connectivity
 
 Using the Client shell in ENE, verify end-to-end connectivity:
 - Ping the default gateway from each client

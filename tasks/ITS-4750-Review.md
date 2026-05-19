@@ -1,0 +1,197 @@
+# ITS 4750 Labs
+
+This introduction is **async primer material** - Even through is not a graded exercise students should read and review this document thoroughly.  Students are encouraged to engage with the online learning tools and resources documented in this Introductory lab to review to prime concepts from ITS 2300 and ITS 3100.  Students should have an advanced understanding of these tools and networking concepts prior to starting this class.  (This will be you last warning)
+
+ITS 4750 Internet Engineering is a hands-on, lab-intensive course covering the fundamentals of how the Internet actually works - from addressing and routing to DNS, firewalls, VPNs, and network monitoring. You will configure real production-grade software (VyOS routers, pfSense firewalls, Linux servers) in a simulated environment that mirrors ISP and enterprise networking practices and use those environments to explore network architectures. 
+
+
+
+# Preface and Warnings
+
+## Variable replacement
+
+Through ALL ITS labs and as a general rule in public documentation various forms of brackets `[ ] < > { }" and quotes are used to signify a variable that must be replaced by the user.  The student is responsible for understanding the context of these strings, but unless otherwise specified the brackets are removed during the replacement.  For example:
+
+`{Ohio-University-Mascot}` becomes `bobcat` NOT `{bobcat}`  
+
+## Defining requirement levels
+
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this course are to be interpreted as described in [RFC2119](https://datatracker.ietf.org/doc/rfc2119/).
+
+## Omissions, Errors, and Changes
+
+The systems that are used to build the labs in this course are real production software and are subject to change.  While the Faculty, Lab Director, and Teaching Assistants attempt to find all issues prior to releasing the labs, it is very likely that changes that regularly occur in these systems will cause disruptions to the labs.
+
+If any part of the lab is unclear for any reason, including formatting and documentation errors in the lab content, the student is 100% responsible for clarifying their observations with the faculty in class or in Teams.
+
+
+
+# Task 1 - Student Lab Tools
+
+- [Task 1 - Student Lab Tools](../tasks/Task-Student-Lab-Tools.md)  
+    Document your primary computing environment: OS, tools, and editors you plan to use this semester.
+
+    **New this semester:** Confirm that the ECT Network Emulator (ENE) loads in your browser - open https://www.its.ohio.edu/ene/ and verify you can see the canvas. ENE requires no install, no VMs, and no gHost access. You will use it in Section 3.
+
+## Task 2 - GitHub Account
+
+- [Task 2 - GitHub Account Creation](../tasks/Task-GitHub-Account-Creation.md)  
+    EVERY student MUST follow this task even if they completed it in previous semesters or for other classes. Document your GitHub username in your lab report.
+
+## Task 3 - Connect via Guacamole
+
+- [Task 3 - Connect to your gHost via Guacamole (Web Browser)](../tasks/Task-Connect-to-GNS3-VM-Guac.md)  
+    This web interface is available for Internet Engineering students. However, Internet Engineering students are likely to have smoother interactions with larger GNS3 projects via remote desktop (Task 4). Guacamole also provides an SSH interface to the gHost that can be helpful in debugging connectivity problems, including the infamous "Black Screen of Death".
+
+    The following command fixes the Black Screen of Death, and is left for future reference. It should NOT normally be needed.
+
+    ```DISPLAY=:10 xmessage -iconic x```
+
+## Task 4 - Remote Desktop to gHost
+
+- [Task 4 - Connect to your gHost with Remote Desktop](../tasks/Task-Connect-to-GNS3-VM.md)  
+    Find a creative way to demonstrate that you completed this task. No screenshots!
+
+---
+
+# Section 2 - Tech Nuggets Pre-Work
+
+The ECT Tech Nuggets are short instructional videos produced by the department. Watch the following before your first lab session. These replace conceptual lecture time that used to be spent on tool and environment basics - arriving in lab without having watched them is arriving unprepared.
+
+**Channel:** https://www.youtube.com/@ecttechnuggets9126
+
+| Watch | Topic | Why |
+|-------|-------|-----|
+| [N2.1 pt1](https://www.youtube.com/watch?v=uwa7w37LhF0) | IPv4 Subnetting | Lab 1 pre-req |
+| [N2.1 pt2](https://www.youtube.com/watch?v=K-yAX1OHNSI) | IPv4 Subnetting | Lab 1 pre-req |
+| [N2.3](https://www.youtube.com/watch?v=A_JbKcmjyts) | Binary Subnetting | Lab 1 pre-req |
+| [N4.0 / N4.1](https://www.youtube.com/@ecttechnuggets9126) | VyOS + GNS3 | Lab 1 pre-req |
+| [N5.0](https://www.youtube.com/@ecttechnuggets9126) | NAT | Lab 1 pre-req |
+| [N6.1](https://www.youtube.com/watch?v=ja_n-MZZxD4) | DHCP | Lab 1 pre-req |
+| [N48.0](https://www.youtube.com/@ecttechnuggets9126) | Routing Overview | Lab 1-2 pre-req |
+| [N0.1-N0.6](https://www.youtube.com/@ecttechnuggets9126) | Basic Diagnostic Tools | All labs |
+| [N11.0](https://www.youtube.com/@ecttechnuggets9126) | nmcli | All labs |
+| [N46.0](https://www.youtube.com/@ecttechnuggets9126) | GNS3 Template Import | Section 4 pre-req |
+| [N47.0](https://www.youtube.com/@ecttechnuggets9126) | GNS3 VM Hardware | Section 4 pre-req |
+
+**Deliverable:** In your Lab 1 report, list two things you learned from the subnetting nuggets (N2.1 or N2.3) that you did not already know. Be specific - "I learned about subnetting" is not an acceptable answer.
+
+---
+
+# Section 3 - ENE: Network Simulation Without GNS3
+
+The ECT Network Emulator (ENE) runs entirely in your browser. No installation, no VMs, no gHost required. You will use it here to explore basic network concepts and observe the protocols that underpin every lab this semester - all before you touch GNS3.
+
+**ENE URL:** https://www.its.ohio.edu/ene/  
+**ENE Docs:** https://www.its.ohio.edu/ene/docs/
+
+## Task 3a - ENE Orientation
+
+- [Task 3a - ENE Orientation](../tasks/Task-ENE-Orientation.md)  
+    Open ENE, build a small topology, and observe the results. This is your first look at a live (simulated) network before GNS3.
+
+## Task 3b - ENE Subnetting Exercise
+
+- [Task 3b - ENE Subnetting Exercise](../tasks/Task-ENE-Subnetting.md)  
+    Apply the IP conventions below to a simple topology in ENE. This is the first time you will use the class IP addressing rules in a live context - the same rules appear on every lab rubric for the rest of the semester.
+
+## Task 3c - Protocol Refresher
+
+- [Task 3c - Protocol Refresher](../tasks/Task-Protocol-Refresher.md)  
+    Using the ENE topology you built in Tasks 3a and 3b, work through six protocol areas: IPv4 native connectivity, IPv6 link-local addressing, core diagnostic tools (ping, traceroute, link sniffer), DHCP, NAT, and DNS. Each section asks you to observe the protocol from both the server/router side and the client side.
+
+## Lab Network Conventions (Local Best Practices)
+
+These conventions MUST be used for IP address assignment in all ITS 4750 assignments for the entire semester.
+
+- A1. IPv4 default gateway (Router) will use the **last usable address** in the IP Network
+- A2. IPv6 default gateway (Router) will use **::1** IP
+- B. All other static assigned IPs (including other routers that are not the default gateway) start at the **beginning of the range**
+- C. DHCP pools are between the statically addressed clients and the Default Gateway
+- D. Unless stated otherwise use the following DNS Name servers: **132.235.9.75, 132.235.200.41**
+
+**HINT:** Think about the "goto" subnet sizes talked about in lecture. Don't over complicate the process.
+
+---
+
+# Section 4 - GNS3 Environment
+
+GNS3 is the network simulation platform used for all ITS 4750 labs. It runs on your assigned gHost VM. Section 4 comes after ENE - you already understand what a network looks like before you set one up in GNS3.
+
+## Task 4a - GNS3 Projects
+
+- [Task 4a - GNS3 Projects](../tasks/Task-GNS3-Projects.md)  
+    Open, name, and save a GNS3 project. This task may be documented with a single high quality screenshot. Also import the VyOS-AR template using the N46.0 guide before the unit begins.
+
+## Task 4b - Terminal Shell and File Management
+
+- [Task 4b - Terminal Shell and File Management](../tasks/Task-Terminal-Shell-and-File-Management.md)  
+    Students will master a number of CLI interfaces to network and server equipment. Identify a command or tip not presented in this task.
+
+---
+
+# Section 5 - Network Diagnostics and Problem Solving
+
+The tools in this section are the first things you reach for when something does not work. The debugging framework below is explicitly how faculty and graders expect you to approach lab problems - model it in your lab reports.
+
+## Task 5a - Gathering IP Information
+
+- [Task 5a - Gathering IP Information](../tasks/Task-Gathering-IP-Information.md)  
+    Before you change anything, know what you have. Gather and document the network interface information for the interfaces connected to the cloud. Different runs of a particular network are very unlikely to reproduce the same results, particularly on client machines.
+
+    This is **Step 1 of the debugging process.** You cannot diagnose a problem you have not first measured.
+
+## Task 5b - Network Diagnostic Tools and Debugging Framework
+
+- [Task 5b - Network Diagnostic Tools](../tasks/Task-Advanced-Network-Diagnostic-Commands.md)  
+    These are must-have tools. Give example data from each tool and explain its operation.
+
+- [Task 5b - Debugging Framework](../tasks/Task-Debugging-Framework.md)  
+    The structured process for isolating and resolving network problems. Learn this framework now - faculty expect to see it applied in every lab report this semester.
+
+    The framework is:
+    1. **Gather** - What do I have? (`ip a`, `ip route`, `ping` local GW)
+    2. **Isolate** - Layer by layer: physical? IP? routing? DNS? application?
+    3. **Hypothesize** - What could cause this symptom?
+    4. **Test** - Make one change at a time.
+    5. **Document** - What did you try and what happened?
+
+    **Brutally direct hint:** Don't ask for help without having worked through at least the first three steps.
+
+## Task 5c - Wireshark
+
+- [Task 5c - Wireshark](../tasks/Task-Wireshark.md)  
+    Packet capture tools let the network engineer see what is actually on the wire. Show the packet capture data using the proper export format, nicely presented. Highlighting critical data in a packet capture is always appreciated.
+
+    Speaking of needles and haystacks: show exactly the packets relevant to the task. Do not dump a full capture when a filtered summary was asked for.
+
+---
+
+# Section 6 - Documentation Standards
+
+Documentation is not optional and not an afterthought. The ability to draw a clear, annotated network diagram and to shut down infrastructure cleanly are professional skills you will use on day one of any network engineering job.
+
+## Task 6a - Drawing Diagrams
+
+- [Task 6a - Drawing Diagrams](../tasks/Task-Drawing-Diagrams.md)  
+    Draw.io is required. Screenshots and image exports from GNS3 are NEVER a substitute for a drawn diagram. A drawn diagram shows design intent and network relationships in a way that a screenshot never can.
+
+    Every lab diagram must include: network numbers, subnet masks (or prefix lengths), interface IP addresses, and device names. Missing any of these is a recurring rubric deduction.
+
+## Task 6b - Shutdown GNS3
+
+- [Task 6b - Shutdown GNS3](../tasks/Task-Shutdown-GNS3.md)  
+    Why would we ask students to shut down a project when the work is complete? Be concise in your answer.
+
+---
+
+# Proper Submissions
+
+Unless otherwise specifically noted, students MUST submit PDF formatted documents!
+
+---
+
+# Miscellaneous Tasks (For Information Only)
+
+- [SSH Jump Host](../tasks/Task-SSH-Jumphost.md)  
+    gHosts and devices in projects can be accessed via SSH through a security bastion described in this task. This option is NOT normally used.
