@@ -1,6 +1,16 @@
 # ECT Lab Introduction - Lab Reports
 
+# Section 6 - Documentation Standards
 
+Documentation is not optional and not an afterthought. The ability to draw a clear, annotated network diagram and to shut down infrastructure cleanly are professional skills you will use on day one of any network engineering job.
+
+## Task 6a - Drawing Diagrams
+
+- [Task 6a - Drawing Diagrams](../tasks/Task-Drawing-Diagrams.md)  
+    Draw.io is required. Screenshots and image exports from GNS3 are NEVER a substitute for a drawn diagram. A drawn diagram shows design intent and network relationships in a way that a screenshot never can.
+
+    Every lab diagram must include: network numbers, subnet masks (or prefix lengths), interface IP addresses, and device names. Missing any of these is a recurring rubric deduction.
+    
 ## Course conventions - read these now
 
 These conventions apply to every submission in this course, starting with Lab 1.

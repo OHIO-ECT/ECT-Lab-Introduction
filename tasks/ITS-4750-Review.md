@@ -1,6 +1,8 @@
 # ITS 4750 Labs
 
-This introduction is **async primer material** - Even through is not a graded exercise students should read and review this document thoroughly.  Students are encouraged to engage with the online learning tools and resources documented in this Introductory lab to review to prime concepts from ITS 2300 and ITS 3100.  Students should have an advanced understanding of these tools and networking concepts prior to starting this class.  (This will be you last warning)
+This introduction is **async primer material** - Even through is not a graded exercise students should read and review this document thoroughly.  Students are encouraged to engage with these online learning tools and resources in this Introductory "lab" to review prime concepts from ITS 2300 and ITS 3100.  
+
+Successful Students will have an understanding of these tools and networking concepts prior to starting this class.  (This will be your last warning)
 
 # Tech Nuggets
 
@@ -32,23 +34,19 @@ The ECT Tech Nuggets are short instructional videos produced by the department. 
 | [N8.0](https://www.youtube.com/watch?v=igPK1aZo4m8) | IPv6 Intro |
 | [N11.0](https://www.youtube.com/watch?v=43F51qVz9Ds) | nmcli |
 
-## Lab IP Addressing Conventions
+# IP Addressing Conventions
 
-As show in the IPv4 Subnetting and IPv6 Intro technuggets, as a generalized process an organization or a network within an organization is given an IP address space which a network administrator will take and further subnet based on the demands of the sub-networks (subnets) that are within the network being constructed.  The [ECT Visual Subnet Calculator](https://www.its.ohio.edu/ipcalc/) is a handy tool to automate this process.  A network administrators ability to properly manage IP space is a direct reflection of their 
+Organization or a network within an organization is given a "block" of IP address space.  A network administrator will take that IP space  and further divid it based on the demands of the sub-networks (subnets) that are within the network being constructed.  This class is "dual-stack" and will use both IPv4 and IPv6.  Subnetting each of these address types have slighly different techniques.
 
-TODO: Brandon Stopped here.
+For IPv4 the [ECT Visual Subnet Calculator](https://www.its.ohio.edu/ipcalc/) is a handy tool to automate this process.  For IPv6, Professor Saunders, recommends that students NOT use a subnet calculator.  See the IPv6 Intro TechNugget for the basics of subnetting in IPv6.  More advanced subnetting techniques will be discussed in class.
 
-
-
-These conventions MUST be used for IP address assignment in all ITS 4750 assignments for the entire semester.
+Within a subnetwork this class requires a set of policies that must be adhered to.  These policies might differ from the practices of other organizations.
 
 - A1. IPv4 default gateway (Router) will use the **last usable address** in the IP Network
 - A2. IPv6 default gateway (Router) will use **::1** IP
 - B. All other static assigned IPs (including other routers that are not the default gateway) start at the **beginning of the range**
 - C. DHCP pools are between the statically addressed clients and the Default Gateway
 - D. Unless stated otherwise use the following DNS Name servers: **132.235.9.75, 132.235.200.41**
-
-
 
 # Section 3 - ENE: Network Simulation Without GNS3
 
@@ -74,6 +72,8 @@ The ECT Network Emulator (ENE) runs entirely in your browser. No installation, n
 - [Task 3c - Protocol Refresher](../tasks/Task-Protocol-Refresher.md)  
     Using the ENE topology you built in Tasks 3a and 3b, work through six protocol areas: IPv4 native connectivity, IPv6 link-local addressing, core diagnostic tools (ping, traceroute, link sniffer), DHCP, NAT, and DNS. Each section asks you to observe the protocol from both the server/router side and the client side.
 
+
+# Can Ene do these?
 
 ## Task 4b - Terminal Shell and File Management
 
@@ -115,33 +115,4 @@ The tools in this section are the first things you reach for when something does
 
     Speaking of needles and haystacks: show exactly the packets relevant to the task. Do not dump a full capture when a filtered summary was asked for.
 
----
 
-# Section 6 - Documentation Standards
-
-Documentation is not optional and not an afterthought. The ability to draw a clear, annotated network diagram and to shut down infrastructure cleanly are professional skills you will use on day one of any network engineering job.
-
-## Task 6a - Drawing Diagrams
-
-- [Task 6a - Drawing Diagrams](../tasks/Task-Drawing-Diagrams.md)  
-    Draw.io is required. Screenshots and image exports from GNS3 are NEVER a substitute for a drawn diagram. A drawn diagram shows design intent and network relationships in a way that a screenshot never can.
-
-    Every lab diagram must include: network numbers, subnet masks (or prefix lengths), interface IP addresses, and device names. Missing any of these is a recurring rubric deduction.
-
-## Task 6b - Shutdown GNS3
-
-- [Task 6b - Shutdown GNS3](../tasks/Task-Shutdown-GNS3.md)  
-    Why would we ask students to shut down a project when the work is complete? Be concise in your answer.
-
----
-
-# Proper Submissions
-
-Unless otherwise specifically noted, students MUST submit PDF formatted documents!
-
----
-
-# Miscellaneous Tasks (For Information Only)
-
-- [SSH Jump Host](../tasks/Task-SSH-Jumphost.md)  
-    gHosts and devices in projects can be accessed via SSH through a security bastion described in this task. This option is NOT normally used.
