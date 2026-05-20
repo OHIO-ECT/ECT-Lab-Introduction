@@ -2,83 +2,57 @@
 
 This introduction is **async primer material** - Even through is not a graded exercise students should read and review this document thoroughly.  Students are encouraged to engage with the online learning tools and resources documented in this Introductory lab to review to prime concepts from ITS 2300 and ITS 3100.  Students should have an advanced understanding of these tools and networking concepts prior to starting this class.  (This will be you last warning)
 
-ITS 4750 Internet Engineering is a hands-on, lab-intensive course covering the fundamentals of how the Internet actually works - from addressing and routing to DNS, firewalls, VPNs, and network monitoring. You will configure real production-grade software (VyOS routers, pfSense firewalls, Linux servers) in a simulated environment that mirrors ISP and enterprise networking practices and use those environments to explore network architectures. 
+# Tech Nuggets
 
-
-
-# Preface and Warnings
-
-## Variable replacement
-
-Through ALL ITS labs and as a general rule in public documentation various forms of brackets `[ ] < > { }" and quotes are used to signify a variable that must be replaced by the user.  The student is responsible for understanding the context of these strings, but unless otherwise specified the brackets are removed during the replacement.  For example:
-
-`{Ohio-University-Mascot}` becomes `bobcat` NOT `{bobcat}`  
-
-## Defining requirement levels
-
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this course are to be interpreted as described in [RFC2119](https://datatracker.ietf.org/doc/rfc2119/).
-
-## Omissions, Errors, and Changes
-
-The systems that are used to build the labs in this course are real production software and are subject to change.  While the Faculty, Lab Director, and Teaching Assistants attempt to find all issues prior to releasing the labs, it is very likely that changes that regularly occur in these systems will cause disruptions to the labs.
-
-If any part of the lab is unclear for any reason, including formatting and documentation errors in the lab content, the student is 100% responsible for clarifying their observations with the faculty in class or in Teams.
-
-
-
-# Task 1 - Student Lab Tools
-
-- [Task 1 - Student Lab Tools](../tasks/Task-Student-Lab-Tools.md)  
-    Document your primary computing environment: OS, tools, and editors you plan to use this semester.
-
-    **New this semester:** Confirm that the ECT Network Emulator (ENE) loads in your browser - open https://www.its.ohio.edu/ene/ and verify you can see the canvas. ENE requires no install, no VMs, and no gHost access. You will use it in Section 3.
-
-## Task 2 - GitHub Account
-
-- [Task 2 - GitHub Account Creation](../tasks/Task-GitHub-Account-Creation.md)  
-    EVERY student MUST follow this task even if they completed it in previous semesters or for other classes. Document your GitHub username in your lab report.
-
-## Task 3 - Connect via Guacamole
-
-- [Task 3 - Connect to your gHost via Guacamole (Web Browser)](../tasks/Task-Connect-to-GNS3-VM-Guac.md)  
-    This web interface is available for Internet Engineering students. However, Internet Engineering students are likely to have smoother interactions with larger GNS3 projects via remote desktop (Task 4). Guacamole also provides an SSH interface to the gHost that can be helpful in debugging connectivity problems, including the infamous "Black Screen of Death".
-
-    The following command fixes the Black Screen of Death, and is left for future reference. It should NOT normally be needed.
-
-    ```DISPLAY=:10 xmessage -iconic x```
-
-## Task 4 - Remote Desktop to gHost
-
-- [Task 4 - Connect to your gHost with Remote Desktop](../tasks/Task-Connect-to-GNS3-VM.md)  
-    Find a creative way to demonstrate that you completed this task. No screenshots!
-
----
-
-# Section 2 - Tech Nuggets Pre-Work
-
-The ECT Tech Nuggets are short instructional videos produced by the department. Watch the following before your first lab session. These replace conceptual lecture time that used to be spent on tool and environment basics - arriving in lab without having watched them is arriving unprepared.
+The ECT Tech Nuggets are short instructional videos produced by the department.  These are meant to complement lectures not replace them.
 
 **Channel:** https://www.youtube.com/@ecttechnuggets9126
 
-| Watch | Topic | Why |
-|-------|-------|-----|
-| [N2.1 pt1](https://www.youtube.com/watch?v=uwa7w37LhF0) | IPv4 Subnetting | Lab 1 pre-req |
-| [N2.1 pt2](https://www.youtube.com/watch?v=K-yAX1OHNSI) | IPv4 Subnetting | Lab 1 pre-req |
-| [N2.3](https://www.youtube.com/watch?v=A_JbKcmjyts) | Binary Subnetting | Lab 1 pre-req |
-| [N4.0 / N4.1](https://www.youtube.com/@ecttechnuggets9126) | VyOS + GNS3 | Lab 1 pre-req |
-| [N5.0](https://www.youtube.com/@ecttechnuggets9126) | NAT | Lab 1 pre-req |
-| [N6.1](https://www.youtube.com/watch?v=ja_n-MZZxD4) | DHCP | Lab 1 pre-req |
-| [N48.0](https://www.youtube.com/@ecttechnuggets9126) | Routing Overview | Lab 1-2 pre-req |
-| [N0.1-N0.6](https://www.youtube.com/@ecttechnuggets9126) | Basic Diagnostic Tools | All labs |
-| [N11.0](https://www.youtube.com/@ecttechnuggets9126) | nmcli | All labs |
-| [N46.0](https://www.youtube.com/@ecttechnuggets9126) | GNS3 Template Import | Section 4 pre-req |
-| [N47.0](https://www.youtube.com/@ecttechnuggets9126) | GNS3 VM Hardware | Section 4 pre-req |
+| Watch | Topic |
+|-------|-------|
+| [N0.1](https://www.youtube.com/watch?v=OtpzbVz7Ay8) | Basic Diag Tools - NIC Setting Discovery |
+| [N0.2](https://www.youtube.com/watch?v=hWeJlNVaUbU) | Basic Diag Tools - Ping and Traceroute |
+| [N0.3](https://www.youtube.com/watch?v=PMk53TngTio) | Basic Diag Tools - Netstat |
+| [N0.4](https://www.youtube.com/watch?v=gD-Tk1Bk7x0) | Basic Diag Tools - Dig and Nslookup |
+| [N0.5](https://www.youtube.com/watch?v=QTIbS9wyfag) | Basic Diag Tools - Wireshark |
+| [N0.6](https://www.youtube.com/watch?v=Vu1CeJIXMnk) | Basic Diag Tools - NIC Config |
+| [N1.1](https://www.youtube.com/watch?v=w5qsM3LhpQI) | GNS3 |
+| [N1.2](https://www.youtube.com/watch?v=X_LX4MCR1do) | GNS3 |
+| [N1.3](https://www.youtube.com/watch?v=5ZZjxAYcy5Q) | GNS3 |
+| [N2.1](https://www.youtube.com/watch?v=uwa7w37LhF0) | IPv4 Subnetting pt1 |
+| [N2.2](https://www.youtube.com/watch?v=K-yAX1OHNSI) | IPv4 Subnetting pt2 |
+| [N2.3](https://www.youtube.com/watch?v=A_JbKcmjyts) | Binary Subnetting |
+| [N3.0](https://www.youtube.com/watch?v=nx7PfG7_Fks) | Routing pt1 |
+| [N3.1](https://www.youtube.com/watch?v=gVAEopOYGa0) | Routing pt2 |
+| [N4.0](https://www.youtube.com/watch?v=POqlACy94ys) | VyOS + GNS3 pt1 |
+| [N4.1](https://www.youtube.com/watch?v=xtt3UO4gW7A) | VyOS + GNS3 pt2 |
+| [N5.0](https://www.youtube.com/watch?v=uyUL9UQugek) | NAT |
+| [N6.0](https://www.youtube.com/watch?v=p9ARba9keE8) | DHCP |
+| [N6.1](https://www.youtube.com/watch?v=ja_n-MZZxD4) | DHCP |
+| [N8.0](https://www.youtube.com/watch?v=igPK1aZo4m8) | IPv6 Intro |
+| [N11.0](https://www.youtube.com/watch?v=43F51qVz9Ds) | nmcli |
 
-**Deliverable:** In your Lab 1 report, list two things you learned from the subnetting nuggets (N2.1 or N2.3) that you did not already know. Be specific - "I learned about subnetting" is not an acceptable answer.
+## Lab IP Addressing Conventions
 
----
+As show in the IPv4 Subnetting and IPv6 Intro technuggets, as a generalized process an organization or a network within an organization is given an IP address space which a network administrator will take and further subnet based on the demands of the sub-networks (subnets) that are within the network being constructed.  The [ECT Visual Subnet Calculator](https://www.its.ohio.edu/ipcalc/) is a handy tool to automate this process.  A network administrators ability to properly manage IP space is a direct reflection of their 
+
+TODO: Brandon Stopped here.
+
+
+
+These conventions MUST be used for IP address assignment in all ITS 4750 assignments for the entire semester.
+
+- A1. IPv4 default gateway (Router) will use the **last usable address** in the IP Network
+- A2. IPv6 default gateway (Router) will use **::1** IP
+- B. All other static assigned IPs (including other routers that are not the default gateway) start at the **beginning of the range**
+- C. DHCP pools are between the statically addressed clients and the Default Gateway
+- D. Unless stated otherwise use the following DNS Name servers: **132.235.9.75, 132.235.200.41**
+
+
 
 # Section 3 - ENE: Network Simulation Without GNS3
+
+**New this semester:** Confirm that the ECT Network Emulator (ENE) loads in your browser - open https://www.its.ohio.edu/ene/ and verify you can see the canvas. ENE requires no install, no VMs, and no gHost access. You will use it in Section 3.
 
 The ECT Network Emulator (ENE) runs entirely in your browser. No installation, no VMs, no gHost required. You will use it here to explore basic network concepts and observe the protocols that underpin every lab this semester - all before you touch GNS3.
 
@@ -100,35 +74,11 @@ The ECT Network Emulator (ENE) runs entirely in your browser. No installation, n
 - [Task 3c - Protocol Refresher](../tasks/Task-Protocol-Refresher.md)  
     Using the ENE topology you built in Tasks 3a and 3b, work through six protocol areas: IPv4 native connectivity, IPv6 link-local addressing, core diagnostic tools (ping, traceroute, link sniffer), DHCP, NAT, and DNS. Each section asks you to observe the protocol from both the server/router side and the client side.
 
-## Lab Network Conventions (Local Best Practices)
-
-These conventions MUST be used for IP address assignment in all ITS 4750 assignments for the entire semester.
-
-- A1. IPv4 default gateway (Router) will use the **last usable address** in the IP Network
-- A2. IPv6 default gateway (Router) will use **::1** IP
-- B. All other static assigned IPs (including other routers that are not the default gateway) start at the **beginning of the range**
-- C. DHCP pools are between the statically addressed clients and the Default Gateway
-- D. Unless stated otherwise use the following DNS Name servers: **132.235.9.75, 132.235.200.41**
-
-**HINT:** Think about the "goto" subnet sizes talked about in lecture. Don't over complicate the process.
-
----
-
-# Section 4 - GNS3 Environment
-
-GNS3 is the network simulation platform used for all ITS 4750 labs. It runs on your assigned gHost VM. Section 4 comes after ENE - you already understand what a network looks like before you set one up in GNS3.
-
-## Task 4a - GNS3 Projects
-
-- [Task 4a - GNS3 Projects](../tasks/Task-GNS3-Projects.md)  
-    Open, name, and save a GNS3 project. This task may be documented with a single high quality screenshot. Also import the VyOS-AR template using the N46.0 guide before the unit begins.
 
 ## Task 4b - Terminal Shell and File Management
 
 - [Task 4b - Terminal Shell and File Management](../tasks/Task-Terminal-Shell-and-File-Management.md)  
     Students will master a number of CLI interfaces to network and server equipment. Identify a command or tip not presented in this task.
-
----
 
 # Section 5 - Network Diagnostics and Problem Solving
 
