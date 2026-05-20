@@ -27,9 +27,9 @@ VSCode can be installed from either the Microsoft Store, the Apple App Store, or
 In ITS classes, you'll typically create diagrams and graphics (such as network and system diagrams) using specialized tools like Draw.IO, which will be covered in future labs. Always check your instructor's specific requirements for each class, as expectations may vary.<br>
 When screenshots are specifically requested, use screen capture tools that let you select a precise region of the screen. This helps maximize focus on the relevant subject matter rather than capturing unnecessary elements.
 
-Windows Screen Shots: Snipping tool - https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b
+Windows Screen Shots: [Windows Snipping Tool](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b)
 
-Mac Screen Shots: https://support.apple.com/en-us/102646
+Mac: [OSX Screen Shots](https://support.apple.com/en-us/102646)
 
 **Note:** Photos taken with a cell phone will **ONLY** be acceptable when a student is asked to document physical world work. This is **VERY RARE** in ITS classes.<br><br>
 
