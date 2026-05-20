@@ -18,7 +18,7 @@ Ohio University purchases licenses from Microsoft Office 365 (O365) for every fa
 ## Text Editor
 
 The Office 365 and/or Google Docs tools are not good at manipulating text with formatting. Many of the interactions with IT system are still done via text based interfaces, and can be confused by the formatting done by the office tools. A simple text editor like ``VSCode`` in Windows/Mac avoids many of the formatting issues.<br><br>
-VSCode can be installed from either the Microsoft Store, the Apple App Store, or from the VS Code website.<br><br>
+VSCode can be installed from either the [Microsoft Store](https://apps.microsoft.com/detail/xp9khm4bk9fz7q?hl=en-US&gl=US), the [Apple App Store](https://apps.apple.com/us/app/visual-code/id6444809156), or from the VS Code website.<br><br>
  <https://code.visualstudio.com/download>
 
 
