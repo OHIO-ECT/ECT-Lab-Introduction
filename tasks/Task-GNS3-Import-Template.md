@@ -17,7 +17,7 @@ The `import-template.sh` script does everything automatically. It downloads the 
 files from the server and imports them into GNS3. There is **no** need to download
 anything manually from a browser.
 
-3. Review [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI) if necessary.
+1. Review [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI) if necessary.
 
 2. Start the GNS3 application. It must be running **before** starting the script.
 
