@@ -9,7 +9,6 @@
 - Assigned gHost (GNS3 Virtual Machine)
 - [ECT/ITS Lab Notebook Cheatsheet](https://github.com/OHIO-ECT/Lab-Notebook-Cheat-Sheet)
 - [ECT Tech Nugget Playlist](https://www.youtube.com/playlist?list=PLEA5GnkCPRTlvN_eyR99jOSsBCaV6khRS)
-  - [ECT Tech Nugget N46.0 - GNS3 - ECT GNS3 Template Import](https://www.youtube.com/watch?v=rSlpnUUqfz8&t=4s)
 - [GNS3 GUI Documentation](https://docs.gns3.com/docs/using-gns3/beginners/the-gns3-gui)
 
 ## GNS3 Template Import
