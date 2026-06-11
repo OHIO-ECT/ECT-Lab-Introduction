@@ -14,7 +14,11 @@
 
 ## GNS3 Template Import
 
-1. Start the GNS3 application. It must be running for the import to work.
+The `import-template.sh` script does everything automatically. It downloads the template
+files from the server and imports them into GNS3. There is **no** need to download
+anything manually from a browser.
+
+1. Start the GNS3 application. It must be running **before** starting the script.
 
 2. Open a project or create a new project. Then minimize the GNS3 application.
 
@@ -22,46 +26,82 @@
 
 4. In GNS3, expand the "All Devices" menu from the "Devices Toolbar" on the left hand side of GNS3. This will show all available templates in GNS3.
 
-5. Open a browser window on the gHost machine and navigate to: [https://gns3.its.ohio.edu](https://gns3.its.ohio.edu)
-
-6. Use the search bar to filter the list of templates to import. For example, all files that start with "kali" are for the Kali Linux template. Click on download and the files will be downloaded into the "Downloads" folder.<br>
-**Note:** Some templates have multiple files. All files for the template must be downloaded for the import.<br>
-
-7. Once the downloads are completed. Open a terminal window on the gHost machine.
-
-8.  Run the script with the command:
+5. Open a terminal window on the gHost machine and run the script:
 ```
 ./import-template.sh
 ```
 
-In our example, type "kali" and press enter.
-
-9.The command output should look similar to this:
+6. The script opens the main menu. Templates already in the `~/Downloads` folder are
+listed at the top; the menu options are at the bottom. The output looks similar to this:
 ```
-itsvm@ITS-2300-GNS3-076-bowie:~$ ./import-template.sh 
-GNS3 Template Import Script
-Version: 1.1
-Created: 2025-10-31
+========================================
+  GNS3 Template Import Tool
+========================================
 
-Get templates from https://gns3.its.ohio.edu
-Script for use with the itsvm user!
+Available Templates in ~/Downloads:
+-----------------------------------
+No .7z.001 files found in ~/Downloads
 
-GNS3 is running!
-This script looks for files in your ~/Downloads folder.
+  [D] Download templates from server   [R] Refresh List
+  [Q] Quit
+-----------------------------------
 
-Available templates:
-kali
-
-Enter filename (no path, no extensions): 
+Select a template number (or D to download, R/Q):
 ```
 
-10. Type the word "kali" (as shown in blue/cyan in the prompt) and press enter. The script will then extract the files and import the template into GNS3.
-
-11. There is a cleanup phase at the end of the script. The script will delete the kali.7z.* files. This is normal and expected. Type "y" when prompted with:
+7. Type **D** and press Enter to download from the server. The script fetches the list
+of available templates. Find **opnsense** in the list and type its number, then press Enter.
 ```
-Template imported successfully!
+========================================
+  Download Templates from Server
+========================================
+https://gns3.its.ohio.edu  (N available)   [PIN] = restricted
+-----------------------------------
+  [ 1] opnsense              OPNsense firewall appliance
+  ...
 
-Remove the .7z file? (y/n):
-``` 
+  [B] Back to main menu
+-----------------------------------
 
-14. The template should now be available in the "All Devices" menu in GNS3.
+Select a template number to download (or B):
+```
+**Note:** Templates marked with **[PIN]** are restricted. Ask the instructor for the
+PIN. If prompted, enter the PIN to download. Multi-part templates (`.7z.001`, `.7z.002`,
+...) are downloaded automatically; there is no need to fetch each part individually.
+
+8. After the download finishes, press Enter to return to the download list, then press
+**B** to go back to the main menu. **opnsense** now appears in the "Available Templates"
+list. Type its number and press Enter to import it.
+
+9. The script extracts the archive and imports the template into GNS3. The progress
+looks similar to this:
+```
+========================================
+Importing: opnsense
+========================================
+
+[1/5] Extracting archive...
+[SUCCESS] Archive extracted
+[2/5] Checking for post-extract script...
+[3/5] Copying symbol files...
+[4/5] Looking for GNS3 import configuration...
+[5/5] Importing template to GNS3...
+[SUCCESS] Template imported to GNS3
+
+========================================
+Import complete for: opnsense
+========================================
+```
+**Note:** If a post-extract script is detected, a password prompt may appear (sudo). Provide that your itsvm password (see text file on the desktop!)
+Enter the password to continue.
+
+10. There is a cleanup phase at the end. The script offers to delete the downloaded
+`opnsense.7z.*` files now that the template is imported. This is normal and expected.
+Type **y** when prompted:
+```
+Remove the .7z archive files? (y/n):
+```
+
+11. Press Enter to continue. Import another template or type **Q** to quit.
+
+12. In GNS3, the newly imported **opnsense** template should now be visible in the GNS3 template list. Confirm it appears before finishing this task.
