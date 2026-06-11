@@ -28,8 +28,7 @@ The `import-template.sh` script does everything automatically. It downloads the 
 ./import-template.sh
 ```
 
-6. The script opens the main menu. Templates already in the `~/Downloads` folder are
-listed at the top; the menu options are at the bottom. The output looks similar to this:
+6. The script opens the main menu. Templates already in the `~/Downloads` folder are listed at the top; the menu options are at the bottom. The output looks similar to this:
 ```
 ========================================
   GNS3 Template Import Tool
@@ -46,8 +45,7 @@ No .7z.001 files found in ~/Downloads
 Select a template number (or D to download, R/Q):
 ```
 
-7. Type **D** and press Enter to download from the server. The script fetches the list
-of available templates. Find **opnsense** in the list and type its number, then press Enter.
+7. Type **D** and press Enter to download from the server. The script fetches the list of available templates. Find **opnsense** in the list and type its number, then press Enter.
 ```
 ========================================
   Download Templates from Server
@@ -63,15 +61,11 @@ https://gns3.its.ohio.edu  (N available)   [PIN] = restricted
 Select a template number to download (or B):
 ```
 **Note:** Templates marked with **[PIN]** are restricted. Ask the instructor for the
-PIN. If prompted, enter the PIN to download. Multi-part templates (`.7z.001`, `.7z.002`,
-...) are downloaded automatically; there is no need to fetch each part individually.
+PIN. If prompted, enter the PIN to download. Multi-part templates (`.7z.001`, `.7z.002`, ...) are downloaded automatically; there is no need to fetch each part individually.
 
-8. After the download finishes, press Enter to return to the download list, then press
-**B** to go back to the main menu. **opnsense** now appears in the "Available Templates"
-list. Type its number and press Enter to import it.
+8. After the download finishes, press Enter to return to the download list, then press **B** to go back to the main menu. **opnsense** now appears in the "Available Templates" list. Type its number and press Enter to import it.
 
-9. The script extracts the archive and imports the template into GNS3. The progress
-looks similar to this:
+9. The script extracts the archive and imports the template into GNS3. The progress looks similar to this:
 ```
 ========================================
 Importing: opnsense
@@ -92,8 +86,7 @@ Import complete for: opnsense
 **Note:** If a post-extract script is detected, a password prompt may appear (sudo). Provide that your itsvm password (see text file on the desktop!)
 Enter the password to continue.
 
-10. There is a cleanup phase at the end. The script offers to delete the downloaded
-`opnsense.7z.*` files now that the template is imported. This is normal and expected.
+10. There is a cleanup phase at the end. The script offers to delete the downloaded `opnsense.7z.*` files now that the template is imported. This is normal and expected.
 Type **y** when prompted:
 ```
 Remove the .7z archive files? (y/n):
