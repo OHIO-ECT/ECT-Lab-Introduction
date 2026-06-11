@@ -17,11 +17,11 @@ The `import-template.sh` script does everything automatically. It downloads the 
 files from the server and imports them into GNS3. There is **no** need to download
 anything manually from a browser.
 
-1. Start the GNS3 application. It must be running **before** starting the script.
-
-2. Open a project or create a new project. Then minimize the GNS3 application.
-
 3. Review [ECT Tech Nugget N1.1 GNS3](https://www.youtube.com/watch?v=w5qsM3LhpQI) if necessary.
+
+2. Start the GNS3 application. It must be running **before** starting the script.
+
+3. Open a project or create a new project. Then minimize the GNS3 application.
 
 4. In GNS3, expand the "All Devices" menu from the "Devices Toolbar" on the left hand side of GNS3. This will show all available templates in GNS3.
 
