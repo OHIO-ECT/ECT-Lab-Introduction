@@ -28,7 +28,7 @@ The `import-template.sh` script does everything automatically. It downloads the 
 ./import-template.sh
 ```
 
-6. The script opens the main menu. Templates already in the `~/Downloads` folder are listed at the top; the menu options are at the bottom. The output looks similar to this:
+6. The script opens the main menu. Templates already in the `~/Downloads` folder are listed at the top, each with a `[ ]` checkbox; the menu options are at the bottom. A number toggles a template's selection (its box becomes `[X]`); the letter keys perform actions. The `[C] Containers (Docker)` option imports Docker images and is not used in this task. The output looks similar to this:
 ```
 ========================================
   GNS3 Template Import Tool
@@ -38,32 +38,36 @@ Available Templates in ~/Downloads:
 -----------------------------------
 No .7z.001 files found in ~/Downloads
 
-  [D] Download templates from server   [R] Refresh List
-  [Q] Quit
+  [I] Import selected (0)             [X] Delete selected (0)
+  [A] Select All                      [N] Select None
+  [D] Download templates from server  [C] Containers (Docker)
+  [R] Refresh List                    [Q] Quit
 -----------------------------------
 
-Select a template number (or D to download, R/Q):
+Number to toggle, or I/X/A/N/D/C/R/Q:
 ```
 
-7. Type **D** and press Enter to download from the server. The script fetches the list of available templates. Find **opnsense** in the list and type its number, then press Enter.
+7. Press **D** to open the Download menu. The script fetches the list of available templates. Type the number next to **opnsense** to mark it `[X]` (more than one template may be marked), then press **G** to download the selected template(s).
 ```
 ========================================
   Download Templates from Server
 ========================================
 https://gns3.its.ohio.edu  (N available)   [PIN] = restricted
 -----------------------------------
-  [ 1] opnsense              OPNsense firewall appliance
+  [ ] [ 1] opnsense          OPNsense firewall appliance
   ...
 
-  [B] Back to main menu
+  Enter a number to toggle its selection.
+  [A] Select All   [N] Select None
+  [G] Download selected (0)   [B] Back   [Q] Quit
 -----------------------------------
 
-Select a template number to download (or B):
+Choice (number / A / N / G / B / Q):
 ```
 **Note:** Templates marked with **[PIN]** are restricted. Ask the instructor for the
-PIN. If prompted, enter the PIN to download. Multi-part templates (`.7z.001`, `.7z.002`, ...) are downloaded automatically; there is no need to fetch each part individually.
+PIN. A single PIN prompt covers the whole batch if any restricted template is selected. Multi-part templates (`.7z.001`, `.7z.002`, ...) are downloaded automatically; there is no need to fetch each part individually.
 
-8. After the download finishes, press Enter to return to the download list, then press **B** to go back to the main menu. **opnsense** now appears in the "Available Templates" list. Type its number and press Enter to import it.
+8. After the download finishes, the script returns to the main menu with **opnsense** already selected (`[X]`) in the "Available Templates" list. Press **I** to import the selected template(s).
 
 9. The script extracts the archive and imports the template into GNS3. The progress looks similar to this:
 ```
@@ -83,13 +87,11 @@ Importing: opnsense
 Import complete for: opnsense
 ========================================
 ```
-**Note:** If a post-extract script is detected, a password prompt may appear (sudo). Provide that your itsvm password (see text file on the desktop!)
-Enter the password to continue.
+**Note:** If a post-extract script is detected, a password prompt may appear (sudo). Enter the itsvm password (see the text file on the desktop) to continue.
 
-10. There is a cleanup phase at the end. The script offers to delete the downloaded `opnsense.7z.*` files now that the template is imported. This is normal and expected.
-Type **y** when prompted:
+10. The script imports all selected template(s), then prints a one-line summary such as `Imported 1, failed 0`. A cleanup phase follows: the script offers to delete the downloaded `opnsense.7z.*` files now that the template is imported. This is normal and expected. Type **y** when prompted:
 ```
-Remove the .7z archive files? (y/n):
+Remove the .7z archive files for the imported template(s)? (y/n):
 ```
 
 11. Press Enter to continue. Import another template or type **Q** to quit.
