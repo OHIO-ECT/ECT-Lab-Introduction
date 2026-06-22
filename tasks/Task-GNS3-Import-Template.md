@@ -54,7 +54,7 @@ Number to toggle, or I/X/A/N/D/C/R/Q:
 ========================================
 https://gns3.its.ohio.edu  (N available)   [PIN] = restricted
 -----------------------------------
-  [ ] [ 1] opnsense          OPNsense firewall appliance
+  [ ] [ 19] opnsense          OPNsense firewall appliance
   ...
 
   Enter a number to toggle its selection.
