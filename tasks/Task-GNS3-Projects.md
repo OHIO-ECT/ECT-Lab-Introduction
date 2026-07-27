@@ -52,5 +52,5 @@
 13. Shutting down GNS3 projects will be discussed on a separate page.
 
 ## Lab Report Question(s)
-These answers go into a quiz that's in the Learning Management System (LMS).
+The answers to these questions go into a quiz that's in the Learning Management System (LMS) for this course.
 > **GNS3 Projects Report Question:** In GNS3, open Project Library ▸ 98 - Intro Lab, wire the devices per the provided diagram, and press the green ▶ start button. Attach a screenshot (not with your phone!) of the topology once every node has turned green. Which three console windows opened, and what are their exact node names?

@@ -75,5 +75,5 @@ sudo nmcli general hostname lab98-ubuntu-gui
 19. Microsoft has a set of terminal applications. The current terminal is called "PowerShell". Microsoft uses a different set of commands, but also have aliases to simplify operations for people with Linux experience. The relationships between files in the terminal and the GUI are similar.
 
 ## Lab Report Question(s)
-These answers go into a quiz that's in the Learning Management System (LMS).
+The answers to these questions go into a quiz that's in the Learning Management System (LMS) for this course.
 > **Terminal Shell and File Management Report Question:** Open the terminal on Ubuntu-GUI-1 and run `pwd`, `ls`, `mkdir test`, `cd test`, and `pwd` again. Copy the entire transcript, including all output, into the LMS quiz. How does the second `pwd` output differ from the first?
