@@ -29,5 +29,5 @@
 4. Further labs/repos after this one cannot be accessed until the GitHub account is created and the information emailed to the instructor.
    
 ## Lab Report Question(s)
-These answers go into a quiz thats in the Learning Management System (LMS).
+These answers go into a quiz that's in the Learning Management System (LMS).
 > **GitHub Account Creation:** Sign in at https://github.com and open Profile menu ▸ Your profile. What is your GitHub username exactly as it appears in your profile URL?

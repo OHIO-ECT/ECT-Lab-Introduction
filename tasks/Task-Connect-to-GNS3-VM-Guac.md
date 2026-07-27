@@ -105,7 +105,7 @@ Canvas can be accessed as normal from within gHost. Assignments can be submitted
 20. **DO NOT SHUT DOWN YOUR gHost!** Disconnect from gHost by either closing the browser window or browser tab. This will leave gHost in its current state (all applications still running) so that later work can resume where it left off. This is **recommended** as often projects will require multiple sessions to complete.
 
 ## Lab Report Question(s)
-These answers go into a quiz thats in the Learning Management System (LMS).
+These answers go into a quiz that's in the Learning Management System (LMS).
 > **Remote Access via Guacamole:** Log into https://rm.its.ohio.edu and expand Class and Labs ▸ ITS-2300. Copy the full connection name of your gHost and paste it into the Canvas quiz. What are the four parts of that name (course number, VM type, unique identifier, OHIO ID), and which part identifies you?
 
 ## Black Screen of Death (BSOD) Mitigation
