@@ -29,4 +29,4 @@
 4. Further labs/repos after this one cannot be accessed until the GitHub account is created and the information emailed to the instructor.
    
 ### Lab Report Question
-    > **GitHub Account Creation Report Question:** Task 2: GitHub Account Creation Report Question: Sign in at https://github.com and open Profile menu ▸ Your profile. What is your GitHub username exactly as it appears in your profile URL?
+> **GitHub Account Creation Report Question:** Task 2: GitHub Account Creation Report Question: Sign in at https://github.com and open Profile menu ▸ Your profile. What is your GitHub username exactly as it appears in your profile URL?
