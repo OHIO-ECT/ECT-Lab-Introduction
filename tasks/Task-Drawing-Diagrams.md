@@ -63,12 +63,12 @@ Draw.io is the preferred tool for ECT/ITS students. It is free, both web-based a
 11. Select the text box of the line. Use the yellow dot called a "handle" move the text so that it doesn't interfere with the line.
 
 ### ScratchPad
-12. In the left pane, just below the shape search is the first set of shapes. It is called the "Scratchpad" where often used shapes can be stored for quick recall. ECT has provided a set of basic shapes to get started. Download the ![ECT-Scratchpad-Shapes.xml](../files/ECT-Scratchpad-Shapes.xml) to the local machine. Because it's a text file the contents of the text file are displayed in the window that opens. Use the "download raw file" icon to download the file.
+12. In the left pane, just below the shape search is the first set of shapes. It is called the "Scratchpad" where often used shapes can be stored for quick recall. ECT has provided a set of basic shapes to get started. Download the ![ECT-Scratchpad-Shapes.xml](../files/ECT-Scratchpad-Shapes.xml) to the local machine. Because it's a text file the contents of the text file are displayed in the window that opens. Use the "download raw file" icon to download the file.<br>
     ![](./images/download-raw-icon.png)
 
 13. Click on the pencil icon to the right of the word Scratchpad and import the .XML file.
 
 ## Lab Report Question(s)
 The answers to these questions go into a quiz that's in the Learning Management System (LMS) for this course.
-> **Draw.IO Report Question:** Replicate the hand drawn picture shown below in Draw.IO *using ONLY the iconography from the Scratchpad* provided. Make sure to label everything as shown in the picture below.
+> **Draw.IO Report Question:** Replicate the hand drawn picture shown below in Draw.IO *using ONLY the iconography from the Scratchpad* provided. Make sure to label everything as shown in the picture below.<br>
     ![](./images/network-diag-1.jpg)
