@@ -52,6 +52,7 @@
 13. Shutting down GNS3 projects will be discussed on a separate page.
 
 ## Lab Report Question(s)
+These answers go into a quiz thats in the Learning Management System (LMS).
 > **GNS3 Projects Report Question:** In GNS3, open Project Library ▸ 98 - Intro Lab, wire the devices per the provided diagram, and press the green ▶ start button. Attach a screenshot (not with your phone!) of the topology once every node has turned green. Which three console windows opened, and what are their exact node names?
 
 > **GNS3 Projects Report Question:** Log into one of the running child VMs using the standard lab credentials from your lab notebook. What username and password did you use, and on which VM did you verify them?
