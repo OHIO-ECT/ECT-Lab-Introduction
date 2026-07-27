@@ -113,4 +113,4 @@ Example: `dig -x 8.8.8.8`
 
 ## Lab Report Question(s)
 The answers to these questions go into a quiz that's in the Learning Management System (LMS) for this course.
-> **Network Diagnostic Tools Report Question:** On Ubuntu-GUI-1 run `traceroute -n 8.8.8.8` and `dig www.ohio.edu`, then on Windows-Desktop-1 run `nslookup www.cnn.com 8.8.8.8`. Paste all three complete transcripts, including every line of output, into the LMS quiz. In the `dig` output, which section reports the result, and what IP address did it return for www.ohio.edu?
+> **Network Diagnostic Tools Report Question:** On Ubuntu-GUI-1 run `traceroute -n 8.8.8.8` and `dig www.ohio.edu`, then on Windows-Desktop-1 run `nslookup www.cnn.com 8.8.8.8`. Into the LMZ quiz paste the output of all three commands, include every line of command output.
