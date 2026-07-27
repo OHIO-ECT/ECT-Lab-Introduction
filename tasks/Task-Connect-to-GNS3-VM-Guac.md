@@ -104,6 +104,8 @@ Canvas can be accessed as normal from within gHost. Assignments can be submitted
 
 20. **DO NOT SHUT DOWN YOUR gHost!** Disconnect from gHost by either closing the browser window or browser tab. This will leave gHost in its current state (all applications still running) so that later work can resume where it left off. This is **recommended** as often projects will require multiple sessions to complete.
 
+> **Task 3 (Remote Access via Guacamole) Report Question:** Log into https://rm.its.ohio.edu and expand Class and Labs ▸ ITS-2300. Copy the full connection name of your gHost and paste it into the Canvas quiz. What are the four parts of that name (course number, VM type, unique identifier, OHIO ID), and which part identifies you?
+
 ## Black Screen of Death (BSOD) Mitigation
 If encountering a black screen when trying to connect to the GUI on the gHost, there is a connection in the folder **ITS-XXXX-SSH-BSOD-Fix** (where XXXX is the course number). This connection will open a SSH terminal to the gHost and run a command that should fix the black screen issue. It will not harm anything to run this command even if not experiencing the black screen issue.
 
