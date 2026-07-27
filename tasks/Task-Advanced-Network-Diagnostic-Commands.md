@@ -2,7 +2,7 @@
 
 ## Goals
 
-- Learn to use the following command line (CLI) tools: netstat, ip, nslookup, dig
+- Learn to use the following command line (CLI) tools: ping, traceroute, nslookup, and dig
 
 ## Pre-Lab
 
@@ -40,7 +40,7 @@ The **best** network debugging processes start with pinging another machine that
 
 5. Use the help command line flag `ping -h` (works in Windows and Linux) to find the proper flag to request 15 pings and then stop.
     - Ubuntu-GUI-1: 99.83.183.221
-    - Windows-Desktop: www.kame.net
+    - Windows-Desktop-1: www.kame.net
 
 ## Traceroute
 
@@ -60,7 +60,7 @@ Example: `traceroute -d google.com`
     - 8.8.8.8
     - github.com
 
-7. On Windows-Desktop access the powershell terminal (aka CLI). Windows is limited to eight-character old-school commands (long story why) and uses a different switch to suppress DNS lookups. Access the Windows CLI and issue the command:
+7. On Windows-Desktop-1 access the powershell terminal (aka CLI). Windows is limited to eight-character old-school commands (long story why) and uses a different switch to suppress DNS lookups. Access the Windows CLI and issue the command:
 Syntax: `tracert -d <destination>`
 Where `<destination>` is replaced with either a hostname or IP.
 Example: `tracert -d google.com`
@@ -110,3 +110,7 @@ Example: `dig -x 8.8.8.8`
     - www.ford.com
     - www.ohio.edu
     - www.google.com
+
+## Lab Report Question(s)
+The answers to these questions go into a quiz that's in the Learning Management System (LMS) for this course.
+> **Network Diagnostic Tools Report Question:** On Ubuntu-GUI-1 run `traceroute -n 8.8.8.8` and `dig www.ohio.edu`, then on Windows-Desktop-1 run `nslookup www.cnn.com 8.8.8.8`. Paste all three complete transcripts, including every line of output, into the LMS quiz. In the `dig` output, which section reports the result, and what IP address did it return for www.ohio.edu?
