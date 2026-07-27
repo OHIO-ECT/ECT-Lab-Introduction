@@ -57,4 +57,4 @@
 
 ## Lab Report Question(s)
 The answers to these questions go into a quiz that's in the Learning Management System (LMS) for this course.
-> **Gathering IP Information Report Question:** Run `ip a` on Ubuntu-GUI-1 and `ipconfig /all` on Win-Desktop-1, then paste the data into a completed table (all three computers, every column filled in as far as the output allows). Paste the completed table into the LMS quiz.
+> **Gathering IP Information Report Question:** Paste the completed table from step 10 into the LMS quiz. Every column must be filled in for all three computers, as far as the command output allows.

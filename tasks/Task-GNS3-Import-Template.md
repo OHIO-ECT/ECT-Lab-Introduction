@@ -96,8 +96,10 @@ Remove the .7z archive files for the imported template(s)? (y/n):
 
 11. Press Enter to continue. Import another template or type **Q** to quit.
 
-12. In GNS3, the newly imported **opnsense** template should now be visible in the GNS3 template list. Confirm it appears before finishing this task.
+12. In GNS3, the newly imported **opnsense** template should now be visible in the "All Devices" list of the Devices Toolbar opened in step 4. Confirm it appears there before finishing this task.
+
+13. Open Edit ▸ Preferences ▸ QEMU ▸ QEMU VMs and select the **opnsense** template to confirm it was registered as a QEMU VM. Arrange this window so it is visible next to the "All Devices" list.
 
 ## Lab Report Question(s)
 The answers to these questions go into a quiz that's in the Learning Management System (LMS) for this course.
-> **GNS3 Import Template Report Question:** After the script prints its `Imported 1, failed 0` summary, return to GNS3 and open Edit ▸ Preferences ▸ QEMU ▸ QEMU VMs, then select the newly imported **opnsense** template. Attach a screenshot (not with your phone!) showing **opnsense** in the "All Devices" list of the Devices Toolbar next to its entry in the QEMU VMs preferences.
+> **GNS3 Import Template Report Question:** Attach a screenshot (not with a phone!) showing both **opnsense** entries confirmed in steps 12 and 13, the "All Devices" list of the Devices Toolbar next to the QEMU VMs preferences page.

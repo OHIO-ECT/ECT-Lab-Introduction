@@ -68,7 +68,12 @@ Draw.io is the preferred tool for ECT/ITS students. It is free, both web-based a
 
 13. Click on the pencil icon to the right of the word Scratchpad and import the .XML file.
 
+### Replicate the Diagram
+14. Replicate the hand drawn picture shown below in Draw.IO *using ONLY the iconography from the Scratchpad* imported in step 13. Make sure to label everything as shown in the picture.<br>
+    ![](./images/network-diag-1.jpg)
+
+15. Export the finished diagram with `File ▸ Export as ▸ PNG...` and save the image file to the local machine. **Keep that image file, it is needed for the lab report.**
+
 ## Lab Report Question(s)
 The answers to these questions go into a quiz that's in the Learning Management System (LMS) for this course.
-> **Draw.IO Report Question:** Replicate the hand drawn picture shown below in Draw.IO *using ONLY the iconography from the Scratchpad* provided. Make sure to label everything as shown in the picture below.<br>
-    ![](./images/network-diag-1.jpg)
+> **Draw.IO Report Question:** Attach the diagram image exported in step 15.

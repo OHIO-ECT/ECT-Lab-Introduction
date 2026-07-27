@@ -86,6 +86,8 @@ Wireshark can sniff packets on GNS3 project links, which is helpful for diagnosi
 
     This filters the results even further to show only packets from the specified IP **and** packets that are ICMP (ping packets in this case).
 
+20. In the filtered list, select one `Echo (ping) request` packet and export it to a text file using the same process as steps 9 through 12 (`View -> Expand All`, then `Selected packet` and `Packet details: As Displayed`). **Keep that text file, it is needed for the lab report.**
+
 ## Lab Report Question(s)
 The answers to these questions go into a quiz that's in the Learning Management System (LMS) for this course.
-> **Wireshark Report Question:** With the `ip.addr==X.X.X.X && icmp` filter applied to the Ubuntu-GUI-1 link capture, select one `Echo (ping) request` packet and export it using `File -> Export Packet Dissections -> As Plain Text...` with `Selected packet` and `Packet details: As Displayed`. Into the LMS quiz paste the exported text of that one packet, include every line of the dissection.
+> **Wireshark Report Question:** Into the LMS quiz paste the exported packet text from step 20. Include every line of the dissection.

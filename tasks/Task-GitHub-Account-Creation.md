@@ -26,8 +26,11 @@
 3. Send an email to the course instructors. The subject of the message needs to be the course number (i.e. ITS 2300). The body of the message should include the GitHub username (i.e. Github username: johnsmith)
 <br>
 
-4. Further labs/repos after this one cannot be accessed until the GitHub account is created and the information emailed to the instructor.
+4. Signed in at [https://github.com](https://github.com), open the Profile menu ▸ "Your profile". The browser address bar will show `https://github.com/<username>`. **Record that username in the lab notebook exactly as it appears in the URL.**
+<br>
+
+5. Further labs/repos after this one cannot be accessed until the GitHub account is created and the information emailed to the instructor.
    
 ## Lab Report Question(s)
 The answers to these questions go into a quiz that's in the Learning Management System (LMS) for this course.
-> **GitHub Account Creation:** Sign in at https://github.com and open Profile menu ▸ Your profile. What is your GitHub username exactly as it appears in your profile URL?
+> **GitHub Account Creation:** What is the GitHub username recorded in step 4?

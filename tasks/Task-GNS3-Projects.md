@@ -53,4 +53,4 @@
 
 ## Lab Report Question(s)
 The answers to these questions go into a quiz that's in the Learning Management System (LMS) for this course.
-> **GNS3 Projects Report Question:** In GNS3, open Project Library ▸ 98 - Intro Lab, wire the devices per the provided diagram, and press the green ▶ start button. Attach a screenshot (not with your phone!) of the topology once every node has turned green. Which three console windows opened, and what are their exact node names?
+> **GNS3 Projects Report Question:** Attach a screenshot (not with a phone!) of the topology after step 7 once every node has turned green. Which three console windows opened in step 7, and what are their exact node names?

@@ -36,7 +36,7 @@
 
 5. Select the "Files" application from the Ubuntu-GUI menu. By default this will open to the same Home directory and show graphical representations of the same directory as seen in the ``ls`` output. 
 
-6. In the terminal, run the Command ``mkdir test`` and then issue the command ``cd test``, to create a new directory and change the CWD for the terminal to that new directory. Note the change in the prompt to be ``itsclass@its-ud-xx:~/test$`` In many linux terminals the home directory the shortcut ``~``. This prompt is configurable and non-standardized but most linux distributions include the CWD in the terminal prompt.
+6. In the terminal, run the Command ``mkdir test`` and then issue the command ``cd test``, to create a new directory and change the CWD for the terminal to that new directory. Note the change in the prompt to be ``itsclass@its-ud-xx:~/test$`` In many linux terminals the home directory the shortcut ``~``. This prompt is configurable and non-standardized but most linux distributions include the CWD in the terminal prompt. Run ``pwd`` a second time to see the new CWD. **Keep the transcript of steps 3 through 6, it is needed for the lab report.**
 
 7. The folder ``test`` also appears in the Files GUI now. This demonstrates that both the terminal and the graphical file manager are viewing the same underlying file system.
 
@@ -76,4 +76,4 @@ sudo nmcli general hostname lab98-ubuntu-gui
 
 ## Lab Report Question(s)
 The answers to these questions go into a quiz that's in the Learning Management System (LMS) for this course.
-> **Terminal Shell and File Management Report Question:** Open the terminal on Ubuntu-GUI-1 and run `pwd`, `ls`, `mkdir test`, `cd test`, and `pwd` again. Copy the entire transcript, including all output, into the LMS quiz. How does the second `pwd` output differ from the first?
+> **Terminal Shell and File Management Report Question:** Copy the terminal output (aka CLI output) from steps 3 through 6, including all output, into the LMS quiz. How does the second `pwd` output differ from the first?

@@ -42,7 +42,7 @@ This is a one-time action. If using a different browser or a different computer,
 
 ## Connect to gHost's GUI via Guacamole
 
-7. Locate and click on "Class and Labs" expander (a little plus sign in a box) and then open the folder for your class, e.g., "ITS-2300". Within that folder will be the connection to the gHost VM for the class.<br>
+7. Locate and click on "Class and Labs" expander (a little plus sign in a box) and then open the folder for your class, e.g., "ITS-2300". Within that folder will be the connection to the gHost VM for the class. **Record the full connection name in the lab notebook exactly as it appears.**<br>
 
 8. Once connected into your gHost look at the files on the desktop. There should be a file with your gHost's name. Inside that file is information about your gHost including:
     - IP Address
@@ -90,7 +90,7 @@ The last one is in the lower left corner, similar to where the Windows icon (aka
     - https://canvas.ohio.edu<br>
 Canvas can be accessed as normal from within gHost. Assignments can be submitted directly from gHost, if needed.
 
-16. To disconnect from the gHost use browser's back button to return to the Guacamole main menu.
+17. To disconnect from the gHost use browser's back button to return to the Guacamole main menu.
 
 ## Connect to gHost Virtual Machine's CLI
 
@@ -106,7 +106,7 @@ Canvas can be accessed as normal from within gHost. Assignments can be submitted
 
 ## Lab Report Question(s)
 The answers to these questions go into a quiz that's in the Learning Management System (LMS) for this course.
-> **Remote Access via Guacamole:** Log into https://rm.its.ohio.edu and expand Class and Labs ▸ ITS-2300. Copy the full connection name of your gHost and paste it into the Canvas quiz. What are the four parts of that name (course number, VM type, unique identifier, OHIO ID), and which part identifies you?
+> **Remote Access via Guacamole:** Paste the full gHost connection name recorded in step 7 into the LMS quiz. Using the naming breakdown in step 8, what are the four parts of that name, and which part identifies you?
 
 ## Black Screen of Death (BSOD) Mitigation
 If encountering a black screen when trying to connect to the GUI on the gHost, there is a connection in the folder **ITS-XXXX-SSH-BSOD-Fix** (where XXXX is the course number). This connection will open a SSH terminal to the gHost and run a command that should fix the black screen issue. It will not harm anything to run this command even if not experiencing the black screen issue.
