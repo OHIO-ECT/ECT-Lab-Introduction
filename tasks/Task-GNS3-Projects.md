@@ -50,3 +50,8 @@
 12. Projects remain running even if the user is NOT connected to the remote desktop connection. This allows the student to take a break from the lab work and return to the project later.
 
 13. Shutting down GNS3 projects will be discussed on a separate page.
+
+## Lab Report Question(s)
+> **GNS3 Projects Report Question:** In GNS3, open Project Library ▸ 98 - Intro Lab, wire the devices per the provided diagram, and press the green ▶ start button. Attach a screenshot of the topology once every node has turned green. Which three console windows opened, and what are their exact node names?
+
+> **GNS3 Projects Report Question:** Log into one of the running child VMs using the standard lab credentials from your lab notebook. What username and password did you use, and on which VM did you verify them?
