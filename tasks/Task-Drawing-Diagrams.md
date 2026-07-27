@@ -71,8 +71,7 @@ In the left pane, just below the shape search is the first set of shapes. It is 
 
 13. Click on the pencil icon to the right of the word Scratchpad and import the .XML file.
 
-### Draw!
-
-14. Replicate the hand drawn picture shown below in Draw.IO **using ONLY the iconography from the Scratchpad** provided. Make sure to label everything as shown in the picture below.
-
-![](./images/network-diag-1.jpg)
+## Lab Report Question(s)
+The answers to these questions go into a quiz that's in the Learning Management System (LMS) for this course.
+> **Draw.IO Report Question:** Replicate the hand drawn picture shown below in Draw.IO **using ONLY the iconography from the Scratchpad** provided. Make sure to label everything as shown in the picture below.
+    ![](./images/network-diag-1.jpg)
