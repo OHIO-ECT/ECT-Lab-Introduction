@@ -72,47 +72,6 @@ The ECT Network Emulator (ENE) runs entirely in your browser. No installation, n
 - [Task 3c - Protocol Refresher](../tasks/Task-Protocol-Refresher.md)  
     Using the ENE topology you built in Tasks 3a and 3b, work through six protocol areas: IPv4 native connectivity, IPv6 link-local addressing, core diagnostic tools (ping, traceroute, link sniffer), DHCP, NAT, and DNS. Each section asks you to observe the protocol from both the server/router side and the client side.
 
-
-# Can Ene do these?
-
-## Task 4b - Terminal Shell and File Management
-
-- [Task 4b - Terminal Shell and File Management](../tasks/Task-Terminal-Shell-and-File-Management.md)  
-    Students will master a number of CLI interfaces to network and server equipment. Identify a command or tip not presented in this task.
-
-# Section 5 - Network Diagnostics and Problem Solving
-
-The tools in this section are the first things you reach for when something does not work. The debugging framework below is explicitly how faculty and graders expect you to approach lab problems - model it in your lab reports.
-
-## Task 5a - Gathering IP Information
-
-- [Task 5a - Gathering IP Information](../tasks/Task-Gathering-IP-Information.md)  
-    Before you change anything, know what you have. Gather and document the network interface information for the interfaces connected to the cloud. Different runs of a particular network are very unlikely to reproduce the same results, particularly on client machines.
-
-    This is **Step 1 of the debugging process.** You cannot diagnose a problem you have not first measured.
-
-## Task 5b - Network Diagnostic Tools and Debugging Framework
-
-- [Task 5b - Network Diagnostic Tools](../tasks/Task-Advanced-Network-Diagnostic-Commands.md)  
-    These are must-have tools. Give example data from each tool and explain its operation.
-
-- [Task 5b - Debugging Framework](../tasks/Task-Debugging-Framework.md)  
-    The structured process for isolating and resolving network problems. Learn this framework now - faculty expect to see it applied in every lab report this semester.
-
-    The framework is:
-    1. **Gather** - What do I have? (`ip a`, `ip route`, `ping` local GW)
-    2. **Isolate** - Layer by layer: physical? IP? routing? DNS? application?
-    3. **Hypothesize** - What could cause this symptom?
-    4. **Test** - Make one change at a time.
-    5. **Document** - What did you try and what happened?
-
-    **Brutally direct hint:** Don't ask for help without having worked through at least the first three steps.
-
-## Task 5c - Wireshark
-
-- [Task 5c - Wireshark](../tasks/Task-Wireshark.md)  
-    Packet capture tools let the network engineer see what is actually on the wire. Show the packet capture data using the proper export format, nicely presented. Highlighting critical data in a packet capture is always appreciated.
-
-    Speaking of needles and haystacks: show exactly the packets relevant to the task. Do not dump a full capture when a filtered summary was asked for.
+Dr. Bowie has also produced a set of Ene based ITS-2300 labs.  Students who wish to gain access to those labs must complete the [GitHub Account Creation](../tasks/Task-GitHub-Account-Creation.md) and EMAIL their account name to Professor Saunders
 
 
