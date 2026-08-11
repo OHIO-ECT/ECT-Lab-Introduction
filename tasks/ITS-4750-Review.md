@@ -1,17 +1,19 @@
 # ITS 4750 Labs
 
-This introduction is **async primer material** - Even through is not a graded exercise students should read and review this document thoroughly.  Students are encouraged to engage with these online learning tools and resources in this Introductory "lab" to review prime concepts from ITS 2300 and ITS 3100.  
+This is **asynchronous primer material**
 
-Successful Students will have an understanding of these tools and networking concepts prior to starting this class.  (This will be your last warning)
+Even though this is not a graded exercise, students should read and review this document thoroughly.  Students are encouraged to engage with these online learning tools and resources in this Introductory "lab" to review core concepts from ITS 2300 and ITS 3100.  
 
-# Tech Nuggets
+Successful students will have an understanding of these tools and networking concepts prior to starting this class.  (This will be your last warning)
 
-The ECT Tech Nuggets are short instructional videos produced by the department.  These are meant to complement lectures not replace them.
+## Tech Nuggets
 
-**Channel:** https://www.youtube.com/@ecttechnuggets9126
+The ECT Tech Nuggets are short instructional videos produced by the department.  These are meant to complement lectures, not replace them.
+
+**Channel:** <https://www.youtube.com/@ecttechnuggets9126>
 
 | Watch | Topic |
-|-------|-------|
+| ------- | ------- |
 | [N0.1](https://www.youtube.com/watch?v=OtpzbVz7Ay8) | Basic Diag Tools - NIC Setting Discovery |
 | [N0.2](https://www.youtube.com/watch?v=hWeJlNVaUbU) | Basic Diag Tools - Ping and Traceroute |
 | [N0.3](https://www.youtube.com/watch?v=PMk53TngTio) | Basic Diag Tools - Netstat |
@@ -34,44 +36,47 @@ The ECT Tech Nuggets are short instructional videos produced by the department. 
 | [N8.0](https://www.youtube.com/watch?v=igPK1aZo4m8) | IPv6 Intro |
 | [N11.0](https://www.youtube.com/watch?v=43F51qVz9Ds) | nmcli |
 
-# IP Addressing Conventions
+## IP Addressing Conventions
 
-Organization or a network within an organization is given a "block" of IP address space.  A network administrator will take that IP space  and further divid it based on the demands of the sub-networks (subnets) that are within the network being constructed.  This class is "dual-stack" and will use both IPv4 and IPv6.  Subnetting each of these address types have slighly different techniques.
+An organization, or a network within an organization, is given a "block" of IP address space.  A network administrator will take that IP space and further divide it based on the demands of the sub-networks (subnets) that are within the network being constructed.  This class is "dual-stack" and will use both IPv4 and IPv6.  Subnetting each of these address types requires slightly different techniques.
 
-For IPv4 the [ECT Visual Subnet Calculator](https://www.its.ohio.edu/ipcalc/) is a handy tool to automate this process.  For IPv6, Professor Saunders, recommends that students NOT use a subnet calculator.  See the IPv6 Intro TechNugget for the basics of subnetting in IPv6.  More advanced subnetting techniques will be discussed in class.
+For IPv4 the [ECT Visual Subnet Calculator](https://www.its.ohio.edu/ipcalc/) is a handy tool to automate this process.  For IPv6, Professor Saunders recommends that students NOT use a subnet calculator.  See the IPv6 Intro Tech Nugget for the basics of subnetting in IPv6.  More advanced subnetting techniques will be discussed in class.
 
 Within a subnetwork this class requires a set of policies that must be adhered to.  These policies might differ from the practices of other organizations.
 
-- A1. IPv4 default gateway (Router) will use the **last usable address** in the IP Network
-- A2. IPv6 default gateway (Router) will use **::1** IP
-- B. All other static assigned IPs (including other routers that are not the default gateway) start at the **beginning of the range**
-- C. DHCP pools are between the statically addressed clients and the Default Gateway
-- D. Unless stated otherwise use the following DNS Name servers: **132.235.9.75, 132.235.200.41**
+- A1. The IPv4 default gateway (Router) will use the **last usable address** in the IP network
+- A2. The IPv6 default gateway (Router) will use the **::1** address
+- B. All other statically assigned IPs (including other routers that are not the default gateway) start at the **beginning of the range**
+- C. DHCP pools are between the statically addressed clients and the default gateway
+- D. Unless stated otherwise use the following DNS name servers: **132.235.9.75, 132.235.200.41**
 
-# Section 3 - ENE: Network Simulation Without GNS3
+## ENE: Network Simulation Without GNS3
 
-**New this semester:** Confirm that the ECT Network Emulator (ENE) loads in your browser - open https://www.its.ohio.edu/ene/ and verify you can see the canvas. ENE requires no install, no VMs, and no gHost access. You will use it in Section 3.
+**New this semester:** Confirm that the ECT Network Emulator (ENE) loads in your browser - open <https://www.its.ohio.edu/ene/> and verify you can see the canvas.  ENE requires no install, no VMs, and no gHost access.
 
-The ECT Network Emulator (ENE) runs entirely in your browser. No installation, no VMs, no gHost required. You will use it here to explore basic network concepts and observe the protocols that underpin every lab this semester - all before you touch GNS3.
+The ECT Network Emulator (ENE) runs entirely in your browser.  No installation, no VMs, no gHost required.  You will use it here to explore basic network concepts and observe the protocols that underpin every lab this semester - all before you touch GNS3.
 
-**ENE URL:** https://www.its.ohio.edu/ene/  
-**ENE Docs:** https://www.its.ohio.edu/ene/docs/
+**ENE URL:** <https://www.its.ohio.edu/ene/>  
+**ENE Docs:** <https://www.its.ohio.edu/ene/docs/>
 
-## Task 3a - ENE Orientation
+### ENE Orientation
 
-- [Task 3a - ENE Orientation](../tasks/Task-ENE-Orientation.md)  
-    Open ENE, build a small topology, and observe the results. This is your first look at a live (simulated) network before GNS3.
+Open ENE, build a small topology, and observe the results.  This is your first look at a live (simulated) network before GNS3.
 
-## Task 3b - ENE Subnetting Exercise
+[ENE Orientation](../tasks/Task-ENE-Orientation.md)  
 
-- [Task 3b - ENE Subnetting Exercise](../tasks/Task-ENE-Subnetting.md)  
-    Apply the IP conventions below to a simple topology in ENE. This is the first time you will use the class IP addressing rules in a live context - the same rules appear on every lab rubric for the rest of the semester.
+### ENE Subnetting Exercise
 
-## Task 3c - Protocol Refresher
+Apply the IP conventions above to a simple topology in ENE.  This is the first time you will use the class IP addressing rules in a live context - the same rules appear on every lab rubric for the rest of the semester.
 
-- [Task 3c - Protocol Refresher](../tasks/Task-Protocol-Refresher.md)  
-    Using the ENE topology you built in Tasks 3a and 3b, work through six protocol areas: IPv4 native connectivity, IPv6 link-local addressing, core diagnostic tools (ping, traceroute, link sniffer), DHCP, NAT, and DNS. Each section asks you to observe the protocol from both the server/router side and the client side.
+[ENE Subnetting Exercise](../tasks/Task-ENE-Subnetting.md)  
 
-Dr. Bowie has also produced a set of Ene based ITS-2300 labs.  Students who wish to gain access to those labs must complete the [GitHub Account Creation](../tasks/Task-GitHub-Account-Creation.md) and EMAIL their account name to Professor Saunders
+### Protocol Refresher
 
+Using the ENE topology you built in the ENE Orientation and ENE Subnetting Exercise, work through six protocol areas: IPv4 native connectivity, IPv6 link-local addressing, core diagnostic tools (ping, traceroute, link sniffer), DHCP, NAT, and DNS.  Each section asks you to observe the protocol from both the server/router side and the client side.
 
+[Protocol Refresher](../tasks/Task-Protocol-Refresher.md)  
+
+### ITS 2300 in ENE
+
+Dr. Bowie has also produced a set of ENE-based ITS 2300 labs.  Students who wish to gain access to those labs must eMail Professor Saunders their GitHub username, as previously instructed.
