@@ -41,11 +41,11 @@
 
 8. It is possible to close the console of a GNS3 object and it will continue to operate normally (it would be like turning off the monitor on a physical computer). The console can be restored by right click on the object and selecting "Console".
 
-9. Operating systems running inside operating systems (with computers running inside computers) can be a very [Inception] idea. If this idea provides a headache, **it is being done correctly**. Much of what we do as IT Professional is virtual. Our gHost environment is a very good example. For some help with this idea see [ECT Tech Nugget - N34.0 - Technology Perspective](https://youtu.be/ixrzbdUu8yQ.)
+9. Operating systems running inside operating systems (with computers running inside computers) can be a very [Inception] idea. If this idea provides a headache, **it is being done correctly**. Much of what we do as IT professionals is virtual. Our gHost environment is a very good example. For some help with this idea see [ECT Tech Nugget - N34.0 - Technology Perspective](https://youtu.be/ixrzbdUu8yQ.)
 
-10. Once all the GNS3 VMs (aka "child VMs" as they are a child the the gHost) have started and are either at a login prompt or are at a GUI desktop they are ready for use.
+10. Once all the GNS3 VMs (aka "child VMs" as they are a child the gHost) have started and are either at a login prompt or at a GUI desktop, they are ready for use.
 
-11. **Record the following credentials in your lab notebook for future reference.** Child VMs in GNS3 and many other student used systems will use this standard username `itsclass` and password `class115#`. You will need these credentials to access each child VM throughout the remainder of the course.
+11. **Record the following credentials in your lab notebook for future reference.** Child VMs in GNS3 and many other student-used systems will use this standard username `itsclass` and password `class115#`. You will need these credentials to access each child VM throughout the remainder of the course.
 
 12. Projects remain running even if the user is NOT connected to the remote desktop connection. This allows the student to take a break from the lab work and return to the project later.
 
@@ -53,4 +53,4 @@
 
 ## Lab Report Question(s)
 The answers to these questions go into a quiz that's in the Learning Management System (LMS) for this course.
-> **GNS3 Projects Report Question:** Attach a screenshot (not with a phone!) of the topology after step 7 once every node has turned green. Which three console windows opened in step 7, and what are their exact node names?
+> **GNS3 Projects Report Question:** Attach a screenshot (not with a phone!) of the topology after step 7, once every node has turned green.
