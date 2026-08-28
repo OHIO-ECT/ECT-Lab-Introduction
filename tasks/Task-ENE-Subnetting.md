@@ -11,7 +11,7 @@
 - Personal Computer (Desktop or Laptop) with a modern web browser
 - Lab notebook document
 - ENE URL: https://www.its.ohio.edu/ene/
-- ITS 4750 Lab Network Conventions (in `course_guides/ITS-4750.md`, Section 3)
+- ITS 4750 IP Addressing Conventions (the "IP Addressing Conventions" section of [ITS-4750-Review.md](./ITS-4750-Review.md))
 - Completed Task-Art-of-IP-Assignment (IP plan fluency expected)
 
 ## Environmental Context
