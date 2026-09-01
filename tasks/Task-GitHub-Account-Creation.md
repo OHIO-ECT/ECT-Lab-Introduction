@@ -32,6 +32,10 @@
 5. After the email is sent, the instructor will add the GitHub username to the OHIO-ECT organization, which generates an invitation. Once notified that this has been done, sign in at [https://github.com](https://github.com) and navigate to any GitHub page.
 <br>
 
+> [!IMPORTANT]
+> The following steps will only apply AFTER the faculty adds your Github account to the correct Github team.
+
+
 6. Click the profile picture in the upper-right corner of the page.
 <br>
 
