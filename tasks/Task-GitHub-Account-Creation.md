@@ -35,7 +35,6 @@
 > [!IMPORTANT]
 > The following steps will only apply AFTER the faculty adds your Github account to the correct Github team.
 
-
 6. Click the profile picture in the upper-right corner of the page.
 <br>
 
