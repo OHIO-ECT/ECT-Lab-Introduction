@@ -1,0 +1,237 @@
+institution_name,type,address,city,state,zip,county,phone,website
+Bowling Green State University,Main Campus,220 McFall Ctr,Bowling Green,OH,43403,WOOD,(419) 372-2531,www.bgsu.edu
+Central State University,Main Campus,1400 Brush Row Rd,Wilberforce,OH,45384-1004,GREENE,(937) 376-6011,www.centralstate.edu
+Cleveland State University,Main Campus,2121 Euclid Avenue,Cleveland,OH,44115-2214,CUYAHOGA,(216) 687-2000,www.csuohio.edu
+Kent State University,Main Campus,Executive Office 2nd Floor Library,Kent,OH,44242-0001,PORTAGE,(330) 672-3000,www.kent.edu
+Miami University,Main Campus,501 East High St,Oxford,OH,45056,BUTLER,(513) 529-1809,www.miamioh.edu
+Northeast Ohio Medical University,Main Campus,4209 State Route 44,Rootstown,OH,44272-0095,PORTAGE,(800) 686-2511,www.neomed.edu
+Ohio University,Main Campus,020 Chubb Hall,Athens,OH,45701-2979,ATHENS,(740) 593-1000,www.ohio.edu
+Shawnee State University,Main Campus,940 Second St,Portsmouth,OH,45662,SCIOTO,(740) 354-3205,www.shawnee.edu
+The Ohio State University,Main Campus,190 N. Oval Mall,Columbus,OH,43210,FRANKLIN,(614) 292-6446,www.osu.edu
+The University of Akron,Main Campus,302 Buchtel Common,Akron,OH,44325-4702,SUMMIT,(330) 972-7111,www.uakron.edu
+The University of Toledo,Main Campus,2801 W Bancroft,Toledo,OH,43606-3390,LUCAS,(419) 530-4636,www.utoledo.edu
+University of Cincinnati,Main Campus,2624 Clifton Avenue,Cincinnati,OH,45221-0063,HAMILTON,(513) 556-6000,www.uc.edu
+Wright State University,Main Campus,3640 Colonel Glenn Highway,Dayton,OH,45435-0001,MONTGOMERY,(937) 775-3333,www.wright.edu
+Youngstown State University,Main Campus,One University Plaza,Youngstown,OH,44555-0001,MAHONING,(877) 468-6978,www.ysu.edu
+BGSU - Firelands,Regional Campus,One University Drive,Huron,OH,44839-9791,ERIE,(419) 433-5560,www.firelands.bgsu.edu
+KSU - Ashtabula,Regional Campus,3300 Lake Road West,Ashtabula,OH,44004,ASHTABULA,(440) 964-3322,www.ashtabula.kent.edu
+KSU - East Liverpool,Regional Campus,400 E 4th St,East Liverpool,OH,43920,COLUMBIANA,(330) 385-3805,www.eliv.kent.edu
+KSU - Geauga,Regional Campus,14111 Claridon-Troy Rd,Burton,OH,44021,GEAUGA,(440) 834-4187,www.geauga.kent.edu
+KSU - Salem,Regional Campus,2491 State Route 45 South,Salem,OH,44460,COLUMBIANA,(330) 332-0361,www.salem.kent.edu
+KSU - Stark,Regional Campus,6000 Frank Ave NW,Canton,OH,44720-7599,STARK,(330) 499-9600,www.stark.kent.edu
+KSU - Trumbull,Regional Campus,4314 Mahoning Ave N.W.,Warren,OH,44483,TRUMBULL,(330) 847-0571,www.trumbull.kent.edu
+KSU - Tuscarawas,Regional Campus,330 University Dr N.E.,New Philadelphia,OH,44663-9403,TUSCARAWAS,(330) 339-3391,www.tusc.kent.edu
+MU - Hamilton,Regional Campus,1601 University Blvd,Hamilton,OH,45011,BUTLER,(513) 785-3000,www.ham.muohio.edu
+MU - Middletown,Regional Campus,4200 E University Blvd,Middletown,OH,45042,BUTLER,(513) 727-3200,www.mid.muohio.edu
+OU - Chillicothe,Regional Campus,101 University Drive,Chillicothe,OH,45601-0629,ROSS,(740) 774-7200,www.chillicothe.ohiou.edu
+OU - Eastern,Regional Campus,45425 National Rd W,Saint Clairsville,OH,43950,BELMONT,(740) 695-1720,www.eastern.ohiou.edu
+OU - Lancaster,Regional Campus,1570 Granville Pike,Lancaster,OH,43130-1037,FAIRFIELD,(740) 654-6711,www.lancaster.ohiou.edu
+OU - Southern,Regional Campus,1804 Liberty Ave,Ironton,OH,45638,LAWRENCE,(740) 533-4600,www.southern.ohiou.edu
+OU - Zanesville,Regional Campus,1425 Newark Rd,Zanesville,OH,43701,MUSKINGUM,(740) 453-0762,www.zanesville.ohiou.edu
+OSU Agricultural Technical Institute,Regional Campus,1328 Dover Rd,Wooster,OH,44691-4000,WAYNE,(330) 287-1330,www.ati.osu.edu
+OSU - Lima,Regional Campus,4240 Campus Dr,Lima,OH,45804,ALLEN,(419) 995-8600,https://lima.osu.edu/
+OSU - Mansfield,Regional Campus,1760 University Drive,Mansfield,OH,44906,RICHLAND,(419) 755-4011,www.mansfield.osu.edu
+OSU - Marion,Regional Campus,1465 Mount Vernon Ave,Marion,OH,43302-5695,MARION,(740) 725-6111,http://osumarion.osu.edu
+OSU - Newark,Regional Campus,1179 University Dr,Newark,OH,43055,LICKING,(740) 366-9333,www.newark.osu.edu
+UA - Wayne College,Regional Campus,1901 Smucker Rd,Orrville,OH,44667,WAYNE,(800) 221-8308,www.wayne.uakron.edu
+UC - Blue Ash College,Regional Campus,9555 Plainfield Rd,Blue Ash,OH,45236-1096,HAMILTON,(513) 745-5600,www.rwc.uc.edu
+UC - Clermont College,Regional Campus,4200 Clermont College Dr,Batavia,OH,45103,CLERMONT,(513) 732-5200,www.clc.uc.edu
+WSU - Lake Campus,Regional Campus,7600 St. Rt. 703,Celina,OH,45822-2952,MERCER,(419) 586-0300,www.wright.edu
+Belmont College,Community College,68094 Hammond Road,St. Clairsville,OH,43950,BELMONT,(740) 695-9500,www.belmontcollege.edu
+Central Ohio Technical College,Community College,1179 University Drive,Newark,OH,43055-1767,LICKING,(740) 366-1351,www.cotc.edu
+COTC - Coshocton Campus,Community College,200 North Whitewoman Street,Coshocton,OH,43812,COSHOCTON,(740) 622-1408,www.cotc.edu/AboutCOTC/campuslocations/Coshocton
+COTC - Knox Campus,Community College,236 South Main Street,Mount Vernon,OH,43050,KNOX,(740) 392-2526,www.cotc.edu/AboutCOTC/campuslocations/knoxcampus
+COTC - Pataskala Campus,Community College,8660 East Broad Street,Pataskala,OH,43068,FRANKLIN,(740) 755-7090,www.cotc.edu/AboutCOTC/campuslocations/pataskala
+Cincinnati State Technical & Community College,Community College,3520 Central Parkway,Cincinnati,OH,45223-2690,HAMILTON,(513) 569-1500,www.cincinnatistate.edu
+Clark State Community College,Community College,570 E Leffel Ln,Springfield,OH,45501-0570,CLARK,(937) 325-0691,www.clarkstate.edu
+Clark State - Greene Center,Community College,3775 Pentagon Blvd,Beavercreek,OH,45431,GREENE,(937) 429-8819,www.clarkstate.edu/campuses
+Columbus State Community College,Community College,550 E Spring St,Columbus,OH,43215,FRANKLIN,(614) 287-5353,www.cscc.edu
+CSCC - Delaware Campus,Community College,5100 Cornerstone Dr.,Delaware,OH,43015,DELAWARE,(740) 203-8000,www.cscc.edu/about/delaware
+Cuyahoga Community College,Community College,2900 Community College Ave.,Cleveland,OH,44115,CUYAHOGA,(800) 954-8742,www.tri-c.edu/campuses-and-locations/metropolitan-campus
+Tri-C - Eastern Campus,Community College,4250 Richmond Road,Highland Hills,OH,44122,CUYAHOGA,(800) 954-8742,http://www.tri-c.edu/campuses-and-locations/eastern
+Tri-C - Western Campus,Community College,11000 Pleasant Valley Road,Parma,OH,44130,CUYAHOGA,(800) 954-8742,http://www.tri-c.edu/campuses-and-locations/western-campus
+Eastern Gateway Community College,Community College,4000 Sunset Blvd,Steubenville,OH,43952-3598,JEFFERSON,(740) 264-5591,www.egcc.edu
+EGCC - The Valley Center,Community College,101 East Federal Street,Youngstown,OH,44503,MAHONING,(330) 480-0726,www.egcc.edu
+Edison Community College,Community College,1973 Edison Dr,Piqua,OH,45356-9239,MIAMI,(937) 778-8600,www.edisonohio.edu
+Edison CC - Darke County Campus,Community College,601 Wagner Avenue,Greenville,OH,45331,DARKE,(937) 548-5546,www.edisonohio.edu/index.php?page=darke-county-campus
+Hocking College,Community College,3301 Hocking Parkway,Nelsonville,OH,45764,ATHENS,(740) 753-3591,www.hocking.edu
+Hocking - Logan Campus,Community College,30140 Iles Road,Logan,OH,43138,HOCKING,(740) 380-9315,www.hocking.edu/logan
+Hocking - Perry Campus,Community College,5454 State Route 37,New Lexington,OH,43764,PERRY,(740) 342-3337,www.hocking.edu/perry
+Lakeland Community College,Community College,7700 Clocktower Drive,Kirtland,OH,44094-5198,LAKE,(440) 525-7000,www.lakelandcc.edu
+Lorain County Community College,Community College,1005 North Abbe Rd,Elyria,OH,44035-1691,LORAIN,(440) 366-5222,www.lorainccc.edu
+Marion Technical College,Community College,1467 Mount Vernon Ave,Marion,OH,43302-5694,MARION,(740) 389-4636,www.mtc.edu
+North Central State College,Community College,2441 Kenwood Circle,Mansfield,OH,44901-0698,RICHLAND,(419) 755-4800,www.ncstatecollege.edu
+Northwest State Community College,Community College,22600 State Route 34,Archbold,OH,43502-9542,HENRY,(419) 267-5511,www.northweststate.edu
+Owens Community College,Community College,30335 Oregon Rd,Perrysburg,OH,43551,WOOD,(567) 661-7000,www.owens.edu
+Owens - Findlay Campus,Community College,3200 Bright Road,Findlay,OH,45840,HANCOCK,(567) 429-3500,www.owens.edu/locations/findlay
+Rhodes State College,Community College,4240 Campus Dr,Lima,OH,45804,ALLEN,(419) 221-1112,www.rhodesstate.edu
+Rio Grande Community College,Community College,218 N College Ave,Rio Grande,OH,45674,GALLIA,(740) 245-7206,www.rio.edu
+Sinclair Community College,Community College,444 W. Third St.,Dayton,OH,45402-1460,MONTGOMERY,(937) 512-3000,www.sinclair.edu
+Southern State Community College,Community College,100 Hobart Dr,Hillsboro,OH,45133,HIGHLAND,(937) 393-3431,www.sscc.edu
+SSCC - Fayette Campus,Community College,1270 US Route 62 SW,Washington Court House,OH,43160,FAYETTE,(740) 333-5115,www.sscc.edu/about/campuses.shtml#fayette
+SSCC - North Campus,Community College,1850 Davids Drive,Wilmington,OH,45177,CLINTON,(937) 382-6645,www.sscc.edu/about/campuses.shtml#north
+SSCC - South Campus,Community College,12681 US Route 62,Sardinia,OH,45171,BROWN,(937) 695-0307,www.sscc.edu/about/campuses.shtml#south
+Stark State College,Community College,6200 Frank Ave NW,North Canton,OH,44720,STARK,(330) 494-6170,www.starkstate.edu
+Terra State Community College,Community College,2830 Napoleon Rd,Fremont,OH,43420-9670,SANDUSKY,(419) 334-8400,www.terra.edu
+Washington State Community College,Community College,710 Colegate Dr,Marietta,OH,45750,WASHINGTON,(740) 374-8716,www.wscc.edu
+Zane State College,Community College,1555 Newark Rd,Zanesville,OH,43701-2626,MUSKINGUM,(740) 454-2501,www.zanestate.edu
+Art Academy of Cincinnati,Private,1212 Jackson Street,Cincinnati,OH,45202,HAMILTON,(513) 562-6267,https://www.artacademy.edu/
+Ashland University,Private,401 College Avenue,Ashland,OH,44805,ASHLAND,(419) 289-5052,http://www.ashland.edu/
+Aultman College,Private,2600 6th Street SW,Canton,OH,44710,STARK,(330) 363-6347,http://www.aultmancollege.edu/
+Baldwin Wallace University,Private,275 Eastland Road,Berea,OH,44017,CUYAHOGA,(440) 826-2222,https://www.bw.edu/
+Bluffton University,Private,1 University Drive,Bluffton,OH,45817,ALLEN,(419) 358-3453,https://www.bluffton.edu/
+Capital University,Private,1 College and Main,Columbus,OH,43209,FRANKLIN,(614) 236-6101,https://www.capital.edu/
+Case Western Reserve University,Private,10900 Euclid Ave.,Cleveland,OH,44106,CUYAHOGA,(216) 368-2000,https://case.edu/
+Cedarville University,Private,251 North Main Street,Cedarville,OH,45314,GREENE,(937) 766-7700,https://www.cedarville.edu/
+The Christ College of Nursing & Health Sciences,Private,2139 Auburn Avenue,Cincinnati,OH,45219,HAMILTON,(513) 585-2401,https://www.thechristcollege.edu/
+Cleveland Institute of Art,Private,11610 Euclid Ave,Cleveland,OH,44106,CUYAHOGA,(216) 421-7418,https://www.cia.edu/
+Columbus College of Art & Design,Private,60 Cleveland Ave,Columbus,OH,43215,FRANKLIN,(614) 224-9101,https://www.ccad.edu/
+University of Dayton,Private,300 College Park,Dayton,OH,45469,MONTGOMERY,(937)-229-1000,https://www.udayton.edu/
+Defiance College,Private,701 N. Clinton St.,Defiance,OH,43512,DEFIANCE,(419) 784-4010,http://www.defiance.edu/
+Denison University,Private,100 West College Street,Granville,OH,43023,LICKING,(740) 587-0810,https://denison.edu/
+The University of Findlay,Private,1000 N. Main Street,Findlay,OH,45840,HANCOCK,1-800-472-9502,https://www.findlay.edu/
+Franciscan University of Steubenville,Private,1235 University Blvd.,Steubenville,OH,43952,JEFFERSON,(740) 283-3771,https://www.franciscan.edu/
+Franklin University,Private,201 S Grant Ave.,Columbus,OH,43215,FRANKLIN,1.877.341.6300,https://www.franklin.edu/
+Good Samaritan College of Nursing,Private,375 Dixmyth Avenue,Cincinnati,OH,45220,HAMILTON,(513) 862-2631,https://www.gscollege.edu/
+Heidelberg University,Private,310 E. Market St.,Tiffin,OH,44883,SENECA,1-800-434-3352,https://www.heidelberg.edu/
+Hiram College,Private,11715 Garfield Road,Hiram,OH,44234,PORTAGE,330.569.3211,https://www.hiram.edu/
+John Carroll University,Private,1 John Carroll Boulevard,University Heights,OH,44118,CUYAHOGA,(216) 397-4294,https://jcu.edu
+Kenyon College,Private,106 College Park Drive,Gambier,OH,43022,KNOX,740-427-5000,https://www.kenyon.edu/
+Kettering College,Private,3737 Southern Blvd.,Kettering,OH,45429,MONTGOMERY,(937) 395-8601,http://kc.edu/
+Lake Erie College,Private,391 West Washington Street,Painesville,OH,44077,LAKE,1.855.GO.STORM,https://www.lec.edu/
+Lourdes University,Private,6832 Convent Blvd.,Sylvania,OH,43560,LUCAS,800-878-3210,https://www.lourdes.edu/
+Malone University,Private,"2600 Cleveland Avenue, NW",Canton,OH,44709,STARK,800-521-1146,https://www.malone.edu/
+Marietta College,Private,215 Fifth Street,Marietta,OH,45750,WASHINGTON,800-331-7896,https://www.marietta.edu/
+Mercy College of Ohio - Toledo,Private,2221 Madison Avenue,Toledo,OH,43604,LUCAS,1.888.80.MERCY,https://mercycollege.edu/
+Mercy College of Ohio - Youngstown,Private,1044 Belmont Avenue,Youngstown,OH,44501,MAHONING,1.888.80.MERCY,https://mercycollege.edu/
+Mount Carmel College of Nursing - Main,Private,127 South Davis Avenue,Columbus,OH,43222,FRANKLIN,614-234-4CON,https://www.mccn.edu/
+Mount Carmel College of Nursing - Lancaster,Private,401 North Ewing Street,Lancaster,OH,43130,FAIRFIELD,614-234-4CON,https://www.mccn.edu/
+Mount St. Joseph University,Private,5701 Delhi Road,Cincinnati,OH,45233,HAMILTON,1-800-654-9314,https://www.msj.edu/
+University of Mount Union,Private,1972 Clark Ave,Alliance,OH,44601,STARK,800-992-6682,https://www.mountunion.edu/
+Mount Vernon Nazarene University,Private,800 Martinsburg Road,Mount Vernon,OH,43050,KNOX,(740) 392-6868,https://www.mvnu.edu/
+Muskingum University,Private,10 College Drive,New Concord,OH,43762,MUSKINGUM,740-826-8211,https://www.muskingum.edu/
+University of Northwestern Ohio,Private,1441 N. Cable Rd.,Lima,OH,45805,ALLEN,(419) 998-3120,https://www.unoh.edu/
+Notre Dame College,Private,4545 College Road,South Euclid,OH,44121,CUYAHOGA,1-877-632-6446,https://www.notredamecollege.edu/
+Oberlin College,Private,38 E. College Street,Oberlin,OH,44074,LORAIN,(800) 622-6243,https://www.oberlin.edu/
+Ohio Christian University,Private,1476 Lancaster Pike,Circleville,OH,43113,PICKAWAY,(844) 726-7937,https://www.ohiochristian.edu/
+Ohio Dominican University,Private,1216 Sunbury Road,Columbus,OH,43219,FRANKLIN,(614) 251-4500,https://www.ohiodominican.edu/
+Ohio Northern University,Private,525 South Main Street,Ada,OH,45810,HARDIN,(419) 772-2000,https://www.onu.edu/
+Ohio Wesleyan University,Private,61 S. Sandusky Street,Delaware,OH,43015,DELAWARE,800-922-8953,https://www.owu.edu/
+Otterbein University,Private,1 South Grove Street,Westerville,OH,43081,FRANKLIN,614-890-3000,https://www.otterbein.edu/
+University of Rio Grande,Private,218 N. College Avenue,Rio Grande,OH,45674,GALLIA,1-800-282-7201,https://www.rio.edu/
+Tiffin University,Private,155 Miami Street,Tiffin,OH,44883,SENECA,800-968-6446,https://www.tiffin.edu/
+Union Institute & University,Private,440 East McMillan Street,Cincinnati,OH,45206,HAMILTON,1-800-861-6400,https://myunion.edu/
+Urbana University,Private,579 College Way,Urbana,OH,43078,CHAMPAIGN,1-800-7-URBANA,https://www.urbana.edu/
+Ursuline College,Private,2550 Lander Road,Pepper Pike,OH,44124,CUYAHOGA,888 URSULINE,https://www.ursuline.edu/
+Walsh University,Private,2020 East Maple Street,North Canton,OH,44720,STARK,800-362-9846,https://www.walsh.edu/
+Wilmington College,Private,1870 Quaker Way,Wilmington,OH,45177,CLINTON,1-800-341-9318,https://www.wilmington.edu/
+Wittenberg University,Private,200 W Ward Street,Springfield,OH,45504,CLARK,800-677-7558,https://www.wittenberg.edu
+The College of Wooster,Private,1189 Beall Avenue,Wooster,OH,44691,WAYNE,(330) 263-2000,https://www.wooster.edu/
+Xavier University,Private,3800 Victory Parkway,Cincinnati,OH,45207,HAMILTON,(513) 745-3000,https://www.xavier.edu/
+Alliance City Schools,OTC,200 Glamorgan,Alliance,OH,44601,STARK,(330) 821-2100,www.accrtw.org
+Apollo Career Center,OTC,3325 Shawnee Rd.,Lima,OH,45806,ALLEN,(866) 998-2824,www.apollocareercenter.com
+Ashland County-West Holmes Career Center,OTC,1783 State Rte. 60,Ashland,OH,44805,ASHLAND,(800) 686-3313,www.acwhcc.org
+Ashtabula County Technical and Career Center,OTC,1565 State Rte. 167,Jefferson,OH,44047,ASHTABULA,(440) 576-6015,www.atech.edu
+Auburn Career Center,OTC,8140 Auburn Rd.,Concord Twp.,OH,44077,LAKE,(440) 357-7542,www.auburncc.org
+Buckeye Career Center,OTC,545 University Dr. NE,New Philadelphia,OH,44663,TUSCARAWAS,(800) 227-1665,www.buckeyecareercenter.org
+Buckeye Hills Career Center/Gallia-Jackson-Vinton JVSD,OTC,351 Buckeye Hills Rd.,Rio Grande,OH,45674,GALLIA,(740) 245-5334,www.buckeyehills.net
+Butler Tech,OTC,3603 Hamilton-Middletown Rd.,Hamilton,OH,45011,BUTLER,(513) 645-8200,www.butlertech.org
+Canton City Schools,OTC,305 McKinley Ave. NW,Canton,OH,44702,STARK,(330) 438-2559,www.ccsdistrict.org/adulted
+Choffin Career & Technical Center (Youngstown City Schools),OTC,200 East Wood St.,Youngstown,OH,44503,MAHONING,(330) 744-8700,www.choffincareer.com
+Collins Career Center,OTC,120 N. 3rd St.,Ironton,OH,45638,LAWRENCE,(740) 532-7405,www.collins-cc.k12.oh.us
+Columbiana County Career & Technical Center,OTC,9364 State Route 45,Lisbon,OH,44432,COLUMBIANA,(330) 424-9561,www.ccctc.k12.oh.us/adulteducation_home.aspx
+Columbus City Schools,OTC,270 East State St.,Columbus,OH,43215,FRANKLIN,(614) 365- 5000,www.ccsoh.us/domain/197
+C-TEC,OTC,150 Price Rd.,Newark,OH,43055,LICKING,(740) 364-2832,www.c-tec.edu
+Cuyahoga Valley Career Center,OTC,8001 Brecksville Rd.,Brecksville,OH,44141,CUYAHOGA,(440) 584-0400,www.cvccworks.edu
+Delaware Area Career Center,OTC,4565 Columbus Pike,Delaware,OH,43015,DELAWARE,(740) 548-0708,www.delawareareacc.org/adult-education
+Eastland-Fairfield Career Center,OTC,4300 Amalgamated Place,Groveport,OH,43125,FRANKLIN,(614) 836-4530,www.eastland-fairfield.com
+EHOVE Career Center,OTC,316 W. Mason Rd.,Milan,OH,44846,ERIE,(419) 627-9665,www.ehove.net
+Four County Career Center,OTC,22900 SR 34,Archibold,OH,43502,HENRY,(419) 267-3331,www.fourcounty.net
+Grant Career Center,OTC,718 W. Plane St.,Bethel,OH,45106,CLERMONT,(513) 734-6222,www.grantcareer.com/adulteducation_home.aspx
+Great Oaks Career Campuses,OTC,303 Scarlet Oaks Drive,Cincinnati,OH,45241,HAMILTON,(513) 771-5895,www.greatoaks.com
+Greene County Career Center,OTC,2960 West Enon Road,Xenia,OH,45385,GREENE,(937) 372-6941,www.greeneccc.com
+Hannah E. Mullins School of Practical Nursing,OTC,"230 N. Lincoln Avenue, Suite 3",Salem,OH,44460,COLUMBIANA,(330) 332-8940,www.hemspn.edu
+Knox County Career Center,OTC,306 Martinsburg Rd.,Mt. Vernon,OH,43050,KNOX,(740) 397-5820,www.knoxcc.org
+Lorain County Joint Vocational School,OTC,15181 St. Rt. 58,Oberlin,OH,44074,LORAIN,(440) 774-1051,www.lcjvs.com/adult
+Madison Adult Career Center,OTC,1379 Grace St.,Mansfield,OH,44905,RICHLAND,(419) 589-6363,www.mlsd.net/adultcareercenter_home.aspx
+Mahoning County Career & Technical Center,OTC,7300 Palmyra Rd.,Canfield,OH,44406,MAHONING,(330) 729-4000,www.mahoningctc.com
+Maplewood Career Center,OTC,7075 State Rte. 88,Ravenna,OH,44266,PORTAGE,(330) 296-2892,www.mwood.cc
+Medina County Career Center,OTC,1101 W. Liberty St.,Medina,OH,44256,MEDINA,(330) 725-8461,www.mcjvs.edu
+Miami Valley Career Technology Center,OTC,6800 Hike Rd.,Clayton,OH,43215,MONTGOMERY,(937) 854-0392,www.mvctc.com
+Mid-East Career & Technology Centers,OTC,400 Richards Rd.,Zanesville,OH,43701,MUSKINGUM,(740) 454-0101,www.mid-east.k12.oh.us
+Millstream Career Center (Findlay City Schools),OTC,1219 W. Main Cross,Findlay,OH,45840,HANCOCK,(419) 427-5437,www.fcs.org/millstream-career-center/
+Penta Career Center,OTC,9301 Buck Rd.,Perrysburg,OH,43551,WOOD,(419) 666-1120,www.pentacareercenter.org
+Pickaway-Ross Adult Center,OTC,895 Crouse Chapel Rd.,Chillicothe,OH,45601,ROSS,(740) 642-1200,www.pickawayross.com/ae
+Pike County Career Technology Center,OTC,175 Beaver Creek Rd.,Piketon,OH,45661,PIKE,(740) 289-2721,www.pikectc.org/AdultEducation.aspx
+Pioneer Career & Technology Center,OTC,27 Ryan Rd.,Shelby,OH,44875,RICHLAND,(419) 342-1104,www.pctc.k12.oh.us
+Polaris Career Center,OTC,7285 Old Oak Blvd.,Middleburg Hts.,OH,44130,CUYAHOGA,(440) 891-7600,www.polaris.edu/adult-education
+Portage Lakes Career Center,OTC,4401 Shriver Road-P.O. Box 248,Green,OH,44232,SUMMIT,(330) 896-8200,www.plcc.edu
+Sandusky City Schools,OTC,407 Decatur St.,Sandusky,OH,44870,ERIE,(419) 626-6940,www.scs-k12.net/AbleGED.aspx
+Scioto County Career Technical Center,OTC,951 Vern Riffe Dr.,Lucasville,OH,45648,SCIOTO,(740) 259-5114,www.sciototech.org
+Southern Hills Career & Technical Center,OTC,9193 Hamer Rd.,Georgetown,OH,45121,BROWN,(937) 378-6131,www.shctc.k12.oh.us
+Toledo Public Schools,OTC,1530 Superior St.,Toledo,OH,43604,LUCAS,(419) 671-8200,www.tps.org/find-your-school/career-tech.html
+Tolles Career & Technical Center,OTC,7877 U.S. Highway 42 South,Plain City,OH,43064,MADISON,(614) 873-4666,www.tollestech.com
+Tri-County Career Center,OTC,15676 SR 691,Nelsonville,OH,45764,ATHENS,(740) 753-3511,www.tricountyhightech.com
+Tri-Rivers Career Center,OTC,2222 Marion - Mt. Gilead Rd.,Marion,OH,43344,MARION,(740) 389-4681,www.tririvers.com
+Trumbull Career & Technical Center,OTC,528 Educational Hwy.,Warren,OH,44483,TRUMBULL,(330) 847-0503,www.tctchome.com
+Upper Valley Career Center,OTC,8901 Looney Rd.,Piqua,OH,45356,MIAMI,(937) 778-1980,www.uppervalleycc.org
+Vanguard-Sentinel Career & Technology Centers,OTC,1306 Cedar St.,Fremont,OH,43420,SANDUSKY,(419) 332-2626,www.vscc.k12.oh.us
+Vantage Career Center,OTC,818 N. Franklin St.,Van Wert,OH,45891,VANWERT,(419) 238-5411,www.vantagecareercenter.com
+Warren County Career Center,OTC,3525 N. St. Rt.48,Lebanon,OH,45036,WARREN,(513) 932-8145,www.mywccc.org/adulteducation_home.aspx
+Washington County Career Center,OTC,27140 St. Rt. 676,Marietta,OH,45750,WASHINGTON,(740) 373-2766,www.thecareercenter.net
+Wayne County Schools Career Center,OTC,518 W. Prospect St,Smithville,OH,44677,WAYNE,(330) 669-0027,www.wayne-jvs.k12.oh.us
+Willoughby-Eastlake City Schools,OTC,37047 Ridge Rd.,Willoughby,OH,44094,LAKE,(440) 946-5000,www.weschools.org/careerandtechnical.aspx
+Cincinnati Public Schools,Aspire,2651 Burnet Ave.,Cincinnati,OH,45219,HAMILTON,(513) 363-0000,www.cps-k12.org/academics/adulted/AbleGED.htm
+Clark State Community College,Aspire,570 East Leffel Lane,Springfield,OH,45505,CLARK,(937) 325-0691,www.clarkstate.edu/ged_testing
+Coshocton County Job & Family Services,Aspire,725 Pine St.,Coshocton,OH,43812,COSHOCTON,(740) 622-1020,www.coshoctonjfs.org/ABLE
+Cuyahoga Community College,Aspire,700 Carnegie Ave.,Cleveland,OH,44115,CUYAHOGA,(800) 954-8742,www.tri-c.edu/ged/Pages/default.aspx
+Eastern Gateway Community College,Aspire,4000 Sunset Blvd.,Steubenville,OH,43952,JEFFERSON,(740) 264-5591,http://ns3.egcc.edu/jcc/PageList.aspx?PageId=313
+EHOVE/Norwalk City Schools ABLE,Aspire,134 Benedict Ave.,Norwalk,OH,44857,HURON,(419) 668-2779,www.norwalk-city.k12.oh.us/vnews/display.v/ART/4c602ef92a787
+Godman Guild Association,Aspire,303 East 6th Ave.,Columbus,OH,43201,FRANKLIN,(614) 294-5476,www.godmanguild.org/work-force-development/ableged/
+Hamilton City School District,Aspire,533 Dayton St.,Hamilton,OH,45011,BUTLER,(513) 868-3782,www.hamiltoncityschools.com/able.cfm
+Kettering City School District,Aspire,3700 Far Hills Ave.,Kettering,OH,45429,MONTGOMERY,(937) 499-1400,www.kettering.k12.oh.us/administrativeDepartment.aspx?aid=36
+Lancaster-Fairfield Community Action Agency,Aspire,1743 East Main St. P.O. Box 768,Lancaster,OH,43130,FAIRFIELD,(740) 653-4146,www.faircaa.org/faircaa_adult_learn.htm
+Lima City Schools,Aspire,515 S. Calumet,Lima,OH,45804,ALLEN,(419) 998-2400,www.limacityschools.org/lcshomepage.nsf/webpagedisplay?openform&Page=ABLE
+Lorain County Community College,Aspire,1005 North Abbe Rd.,Elyria,OH,44035,LORAIN,(440) 365-5222,www.lorainccc.edu/LCCC+Learning+Centers/LCCC+Learning+Center/ABLE-GED+Center.htm
+Mansfield City Schools-Adult & Community Ed,Aspire,150 West Fifth St.,Mansfield,OH,44902,RICHLAND,(419) 525-6380,www.tygerpride.com/page.cfm?p=1869
+Marion Technical College,Aspire,1467 Mt. Vernon Ave.,Marion,OH,43302,MARION,(740) 389-4636,www.mtc.edu/able
+Muskingum Valley ESC,Aspire,205 North Seventh St.,Zanesville,OH,43701,MUSKINGUM,(740) 452-4518,www.mvesc.k12.oh.us
+Owens Community College,Aspire,30335 Oregon Rd.,Perrysburg,OH,43551,WOOD,(567) 661-7000,www.owens.edu/able
+Parma City School District,Aspire,5311 Longwood Ave.,Parma,OH,44134,CUYAHOGA,(440) 885-8611,www.parmacityschools.org/pages/Parma_City_School_District/Links/About_PCSD/Departments/Adult_Education__Group_/ABLE
+Project Learn of Summit County,Aspire,60 S. High St.,Akron,OH,44326,SUMMIT,(330) 434-9461,www.projectlearnsummit.org/cms/site/841df35d572b686e
+Seeds of Literacy,Aspire,"3104 W. 25th Street, Suite 3",Cleveland,OH,44109,CUYAHOGA,(216) 661-7950,www.seedsofliteracy.org
+South Central Ohio ESC,Aspire,522 Glenwood Ave.,New Boston,OH,45662,SCIOTO,(740) 354-7761,www.scoesc.k12.oh.us/able
+Southern State Community College,Aspire,100 Hobart Dr.,Hillsboro,OH,45133,HIGHLAND,(937) 393-3431,www.sscc.edu/academic/aoc/default.html
+South-Western City Schools,Aspire,3805 Marlane Dr.,Grove City,OH,43123,FRANKLIN,(614) 801-3000,www.swcs.k12.oh.us/home/studentlearning/ESL.htm
+Springfield City School District,Aspire,1500 W. Jefferson St.,Springfield,OH,45506,CLARK,(937) 505-2800,www.spr.k12.oh.us/departments.cfm?subpage=357
+Apollo Career Center,ABLE/OTC,3325 Shawnee Rd.,Lima,OH,45806,ALLEN,(866) 998-2824,www.apollocareercenter.com
+Ashland County-West Holmes Career Center,ABLE/OTC,1783 State Rte. 60,Ashland,OH,44805,ASHLAND,(800) 686-3313,www.acwhcc-jvs.k12.oh.us/adulted
+Ashtabula County Technical and Career Center,ABLE/OTC,1565 State Rte. 167,Jefferson,OH,44047,ASHTABULA,(440) 576-6015,www.atech.edu
+Auburn Career Center,ABLE/OTC,8140 Auburn Rd.,Concord Twp.,OH,44077,LAKE,(440) 357-7542,www.auburncc.org
+Buckeye Career Center,ABLE/OTC,545 University Dr. NE,New Philadelphia,OH,44663,TUSCARAWAS,(800) 227-1665,www.buckeyecareercenter.org/adult-education.aspx
+Buckeye Hills Career Center/Gallia-Jackson-Vinton JVSD,ABLE/OTC,351 Buckeye Hills Rd.,Rio Grande,OH,45674,GALLIA,(740) 245-5334,www.buckeyehills.net/content.asp?ContentId=552
+Butler Tech,ABLE/OTC,3603 Hamilton-Middletown Rd.,Hamilton,OH,45011,BUTLER,(513) 645-8200,www.butlertech.org
+Canton City Schools,ABLE/OTC,305 McKinley Ave. NW,Canton,OH,44702,STARK,(330) 438-2559,www.ccsdistrict.org/adulted
+Choffin Career & Technical Center (Youngstown City Schools),ABLE/OTC,200 East Wood St.,Youngstown,OH,44503,MAHONING,(330) 744-8700,www.choffincareer.com
+Collins Career Center,ABLE/OTC,120 N. 3rd St.,Ironton,OH,45638,LAWRENCE,(740) 532-7405,www.collins-cc.k12.oh.us
+Columbiana County Career & Technical Center,ABLE/OTC,9364 State Route 45,Lisbon,OH,44432,COLUMBIANA,(330) 424-9561,www.ccctc.k12.oh.us/adulteducation_home.aspx
+Columbus City Schools,ABLE/OTC,270 East State St.,Columbus,OH,43215,FRANKLIN,(614) 365- 5000,www.ccsoh.us/ace.aspx
+C-TEC,ABLE/OTC,150 Price Rd.,Newark,OH,43055,LICKING,(740) 364-2832,www.c-tec.edu/AdultEducation/tabid/99/Default.aspx
+Delaware Area Career Center,ABLE/OTC,4565 Columbus Pike,Delaware,OH,43015,DELAWARE,(740) 548-0708,www.delawareareacc.org/adult-education
+Eastland-Fairfield Career Center,ABLE/OTC,4300 Amalgamated Place,Groveport,OH,43125,FRANKLIN,(614) 836-4530,www.eastland-fairfield.com/adultworkforce/default.aspx
+Four County Career Center,ABLE/OTC,22900 SR 34,Archibold,OH,43502,HENRY,(419) 267-3331,www.fourcounty.net/site.cfm/adult-education.cfm
+Great Oaks Institute of Technology & Career Development,ABLE/OTC,3254 E Kemper Rd.,Cincinnati,OH,45241,HAMILTON,(513) 771-5895,www.greatoaks.com
+Maplewood Career Center,ABLE/OTC,7075 State Rte. 88,Ravenna,OH,44266,PORTAGE,(330) 296-2892,www.mwood.cc
+Miami Valley Career Technology Center,ABLE/OTC,6800 Hike Rd.,Clayton,OH,43215,MONTGOMERY,(937) 854-0392,http://ae.mvctc.com
+Mid-East Career & Technology Centers,ABLE/OTC,400 Richards Rd.,Zanesville,OH,43701,MUSKINGUM,(740) 454-0101,www.mid-east.k12.oh.us/AdultLiteracy.aspx
+Penta Career Center,ABLE/OTC,9301 Buck Rd.,Perrysburg,OH,43551,WOOD,(419) 666-1120,www.pentacareercenter.org/penta_aded/SpecOff/SpecOff_GED.htm
+Pickaway-Ross Adult Center,ABLE/OTC,895 Crouse Chapel Rd.,Chillicothe,OH,45601,ROSS,(740) 642-1200,www.pickawayross.com/ae
+Pike County Career Technology Center,ABLE/OTC,175 Beaver Creek Rd.,Piketon,OH,45661,PIKE,(740) 289-2721,www.pikectc.org/AdultEducation.aspx
+Polaris Career Center,ABLE/OTC,7285 Old Oak Blvd.,Middleburg Hts.,OH,44130,CUYAHOGA,(440) 891-7600,www.polaris.edu/adult-education
+Sandusky City Schools,ABLE/OTC,407 Decatur St.,Sandusky,OH,44870,ERIE,(419) 626-6940,www.sandusky-city.k12.oh.us/AbleGED.aspx
+Tolles Career & Technical Center,ABLE/OTC,7877 U.S. Highway 42 South,Plain City,OH,43064,MADISON,(614) 873-4666,www.tollestech.com/adulteducationcenter_home.aspx
+Trumbull Career & Technical Center,ABLE/OTC,528 Educational Hwy.,Warren,OH,44483,TRUMBULL,(330) 847-0503,www.tctchome.com
+Upper Valley Career Center,ABLE/OTC,8901 Looney Rd.,Piqua,OH,45356,MIAMI,(937) 778-1980,www.uppervalleycc.org
+Vanguard-Sentinel Career & Technology Centers,ABLE/OTC,1306 Cedar St.,Fremont,OH,43420,SANDUSKY,(419) 332-2626,www.vscc.k12.oh.us/schools/adulted/adulted.htm
+Warren County Career Center,ABLE/OTC,3525 N. St. Rt.48,Lebanon,OH,45036,WARREN,(513) 932-8145,www.mywccc.org/adulteducation_home.aspx
+Wayne County Schools Career Center,ABLE/OTC,518 W. Prospect St,Smithville,OH,44677,WAYNE,(330) 669-0027,www.wayne-jvs.k12.oh.us/adulted
