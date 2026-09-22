@@ -1,4 +1,4 @@
-# WARNING - DO NOT THIS TASK UNLESS YOU ARE EXPLICITLY DIRECTED TO.
+# WARNING - DO NOT DO THIS TASK UNLESS YOU ARE EXPLICITLY DIRECTED TO.
 
 ```bash
 # Store IPv4/IPv6 settings from Wired connection 1
@@ -53,12 +53,12 @@ sudo nmcli c up br-PublicNet
 sudo nmcli c down 'Wired connection 3'
 sudo nmcli c mod 'Wired connection 3' ipv4.method disabled
 sudo nmcli c mod 'Wired connection 3' ipv6.method disabled
-sudo nmcli c add ifname br-zOtherNet type bridge con-name br-zOtherNet
-sudo nmcli c mod 'Wired connection 3' master br-zOtherNet slave-type bridge
-sudo nmcli c mod br-zOtherNet bridge.stp no
-sudo nmcli c mod br-zOtherNet connection.autoconnect yes
-sudo nmcli c mod br-zOtherNet ipv4.method disabled
-sudo nmcli c mod br-zOtherNet ipv6.method disabled
-sudo nmcli c down br-zOtherNet
-sudo nmcli c up br-zOtherNet
+sudo nmcli c add ifname br-OtherNet type bridge con-name br-OtherNet
+sudo nmcli c mod 'Wired connection 3' master br-OtherNet slave-type bridge
+sudo nmcli c mod br-OtherNet bridge.stp no
+sudo nmcli c mod br-OtherNet connection.autoconnect yes
+sudo nmcli c mod br-OtherNet ipv4.method disabled
+sudo nmcli c mod br-OtherNet ipv6.method disabled
+sudo nmcli c down br-OtherNet
+sudo nmcli c up br-OtherNet
 ```
