@@ -15,8 +15,8 @@ Documentation is not optional and not an afterthought. The ability to draw a cle
 
 These conventions apply to every submission in this course, starting with Lab 1.
 
-- Lab reports must be submitted as Microsoft Word Word.
-- **Drawn diagrams always.** Network diagrams must be drawn using Draw.io or equivalent. Screenshots or image exports from GNS3 are never a substitute for a drawn diagram. See [Diagrams vs. Pictures Policy](../Documentation/000%20-%20Diagrams%20vs%20pictures%20policy.docx) for the full rationale.
+- **One Word document.** In ITS 3100 and ITS 4750, lab reports are submitted to Canvas as one Microsoft Word document (.docx). Canvas enforces the extension. Other classes: see the class syllabus.
+- **Drawn diagrams always.** Network diagrams must be drawn using Draw.io or equivalent. Screenshots or image exports from GNS3 are never a substitute for a drawn diagram. See [Diagrams vs. Pictures Policy](../files/000%20-%20Diagrams%20vs%20pictures%20policy.docx) for the full rationale.
 - **CLI output in fixed-width font.** All command-line output in your lab report must use a monospace font (Courier New or equivalent). Output in a proportional font is unreadable and will be penalized.
 - **Concise answers.** Faculty and graders will not search for needles in haystacks. Show exactly what was asked - no more. Dumping full Wireshark captures when a single summary line was requested is a recurring failure mode.
 - **Read the rubric.** Check the grading rubric for each submission. Consider every prompt carefully before writing your answer.
@@ -28,7 +28,7 @@ These conventions apply to every submission in this course, starting with Lab 1.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ```
 
-Full documentation standards are at [ITS Lab Reports](../tasks/ITL-Lab-Report.md)
+Full documentation standards follow below.
 
 # Task 5 - Documentation Standards
 
@@ -55,7 +55,7 @@ Examples of documents that network engineers may encounter in the industry:
 - Request for Proposals (RFP)
 - Design documentation for new networks.
 
-Lab Reports are to be written individually (no group work). Reports will be uploaded to Canvas electronically as a **PDF** (ONLY!). Reports do not generally need to be more than several pages. Officially, they need to be "long enough to answer the questions".
+Lab Reports are to be written individually (no group work). Reports will be uploaded to Canvas electronically as one **Microsoft Word document (.docx)** (ONLY, for ITS 3100 and ITS 4750!). Reports do not generally need to be more than several pages. Officially, they need to be "long enough to answer the questions".
 
 An example lab report format doc: https://github.com/OHIO-ECT/ECT-Lab-Introduction/blob/main/files/ITL%20-%20Lab%20Report%20Example.pdf
 

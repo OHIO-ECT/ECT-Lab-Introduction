@@ -21,7 +21,7 @@ This class will make intensive use of command line and code interfaces.  Student
 
 These pages have handy guides for students who have not used the ITS ecosystem before.
 - [Drawing Diagrams](../tasks/Task-Drawing-Diagrams.md) 
-- [ITS Lab Reports](../tasks/ITL-Lab-Report.md) presents some of the key documentation standards and practices for the class.
+- [ITS Lab Reports](../tasks/ITS-4750-Lab-Report.md) presents some of the key documentation standards and practices for the class.
 
 - [GNS3 Projects](../tasks/Task-GNS3-Projects.md)
 

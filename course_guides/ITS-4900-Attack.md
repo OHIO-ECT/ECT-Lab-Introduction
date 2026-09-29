@@ -11,7 +11,7 @@ These tasks ensure that the student is properly connected to the class' lab infr
 The following pages show some of the key documentation standards and practices for the class.
 
 - [Drawing Diagrams](../tasks/Task-Drawing-Diagrams.md)
-- [Lab Reports](../tasks/ITL-Lab-Report.md)
+- [Lab Reports](../tasks/ITS-4750-Lab-Report.md)
 
 ## Optional Elements
 

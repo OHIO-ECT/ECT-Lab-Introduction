@@ -11,4 +11,4 @@
 - [Task 10 - GitHub Account Creation](../tasks/Task-GitHub-Account-Creation.md)
 - [Task 11 - Advanced Network Diagnostic Commands](../tasks/Task-Advanced-Network-Diagnostic-Commands.md)
 - [Task 12 - Drawing Diagrams](../tasks/Task-Drawing-Diagrams.md)
-- [ITS Lab Reports](../tasks/ITL-Lab-Report.md)
+- [ITS Lab Reports](../tasks/ITS-4750-Lab-Report.md)
