@@ -10,7 +10,7 @@
 
 - Your gHost (Ubuntu 24.04) with Visual Studio Code
 - OHIO account
-- An Azure AI resource that ECT created for you
+- Your Azure AI resource, already set up by your instructor
 
 ## Environmental Context
 
@@ -19,22 +19,22 @@
 
 ## At a glance
 
-This is the Azure option for the [ECT AI Access](Task-ECT-AI-Access.md) guide. When your course calls for it, ECT gives you your own Azure AI resource with GPT and Claude models. Nobody else uses your key, and your usage is recorded under your name.
+This is the Azure option for the [ECT AI Access](Task-ECT-AI-Access.md) guide. Your instructor set up your own Azure AI resource, with GPT and Claude models, before the course started. Nobody else uses your key, and your usage is recorded under your name.
 
 How it compares with the other options:
 
 - **Unlike AI-01**, it works off campus and answers in seconds.
-- **Unlike Azure for Students**, ECT pays and sets it up; you do not need your own Azure subscription or credit.
+- **Unlike Azure for Students**, it is ready when class starts and ECT pays for it; you do not need your own Azure subscription or credit.
 - **Like every option**, it takes public, low impact or made-up data only.
 
 | What | Yours |
 | --- | --- |
-| Resource name | Your course and NetID, for example `its2801-ab123456`; your welcome email has the exact name |
-| Models | Listed in your welcome email; ITS 2801 gets `gpt-5.4-nano`, `gpt-5.4-mini` and `claude-haiku-5-5` |
+| Resource name | Your course and NetID, for example `its2801-ab123456` |
+| Models | Chosen by your instructor; ITS 2801 uses `gpt-5.4-nano`, `gpt-5.4-mini` and `claude-haiku-5-5` |
 | Limit per model | 20,000 tokens and 20 requests per minute |
 | Key | Two keys, Key 1 and Key 2; you can see and regenerate both |
 | Your usage | Visible to you in the Azure portal and to ECT staff |
-| Access ends | The date in your welcome email (the end of the semester) |
+| Access ends | About a week after the last day of class |
 
 ## Ground rules
 
@@ -46,17 +46,18 @@ The full list is in [ECT AI Access](Task-ECT-AI-Access.md#ground-rules). The one
 - **No endless loops or load tests.** Every call is billed to ECT and recorded under your name.
 - **Use AI in coursework only as your instructor allows.**
 
-## Getting access
+## Your access is ready
 
-1. Ask your instructor for Azure AI access. ECT creates your resource and emails you its name, a link and the endpoints.
-2. Your resource works as soon as the email arrives. Nothing else needs to be installed or approved.
+There is nothing to request. Your instructor created your resource before the course started, and it already works. Your OHIO account is all you need to reach it.
+
+If you cannot find your resource in the next step, tell your instructor; you may have joined the class after it was set up.
 
 ## Find your key
 
 Open the Azure portal in your gHost's web browser, so you can copy the key and paste it inside the VM.
 
-1. Open the link from your welcome email, or go to https://portal.azure.com and search for your resource name.
-2. Sign in with your OHIO account.
+1. Go to https://portal.azure.com and sign in with your OHIO account.
+2. Open **All resources**, or type your resource name (such as `its2801-ab123456`) in the search box at the top, and click your resource.
 3. In the menu on the left, open **Resource Management > Keys and Endpoint**.
 4. Click **Show Keys**, then the copy icon beside **KEY 1**. If the page shows an error such as "Failed to list keys", Azure is having a problem; try again later.
 
@@ -88,7 +89,7 @@ If `python3 -m venv` says that ensurepip is not available, run `sudo apt install
 .venv/
 ```
 
-4. Make a file named `.env` with your settings. Replace `its2801-ab123456` with the resource name from your welcome email and paste your key:
+4. Make a file named `.env` with your settings. Replace `its2801-ab123456` with your resource name (twice) and paste your key:
 
 ```
 AI_BASE_URL=https://its2801-ab123456.openai.azure.com/openai/v1
@@ -177,6 +178,7 @@ Both APIs send a list of messages and get text back, but the shapes differ: Open
 
 | You see | It means | Do this |
 | --- | --- | --- |
+| No AI resource in the Azure portal | Your resource has not been set up, for example because you joined the class late | Tell your instructor |
 | `401` or `Access denied due to invalid subscription key` | Wrong or regenerated key, or your access has ended | Copy KEY 1 again from the portal |
 | `404` and `The API deployment for this resource does not exist` | The model name is misspelled or is not one of your three | Check the model name |
 | `429` | Over 20 requests or 20,000 tokens a minute on that model | Wait a minute; add a pause between calls in loops |
@@ -192,8 +194,7 @@ Both APIs send a list of messages and get text back, but the shapes differ: Open
 
 ## Before you start
 
-- [ ] Your welcome email from ECT has arrived.
-- [ ] You can open your resource in the Azure portal and copy KEY 1.
+- [ ] You can find your resource in the Azure portal and copy KEY 1.
 - [ ] Your project has `.gitignore` (with `.env` and `.venv/`) and `.env`.
 - [ ] `python gpt_hello.py` and `python claude_hello.py` both print an answer.
 
